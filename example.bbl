@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{Phys.Rev.Lett.19.1264}
+S.~Weinberg,
+\newblock Phys. Rev. Lett. {\bfseries 19}, 1264 (1967).
+
+\bibitem{Phys.Rev.D2.1285}
+S.~L. Glashow, J.~Iliopoulos, and L.~Maiani,
+\newblock Phys. Rev. {\bfseries D2}, 1285 (1970).
+
+\bibitem{hep-ph/0410370}
+S.~Willenbrock,
+\newblock (2004), hep-ph/0410370.
+
+\bibitem{Brianti:2004qq}
+G.~Brianti,
+\newblock Phys. Rept. {\bfseries 403-404}, 349 (2004).
+
+\bibitem{hepthesis}
+A.~Buckley,
+\newblock The hepthesis {\LaTeX} class.
+
+\end{thebibliography}
