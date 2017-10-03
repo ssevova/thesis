@@ -5,42 +5,42 @@ The style file: h-physrev.bst
 Database file #1: mythesis.bib
 You've used 5 entries,
             1946 wiz_defined-function locations,
-            626 strings with 5159 characters,
-and the built_in function-call counts, 864 in all, are:
-= -- 56
-> -- 37
+            634 strings with 5343 characters,
+and the built_in function-call counts, 932 in all, are:
+= -- 61
+> -- 44
 < -- 0
-+ -- 12
-- -- 7
-* -- 58
-:= -- 119
++ -- 14
+- -- 9
+* -- 72
+:= -- 129
 add.period$ -- 5
 call.type$ -- 5
 change.case$ -- 1
 chr.to.int$ -- 0
 cite$ -- 5
-duplicate$ -- 50
-empty$ -- 97
-format.name$ -- 12
-if$ -- 197
+duplicate$ -- 51
+empty$ -- 100
+format.name$ -- 14
+if$ -- 213
 int.to.chr$ -- 0
 int.to.str$ -- 5
 missing$ -- 4
 newline$ -- 23
 num.names$ -- 5
-pop$ -- 29
+pop$ -- 23
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 36
+skip$ -- 40
 stack$ -- 0
-substring$ -- 36
-swap$ -- 12
+substring$ -- 40
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 8
+while$ -- 9
 width$ -- 6
-write$ -- 38
+write$ -- 40
