@@ -1,15 +1,24 @@
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Dark matter: beyond the Standard Model}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}The CMS\xspace experiment}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}The \LHC }{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}The CMS\xspace experiment}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}The \v {C}erenkov\xspace mechanism}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Trigger system}{4}{section.2.4}
-\contentsline {chapter}{\numberline {3}Continued captions}{5}{chapter.3}
-\contentsline {chapter}{\numberline {A}Pointless extras}{7}{appendix.A}
-\contentsline {section}{\numberline {A.1}Like, duh}{7}{section.A.1}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{7}{section.A.2}
-\contentsline {chapter}{Bibliography}{11}{chapter*.6}
-\contentsline {chapter}{List of figures}{13}{chapter*.7}
-\contentsline {chapter}{List of tables}{15}{chapter*.8}
+\contentsline {chapter}{\numberline {1}Dark matter: Beyond the Standard Model}{1}
+\contentsline {subsection}{\numberline {1.0.1}Introduction to dark matter}{2}
+\contentsline {subsection}{\numberline {1.0.2}Dark matter detection}{3}
+\contentsline {subsection}{\numberline {1.0.3}The Standard Model}{3}
+\contentsline {chapter}{\numberline {2}The CMS\xspace experiment}{5}
+\contentsline {section}{\numberline {2.1}The \LHC }{5}
+\contentsline {section}{\numberline {2.2}The CMS\xspace experiment}{5}
+\contentsline {chapter}{\numberline {3}Event Reconstruction}{11}
+\contentsline {section}{\numberline {3.1}Leptons}{11}
+\contentsline {subsection}{\numberline {3.1.1}Muons}{12}
+\contentsline {subsection}{\numberline {3.1.2}Electrons}{15}
+\contentsline {section}{\numberline {3.2}Jets}{19}
+\contentsline {subsection}{\numberline {3.2.1}b jet tagging}{21}
+\contentsline {section}{\numberline {3.3}Missing transverse energy}{23}
+\contentsline {section}{\numberline {3.4}Event Selection}{26}
+\contentsline {subsection}{\numberline {3.4.1}The \ensuremath {M^{\ell \ell }_{{\text {T2}}}}\xspace variable}{27}
+\contentsline {chapter}{\numberline {A}Pointless extras}{31}
+\contentsline {section}{\numberline {A.1}Like, duh}{31}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{32}
+\contentsline {chapter}{Bibliography}{35}
+\contentsline {chapter}{List of figures}{37}
+\contentsline {chapter}{List of tables}{39}

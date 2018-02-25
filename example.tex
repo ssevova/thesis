@@ -13,20 +13,42 @@
 %% Load special font packages here if you wish
 %\usepackage{lmodern}
 \usepackage{mathpazo}
+\usepackage{tikz-feynman}
 %\usepackage{euler}
 
 %% Put package includes etc. into preamble.tex for convenience
 \input{preamble}
 
 %% You can set the line spacing this way
-%\setallspacing{double}
+\setspacing{double}
 %% or a section at a time like this
 %\setfrontmatterspacing{double}
 
 
 %% Define the thesis title and author
-\title{A search for dark matter produced in association with \ttbar at \sqrtS=\unit{13}{\TeV} in the dilepton final state with the \CMS experiment} 
-\author{Stanislava L. Sevova}
+\title{
+  \normalsize
+  \uppercase{Northwestern University} 
+  \\
+  \vspace{0.7 cm} 
+  A search for dark matter produced in association with \ttbar at \sqrtS=\unit{13}{\TeV} in the dilepton final state with the \CMS experiment
+  \\ 
+  \vspace{0.7 cm}
+  \uppercase{A Dissertation} \\
+  \vspace{0.7 cm}
+  \uppercase{Submitted to the graduate school \\ in partial fulfillment of the requirements} \\
+  \vspace{0.7 cm}
+  \small{for the degree} \\
+  \vspace{0.7 cm}
+  \uppercase{Doctor of Philosophy} \\
+  \vspace{0.7 cm}
+  Field of Physics and Astronomy \\
+  \vspace{1.0 cm}
+  By\\
+  \vspace{0.3cm}
+  Stanislava Lubomirova Sevova
+}
+\author{\normalsize \uppercase{Evanston, Illinois}}%\normalsize Stanislava Lubomirova Sevova}
 
 %% Doc-specific PDF metadata
 \makeatletter
@@ -51,9 +73,9 @@
 %% Start the content body of the thesis
 \begin{mainmatter}
   %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
-  \input{chap1}
-  \input{chap2}
-  \input{chap3}
+  \input{chap1-dmtheory}
+  \input{chap2-cms}
+  \input{chap3-eventreco}
   %% To ignore a specific chapter while working on another, making the build faster, comment it out:
   %\input{chap4}
 \end{mainmatter}

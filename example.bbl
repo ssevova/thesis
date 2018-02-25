@@ -16,6 +16,14 @@ T.~A. Porter, R.~P. Johnson, and P.~W. Graham,
 G.~Brianti,
 \newblock Phys. Rept. {\bfseries 403-404}, 349 (2004).
 
+\bibitem{CMS}
+CMS,
+\newblock JINST {\bfseries 3}, S08004 (2008).
+
+\bibitem{Lester:1999tx}
+C.~G. Lester and D.~J. Summers,
+\newblock Phys. Lett. {\bfseries B463}, 99 (1999), hep-ph/9906349.
+
 \bibitem{hepthesis}
 A.~Buckley,
 \newblock The hepthesis {\LaTeX} class.

@@ -1,22 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2017 10:43
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  25 FEB 2018 11:28
+ restricted system commands enabled.
 **example
 (./example.tex
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepthesis/hepthesis.cls
 Document Class: hepthesis 2014/08/27 HEP thesis class by Andy Buckley (v1.5.0)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2016/05/10 v3.20 KOMA-Script document class (book)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -42,8 +40,8 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 134.
-Package tocbasic Info: defining new hook before heading of `' on input line 160
-1.
+Package tocbasic Info: defining new hook before heading of `' on input line 1601
+.
 Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             This is correct!
 (scrbook)             Internally I'm using `fontsize=12pt'.
@@ -56,12 +54,12 @@ Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             If you'd like to set the option with \KOMAoptions,
 (scrbook)             you'd have to use `fontsize=12pt' there
 (scrbook)             instead of `12pt', too.
-Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
-ne 2268.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input lin
+e 2268.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (12pt
-)
+File: scrsize12pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (12pt)
+
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2016/05/10 v3.20 KOMA-Script package (type area)
@@ -136,11 +134,56 @@ LaTeX Info: Redefining \textls on input line 774.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count91
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2016/05/14 v2.6a Definitions specific to luatex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+(/usr/local/texlive/2016/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2016/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count92
+)
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableExpl=\catcodetable6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2016/04/21 v2.7 OpenType layout system
+Lua module: luaotfload-main 2016/04/21 2.70002 OpenType layout system.
+Lua module: lualibs 2016-04-06 2.4 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2016-04-06 2.4 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /Users/ssevova/Library/texlive/2016/texmf-var/luate
+x-cache/generic)(using read cache: /usr/local/texlive/2016/texmf-var/luatex-cach
+e/generic /Users/ssevova/Library/texlive/2016/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /Users/ssevova/Library/texlive/2016/
+texmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2016-05-04.lua” from kpse
+-resolved path “/usr/local/texlive/2016/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2016-05-04.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.019”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /Users/ssevova/Library/texlive/2016/
+texmf-var/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.139 seconds)
+Lua module: microtype 2016/05/14 2.6a microtype module.
+LaTeX Info: Redefining \lsstyle on input line 674.
+LaTeX Info: Redefining \lslig on input line 674.
 \MT@outer@space=\skip56
 )
 Package microtype Info: Loading configuration file microtype.cfg.
@@ -150,13 +193,13 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count92
-\cp@tempcnt=\count93
+\c@cp@cntr=\count93
+\cp@tempcnt=\count94
 )
 (./varwidth.sty
 Package: varwidth 2003/03/10 ver 0.9a;  Variable-width minipages
 \@vwid@box=\box28
-\sift@deathcycles=\count94
+\sift@deathcycles=\count95
 \@vwid@loff=\dimen104
 \@vwid@roff=\dimen105
 )
@@ -180,13 +223,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -195,15 +238,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks17
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks18
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
@@ -234,12 +277,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen122
 \cmidrulekern=\dimen123
 \defaultaddspace=\dimen124
-\@cmidla=\count107
-\@cmidlb=\count108
+\@cmidla=\count108
+\@cmidlb=\count109
 \@aboverulesep=\dimen125
 \@belowrulesep=\dimen126
-\@thisruleclass=\count109
-\@lastruleclass=\count110
+\@thisruleclass=\count110
+\@lastruleclass=\count111
 \@thisrulewidth=\dimen127
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
@@ -290,10 +333,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: luatex.def on input line 96.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/usr/local/texlive/2016/texmf-dist/tex/lualatex/luatex-def/luatex.def
+File: luatex.def 2016/01/23 v0.01b Graphics/Color for luaTeX
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -301,7 +344,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count111
+\Gread@gobject=\count112
 ))
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
@@ -309,7 +352,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count112
+\c@r@tfl@t=\count113
 \rotFPtop=\skip69
 \rotFPbot=\skip70
 \rot@float@box=\box31
@@ -330,7 +373,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen136
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count113
+\c@ContinuedFloat=\count114
 Package caption Info: rotating package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
@@ -369,9 +412,10 @@ LaTeX Info: Redefining \dedication on input line 741.
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(./preamble.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
@@ -413,10 +457,10 @@ ode.tex
 \pgf@yc=\dimen146
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count114
-\c@pgf@countb=\count115
-\c@pgf@countc=\count116
-\c@pgf@countd=\count117
+\c@pgf@counta=\count115
+\c@pgf@countb=\count116
+\c@pgf@countc=\count117
+\c@pgf@countd=\count118
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
@@ -424,11 +468,11 @@ ode.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
 ef
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
@@ -437,8 +481,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count118
-\pgfsyssoftpath@bigbuffer@items=\count119
+\pgfsyssoftpath@smallbuffer@items=\count119
+\pgfsyssoftpath@bigbuffer@items=\count120
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -449,7 +493,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: luatex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -467,7 +511,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen147
-\pgfmath@count=\count120
+\pgfmath@count=\count121
 \pgfmath@box=\box35
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -492,7 +536,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count121
+\c@pgfmathroundto@lastzeros=\count122
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -530,7 +574,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count122
+\pgf@picture@serial@count=\count123
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -565,7 +609,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen171
-\pgf@sys@shading@range@num=\count123
+\pgf@sys@shading@range@num=\count124
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -609,8 +653,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
@@ -628,7 +672,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count124
+\pgf@plot@mark@count=\count125
 \pgfplotmarksize=\dimen176
 )
 \tikz@lastx=\dimen177
@@ -641,24 +685,119 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box42
 \tikz@tempbox=\box43
 \tikz@tempbox@bg=\box44
-\tikztreelevel=\count125
-\tikznumberofchildren=\count126
-\tikznumberofcurrentchild=\count127
-\tikz@fig@count=\count128
+\tikztreelevel=\count126
+\tikznumberofchildren=\count127
+\tikznumberofcurrentchild=\count128
+\tikz@fig@count=\count129
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count129
-\pgfmatrixcurrentcolumn=\count130
-\pgf@matrix@numberofcolumns=\count131
+\pgfmatrixcurrentrow=\count130
+\pgfmatrixcurrentcolumn=\count131
+\pgf@matrix@numberofcolumns=\count132
 )
-\tikz@expandcount=\count132
+\tikz@expandcount=\count133
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks35
+\pgfopts@list@add@b@toks=\toks36
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.c
+ode.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen183
+\pgfarrowlength=\dimen184
+\pgfarrowwidth=\dimen185
+\pgfarrowlinewidth=\dimen186
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen187
+\pgfdecoratedremainingdistance=\dimen188
+\pgfdecoratedinputsegmentcompleteddistance=\dimen189
+\pgfdecoratedinputsegmentremainingdistance=\dimen190
+\pgf@decorate@distancetomove=\dimen191
+\pgf@decorate@repeatstate=\count134
+\pgfdecorationsegmentamplitude=\dimen192
+\pgfdecorationsegmentlength=\dimen193
+)
+\tikz@lib@dec@box=\box45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count135
+\tikz@qnode@count=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrar
+ygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
+graphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
+\pgf@gd@parameter@stack@height=\count137
+\pgf@gd@node@box=\box46
+\pgf@gd@edge@box=\box47
+\pgf@gd@prekind@box=\box48
+\pgf@gd@postkind@box=\box49
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
+e.tex))) (./preamble.tex
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/morefloats/morefloats.sty
 Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
 
@@ -670,15 +809,6 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 )))
 Package morefloats Info: Maximum number of possible floats asked for: 36
 (morefloats)             (i.e. 18 more floats).
@@ -687,17 +817,17 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count133
+\c@KVtest=\count138
 \sf@farskip=\skip91
-\sf@captopadj=\dimen183
+\sf@captopadj=\dimen194
 \sf@capskip=\skip92
 \sf@nearskip=\skip93
-\c@subfigure=\count134
-\c@subfigure@save=\count135
-\c@lofdepth=\count136
-\c@subtable=\count137
-\c@subtable@save=\count138
-\c@lotdepth=\count139
+\c@subfigure=\count139
+\c@subfigure@save=\count140
+\c@lofdepth=\count141
+\c@subtable=\count142
+\c@subtable@save=\count143
+\c@lotdepth=\count144
 \sf@top=\skip94
 \sf@bottom=\skip95
 )
@@ -707,21 +837,109 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks37
+\verbatim@line=\toks38
 \verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/03/01 v1.0 pdftex aliases for luatex
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
 
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language1
+\l@nohyphenation=\language2
+\l@german-x-2014-05-21=\language3
+\l@ngerman-x-2014-05-21=\language4
+\l@afrikaans=\language5
+\l@ancientgreek=\language6
+\l@ibycus=\language7
+\l@arabic=\language8
+\l@armenian=\language9
+\l@basque=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@pinyin=\language13
+\l@churchslavonic=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@ukenglish=\language20
+\l@usenglishmax=\language21
+\l@esperanto=\language22
+\l@estonian=\language23
+\l@ethiopic=\language24
+\l@farsi=\language25
+\l@finnish=\language26
+\l@french=\language27
+\l@friulan=\language28
+\l@galician=\language29
+\l@georgian=\language30
+\l@german=\language31
+\l@ngerman=\language32
+\l@swissgerman=\language33
+\l@monogreek=\language34
+\l@greek=\language35
+\l@hungarian=\language36
+\l@icelandic=\language37
+\l@assamese=\language38
+\l@bengali=\language39
+\l@gujarati=\language40
+\l@hindi=\language41
+\l@kannada=\language42
+\l@malayalam=\language43
+\l@marathi=\language44
+\l@oriya=\language45
+\l@panjabi=\language46
+\l@tamil=\language47
+\l@telugu=\language48
+\l@indonesian=\language49
+\l@interlingua=\language50
+\l@irish=\language51
+\l@italian=\language52
+\l@kurmanji=\language53
+\l@latin=\language54
+\l@classiclatin=\language55
+\l@liturgicallatin=\language56
+\l@latvian=\language57
+\l@lithuanian=\language58
+\l@mongolian=\language59
+\l@mongolianlmc=\language60
+\l@bokmal=\language61
+\l@nynorsk=\language62
+\l@occitan=\language63
+\l@piedmontese=\language64
+\l@polish=\language65
+\l@portuguese=\language66
+\l@romanian=\language67
+\l@romansh=\language68
+\l@russian=\language69
+\l@sanskrit=\language70
+\l@serbian=\language71
+\l@serbianc=\language72
+\l@slovak=\language73
+\l@slovenian=\language74
+\l@spanish=\language75
+\l@swedish=\language76
+\l@thai=\language77
+\l@turkish=\language78
+\l@turkmen=\language79
+\l@ukrainian=\language80
+\l@uppersorbian=\language81
+\l@welsh=\language82
+)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count140
-\U@D=\dimen184
-)
+\babel@savecnt=\count145
+\U@D=\dimen195
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/luababel.def))
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -761,7 +979,7 @@ LaTeX Info: Redefining \Re on input line 179.
 LaTeX Info: Redefining \d on input line 240.
 LaTeX Info: Redefining \exclude on input line 247.
 )
-LaTeX Info: Redefining \mymath on input line 20.
+LaTeX Info: Redefining \mymath on input line 23.
  (./abhep.sty
 Package: abhep 2005/01/17
 
@@ -775,12 +993,11 @@ Package: abhepexpt 2005/08/22
 Package: relsize 2013/03/29 ver 4.1
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepnames/hepnicenames.sty
-Package: hepnicenames 2014/12/01 Friendly alternatives to the PEN particle code
-s (version 2.0)
+Package: hepnicenames 2014/12/01 Friendly alternatives to the PEN particle codes
+ (version 2.0)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepnames/heppennames.sty
 Package: heppennames 2014/12/01 Elementary Particle Naming Scheme (version 2.0)
-
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepparticles/hepparticles.sty
 Package: hepparticles 2014/12/01 HEP particle typesetting (v2.0)
@@ -798,10 +1015,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepunits/hepunits.sty
 Package: hepunits 2007/09/27 High-energy physics units by Andy Buckley (v1.1.1)
 
-
 (./SIunits.sty
-Package: SIunits 2007/12/02 v1.36 Support for the International System of units
- (MH)
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units 
+(MH)
 
 
 \@qskwidth=\skip96
@@ -814,61 +1030,24 @@ LaTeX Info: Redefining \@qsk on input line 576.
 Option `thickqspace' provided!
 Option `textstyle' provided!
 Option `squaren' provided!
-))
-\CKMPairWidth=\skip97
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 157.
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 157
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 157
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 157
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 157
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 157.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hepnames/hepnames.sty
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/hepnames/hepnames.sty
 Package: hepnames 2014/12/01 Pre-defined HEP particle symbols (version 2.0)
 )
-LaTeX Info: Redefining \CP on input line 47.
-LaTeX Info: Redefining \CPv on input line 49.
-LaTeX Info: Redefining \LHCb on input line 50.
-LaTeX Info: Redefining \LHC on input line 51.
-LaTeX Info: Redefining \LEP on input line 52.
-LaTeX Info: Redefining \CERN on input line 53.
+LaTeX Info: Redefining \LHCb on input line 53.
+LaTeX Info: Redefining \LHC on input line 54.
+LaTeX Info: Redefining \LEP on input line 55.
+LaTeX Info: Redefining \CERN on input line 56.
+LaTeX Info: Redefining \ttbar on input line 74.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count141
-\csq@gtype=\count142
-\csq@glevel=\count143
-\csq@qlevel=\count144
-\csq@maxlvl=\count145
-\csq@tshold=\count146
-\csq@ltx@everypar=\toks37
+\csq@reset=\count146
+\csq@gtype=\count147
+\csq@glevel=\count148
+\csq@qlevel=\count149
+\csq@maxlvl=\count150
+\csq@tshold=\count151
+\csq@ltx@everypar=\toks39
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -881,143 +1060,33 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen185
-\Hy@linkcounter=\count147
-\Hy@pagecounter=\count148
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count149
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
-Package hyperref Info: Option `plainpages' set `false' on input line 4322.
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index ON on input line 4454.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count150
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen186
-\Fld@menulength=\count151
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index ON on input line 6306.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring ON on input line 6316.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count152
-\c@Item=\count153
-\c@Hfootnote=\count154
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count155
-\c@bookmark@seq@number=\count156
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip98
-)
 (./example.aux)
-\openout1 = `example.aux'.
+\openout1 = example.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 44.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 66.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Info: Redefining \microtypecontext on input line 44.
+LaTeX Info: Redefining \microtypecontext on input line 66.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1025,106 +1094,157 @@ Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
-\scratchdimen=\dimen189
-\scratchbox=\box45
-\nofMPsegments=\count158
-\nofMParguments=\count159
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count160
-\MPscratchDim=\dimen190
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count152
+\scratchdimen=\dimen196
+\scratchbox=\box50
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen197
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/local/texlive/2016/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks42
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[com
+pat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on i
+nput line 66.
+
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 44.
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring ON on input line 44.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+LaTeX Info: Redefining \micro on input line 66.
+Processing 'frontmatter' comment.
+\c@iterlist=\count158
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count163
-)
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
-
-(./example.out) (./example.out)
-\@outlinefile=\write5
-\openout5 = `example.out'.
-
- Processing 'frontmatter' comment.
-\c@iterlist=\count164
-\openout3 = `comment.cut'.
-
+\openout3 = comment.cut
 
 Comment 'frontmatter' writing to comment.cut. Straight input of comment.cut.
 (./comment.cut (./frontmatter.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1
 
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] [3] [4
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+ [3
 
 ]
-[5] [6
+[4
+
+] [5] [6
 
 ] [7] [8
 
 ]
 
-LaTeX Warning: Reference `chap:SomeStuff' on page ix undefined on input line 41
-.
+LaTeX Warning: Reference `chap:SomeStuff' on page ix undefined on input line 41.
+
+
+
+LaTeX Warning: Reference `chap:MoreStuff' on page ix undefined on input line 42.
+
 
 [9] [10
 
@@ -1137,150 +1257,208 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 46
-.
+Package tocbasic Info: character protrusion at toc deactivated on input line 46.
 
-(./example.toc)
-\tf@toc=\write6
-\openout6 = `example.toc'.
 
-)) Processing 'mainmatter' comment. [11]
-\openout3 = `comment.cut'.
+(./example.toc [11])
+\tf@toc=\write5
 
+\openout5 = example.toc
+)) Processing 'mainmatter' comment. [12]
+\openout3 = comment.cut
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./chap1.tex [12
+(./comment.cut (./chap1-dmtheory.tex [13
 
 ]
 chapter 1.
-) (./chap2.tex [1
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 16.
 
-] [2
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./chap2-cms.tex [3] [4
 
 ]
 chapter 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:LHCbCrossSection' on page 3 undefined on input li
-ne 27.
+ [6]
+<figs/CMScrosssection.pdf, id=73, 794.97pt x 614.295pt>
+File: figs/CMScrosssection.pdf Graphic file (type pdf)
 
+<use figs/CMScrosssection.pdf>
+Package luatex.def Info: figs/CMScrosssection.pdf used on input line 26.
+(luatex.def)             Requested size: 520.34598pt x 402.09903pt.
 
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 45.
+<figs/tracker_schematic.pdf, id=74, 794.97pt x 614.295pt>
+File: figs/tracker_schematic.pdf Graphic file (type pdf)
 
-[3]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 78.
-) (./chap3.tex [4]
-chapter 3.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 19.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Reference `sec:neutralmixing' on page 5 undefined on input line 
-38.
-
-)) Processing 'appendices' comment.
-\openout3 = `comment.cut'.
-
-
-Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex [5
-
-] [6]
-chapter A.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@Oldalpha' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
-)) Processing 'backmatter' comment.
-\openout3 = `comment.cut'.
-
-
-Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./backmatter.tex [7
-
-] [8
-
-] (./example.bbl [9] [10
-
-]) [11] [12
+<use figs/tracker_schematic.pdf>
+Package luatex.def Info: figs/tracker_schematic.pdf used on input line 35.
+(luatex.def)             Requested size: 448.07378pt x 346.24309pt.
+) (./chap3-eventreco.tex [7] [8<./figs/CMScrosssection.pdf>] [9<./figs/tracker_s
+chematic.pdf>] [10
 
 ]
-(./example.lof)
-\tf@lof=\write7
-\openout7 = `example.lof'.
+chapter 3.
 
- [13] [14
+LaTeX Warning: Reference `subsec:leps' on page 11 undefined on input line 6.
+
+[11]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 31.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+
+Underfull \vbox (badness 2376) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (31.17499pt too wide) in paragraph at lines 126--146
+ [] 
+ []
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+<figs/csvv2_multijet_13TeV.pdf, id=157, 569.12625pt x 383.4325pt>
+File: figs/csvv2_multijet_13TeV.pdf Graphic file (type pdf)
+
+<use figs/csvv2_multijet_13TeV.pdf>
+Package luatex.def Info: figs/csvv2_multijet_13TeV.pdf used on input line 217.
+(luatex.def)             Requested size: 224.03688pt x 150.94223pt.
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24<./figs/csvv2_multijet_13TeV.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+[26]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 263.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 263.
+
+Underfull \vbox (badness 7468) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+<figs/mt2log_em.pdf, id=225, 569.12625pt x 552.0625pt>
+File: figs/mt2log_em.pdf Graphic file (type pdf)
+
+<use figs/mt2log_em.pdf>
+Package luatex.def Info: figs/mt2log_em.pdf used on input line 304.
+(luatex.def)             Requested size: 268.847pt x 260.80035pt.
+)) Processing 'appendices' comment.
+\openout3 = comment.cut
+
+Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut (./appendices.tex [29<./figs/mt2log_em.pdf>] [30
+
+]
+chapter A.
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Processing 'backmatter' comment.
+\openout3 = comment.cut
+ Comment 'backmatter' writing to comment.cut.
+Straight input of comment.cut. (./comment.cut (./backmatter.tex [32]
+(./example.bbl [33
+
+] [34
+
+]) [35] [36
+
+] (./example.lof)
+\tf@lof=\write6
+
+\openout6 = example.lof
+ [37] [38
 
 ] (./example.lot)
-\tf@lot=\write8
-\openout8 = `example.lot'.
+\tf@lot=\write7
 
-)) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
- (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: D45953B07FA8C09B2439DB41FAF7F61A;742.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.26395pt have occurred.
-
+\openout7 = example.lot
+)) [39] (./example.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) 
-Here is how much of TeX's memory you used:
- 26470 strings out of 493014
- 462221 string characters out of 6133351
- 646757 words of memory out of 5000000
- 29306 multiletter control sequences out of 15000+600000
- 107797 words of font info for 294 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 67i,17n,68p,8483b,881s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-palatino/uplri8a.pfb>
-Output written on example.pdf (27 pages, 163692 bytes).
-PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 69237 words of extra memory for PDF output out of 74296 (max. 10000000)
+)
+
+Here is how much of LuaTeX's memory you used:
+ 28260 strings out of 495119
+ 100000,794899 words of node,token memory allocated
+ 4878 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 517 glue, 1 kern, 14 sub_mlist, 178 attribute, 69 g
+lue_spec, 178 attribute_list, 1 write nodes
+   avail lists: 1:29,2:1707,3:447,4:62,5:176,6:2661,7:1132,8:195,9:337,10:24,11:
+263
+ 30038 multiletter control sequences out of 65536+600000
+ 370 fonts using 22775719 bytes
+ 72i,16n,99p,8482b,1823s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
+alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
+/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
+.pfb>
+Output written on example.pdf (52 pages, 2034788 bytes).
+
+PDF statistics: 355 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

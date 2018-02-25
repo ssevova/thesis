@@ -2,6 +2,9 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 2.1}{\ignorespaces Characteristics of the trigger levels and offline analysis.\relax }}{4}{table.caption.2}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {\relax 3.1}{\ignorespaces Variables and thresholds that define ``FO'', ``Loose'', and ``Tight''. ``-'' indicates the variable is not considered for that working point.\relax }}{15}
+\contentsline {table}{\numberline {\relax 3.2}{\ignorespaces Effective areas for electron isolation PU subtraction.\relax }}{18}
+\contentsline {table}{\numberline {\relax 3.3}{\ignorespaces Variables and thresholds that define ``FO'', ``Veto'', and ``Tight'' electrons. An electron is in the barrel if it has supercluster $|\mymath {\@Oldeta }\xspace |<1.479$, otherwise it is in the endcap.\relax }}{18}
+\contentsline {table}{\numberline {\relax 3.4}{\ignorespaces Variables and thresholds that define the ``Loose'' PF jet ID.\relax }}{21}
 \addvspace {10\p@ }
