@@ -1,0 +1,100 @@
+\chapter{Background processes}
+\label{chap:backgrounds}
+
+Two classes of background processes are present in this search: reducible and irreducible. For the former category, a particle in the background process may ``fake'' the signature of a particle that is expected in the signal process. On the contrary, in the case of the latter category, the final state topology of the background process yields the same expected particles as a potential signal process. A key feature of reducible backgrounds is the ability to suppress such processes by employing the selection cuts as described in Sec.~\ref{sec:selection}. Furthermore, some of the reducible background contributions are estimated using data-driven techniques. In large part, however, the dominant backgrounds in the search are estimated from simulations.
+\section{\ttll}
+
+SM \ttll is the dominant background contribution and is irreducible, owing to the similarity of the final state topology with the signal processes topology. At the LHC, approximately 90\% of \ttbar events are produced via gluon fusion as shown in~\FigureRef{fig:gg_tt} and ~\FigureRef{fig:gg_tt2}, in contrast to the Tevatron at Fermilab, where quark-antiquark annihilation shown in~\FigureRef{fig:qq_tt} constituted roughly 85-90\% of the relative \ttbar production. 
+
+The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG (v2)~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia (v8.2)~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross-section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross-section value used is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
+
+As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
+\begin{figure}
+  \begin{center}
+    \subfloat[][]{\label{fig:gg_tt}
+      \feynmandiagram[horizontal=b to c]{
+        a [particle=\(g\)] -- [gluon] b -- [gluon] c,
+        d [particle=\(g\)] -- [gluon] b,
+        e [particle=\(\bar{t}\)] -- [fermion] c,
+        c -- [fermion] f [particle=\(t\)],
+      };
+    }
+    \hspace{0.5cm}
+    \subfloat[][]{\label{fig:gg_tt2}
+      \feynmandiagram[vertical=b to d]{
+        a [particle=\(g\)] -- [gluon] b,
+        c [particle=\(\bar{t}\)] -- [fermion] b -- [fermion] d -- [fermion] f [particle=\(t\)], 
+        e [particle=\(g\)] -- [gluon] d,
+        a -- [opacity=0.0001] e,
+        c -- [opacity=0.0001] f,
+      };
+    }
+    \hspace{0.5cm}
+    \subfloat[][]{\label{fig:qq_tt}
+      \feynmandiagram[horizontal=b to d]{
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c [particle=\(\bar{q}\)],
+        b -- [gluon] d,
+        f [particle=\(\bar{t}\)] -- [fermion] d -- [fermion] e [particle=\(t\)],
+      };
+    }
+  \end{center}
+  \caption{Leading order \ttbar production diagrams probed at the LHC via~\protect\subref{fig:gg_tt},~\protect\subref{fig:gg_tt2} gluon fusion, and~\protect\subref{fig:qq_tt} quark-antiquark annihilation.}
+\label{fig:tt2l_feyn}
+\end{figure}
+
+\section{Drell-Yan}
+
+\begin{figure}
+  \begin{center}
+    \subfloat[][]{\label{fig:dy1}
+      \feynmandiagram[horizontal=b to d]{
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c [particle=\(\bar{q}\)],
+        f [particle=\(\ell^{+}\)] -- [fermion] d -- [fermion] e [particle=\(\ell^{-}\)], 
+        b -- [boson, edge label=\(\gamma^{*}/Z\)] d,
+      };
+    } 
+%    \hspace{0.2cm}
+    \subfloat[][]{\label{fig:dy2}
+      \feynmandiagram[horizontal=b to c] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(q\)],
+        e [particle=\(g\)] -- [gluon] b,
+        c -- [boson, edge label=\(\gamma^{*}/Z\)] g,
+        h [particle=\(\ell^{+}\)] -- [fermion] g -- [fermion] f [particle=\(\ell^{-}\)], 
+        d -- [opacity=0.0001] f,
+      };
+    }  
+%    \hspace{0.2cm}
+    \subfloat[][]{\label{fig:dy3}
+      \feynmandiagram[vertical=b to c] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(q\)],
+        e [particle=\(g\)] -- [gluon] c,
+        b -- [boson, edge label=\(\gamma^{*}/Z\)] g,
+        h [particle=\(\ell^{+}\)] -- [fermion] g -- [fermion] f [particle=\(\ell^{-}\)], 
+        d -- [opacity=0.0001] h,
+      }; 
+    } \\
+    \subfloat[][]{\label{fig:dy4}
+      \feynmandiagram[horizontal=b to g] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(\bar{q}\)],
+        e [particle=\(g\)] -- [gluon] c,
+        b -- [boson, edge label=\(\gamma^{*}/Z\)] g,
+        h [particle=\(\ell^{+}\)] -- [fermion] g -- [fermion] f [particle=\(\ell^{-}\)], 
+        e -- [opacity=0.0001] h,
+      };
+    } 
+    \hspace{0.7cm}
+    \subfloat[][]{\label{fig:dy5}
+      \feynmandiagram[vertical=b to c] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(\bar{q}\)],
+        e [particle=\(g\)] -- [gluon] b,
+        c -- [boson, edge label=\(\gamma^{*}/Z\)] g,
+        h [particle=\(\ell^{+}\)] -- [fermion] g -- [fermion] f [particle=\(\ell^{-}\)], 
+        e -- [opacity=0.0001] f,
+      };
+    }
+  \end{center}
+\end{figure}
+  
+\section{\ttV, diboson processes, and single top}
+
+\section{Fake lepton background}

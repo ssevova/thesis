@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  25 FEB 2018 11:28
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  26 FEB 2018 22:43
  restricted system commands enabled.
 **example
 (./example.tex
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.139 seconds)
+luaotfload | main : initialization completed in 0.166 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -1311,9 +1311,6 @@ chematic.pdf>] [10
 
 ]
 chapter 3.
-
-LaTeX Warning: Reference `subsec:leps' on page 11 undefined on input line 6.
-
 [11]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 31.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
@@ -1391,55 +1388,64 @@ File: figs/mt2log_em.pdf Graphic file (type pdf)
 <use figs/mt2log_em.pdf>
 Package luatex.def Info: figs/mt2log_em.pdf used on input line 304.
 (luatex.def)             Requested size: 268.847pt x 260.80035pt.
-)) Processing 'appendices' comment.
+) (./chap4-backgrounds.tex [29<./figs/mt2log_em.pdf>]
+[30
+
+]
+chapter 4.
+[31])) Processing 'appendices' comment.
 \openout3 = comment.cut
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex [29<./figs/mt2log_em.pdf>] [30
+(./comment.cut (./appendices.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [32]
+[33] [34]
 chapter A.
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [35
+
+]
 Processing 'backmatter' comment.
 \openout3 = comment.cut
  Comment 'backmatter' writing to comment.cut.
-Straight input of comment.cut. (./comment.cut (./backmatter.tex [32]
-(./example.bbl [33
+Straight input of comment.cut. (./comment.cut (./backmatter.tex [36]
+(./example.bbl [37
 
-] [34
+] [38
 
-]) [35] [36
-
-] (./example.lof)
+] [39]) [40] (./example.lof)
 \tf@lof=\write6
 
 \openout6 = example.lof
- [37] [38
+ [41
+
+] [42
 
 ] (./example.lot)
 \tf@lot=\write7
 
 \openout7 = example.lot
-)) [39] (./example.aux)
+)) [43] (./example.aux)
 
 LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 28260 strings out of 495119
- 100000,794899 words of node,token memory allocated
- 4878 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 517 glue, 1 kern, 14 sub_mlist, 178 attribute, 69 g
-lue_spec, 178 attribute_list, 1 write nodes
-   avail lists: 1:29,2:1707,3:447,4:62,5:176,6:2661,7:1132,8:195,9:337,10:24,11:
-263
- 30038 multiletter control sequences out of 65536+600000
- 370 fonts using 22775719 bytes
- 72i,16n,99p,8482b,1823s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 28495 strings out of 495119
+ 156326,794899 words of node,token memory allocated
+ 5237 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 554 glue, 1 kern, 14 sub_mlist, 203 attribute, 69 g
+lue_spec, 203 attribute_list, 1 write nodes
+   avail lists: 1:61,2:12636,3:2770,4:66,5:185,6:2671,7:5623,8:198,9:1276,10:24,
+11:263
+ 30207 multiletter control sequences out of 65536+600000
+ 411 fonts using 25384543 bytes
+ 72i,16n,103p,8482b,1981s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
@@ -1455,10 +1461,10 @@ e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on example.pdf (52 pages, 2034788 bytes).
+Output written on example.pdf (56 pages, 2060337 bytes).
 
-PDF statistics: 355 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+PDF statistics: 367 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Bertone:2004pz}
 G.~Bertone, D.~Hooper, and J.~Silk,
@@ -23,6 +23,44 @@ CMS,
 \bibitem{Lester:1999tx}
 C.~G. Lester and D.~J. Summers,
 \newblock Phys. Lett. {\bfseries B463}, 99 (1999), hep-ph/9906349.
+
+\bibitem{powheg}
+S.~Frixione, P.~Nason, and C.~Oleari,
+\newblock JHEP {\bfseries 11}, 070 (2007), 0709.2092.
+
+\bibitem{powheg2}
+S.~Alioli {\em et~al.},
+\newblock JHEP {\bfseries 06}, 043 (2010), 1002.2581.
+
+\bibitem{Sjostrand:2014zea}
+T.~Sj{\"o}strand {\em et~al.},
+\newblock Comput. Phys. Commun. {\bfseries 191}, 159 (2015), 1410.3012.
+
+\bibitem{AGOSTINELLI2003250}
+S.~Agostinelli {\em et~al.},
+\newblock Nuclear Instruments and Methods in Physics Research Sec. A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment {\bfseries
+  506}, 250  (2003).
+
+\bibitem{ttxsec1}
+M.~Beneke, P.~Falgari, S.~Klein, and C.~Schwinn,
+\newblock Nucl. Phys. B {\bfseries 855}, 695 (2012), 1109.1536.
+
+\bibitem{ttxsec2}
+M.~Cacciari, M.~Czakon, M.~Mangano, A.~Mitov, and P.~Nason,
+\newblock Phys. Lett. B {\bfseries 710}, 612 (2012), 1111.5869.
+
+\bibitem{ttxsec3}
+P.~B{\"a}rnreuther, M.~Czakon, and A.~Mitov,
+\newblock Phys. Rev. Lett. {\bfseries 109}, 132001 (2012), 1204.5201.
+
+\bibitem{ttxsec4}
+M.~Czakon and A.~Mitov,
+\newblock JHEP {\bfseries 12}, 054 (2012), 1207.0236.
+
+\bibitem{ttxsec5}
+M.~Czakon and A.~Mitov,
+\newblock JHEP {\bfseries 01}, 080 (2013), 1210.6832.
 
 \bibitem{hepthesis}
 A.~Buckley,

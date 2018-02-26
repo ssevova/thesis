@@ -24,13 +24,18 @@ Studies of the large scale structure of the universe have provided clues as to t
 \label{subsec:DMsearches}
 
 \begin{center}
-\feynmandiagram[vertical=b to h]{
- a [particle=\(t\)] -- [fermion] b -- [gluon] c,
- b -- [fermion] d -- [scalar, edge label'=\(\phi \slash a\)] e,
- f [particle=\(\chi\)]-- [fermion] e -- [fermion] g [particle=\(\bar{\chi}\)],
- i -- [gluon]   h -- [fermion] j [particle=\(\bar{t}\)],
- d -- [fermion] h,
-};
+  \feynmandiagram[horizontal=c to h]{
+    a [particle=\(\bar{t}\)] -- [fermion] b -- [fermion] c -- [fermion] d -- [fermion] e [particle=\(t\)],
+    f [particle=\(g\)] -- [gluon] b,
+    g [particle=\(g\)] -- [gluon] d,
+    c -- [scalar, edge label=\(\phi \slash a\)] h,
+    i [particle=\(\bar{\chi}\)] -- [fermion] h -- [fermion] j [particle=\(\chi\)],
+%    f -- [opacity=0.0001] g,
+    e -- [opacity=0.0001] i,
+    a -- [opacity=0.0001] j,
+    i -- [opacity=0.0001] j,
+
+  };
 \end{center}
 
 \subsection{The Standard Model}
