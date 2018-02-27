@@ -45,7 +45,7 @@ The theoretical uncertainties incurred at leading order (LO) in perturbative QCD
 As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
 
 \section{Drell-Yan}
-%\begin{comment}
+\begin{comment}
 \begin{figure}
   \begin{center}
     \subfloat[][]{\label{fig:dy1}
@@ -93,10 +93,10 @@ As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppress
       };
     }
   \end{center}
-  \caption{The Drell-Yan lepton pair-production process mediated by a virtual photon ($\gamma^{*}$) or Z boson at~\protect\subref{fig:dy1} $\mathcal{O}$($\alpha$) and~\protect\subref{fig:dy2},\protect\subref{fig:dy3},\protect\subref{fig:dy4},\protect\subref{fig:dy5} $\mathcal{O}$($\alpha\alpha_{s}$).}
+  \caption{The Drell-Yan lepton pair-production process mediated by a virtual photon ($\gamma^{*}$) or Z boson at~\protect\subref{fig:dy1} $O$(\alpha) and~\protect\subref{fig:dy2,fig:dy3,fig:dy4,fig:dy5} $O$(\alpha\alpha).}
   \label{fig:dy_feyn}
 \end{figure}
-%\end{comment}
+\end{comment}
 
 %From the diagrams in~\FigureRef{fig:dy_feyn}, 
   

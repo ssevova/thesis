@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  26 FEB 2018 22:43
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  27 FEB 2018 13:41
  restricted system commands enabled.
 **example
 (./example.tex
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.166 seconds)
+luaotfload | main : initialization completed in 0.162 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -1393,22 +1393,21 @@ Package luatex.def Info: figs/mt2log_em.pdf used on input line 304.
 
 ]
 chapter 4.
-[31])) Processing 'appendices' comment.
-\openout3 = comment.cut
-
-Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33] [34]
+ [32]))
+Processing 'appendices' comment.
+\openout3 = comment.cut
+ Comment 'appendices' writing to comment.cut.
+Straight input of comment.cut. (./comment.cut (./appendices.tex [33] [34
+
+]
 chapter A.
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
-
-]
+ [35]
 Processing 'backmatter' comment.
 \openout3 = comment.cut
  Comment 'backmatter' writing to comment.cut.
@@ -1421,31 +1420,35 @@ Straight input of comment.cut. (./comment.cut (./backmatter.tex [36]
 \tf@lof=\write6
 
 \openout6 = example.lof
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [41
 
-] [42
-
-] (./example.lot)
+]
+[42] (./example.lot)
 \tf@lot=\write7
 
 \openout7 = example.lot
-)) [43] (./example.aux)
+)) [43
+
+] (./example.aux)
 
 LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 28495 strings out of 495119
- 156326,794899 words of node,token memory allocated
- 5237 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 554 glue, 1 kern, 14 sub_mlist, 203 attribute, 69 g
-lue_spec, 203 attribute_list, 1 write nodes
-   avail lists: 1:61,2:12636,3:2770,4:66,5:185,6:2671,7:5623,8:198,9:1276,10:24,
-11:263
- 30207 multiletter control sequences out of 65536+600000
+ 28496 strings out of 495119
+ 125034,794899 words of node,token memory allocated
+ 5226 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 553 glue, 1 kern, 14 sub_mlist, 202 attribute, 69 g
+lue_spec, 202 attribute_list, 1 write nodes
+   avail lists: 1:71,2:8640,3:1961,4:68,5:180,6:2678,7:3851,8:197,9:937,10:24,11
+:264
+ 30208 multiletter control sequences out of 65536+600000
  411 fonts using 25384543 bytes
- 72i,16n,103p,8482b,1981s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 72i,16n,103p,8482b,1979s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
@@ -1461,7 +1464,7 @@ e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on example.pdf (56 pages, 2060337 bytes).
+Output written on example.pdf (56 pages, 2061556 bytes).
 
 PDF statistics: 367 PDF objects out of 1000 (max. 8388607)
  232 compressed objects within 3 object streams

@@ -17,10 +17,10 @@
 \contentsline {section}{\numberline {3.4}Event Selection}{26}
 \contentsline {subsection}{\numberline {3.4.1}The \ensuremath {M^{\ell \ell }_{{\text {T2}}}}\xspace variable}{27}
 \contentsline {chapter}{\numberline {4}Background processes}{31}
-\contentsline {section}{\numberline {4.1}\ensuremath {\text {t}\mathaccentV {bar}416{\text {t}}(2\ell )}\xspace }{31}
-\contentsline {section}{\numberline {4.2}Drell-Yan}{34}
-\contentsline {section}{\numberline {4.3}\ensuremath {\ttbar +\text {V}}\xspace , diboson processes, and single top}{34}
-\contentsline {section}{\numberline {4.4}Fake lepton background}{34}
+\contentsline {section}{\numberline {4.1}\ensuremath {\text {t}\mathaccentV {bar}416{\text {t}}(2\ell )}\xspace }{32}
+\contentsline {section}{\numberline {4.2}Drell-Yan}{33}
+\contentsline {section}{\numberline {4.3}\ensuremath {\ttbar +\text {V}}\xspace , diboson processes, and single top}{33}
+\contentsline {section}{\numberline {4.4}Fake lepton background}{33}
 \contentsline {chapter}{\numberline {A}Pointless extras}{35}
 \contentsline {section}{\numberline {A.1}Like, duh}{35}
 \contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{36}
