@@ -19,11 +19,12 @@
 \contentsline {chapter}{\numberline {4}Background processes}{31}
 \contentsline {section}{\numberline {4.1}\ensuremath {\text {t}\mathaccentV {bar}416{\text {t}}(2\ell )}\xspace }{32}
 \contentsline {section}{\numberline {4.2}Drell-Yan}{33}
-\contentsline {section}{\numberline {4.3}\ensuremath {\ttbar +\text {V}}\xspace , diboson processes, and single top}{33}
-\contentsline {section}{\numberline {4.4}Fake lepton background}{33}
-\contentsline {chapter}{\numberline {A}Pointless extras}{35}
-\contentsline {section}{\numberline {A.1}Like, duh}{35}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{36}
-\contentsline {chapter}{Bibliography}{39}
-\contentsline {chapter}{List of figures}{41}
-\contentsline {chapter}{List of tables}{43}
+\contentsline {subsection}{\numberline {4.2.1}The \ensuremath {R_\text {in/out}}\xspace method}{34}
+\contentsline {section}{\numberline {4.3}\ensuremath {\ttbar +\text {V}}\xspace , diboson processes, and single top}{39}
+\contentsline {section}{\numberline {4.4}Fake lepton background}{39}
+\contentsline {chapter}{\numberline {A}Pointless extras}{41}
+\contentsline {section}{\numberline {A.1}Like, duh}{41}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{42}
+\contentsline {chapter}{Bibliography}{45}
+\contentsline {chapter}{List of figures}{47}
+\contentsline {chapter}{List of tables}{49}
