@@ -1,7 +1,7 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  28 FEB 2018 17:42
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  1 MAR 2018 16:21
  restricted system commands enabled.
-**example
-(./example.tex
+**ssevova_thesis
+(./ssevova_thesis.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hepthesis/hepthesis.cls
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.140 seconds)
+luaotfload | main : initialization completed in 0.138 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -1063,8 +1063,12 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(./example.aux)
-\openout1 = example.aux
+(./ssevova_thesis.aux
+
+LaTeX Warning: Label `tab:Rinout_SF_mm' multiply defined.
+
+)
+\openout1 = ssevova_thesis.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -1263,10 +1267,10 @@ Package microtype Info: Loading generic settings for font family
 Package tocbasic Info: character protrusion at toc deactivated on input line 46.
 
 
-(./example.toc [11])
+(./ssevova_thesis.toc [11])
 \tf@toc=\write5
 
-\openout5 = example.toc
+\openout5 = ssevova_thesis.toc
 )) Processing 'mainmatter' comment. [12]
 \openout3 = comment.cut
 
@@ -1409,70 +1413,152 @@ Underfull \vbox (badness 2426) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-Overfull \hbox (3.6672pt too wide) in paragraph at lines 188--189
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Overfull \hbox (3.6672pt too wide) in paragraph at lines 188--190
  [] 
  []
 
+<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=297, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf used on input
+ line 259.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=298, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf used on input
+ line 260.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=299, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf used on input
+ line 261.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=300, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf used on input
+ line 262.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=301, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf used on input
+ line 271.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=302, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf used on input
+ line 272.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=303, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf used on input
+ line 273.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=304, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf used on input
+ line 274.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/metbinned_Rinout_SFs.pdf, id=305, 569.12625pt x 552.0625pt>
+File: figs/metbinned_Rinout_SFs.pdf Graphic file (type pdf)
+
+<use figs/metbinned_Rinout_SFs.pdf>
+Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 282.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]))
-Processing 'appendices' comment.
-\openout3 = comment.cut
- Comment 'appendices' writing to comment.cut.
-Straight input of comment.cut. (./comment.cut (./appendices.tex
-Underfull \vbox (badness 1803) has occurred while \output is active []
-
  [37]
-[38] [39] [40
+[38] [39<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em_bkg_s
+ub_metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dilep_mas
+s_em_bkg_sub_metbin4_ee.pdf>] [40<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><.
+/figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3
+_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>] [41<./figs/metbinned_Rino
+ut_SFs.pdf>])) Processing 'appendices' comment.
+\openout3 = comment.cut
+
+Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut (./appendices.tex [42] [43] [44
 
 ]
 chapter A.
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [45]
 Processing 'backmatter' comment.
 \openout3 = comment.cut
  Comment 'backmatter' writing to comment.cut.
-Straight input of comment.cut. (./comment.cut (./backmatter.tex [42]
-(./example.bbl [43
+Straight input of comment.cut. (./comment.cut (./backmatter.tex [46]
+(./ssevova_thesis.bbl [47
 
-] [44
+] [48
 
-] [45]) [46] (./example.lof)
-\tf@lof=\write6
-
-\openout6 = example.lof
-
+] [49]) [50] (./ssevova_thesis.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [51
 
-]
-[48] (./example.lot)
+])
+\tf@lof=\write6
+
+\openout6 = ssevova_thesis.lof
+
+[52] (./ssevova_thesis.lot)
 \tf@lot=\write7
 
-\openout7 = example.lot
-)) [49
+\openout7 = ssevova_thesis.lot
+)) [53
 
-] (./example.aux)
+] (./ssevova_thesis.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.35835pt have occurred.
+
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 28523 strings out of 495119
- 156326,794899 words of node,token memory allocated
- 6793 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 746 glue, 1 kern, 14 sub_mlist, 256 attribute, 69 g
-lue_spec, 256 attribute_list, 1 write nodes
-   avail lists: 1:59,2:8542,3:1961,4:77,5:183,6:2714,7:3740,8:314,9:937,10:24,11
-:264
- 30228 multiletter control sequences out of 65536+600000
- 411 fonts using 25384543 bytes
- 72i,23n,103p,8482b,1979s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 29412 strings out of 495119
+ 195441,794899 words of node,token memory allocated
+ 7812 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 867 glue, 1 kern, 14 sub_mlist, 299 attribute, 69 g
+lue_spec, 299 attribute_list, 1 write nodes
+   avail lists: 1:85,2:8458,3:1969,4:165,5:253,6:4483,7:3861,8:381,9:1341,10:58,
+11:286
+ 30683 multiletter control sequences out of 65536+600000
+ 667 fonts using 41363767 bytes
+ 72i,23n,103p,8489b,1979s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
@@ -1488,10 +1574,10 @@ e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on example.pdf (62 pages, 2080292 bytes).
+Output written on ssevova_thesis.pdf (66 pages, 2222793 bytes).
 
-PDF statistics: 386 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+PDF statistics: 823 PDF objects out of 1000 (max. 8388607)
+ 442 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
