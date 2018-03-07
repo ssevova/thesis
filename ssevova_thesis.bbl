@@ -20,6 +20,18 @@ G.~Brianti,
 CMS,
 \newblock JINST {\bfseries 3}, S08004 (2008).
 
+\bibitem{Alwall:2014hca}
+J.~Alwall {\em et~al.},
+\newblock JHEP {\bfseries 07}, 079 (2014), 1405.0301.
+
+\bibitem{Mangano:2006rw}
+M.~L. Mangano, M.~Moretti, F.~Piccinini, and M.~Treccani,
+\newblock JHEP {\bfseries 01}, 013 (2007), hep-ph/0611129.
+
+\bibitem{PhysRevD.91.055009}
+P.~Harris, V.~V. Khoze, M.~Spannowsky, and C.~Williams,
+\newblock Phys. Rev. D {\bfseries 91}, 055009 (2015).
+
 \bibitem{Lester:1999tx}
 C.~G. Lester and D.~J. Summers,
 \newblock Phys. Lett. {\bfseries B463}, 99 (1999), hep-ph/9906349.
@@ -61,10 +73,6 @@ M.~Czakon and A.~Mitov,
 \bibitem{ttxsec5}
 M.~Czakon and A.~Mitov,
 \newblock JHEP {\bfseries 01}, 080 (2013), 1210.6832.
-
-\bibitem{Alwall:2014hca}
-J.~Alwall {\em et~al.},
-\newblock JHEP {\bfseries 07}, 079 (2014), 1405.0301.
 
 \bibitem{hepthesis}
 A.~Buckley,

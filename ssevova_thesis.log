@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  1 MAR 2018 16:21
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  7 MAR 2018 11:27
  restricted system commands enabled.
 **ssevova_thesis
 (./ssevova_thesis.tex
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.138 seconds)
+luaotfload | main : initialization completed in 0.175 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -1267,11 +1267,15 @@ Package microtype Info: Loading generic settings for font family
 Package tocbasic Info: character protrusion at toc deactivated on input line 46.
 
 
-(./ssevova_thesis.toc [11])
+(./ssevova_thesis.toc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
 \tf@toc=\write5
 
 \openout5 = ssevova_thesis.toc
-)) Processing 'mainmatter' comment. [12]
+))
+Processing 'mainmatter' comment. [12]
 \openout3 = comment.cut
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
@@ -1279,7 +1283,17 @@ Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
 
 ]
 chapter 1.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+
+LaTeX Warning: Reference `subsec:DMintro' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Reference `subsec:DMsearches' on page 1 undefined on input line 1
+4.
+
+
+LaTeX Warning: Reference `subsec:SM' on page 1 undefined on input line 14.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 16.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1287,15 +1301,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
+)
+(./chap2-cms.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2])
-(./chap2-cms.tex [3] [4
+ [2]
+[3] [4
 
 ]
 chapter 2.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1376,166 +1392,278 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [24<./figs/csvv2_multijet_13TeV.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-[26]
+ [25])
+(./chap4-signal.tex [26]
+chapter 4.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 263.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 263.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
 
-Underfull \vbox (badness 7468) has occurred while \output is active []
+Underfull \vbox (badness 4391) has occurred while \output is active []
 
- [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-<figs/mt2log_em.pdf, id=225, 569.12625pt x 552.0625pt>
-File: figs/mt2log_em.pdf Graphic file (type pdf)
-
-<use figs/mt2log_em.pdf>
-Package luatex.def Info: figs/mt2log_em.pdf used on input line 304.
-(luatex.def)             Requested size: 268.847pt x 260.80035pt.
-) (./chap4-backgrounds.tex [29<./figs/mt2log_em.pdf>]
-[30
+ [27
 
 ]
-chapter 4.
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figs/medptlog.pdf, id=222, 569.12625pt x 552.0625pt>
+File: figs/medptlog.pdf Graphic file (type pdf)
+ <use figs/medptlog.pdf>
+Package luatex.def Info: figs/medptlog.pdf used on input line 30.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figs/offshell_medpt.pdf, id=223, 569.12625pt x 552.0625pt>
+File: figs/offshell_medpt.pdf Graphic file (type pdf)
 
- [33]
-Underfull \vbox (badness 2426) has occurred while \output is active []
+<use figs/offshell_medpt.pdf>
+Package luatex.def Info: figs/offshell_medpt.pdf used on input line 38.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
- [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figs/onshell_vs_offshell_medpt.pdf, id=224, 569.12625pt x 552.0625pt>
+File: figs/onshell_vs_offshell_medpt.pdf Graphic file (type pdf)
 
- [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Overfull \hbox (3.6672pt too wide) in paragraph at lines 188--190
- [] 
- []
-
-<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=297, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf used on input
- line 259.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=298, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf used on input
- line 260.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=299, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf used on input
- line 261.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=300, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf used on input
- line 262.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=301, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf used on input
- line 271.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=302, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf used on input
- line 272.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=303, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf used on input
- line 273.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=304, 569.12625pt x 552.0625pt>
-File: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf Graphic file (type pdf)
-
-<use figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>
-Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf used on input
- line 274.
-(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
-
-<figs/metbinned_Rinout_SFs.pdf, id=305, 569.12625pt x 552.0625pt>
-File: figs/metbinned_Rinout_SFs.pdf Graphic file (type pdf)
-
-<use figs/metbinned_Rinout_SFs.pdf>
-Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 282.
+<use figs/onshell_vs_offshell_medpt.pdf>
+Package luatex.def Info: figs/onshell_vs_offshell_medpt.pdf used on input line 3
+9.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [28]
+[29<./figs/medptlog.pdf><./figs/offshell_medpt.pdf><./figs/onshell_vs_offshell_m
+edpt.pdf>]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 66.
+
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+ [30]
+[31] <figs/mt2log_em.pdf, id=377, 569.12625pt x 552.0625pt>
+File: figs/mt2log_em.pdf Graphic file (type pdf)
+
+<use figs/mt2log_em.pdf>
+Package luatex.def Info: figs/mt2log_em.pdf used on input line 107.
+(luatex.def)             Requested size: 268.847pt x 260.80035pt.
+) (./chap5-backgrounds.tex [32] [33<./figs/mt2log_em.pdf>] [34
+
+]
+chapter 5.
+[35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [37]
-[38] [39<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em_bkg_s
-ub_metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dilep_mas
-s_em_bkg_sub_metbin4_ee.pdf>] [40<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><.
-/figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3
-_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>] [41<./figs/metbinned_Rino
-ut_SFs.pdf>])) Processing 'appendices' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Overfull \hbox (3.6672pt too wide) in paragraph at lines 257--259
+ [] 
+ []
+
+<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=460, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf used on input
+ line 328.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=461, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf used on input
+ line 329.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=462, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf used on input
+ line 330.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=463, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf used on input
+ line 331.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=464, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf used on input
+ line 340.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=465, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf used on input
+ line 341.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=466, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf used on input
+ line 342.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=467, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf used on input
+ line 343.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/metbinned_Rinout_SFs.pdf, id=468, 569.12625pt x 552.0625pt>
+File: figs/metbinned_Rinout_SFs.pdf Graphic file (type pdf)
+
+<use figs/metbinned_Rinout_SFs.pdf>
+Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 351.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+ [43] [44] [45<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em
+_bkg_sub_metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dil
+ep_mass_em_bkg_sub_metbin4_ee.pdf>]
+[46<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><./figs/dilep_mass_em_bkg_sub_me
+tbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf><./figs/dilep_mass_em_
+bkg_sub_metbin4_mm.pdf>] [47<./figs/metbinned_Rinout_SFs.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48
+
+]
+[49]
+Overfull \hbox (33.82416pt too wide) in paragraph at lines 448--449
+ [] 
+ []
+
+
+Overfull \hbox (33.82416pt too wide) in paragraph at lines 472--473
+ [] 
+ []
+
+<figs/fakerate_v_pt_e.pdf, id=907, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_pt_e.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_pt_e.pdf>
+Package luatex.def Info: figs/fakerate_v_pt_e.pdf used on input line 479.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_eta_e.pdf, id=908, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_eta_e.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_eta_e.pdf>
+Package luatex.def Info: figs/fakerate_v_eta_e.pdf used on input line 480.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_pt_m.pdf, id=909, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_pt_m.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_pt_m.pdf>
+Package luatex.def Info: figs/fakerate_v_pt_m.pdf used on input line 488.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_eta_m.pdf, id=910, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_eta_m.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_eta_m.pdf>
+Package luatex.def Info: figs/fakerate_v_eta_m.pdf used on input line 489.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+ [50] [51<./figs/fakerate_v_pt_e.pdf><./figs/fakerate_v_eta_e.pdf><./figs/fakera
+te_v_pt_m.pdf><./figs/fakerate_v_eta_m.pdf>]
+<figs/met_close_ee.pdf, id=1102, 569.12625pt x 552.0625pt>
+File: figs/met_close_ee.pdf Graphic file (type pdf)
+
+<use figs/met_close_ee.pdf>
+Package luatex.def Info: figs/met_close_ee.pdf used on input line 507.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+
+<figs/met_close_em.pdf, id=1103, 569.12625pt x 552.0625pt>
+File: figs/met_close_em.pdf Graphic file (type pdf)
+
+<use figs/met_close_em.pdf>
+Package luatex.def Info: figs/met_close_em.pdf used on input line 508.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+
+<figs/met_close_mm.pdf, id=1104, 569.12625pt x 552.0625pt>
+File: figs/met_close_mm.pdf Graphic file (type pdf)
+
+<use figs/met_close_mm.pdf>
+Package luatex.def Info: figs/met_close_mm.pdf used on input line 509.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+) (./chap6-strategy.tex [52] [53<./figs/met_close_ee.pdf><./figs/met_close_em.pd
+f><./figs/met_close_mm.pdf>] [54
+
+]
+chapter 6.
+)) Processing 'appendices' comment.
 \openout3 = comment.cut
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex [42] [43] [44
+(./comment.cut (./appendices.tex [55] [56
 
 ]
 chapter A.
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [57]
 Processing 'backmatter' comment.
 \openout3 = comment.cut
  Comment 'backmatter' writing to comment.cut.
-Straight input of comment.cut. (./comment.cut (./backmatter.tex [46]
-(./ssevova_thesis.bbl [47
+Straight input of comment.cut. (./comment.cut (./backmatter.tex [58]
+(./ssevova_thesis.bbl [59
 
-] [48
+] [60
 
-] [49]) [50] (./ssevova_thesis.lof
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51
+ [61])
+[62] (./ssevova_thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-])
+ [63
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64])
 \tf@lof=\write6
 
 \openout6 = ssevova_thesis.lof
 
-[52] (./ssevova_thesis.lot)
+[65] [66
+
+] (./ssevova_thesis.lot
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+ [67])
 \tf@lot=\write7
 
 \openout7 = ssevova_thesis.lot
-)) [53
-
-] (./ssevova_thesis.aux)
+))
+[68] (./ssevova_thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -1549,16 +1677,16 @@ LaTeX Warning: There were multiply-defined labels.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29412 strings out of 495119
- 195441,794899 words of node,token memory allocated
- 7812 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 867 glue, 1 kern, 14 sub_mlist, 299 attribute, 69 g
-lue_spec, 299 attribute_list, 1 write nodes
-   avail lists: 1:85,2:8458,3:1969,4:165,5:253,6:4483,7:3861,8:381,9:1341,10:58,
-11:286
- 30683 multiletter control sequences out of 65536+600000
+ 29583 strings out of 495119
+ 244335,953878 words of node,token memory allocated
+ 9677 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 1082 glue, 1 kern, 14 sub_mlist, 389 attribute, 69 
+glue_spec, 389 attribute_list, 1 write nodes
+   avail lists: 1:126,2:15331,3:3661,4:167,5:245,6:4013,7:6143,8:381,9:1557,10:3
+2,11:266
+ 30782 multiletter control sequences out of 65536+600000
  667 fonts using 41363767 bytes
- 72i,23n,103p,8489b,1979s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 72i,23n,103p,8489b,1982s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
@@ -1570,14 +1698,14 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
-alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
-/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
-.pfb>
-Output written on ssevova_thesis.pdf (66 pages, 2222793 bytes).
+e1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
+plbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ssevova_thesis.pdf (81 pages, 2395144 bytes).
 
-PDF statistics: 823 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
+PDF statistics: 1346 PDF objects out of 1440 (max. 8388607)
+ 687 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

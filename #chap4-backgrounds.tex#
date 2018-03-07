@@ -40,9 +40,78 @@ Two classes of background processes are present in this search: reducible and ir
 
 SM \ttll is the dominant background contribution and is irreducible, owing to the similarity of the final state topology with the signal processes topology. At the LHC, approximately 90\% of \ttbar events are produced via gluon fusion as shown in~\FigureRef{fig:gg_tt} and ~\FigureRef{fig:gg_tt2}, in contrast to the Tevatron at Fermilab, where quark-antiquark annihilation shown in~\FigureRef{fig:qq_tt} constituted roughly 85-90\% of the relative \ttbar production. 
 
-The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG (v2)~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia (v8.2)~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross-section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross-section value used is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
+The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG \textsc{v2}~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia \textsc{v8.2}~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross-section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross-section value used is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
 
 As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
+
+\section{\ttV, diboson, and single top processes}
+
+Among the more rare processes considered as backgrounds to this search are processes wherein a top quark pair is produced in association with a boson, denoted as \ttV (where V=\gamma, Z, W). In particular for the $\mathrm{t\bar{t}}$+Z process, as shown in~\FigureRef{fig:ttV}, the same final state is expected as the signal so this process falls under the class of irreducible backgrounds. Although the production cross-sections for \ttV processes are orders of magnitude smaller than the \ttbar production cross-section, this background is significant in the high \mttll categories. The moderate \ptmiss requirement is inefficient in \ttV background reduction, since large values of \ptmiss are expected. In addition, the $\mathrm{t\bar{t}}$+Z process will leak into the high \mttll category as a cause of the additional expected \ptmiss from the neutrinos, which bias the minimization over all the two-way partitions of the \ptmiss, resulting in high values of \mttll.
+
+The diboson background processes encompass WW, ZZ, and WZ production where all possible final states (i.e. decays to $q\bar{q}$, $\ell\nu$, $\ell\ell$, and $\nu_\ell\bar{\nu}_\ell$) are considered for the relevant boson. Owing in part to the largest relative production cross-section, the WW process is the dominant diboson process. In particular, the dilepton signal region requirement targets the final state where both W bosons decay to lepton-neutrino pairs. 
+ 
+The single top background is also expected to contribute sub-dominantly in the signal region. The lepton multiplicity requirement serves to suppress the contributions from s- and t-channel production (i.e. processes whose amplitudes go as $\mathscr{M}\sim 1/s$ and $\mathscr{M}\sim 1/t$, where $s$ and $t$ correspond to the Mandelstam variables), as seen in~\FigureRef{fig:s-channel} and~\FigureRef{fig:t-channel}, since only one prompt lepton is expected. Thus, the dilepton final state tW associated production diagram, shown in~\FigureRef{fig:tW}, contributes the most significantly to the single top background.  
+
+Similarly to the \ttll process, the \ttV, diboson, and single top processes are simulated at NLO. The \ttV processes are generated using \AMCATNLO \textsc{v2.2.2}. For single top, the s- and t-channel processes are simulated using \POWHEG \textsc{v2} and interfaced with \MadSpin which decays the top and preserves the spin correlation and any finite width effects in narrow resonance decays. The tW channel, on the other hand, is generated using \POWHEG \textsc{v1} at NLO accuracy and normalized to the approximate NNLO cross-section. The diboson samples are generated at NLO using either \AMCATNLO \textsc{v2.2.2} or \POWHEG \textsc{v2}.
+ 
+\begin{figure}
+  \begin{center}
+    \subfloat[][\ttV]{\label{fig:ttV}
+      \feynmandiagram[vertical=c to b] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(\bar{q}\)],
+        b -- [boson, edge label=\(Z\)] e,
+        i [particle=\(\bar{\nu}_\ell\)] -- [fermion] e -- [fermion] j [particle=\(\nu_\ell\)],
+        c -- [gluon, edge label'=\(g\)] f,
+        g [particle=\(\bar{t}\)] -- [fermion] f -- [fermion] h [particle=\(t\)],
+%        f -- [opacity=0.0001] e,
+%        a -- [opacity=0.0001] d,
+      };
+    }
+    \hspace{1cm}
+    \subfloat[][Diboson]{\label{fig:VV}
+      \feynmandiagram[vertical=b to c] {
+        a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(\bar{q}\)],
+        b -- [boson] f [particle=\(V\)],
+        c -- [boson] e [particle=\(V\)],
+        a -- [opacity=0.0001] d,
+%        f -- [opacity=0.0001] e,
+      };
+    }
+    \caption{Examples of the~\protect\subref{fig:ttV} \ttV process, and ~\protect\subref{fig:VV} diboson production at LO.}
+    \label{fig:diboson_feyn}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \subfloat[][s-channel]{\label{fig:s-channel}
+      \feynmandiagram[horizontal=b to e]{
+        a [particle=\(u\)] -- [fermion] b -- [fermion] c [particle=\(d\)],
+        d [particle=\(b\)] -- [fermion] e -- [fermion] f [particle=\(t\)],
+        b -- [boson, edge label' = \(W^+\)] e,
+      };
+    }
+    \hspace{0.5cm}
+    \subfloat[][t-channel]{\label{fig:t-channel}
+      \feynmandiagram[vertical=b to e]{
+        a [particle=\(u\)] -- [fermion] b -- [fermion] c [particle=\(d\)],
+        d [particle=\(b\)] -- [fermion] e -- [fermion] f [particle=\(t\)],
+        b -- [boson, edge label = \(W^+\)] e,    
+      };
+    }
+    \hspace{0.5cm}
+    \subfloat[][tW-associated]{\label{fig:tW}
+      \feynmandiagram[horizontal=b to c]{
+        a [particle=\(b\)] -- [fermion] b -- [fermion, edge label=\(b\)] c -- [fermion] d [particle=\(t\)],
+        e [particle=\(g\)] -- [gluon] b,
+        c -- [boson] f [particle=\(W^-\)], 
+      };
+    }
+    \caption{Single top quark production via~\protect\subref{fig:s-channel} s-channel,~\protect\subref{fig:t-channel} t-channel, and~\protect\subref{fig:tW} in association with a W boson.}
+    \label{fig:st_feyn}
+  \end{center}
+\end{figure}
+
 
 \section{Drell-Yan}
 %\begin{comment}
@@ -284,11 +353,9 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
   \label{fig:RinoutSFs}
 \end{figure}
 
-\section{\ttV, diboson processes, and single top}
+\clearpage
 
 \section{Fake lepton background}
-
-Another type of reducible background, the fake (or non-prompt) lepton background, is also estimated using observed events. Processes which contain only one prompt electron or muon in the final state may pass the signal region selection as described in Sec.~\ref{sec:selection} by the jet-induced faking of a second lepton. Namely, processes such as \Wjets, semileptonic decays of \ttbar and $tW$ associated production, and leptonic single top decays.     
 
 \begin{figure}
   \subfloat[][\Wjets]{\label{fig:wjets}
@@ -303,7 +370,7 @@ Another type of reducible background, the fake (or non-prompt) lepton background
       f -- [opacity=0.0001] i,
     };
   } 
-  \hspace{0.2 cm}
+  \hspace{1.0 cm}
   \subfloat[][$t\bar{t}(1\ell)$]{\label{fig:tt1l}
     \feynmandiagram[horizontal=b to c]{
       a [particle=\(g\)] -- [gluon] b -- [gluon] c,
@@ -319,18 +386,128 @@ Another type of reducible background, the fake (or non-prompt) lepton background
       m [particle=\(\bar{q}\)] -- [fermion] j -- [fermion] n [particle=\(q\)],
     };
   }
-  \hspace{0.2 cm}
-  \subfloat[][semileptonic $tW$]{\label{fig:tW}
-    \feynmandiagram[vertical=b to c]{
-      a [particle=\(b\)] -- [fermion] b -- [fermion] c -- [fermion, edge label=\(t\)] d -- [fermion] g [particle=\(b\)],
-      c -- [gluon] e [particle=\(g\)], 
-      d -- [boson, edge label=\(W^+\)] h, 
-      i [particle=\(\ell^+\)] -- [fermion] h -- [fermion] j [particle=\(\nu_\ell\)],
-      b -- [boson, edge label=\(W^-\)] f,
-      k [particle=\(\bar{q}\)] -- [fermion] f -- [fermion] l [particle=\(q\)],
-      f -- [opacity=0.0001] d,
-      e -- [opacity=0.0001] a,
-    };
-  }
-  \caption{Examples of~\protect\subref{fig:wjets} \Wjets,~\protect\subref{fig:tt1l} semileptonic \ttbar, and ~\protect\subref{fig:tW} semileptonic $tW$ diagrams that contribute to the fake lepton background.}
+  \caption{Examples of~\protect\subref{fig:wjets} \Wjets, and ~\protect\subref{fig:tt1l} semileptonic \ttbar that contribute to the fake lepton background.}
+  \label{fig:fakes_feyn}
+\end{figure}
+
+
+Another type of reducible background, the fake (or non-prompt) lepton background, is also estimated using observed events. Processes which are expected to contain only one prompt electron or muon in the final state may pass the signal region selection as described in Sec.~\ref{sec:selection} by a jet-induced faking of a second lepton. Namely, processes such as \Wjets, semileptonic decays of \ttbar and tW associated production, and leptonic single top decays, a few of which are shown in~\FigureRef{fig:fakes_feyn}, comprise the fake lepton background processes. 
+
+The data-driven technique used to estimate the relative contribution of fake lepton backgrounds in the signal regions is based on the measurement of the fake rate. This rate is obtained from a sample in data which is enriched in QCD multijet events. Very loose working points for an electron object and muon object are define; these are called ``fake-able objects'' (``FO'') and their definitions are found under the heading ``FO WP'' in Tables~\ref{tab:ele_wp} and~\ref{tab:muon_wp} for electrons and muons respectively.
+
+The method has two main steps,
+\begin{enumerate}
+\item \textbf{Measurement:} in a QCD enriched sample in data, measure the probability of a ``FO'' to pass ``Tight'' lepton selection: the ``fake rate''
+\item \textbf{Application:} in a sample consisting of one ``Tight'' lepton and one ``FO'' that fails ``Tight'' selection, use the fake rate to estimate the background in the signal region
+\end{enumerate}
+
+\subsection{Fake rate measurement}
+\label{subsec:fr_measure}
+To obtain a sample enriched in jet-induced fakes in order to perform the fake rate measurement, the following selection is applied,
+\begin{itemize}
+\item Event passes one of the following triggers:
+  \begin{itemize}
+  \item HLT\_Ele$[12, 23]$\_CaloIdM\_TrackIdM\_PFJet30
+  \item HLT\_Ele$[12, 23]$\_CaloIdL\_TrackIdL\_IsoVL\_PFJet30
+  \item HLT\_Mu$[8, 17]$\_TrkIsoVVL
+  \end{itemize}
+\item there is exactly one ``FO'' in the event, matched to the trigger that fired
+\item \ptmiss<40\:\GeV
+\item $M_{T}<35\:\GeV$
+\item at least one jet with $\pt>30\:\GeV$ and $|\eta|<4$
+\item $\Delta\phi>2$ between the leading jet in the event and the ``FO''
+\end{itemize}
+The cuts are chosen to suppress the \Wjets contribution (i.e. the low $M_{T}$ requirement), and to enhance the multi-jet QCD contribution. Even then, the level of contamination from electroweak processes (\Wjets, \Zjets, \ttbar) in this sample ranges from $10\%$ at low \pt to $70\%$ at high \pt. The contamination is thus significant, particularly in the measurement sample for muon ``FO'', that a subtraction of prompt, real leptons must be done (based on expectations from simulation). The fake rate (FR) is defined as the efficiency of a ``FO'' to pass ``Tight'' requirements,
+\begin{equation}
+  \text{FR}_{ij} = \Big[\frac{\left(N^{\text{data}}_{Tight} - N^{\text{EWK}}_{Tight}\right)}{\left(N^{\text{data}}_{FO} - N^{\text{EWK}}_{FO}\right)}\Big]_{i=\eta\,j=\pt}
+\end{equation}
+The measured fake rates are listed in Tables~\ref{tab:ele_fr} and~\ref{tab:muon_fr}. The fake rates depend more strongly on \eta than on \pt as shown in Fig.~\ref{fig:ele_fr_plots} and Fig.~\ref{fig:muon_fr_plots}.
+
+\begin{table}[!ht]
+\centering
+\scalebox{0.9}
+{
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+                & $0.0 < |\eta| < 0.5$ & $0.5 < |\eta| < 1.0$ & $1.0 < |\eta| < 1.5$ & $1.5 < |\eta| < 2
+.0$ & $2.0 < |\eta| < 2.5$ \\
+\hline
+$10 < \pt < 15$ &  $0.063 \pm  0.008$  & $ 0.088 \pm  0.009$  &  $0.121 \pm  0.008$  &  $0.181 \pm  0.00
+9$  &  $0.176 \pm  0.012$ \\
+\hline  
+$15 < \pt < 20$ &  $0.085 \pm  0.003$  & $ 0.085 \pm  0.003$  &  $0.106 \pm  0.003$  &  $0.164 \pm  0.00
+4$  &  $0.153 \pm  0.005$ \\
+\hline
+$20 < \pt < 25$ & $ 0.062 \pm  0.008$  &  $0.059 \pm  0.007$  &  $0.080 \pm  0.009$  &  $0.131 \pm  0.010$  &  $0.148 \pm  0.012$ \\
+\hline 
+$25 < \pt < 30$ &  $0.073 \pm  0.011$  &  $0.078 \pm  0.078$  &  $0.090 \pm  0.011$  &  $0.140 \pm  0.012$  &  $0.162 \pm  0.012$ \\
+\hline
+$\pt > 30$      &  $0.065 \pm  0.007$  &  $0.091 \pm  0.008$  &  $0.089 \pm  0.007$  &  $0.169 \pm  0.008$  &  $0.190 \pm  0.008$ \\
+\hline    
+\end{tabular}   
+}
+\caption{Electron fake rates}
+\label{tab:ele_fr}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\scalebox{0.9}
+{
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+                & $0.0 < |\eta| < 0.5$ & $0.5 < |\eta| < 1.0$ & $1.0 < |\eta| < 1.5$ & $1.5 < |\eta| < 2.0$ & $2.0 < |\eta| < 2.4$ \\
+\hline
+$10 < \pt < 15$ &  $0.192 \pm  0.004$  & $ 0.210 \pm  0.004$  &  $0.235 \pm  0.004$  &  $0.283 \pm  0.004$  &  $0.294 \pm  0.005$ \\
+\hline
+$15 < \pt < 20$ &  $0.202 \pm  0.001$  & $ 0.214 \pm  0.001$  &  $0.253 \pm  0.001$  &  $0.293 \pm  0.001$  &  $0.307 \pm  0.002$ \\
+\hline
+$20 < \pt < 25$ & $ 0.187 \pm  0.001$  &  $0.200 \pm  0.001$  &  $0.240 \pm  0.001$  &  $0.286 \pm  0.001$  &  $0.307 \pm  0.002$ \\
+\hline 
+$25 < \pt < 30$ &  $0.177 \pm  0.002$  &  $0.196 \pm  0.002$  &  $0.239 \pm  0.002$  &  $0.279 \pm  0.002$  &  $0.310 \pm  0.003$ \\
+\hline
+$\pt > 30$      &  $0.172 \pm  0.002$  &  $0.200 \pm  0.002$  &  $0.233 \pm  0.002$  &  $0.279 \pm  0.002$  &  $0.311 \pm  0.003$ \\
+\hline    
+\end{tabular}   
+}
+\caption{Muon fake rates}
+\label{tab:muon_fr}
+\end{table}
+
+\begin{figure}[htbp!]
+\begin{center}
+  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_e}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_pt_e.pdf}}
+  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_e}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_eta_e.pdf}}
+  \caption{Measured electron fake rates as a function of lepton ~\protect\subref{subfig:fr_vs_pt_e} $\pt$ and ~\protect\subref{subfig:fr_vs_eta_e} $|\eta|$.}
+  \label{fig:ele_fr_plots}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp!]
+\begin{center}
+  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_m}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_pt_m.pdf}}
+  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_m}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_eta_m.pdf}}
+  \caption{Measured muon fake rates as a function of lepton ~\protect\subref{subfig:fr_vs_pt_e} $\pt$ and ~\protect\subref{subfig:fr_vs_eta_e} $|\eta|$.}
+  \label{fig:muon_fr_plots}
+\end{center}
+\end{figure}
+
+\subsection{Fake rate application}
+\label{subsec:fr_app}
+The FR does not give a direct measure for an absolute lepton fake rate; it is the probability for a fake lepton which passes loose identification criteria, to additionally pass tight identification and isolation criteria. Thus, to perform the estimate of the fake lepton background, an application sample of ``Tight''$+$``FO'' pairs are obtained by requiring the signal selection with the only modification being that instead of two ``Tight'' leptons, one ``Tight'' lepton and one ``FO'' that fails ``Tight'' selection is required. Each pair is then assigned a weight, FR/$(1-\mbox{FR})$, corresponding to a likelihood that the ``FO'' in the pair will be promoted to a ``Tight'' lepton, and the sum of these weighted pairs give a prediction for the background yield and distributions. In principle, a single event can contribute multiple ``Tight''$+$``FO'' pairs to the application sample, but in practice there is rarely more than one pair from an event.
+
+Dileptonic processes can contaminate the application sample and needs to be subtracted off. MC expectations are used to perform the subtraction; about $95\%$ of this contamination comes from dileptonic $\ttbar$ events.
+
+\subsection{Fake rate closure test}
+\label{subsec:fr_close}
+As a way to validate the estimation procedure, a closure test is performed in a fakes enriched region. The events in this region are required to pass the same selection as for the signal region, with the modified requirement that the selected leptons must have the same sign. Along with guaranteeing a region enriched in fake leptons, this validation region is also orthogonal to the signal region. A categorization based on \mttll > 110\:\GeV\:is not performed because too few events pass the high \mttll requirement, to make a meaningful test. Good agreement between the data and the combination of simulation and data-driven fake lepton prediction is observed in the \ptmiss distribution, as shown in~\FigureRef{fig:fr_close}. The degree in which the observed and predicted yields disagree is included in the normalization uncertainty on the fakes background prediction in the signal regions.
+
+\begin{figure}
+  \begin{center}
+    \subfloat[][$ee$ channel]  {\label{subfig:fr_close_ee}\includegraphics[width=0.32\textwidth]{figs/met_close_ee.pdf}}
+  \subfloat[][$e\mu$ channel]  {\label{subfig:fr_close_em}\includegraphics[width=0.32\textwidth]{figs/met_close_em.pdf}}
+  \subfloat[][$\mu\mu$ channel]{\label{subfig:fr_close_mm}\includegraphics[width=0.32\textwidth]{figs/met_close_mm.pdf}}
+  \caption{The \ptmiss distributions in the fake rate method validation region. All expected backgrounds are estimated using simulation, except for the fake lepton contribution, denoted ``FR Pred'' which is estimated via the fake rate method.}
+  \label{fig:fr_close}
+  \end{center}
 \end{figure}
