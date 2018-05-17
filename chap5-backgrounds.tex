@@ -3,6 +3,16 @@
 
 Two classes of background processes are present in this search: reducible and irreducible. For the former category, a particle in the background process may ``fake'' the signature of a particle that is expected in the signal process. On the contrary, in the case of the latter category, the final state topology of the background process yields the same expected particles as a potential signal process. A key feature of reducible backgrounds is the ability to suppress such processes by employing the selection cuts as described in Sec.~\ref{sec:selection}. Furthermore, some of the reducible background contributions are estimated using data-driven techniques. In large part, however, the dominant backgrounds in the search are estimated from simulations.
 
+Sec.~\ref{sec:tt2l}-\ref{sec:fakes} describe the relevant SM backgrounds in the search for \ttllDM. The production cross sections at $\sqrt{s}=13\:\TeV$ for these backgrounds are shown in~\FigureRef{fig:SMxsec}, giving a sense of the relative importance of the processes. The phase space targeted by the selection requirements as described in Sec.~\ref{sec:selection} also affects the relative hierarchy of the backgrounds, though it remains true that processes with larger cross sections, such as \ttbar and Drell-Yan, are dominant in the regions of highest sensitivity.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=\textwidth]{figs/SigmaNew_v0.pdf}
+    \caption{Summary of the cross section measurements of SM processes as of January 2018 with data collected by the CMS experiment at $\sqrt{s}=7,\:8,\:\text{and}\: 13\:\TeV$. }
+    \label{fig:SMxsec}
+  \end{center}
+\end{figure}
+
 \begin{figure}
   \begin{center}
     \subfloat[][]{\label{fig:gg_tt}
@@ -35,17 +45,18 @@ Two classes of background processes are present in this search: reducible and ir
   \caption{Leading order \ttbar production diagrams probed at the LHC via~\protect\subref{fig:gg_tt},~\protect\subref{fig:gg_tt2} gluon fusion, and~\protect\subref{fig:qq_tt} quark-antiquark annihilation.}
 \label{fig:tt2l_feyn}
 \end{figure}
-
+%%------------------------- tt2l -------------------------%%  
 \section{\ttll}
-
+\label{sec:tt2l}
 SM \ttll is the dominant background contribution and is irreducible, owing to the similarity of the final state topology with the signal processes topology. At the LHC, approximately 90\% of \ttbar events are produced via gluon fusion as shown in~\FigureRef{fig:gg_tt} and ~\FigureRef{fig:gg_tt2}, in contrast to the Tevatron at Fermilab, where quark-antiquark annihilation shown in~\FigureRef{fig:qq_tt} constituted roughly 85-90\% of the relative \ttbar production. 
 
 The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG \textsc{v2}~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia \textsc{v8.2}~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross-section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross-section value used is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
 
 As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
 
+%%------------------------- ttV,VV,ST -------------------------%%  
 \section{\ttV, diboson, and single top processes}
-
+\label{sec:ttVetc}
 Among the more rare processes considered as backgrounds to this search are processes wherein a top quark pair is produced in association with a boson, denoted as \ttV (where V=\gamma, Z, W). In particular for the $\mathrm{t\bar{t}}$+Z process, as shown in~\FigureRef{fig:ttV}, the same final state is expected as the signal so this process falls under the class of irreducible backgrounds. Although the production cross-sections for \ttV processes are orders of magnitude smaller than the \ttbar production cross-section, this background is significant in the high \mttll categories. The moderate \ptmiss requirement is inefficient in \ttV background reduction, since large values of \ptmiss are expected. In addition, the $\mathrm{t\bar{t}}$+Z process will leak into the high \mttll category as a cause of the additional expected \ptmiss from the neutrinos, which bias the minimization over all the two-way partitions of the \ptmiss, resulting in high values of \mttll.
 
 The diboson background processes encompass WW, ZZ, and WZ production where all possible final states (i.e. decays to $q\bar{q}$, $\ell\nu$, $\ell\ell$, and $\nu_\ell\bar{\nu}_\ell$) are considered for the relevant boson. Owing in part to the largest relative production cross-section, the WW process is the dominant diboson process. In particular, the dilepton signal region requirement targets the final state where both W bosons decay to lepton-neutrino pairs. 
@@ -112,9 +123,9 @@ Similarly to the \ttll process, the \ttV, diboson, and single top processes are 
   \end{center}
 \end{figure}
 
-
+%%------------------------- DY -------------------------%%  
 \section{Drell-Yan}
-%\begin{comment}
+\label{sec:DY}
 \begin{figure}
   \begin{center}
     \subfloat[][]{\label{fig:dy1}
@@ -355,8 +366,9 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
 
 \clearpage
 
+%%------------------------- Fakes -------------------------%%  
 \section{Fake lepton background}
-
+\label{sec:fakes}
 \begin{figure}
   \subfloat[][\Wjets]{\label{fig:wjets}
     \feynmandiagram[vertical=b to c]{

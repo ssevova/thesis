@@ -12,13 +12,83 @@ J.~L. Feng,
 T.~A. Porter, R.~P. Johnson, and P.~W. Graham,
 \newblock Ann. Rev. Astron. Astrophys. {\bfseries 49}, 155 (2011), 1104.2836.
 
+\bibitem{Bruning:2004ej}
+O.~S. Bruning {\em et~al.},
+\newblock (2004).
+
 \bibitem{Brianti:2004qq}
 G.~Brianti,
 \newblock Phys. Rept. {\bfseries 403-404}, 349 (2004).
 
+\bibitem{Chatrchyan:2008aa}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock JINST {\bfseries 3}, S08004 (2008).
+
+\bibitem{Aad:2008zzm}
+ATLAS, G.~Aad {\em et~al.},
+\newblock JINST {\bfseries 3}, S08003 (2008).
+
+\bibitem{Alves:2008zz}
+LHCb, A.~A. Alves, Jr. {\em et~al.},
+\newblock JINST {\bfseries 3}, S08005 (2008).
+
+\bibitem{Aamodt:2008zz}
+ALICE, K.~Aamodt {\em et~al.},
+\newblock JINST {\bfseries 3}, S08002 (2008).
+
+\bibitem{martin2008particle}
+B.~Martin and G.~Shaw,
+\newblock {\itshape Particle Physics}Manchester Physics Series (Wiley, 2008).
+
 \bibitem{CMS}
 CMS,
 \newblock JINST {\bfseries 3}, S08004 (2008).
+
+\bibitem{tdrmagnet}
+CMS Collaboration,
+\newblock {\itshape {The CMS magnet project: Technical Design Report}}Technical
+  Design Report CMS (CERN, Geneva, 1997).
+
+\bibitem{Borrello:2003uza}
+L.~Borrello, A.~Messineo, E.~Focardi, and A.~Macchiolo,
+\newblock (2003).
+
+\bibitem{Cockerill:2008td}
+CMS ECAL, D.~J.~A. Cockerill,
+\newblock {The CMS Electromagnetic Calorimeter at the LHC},
+\newblock in {\itshape {Proceedings, 34th International Conference on High
+  Energy Physics (ICHEP 2008): Philadelphia, Pennsylvania, July 30-August 5,
+  2008}}, 2008, 0810.0381.
+
+\bibitem{Chatrchyan:2013dga}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock JINST {\bfseries 8}, P09009 (2013), 1306.2016,
+\newblock [JINST8,9009(2013)].
+
+\bibitem{Chatrchyan:2009hy}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock JINST {\bfseries 5}, T03014 (2010), 0911.4881.
+
+\bibitem{Leroy:2004zza}
+C.~Leroy and P.-G. Rancoita,
+\newblock {\itshape {Principles of radiation interaction in matter and
+  detection}} (World Scientific, Singapore, 2009).
+
+\bibitem{Halyo:2013iba}
+V.~Halyo, A.~Hunt, P.~Jindal, P.~LeGresley, and P.~Lujan,
+\newblock JINST {\bfseries 8}, P10005 (2013), 1305.4855.
+
+\bibitem{Brooke:2013hnf}
+CMS, J.~Brooke,
+\newblock PoS {\bfseries ICHEP2012}, 508 (2013), 1302.2469.
+
+\bibitem{Andre}
+J.-M. Andre {\em et~al.},
+\newblock  {\bfseries 664}, 082033 (2015).
+
+\bibitem{Fruhwirth:1987fm}
+R.~Fruhwirth,
+\newblock Nucl. Instrum. Meth. {\bfseries A262}, 444 (1987).
 
 \bibitem{Alwall:2014hca}
 J.~Alwall {\em et~al.},
@@ -73,6 +143,91 @@ M.~Czakon and A.~Mitov,
 \bibitem{ttxsec5}
 M.~Czakon and A.~Mitov,
 \newblock JHEP {\bfseries 01}, 080 (2013), 1210.6832.
+
+\bibitem{Khachatryan:2016mnb}
+CMS, V.~Khachatryan {\em et~al.},
+\newblock Phys. Rev. {\bfseries D95}, 092001 (2017), 1610.04191.
+
+\bibitem{CMS-NOTE-2011-005}
+The ATLAS Collaboration, The CMS Collaboration, The LHC Higgs Combination
+  Group,
+\newblock CERN Report No. CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, 2011
+  (unpublished).
+
+\bibitem{Conway:2011in}
+J.~S. Conway,
+\newblock {Incorporating Nuisance Parameters in Likelihoods for Multisource
+  Spectra},
+\newblock in {\itshape {Proceedings, PHYSTAT 2011 Workshop on Statistical
+  Issues Related to Discovery Claims in Search Experiments and Unfolding,
+  CERN,Geneva, Switzerland 17-20 January 2011}}, pp. 115--120, 2011, 1103.0354.
+
+\bibitem{CMS-PAS-LUM-17-001}
+CMS Collaboration,
+\newblock CERN Report No. CMS-PAS-LUM-17-001, 2017 (unpublished).
+
+\bibitem{CMS:2011aa}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock JHEP {\bfseries 10}, 132 (2011), 1107.4789.
+
+\bibitem{CMS-PAS-BTV-15-001}
+CMS,
+\newblock CERN Report No. CMS-PAS-BTV-15-001, 2016 (unpublished).
+
+\bibitem{Collins:1989gx}
+J.~C. Collins, D.~E. Soper, and G.~F. Sterman,
+\newblock Adv. Ser. Direct. High Energy Phys. {\bfseries 5}, 1 (1989),
+  hep-ph/0409313.
+
+\bibitem{0954-3899-43-2-023001}
+J.~Butterworth {\em et~al.},
+\newblock Journal of Physics G: Nuclear and Particle Physics {\bfseries 43},
+  023001 (2016).
+
+\bibitem{Ball:2014uwa}
+NNPDF, R.~D. Ball {\em et~al.},
+\newblock JHEP {\bfseries 04}, 040 (2015), 1410.8849.
+
+\bibitem{BAKER1984437}
+S.~Baker and R.~D. Cousins,
+\newblock Nuclear Instruments and Methods in Physics Research {\bfseries 221},
+  437  (1984).
+
+\bibitem{Karbach:2012vg}
+T.~M. Karbach and M.~Schlupp,
+\newblock (2012), 1210.7141.
+
+\bibitem{CYRSP303}
+E.~Gross,
+\newblock CERN Yellow Reports: School Proceedings {\bfseries 4}, 165 (2017).
+
+\bibitem{Khachatryan:2016reg}
+CMS, V.~Khachatryan {\em et~al.},
+\newblock JHEP {\bfseries 12}, 088 (2016), 1603.08914.
+
+\bibitem{Goodman:2010ku}
+J.~Goodman {\em et~al.},
+\newblock Phys. Rev. {\bfseries D82}, 116010 (2010), 1008.1783.
+
+\bibitem{Abercrombie:2015wmb}
+D.~Abercrombie {\em et~al.},
+\newblock (2015), 1507.00966.
+
+\bibitem{Backovic:2015soa}
+M.~Backović {\em et~al.},
+\newblock Eur. Phys. J. {\bfseries C75}, 482 (2015), 1508.05327.
+
+\bibitem{Boveia:2016mrp}
+G.~Busoni {\em et~al.},
+\newblock (2016), 1603.04156.
+
+\bibitem{Hoferichter:2015dsa}
+M.~Hoferichter, J.~Ruiz~de Elvira, B.~Kubis, and U.-G. Meißner,
+\newblock Phys. Rev. Lett. {\bfseries 115}, 092301 (2015), 1506.04142.
+
+\bibitem{Junnarkar:2013ac}
+P.~Junnarkar and A.~Walker-Loud,
+\newblock Phys. Rev. {\bfseries D87}, 114510 (2013), 1301.1114.
 
 \bibitem{hepthesis}
 A.~Buckley,
