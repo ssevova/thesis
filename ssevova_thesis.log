@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  17 MAY 2018 15:43
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  22 MAY 2018 14:43
  restricted system commands enabled.
 **ssevova_thesis
 (./ssevova_thesis.tex
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.168 seconds)
+luaotfload | main : initialization completed in 0.184 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -1064,9 +1064,19 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-No file ssevova_thesis.aux.
+(./ssevova_thesis.aux
 
+LaTeX Warning: Label `tab:Rinout_SF_mm' multiply defined.
+
+
+LaTeX Warning: Label `fig:dilep_sr_sf' multiply defined.
+
+
+LaTeX Warning: Label `fig:dilep_sr_em' multiply defined.
+
+)
 \openout1 = ssevova_thesis.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
@@ -1081,7 +1091,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1259,82 +1269,72 @@ Package microtype Info: Loading generic settings for font family
 Package tocbasic Info: character protrusion at toc deactivated on input line 46.
 
 
-No file ssevova_thesis.toc.
+(./ssevova_thesis.toc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+[12])
 \tf@toc=\write5
 
 \openout5 = ssevova_thesis.toc
-)) Processing 'mainmatter' comment. [11]
+)) Processing 'mainmatter' comment. [13]
 \openout3 = comment.cut
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./chap1-dmtheory.tex [12
+(./comment.cut (./chap1-dmtheory.tex [14
 
 ]
 chapter 1.
-
-LaTeX Warning: Citation `Bertone:2004pz' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Feng:2010gw' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Porter:2011nv' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Reference `subsec:DMintro' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Reference `subsec:DMsearches' on page 1 undefined on input line 1
-4.
-
-
-LaTeX Warning: Reference `subsec:SM' on page 1 undefined on input line 14.
-
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 ]
+<figs/RubinFordVel.png, id=60, 751.80875pt x 553.06625pt>
+File: figs/RubinFordVel.png Graphic file (type png)
+
+<use figs/RubinFordVel.png>
+Package luatex.def Info: figs/RubinFordVel.png used on input line 15.
+(luatex.def)             Requested size: 448.07378pt x 329.63126pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3<./figs/RubinFordVel.png>]
+<figs/bulletcluster_comp_960.jpg, id=69, 963.6pt x 696.6025pt>
+File: figs/bulletcluster_comp_960.jpg Graphic file (type jpg)
+
+<use figs/bulletcluster_comp_960.jpg>
+Package luatex.def Info: figs/bulletcluster_comp_960.jpg used on input line 24.
+(luatex.def)             Requested size: 358.46039pt x 259.13132pt.
+ [4<./figs/bulletcluster_comp_960.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+<figs/CMB_multipole.png, id=76, 682.55pt x 514.92375pt>
+File: figs/CMB_multipole.png Graphic file (type png)
+
+<use figs/CMB_multipole.png>
+Package luatex.def Info: figs/CMB_multipole.png used on input line 51.
+(luatex.def)             Requested size: 358.46039pt x 270.4333pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
 )
 (./chap2-cms.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-[3] [4
-
-]
+ [7<./figs/CMB_multipole.png>] [8]
 chapter 2.
-
-LaTeX Warning: Citation `Bruning:2004ej' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Brianti:2004qq' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:LHC' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Chatrchyan:2008aa' on page 5 undefined on input line 7.
-
-
-
-LaTeX Warning: Citation `Aad:2008zzm' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Alves:2008zz' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Aamodt:2008zz' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:LHC' on page 5 undefined on input line 7.
-
-<figs/lhc.jpg, id=60, 1508.63625pt x 1023.825pt>
+<figs/lhc.jpg, id=89, 1508.63625pt x 1023.825pt>
 File: figs/lhc.jpg Graphic file (type jpg)
  <use figs/lhc.jpg>
 Package luatex.def Info: figs/lhc.jpg used on input line 11.
@@ -1342,48 +1342,31 @@ Package luatex.def Info: figs/lhc.jpg used on input line 11.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [9
 
-LaTeX Warning: Citation `martin2008particle' on page 6 undefined on input line 1
-6.
-
-
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6<./figs/lhc.jpg>]
-
-LaTeX Warning: Reference `fig:accelerator' on page 7 undefined on input line 25.
-
-
-
+ [10<./figs/lhc.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-<figs/accelerator.png, id=73, 1027.84pt x 669.50125pt>
+ [11]
+<figs/accelerator.png, id=99, 1027.84pt x 669.50125pt>
 File: figs/accelerator.png Graphic file (type png)
 
 <use figs/accelerator.png>
 Package luatex.def Info: figs/accelerator.png used on input line 29.
 (luatex.def)             Requested size: 448.07378pt x 291.86407pt.
-
-
-LaTeX Warning: Reference `fig:LHClumi' on page 8 undefined on input line 34.
-
-[8<./figs/accelerator.png>]
-<figs/lumi-proj-2016-final-v2.png, id=78, 1445.4pt x 912.40875pt>
+ [12<./figs/accelerator.png>]
+<figs/lumi-proj-2016-final-v2.png, id=104, 1445.4pt x 912.40875pt>
 File: figs/lumi-proj-2016-final-v2.png Graphic file (type png)
 
 <use figs/lumi-proj-2016-final-v2.png>
 Package luatex.def Info: figs/lumi-proj-2016-final-v2.png used on input line 38.
 
 (luatex.def)             Requested size: 448.07378pt x 282.84378pt.
-
-
-LaTeX Warning: Reference `fig:coordinates' on page 9 undefined on input line 46.
-
-
-[9<./figs/lumi-proj-2016-final-v2.png>]
-<figs/Figures_T_Coordinate.png, id=84, 504.88625pt x 241.90375pt>
+ [13<./figs/lumi-proj-2016-final-v2.png>] <figs/Figures_T_Coordinate.png, id=10
+9, 504.88625pt x 241.90375pt>
 File: figs/Figures_T_Coordinate.png Graphic file (type png)
 
 <use figs/Figures_T_Coordinate.png>
@@ -1391,72 +1374,44 @@ Package luatex.def Info: figs/Figures_T_Coordinate.png used on input line 56.
 (luatex.def)             Requested size: 313.65027pt x 150.27776pt.
 
 
-LaTeX Warning: Citation `CMS' on page 10 undefined on input line 61.
-
-
-LaTeX Warning: Reference `fig:CMSlumi' on page 10 undefined on input line 61.
-
-
-LaTeX Warning: Reference `fig:CMSCrossSection' on page 10 undefined on input lin
-e 61.
+LaTeX Warning: Citation `CMS' on page 14 undefined on input line 61.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10<./figs/Figures_T_Coordinate.png>] <figs/CMSLUMI.png, id=90, 853.1875pt x 6
-40.3925pt>
+ [14<./figs/Figures_T_Coordinate.png>]
+<figs/CMSLUMI.png, id=114, 853.1875pt x 640.3925pt>
 File: figs/CMSLUMI.png Graphic file (type png)
-
-<use figs/CMSLUMI.png>
+ <use figs/CMSLUMI.png>
 Package luatex.def Info: figs/CMSLUMI.png used on input line 65.
 (luatex.def)             Requested size: 448.07378pt x 336.32835pt.
- <figs/CMScrosssection.pdf, id=91, 794.97pt x 614.295pt>
+
+<figs/CMScrosssection.pdf, id=115, 794.97pt x 614.295pt>
 File: figs/CMScrosssection.pdf Graphic file (type pdf)
 
 <use figs/CMScrosssection.pdf>
 Package luatex.def Info: figs/CMScrosssection.pdf used on input line 72.
 (luatex.def)             Requested size: 520.34598pt x 402.09903pt.
 
-
-LaTeX Warning: Citation `tdrmagnet' on page 11 undefined on input line 82.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-[12<./figs/CMSLUMI.png>] [13<./figs/CMScrosssection.pdf>]
-
-LaTeX Warning: Reference `subsec:muons' on page 14 undefined on input line 90.
-
-<figs/tracker_schematic.pdf, id=117, 794.97pt x 614.295pt>
+ [15]
+[16<./figs/CMSLUMI.png>] [17<./figs/CMScrosssection.pdf>]
+<figs/tracker_schematic.pdf, id=142, 794.97pt x 614.295pt>
 File: figs/tracker_schematic.pdf Graphic file (type pdf)
 
 <use figs/tracker_schematic.pdf>
 Package luatex.def Info: figs/tracker_schematic.pdf used on input line 101.
 (luatex.def)             Requested size: 448.07378pt x 346.24309pt.
 
-
-LaTeX Warning: Reference `fig:trackerxsec' on page 14 undefined on input line 10
-7.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-[15<./figs/tracker_schematic.pdf>]
-
-LaTeX Warning: Citation `Borrello:2003uza' on page 16 undefined on input line 10
-9.
-
-
-LaTeX Warning: Reference `fig:striphitres' on page 16 undefined on input line 10
-9.
-
-
+ [18]
+[19<./figs/tracker_schematic.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-<figs/StripHitRes.pdf, id=142, 569.12625pt x 408.52625pt>
+ [20]
+<figs/StripHitRes.pdf, id=167, 569.12625pt x 408.52625pt>
 File: figs/StripHitRes.pdf Graphic file (type pdf)
 
 <use figs/StripHitRes.pdf>
@@ -1465,47 +1420,23 @@ Package luatex.def Info: figs/StripHitRes.pdf used on input line 115.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [21]
 Underfull \vbox (badness 5431) has occurred while \output is active []
 
- [18<./figs/StripHitRes.pdf>]
-
-LaTeX Warning: Citation `Cockerill:2008td' on page 19 undefined on input line 13
-4.
-
-
+ [22<./figs/StripHitRes.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-
-LaTeX Warning: Citation `Chatrchyan:2013dga' on page 20 undefined on input line 
-140.
-
-<figs/quarterHCAL.png, id=201, 785.93625pt x 440.64626pt>
+ [23]
+<figs/quarterHCAL.png, id=224, 785.93625pt x 440.64626pt>
 File: figs/quarterHCAL.png Graphic file (type png)
 
 <use figs/quarterHCAL.png>
 Package luatex.def Info: figs/quarterHCAL.png used on input line 153.
 (luatex.def)             Requested size: 358.46039pt x 200.97845pt.
-
-
-LaTeX Warning: Citation `Chatrchyan:2009hy' on page 20 undefined on input line 1
-54.
-
-
-LaTeX Warning: Citation `Chatrchyan:2009hy' on page 20 undefined on input line 1
-54.
-
-
-LaTeX Warning: Reference `fig:hcal' on page 20 undefined on input line 158.
-
-
-LaTeX Warning: Citation `Leroy:2004zza' on page 20 undefined on input line 158.
-
-[20]
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21<./figs/quarterHCAL.png>]
+ [25<./figs/quarterHCAL.png>]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 164.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
@@ -1516,18 +1447,14 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-
-LaTeX Warning: Reference `fig:muondet' on page 23 undefined on input line 177.
-
-
+ [26]
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
- [23]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-<figs/muonsys.png, id=217, 1122.1925pt x 736.7525pt>
+ [28]
+<figs/muonsys.png, id=241, 1122.1925pt x 736.7525pt>
 File: figs/muonsys.png Graphic file (type png)
  <use figs/muonsys.png>
 Package luatex.def Info: figs/muonsys.png used on input line 188.
@@ -1535,157 +1462,95 @@ Package luatex.def Info: figs/muonsys.png used on input line 188.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-
-LaTeX Warning: Reference `fig:trigger' on page 26 undefined on input line 196.
-
-[26
+ [29]
+[30
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 <./figs/muonsys.png>]
-<figs/TriggerRate.png, id=225, 356.33125pt x 551.05875pt>
+<figs/TriggerRate.png, id=249, 356.33125pt x 551.05875pt>
 File: figs/TriggerRate.png Graphic file (type png)
 
 <use figs/TriggerRate.png>
 Package luatex.def Info: figs/TriggerRate.png used on input line 200.
 (luatex.def)             Requested size: 134.4235pt x 207.88255pt.
 
-
-LaTeX Warning: Citation `Halyo:2013iba' on page 27 undefined on input line 201.
-
-
-LaTeX Warning: Citation `Halyo:2013iba' on page 27 undefined on input line 201.
-
-
-LaTeX Warning: Citation `Brooke:2013hnf' on page 27 undefined on input line 205.
-
-
-
 Overfull \hbox (3.28705pt too wide) in paragraph at lines 205--206
 []\T1/ppl/m/n/12 The L1 CMS trig-ger sys-tem uses in-for-ma-tion from the pre-v
 i-ously de-scribed calorime-
  []
 
-[27<./figs/TriggerRate.png>]
-<figs/trigger2.png, id=230, 487.8225pt x 344.28625pt>
+[31<./figs/TriggerRate.png>]
+<figs/trigger2.png, id=254, 487.8225pt x 344.28625pt>
 File: figs/trigger2.png Graphic file (type png)
  <use figs/trigger2.png>
 Package luatex.def Info: figs/trigger2.png used on input line 209.
 (luatex.def)             Requested size: 448.07378pt x 316.23761pt.
 
-
-LaTeX Warning: Citation `Andre' on page 28 undefined on input line 214.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-[29<./figs/trigger2.png>]
+ [32]
+[33<./figs/trigger2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-
-LaTeX Warning: Citation `Fruhwirth:1987fm' on page 31 undefined on input line 22
-0.
-
-
-LaTeX Warning: Citation `Cittolin:578006' on page 31 undefined on input line 222
-.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31])
-(./chap3-eventreco.tex [32]
-chapter 3.
-
-LaTeX Warning: Reference `sec:leps' on page 33 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:MET' on page 33 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:selection' on page 33 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:Wdecay' on page 33 undefined on input line 10.
-
-[33
-
-]
-Underfull \vbox (badness 2376) has occurred while \output is active []
 
  [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-
-LaTeX Warning: Reference `eq:muonIso' on page 36 undefined on input line 46.
-
-
-LaTeX Warning: Reference `tab:muon_wp' on page 36 undefined on input line 48.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
-
-LaTeX Warning: Reference `eq:muonIso' on page 39 undefined on input line 96.
-
-
-LaTeX Warning: Reference `eq:eleIso' on page 39 undefined on input line 101.
-
-
-LaTeX Warning: Reference `tab:ea' on page 39 undefined on input line 101.
-
-
-LaTeX Warning: Reference `tab:ele_wp' on page 39 undefined on input line 122.
-
+<figs/computing.png, id=268, 716.6775pt x 329.23pt>
+File: figs/computing.png Graphic file (type png)
+ <use figs/computing.png>
+Package luatex.def Info: figs/computing.png used on input line 231.
+(luatex.def)             Requested size: 448.07378pt x 205.83856pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Overfull \hbox (31.17499pt too wide) in paragraph at lines 126--146
- [] 
- []
+ [36])
+(./chap3-eventreco.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[40]
+ [37<./figs/computing.png>] [38]
+chapter 3.
+[39
 
-LaTeX Warning: Reference `eq:seqclus' on page 41 undefined on input line 162.
+]
+Underfull \vbox (badness 2376) has occurred while \output is active []
 
-
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-
-LaTeX Warning: Reference `eq:antikt' on page 42 undefined on input line 169.
-
-
-LaTeX Warning: Reference `tab:jetid' on page 42 undefined on input line 173.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-Underfull \vbox (badness 1769) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:CSVv2_multijet' on page 45 undefined on input line
- 213.
+ [45]
+Overfull \hbox (31.17499pt too wide) in paragraph at lines 126--146
+ [] 
+ []
 
-<figs/csvv2_multijet_13TeV.pdf, id=285, 569.12625pt x 383.4325pt>
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+<figs/csvv2_multijet_13TeV.pdf, id=317, 569.12625pt x 383.4325pt>
 File: figs/csvv2_multijet_13TeV.pdf Graphic file (type pdf)
 
 <use figs/csvv2_multijet_13TeV.pdf>
@@ -1694,50 +1559,37 @@ Package luatex.def Info: figs/csvv2_multijet_13TeV.pdf used on input line 217.
 
 Underfull \vbox (badness 1147) has occurred while \output is active []
 
- [45]
-
-LaTeX Warning: Reference `eq:met' on page 46 undefined on input line 232.
-
-
+ [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46<./figs/csvv2_multijet_13TeV.pdf>]
+ [52<./figs/csvv2_multijet_13TeV.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
-(./chap4-signal.tex [48]
+ [53])
+(./chap4-signal.tex [54]
 chapter 4.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
 
-LaTeX Warning: Reference `fig:ttDM' on page 49 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:SvPSmedpt' on page 49 undefined on input line 9.
-
-
-LaTeX Warning: Reference `fig:dmf_medpt2' on page 49 undefined on input line 9.
-
-
 Underfull \vbox (badness 4391) has occurred while \output is active []
 
- [49
+ [55
 
 ]
-<figs/medptlog.pdf, id=350, 569.12625pt x 552.0625pt>
+<figs/medptlog.pdf, id=382, 569.12625pt x 552.0625pt>
 File: figs/medptlog.pdf Graphic file (type pdf)
  <use figs/medptlog.pdf>
 Package luatex.def Info: figs/medptlog.pdf used on input line 31.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/offshell_medpt.pdf, id=351, 569.12625pt x 552.0625pt>
+<figs/offshell_medpt.pdf, id=383, 569.12625pt x 552.0625pt>
 File: figs/offshell_medpt.pdf Graphic file (type pdf)
 
 <use figs/offshell_medpt.pdf>
 Package luatex.def Info: figs/offshell_medpt.pdf used on input line 39.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/onshell_vs_offshell_medpt.pdf, id=352, 569.12625pt x 552.0625pt>
+<figs/onshell_vs_offshell_medpt.pdf, id=384, 569.12625pt x 552.0625pt>
 File: figs/onshell_vs_offshell_medpt.pdf Graphic file (type pdf)
 
 <use figs/onshell_vs_offshell_medpt.pdf>
@@ -1745,123 +1597,796 @@ Package luatex.def Info: figs/onshell_vs_offshell_medpt.pdf used on input line 4
 0.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-
-LaTeX Warning: Reference `sub@subfig:dmf_off' on page 50 undefined on input line
- 41.
-
-
-LaTeX Warning: Reference `sub@subfig:dmf_on_off' on page 50 undefined on input l
-ine 41.
-
-
-LaTeX Warning: Reference `sub@subfig:dmf_off' on page 50 undefined on input line
- 41.
-
-
-LaTeX Warning: Reference `sub@subfig:dmf_on_off' on page 50 undefined on input l
-ine 41.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 50 undefined on input line 46.
-
-
-LaTeX Warning: Citation `Mangano:2006rw' on page 50 undefined on input line 46.
-
-
-LaTeX Warning: Citation `PhysRevD.91.055009' on page 50 undefined on input line 
-46.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-[51<./figs/medptlog.pdf><./figs/offshell_medpt.pdf><./figs/onshell_vs_offshell_m
+ [56]
+[57<./figs/medptlog.pdf><./figs/offshell_medpt.pdf><./figs/onshell_vs_offshell_m
 edpt.pdf>]
-
-LaTeX Warning: Reference `sec:leps' on page 52 undefined on input line 52.
-
-
-LaTeX Warning: Reference `sec:MET' on page 52 undefined on input line 52.
-
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 67.
 
 Underfull \vbox (badness 2302) has occurred while \output is active []
 
- [52]
-
-LaTeX Warning: Reference `eq:mt2ll' on page 53 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Lester:1999tx' on page 53 undefined on input line 92.
-
-[53]
-
-LaTeX Warning: Reference `eq:mt2ll_2' on page 54 undefined on input line 105.
-
-
-LaTeX Warning: Reference `fig:mt2ll' on page 54 undefined on input line 105.
-
-<figs/mt2log_em.pdf, id=505, 569.12625pt x 552.0625pt>
+ [58]
+[59] <figs/mt2log_em.pdf, id=537, 569.12625pt x 552.0625pt>
 File: figs/mt2log_em.pdf Graphic file (type pdf)
 
 <use figs/mt2log_em.pdf>
 Package luatex.def Info: figs/mt2log_em.pdf used on input line 108.
 (luatex.def)             Requested size: 268.847pt x 260.80035pt.
-) (./chap5-backgrounds.tex [54] [55<./figs/mt2log_em.pdf>] [56
+) (./chap5-backgrounds.tex [60] [61<./figs/mt2log_em.pdf>] [62
 
 ]
 chapter 5.
-
-LaTeX Warning: Reference `sec:selection' on page 57 undefined on input line 4.
-
-
-LaTeX Warning: Reference `sec:tt2l' on page 57 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:fakes' on page 57 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:SMxsec' on page 57 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:selection' on page 57 undefined on input line 6.
-
-<figs/SigmaNew_v0.pdf, id=561, 569.12625pt x 352.31625pt>
+<figs/SigmaNew_v0.pdf, id=594, 569.12625pt x 352.31625pt>
 File: figs/SigmaNew_v0.pdf Graphic file (type pdf)
 
 <use figs/SigmaNew_v0.pdf>
 Package luatex.def Info: figs/SigmaNew_v0.pdf used on input line 10.
 (luatex.def)             Requested size: 448.07378pt x 277.39137pt.
+ [63] [64<./figs/SigmaNew_v0.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Overfull \hbox (3.6672pt too wide) in paragraph at lines 268--270
+ [] 
+ []
+
+<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=670, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf used on input
+ line 339.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=671, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf used on input
+ line 340.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=672, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf used on input
+ line 341.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=673, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf used on input
+ line 342.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=674, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf used on input
+ line 351.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=675, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf used on input
+ line 352.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=676, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf used on input
+ line 353.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=677, 569.12625pt x 552.0625pt>
+File: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf Graphic file (type pdf)
+
+<use figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>
+Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf used on input
+ line 354.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/metbinned_Rinout_SFs.pdf, id=678, 569.12625pt x 552.0625pt>
+File: figs/metbinned_Rinout_SFs.pdf Graphic file (type pdf)
+
+<use figs/metbinned_Rinout_SFs.pdf>
+Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 362.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+ [72] [73] [74<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em
+_bkg_sub_metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dil
+ep_mass_em_bkg_sub_metbin4_ee.pdf>]
+[75<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><./figs/dilep_mass_em_bkg_sub_me
+tbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf><./figs/dilep_mass_em_
+bkg_sub_metbin4_mm.pdf>] [76<./figs/metbinned_Rinout_SFs.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77
+
+]
+[78]
+Overfull \hbox (33.82416pt too wide) in paragraph at lines 460--461
+ [] 
+ []
 
 
-LaTeX Warning: Reference `sub@fig:gg_tt' on page 57 undefined on input line 45.
+Overfull \hbox (33.82416pt too wide) in paragraph at lines 484--485
+ [] 
+ []
+
+<figs/fakerate_v_pt_e.pdf, id=1117, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_pt_e.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_pt_e.pdf>
+Package luatex.def Info: figs/fakerate_v_pt_e.pdf used on input line 491.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_eta_e.pdf, id=1118, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_eta_e.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_eta_e.pdf>
+Package luatex.def Info: figs/fakerate_v_eta_e.pdf used on input line 492.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_pt_m.pdf, id=1119, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_pt_m.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_pt_m.pdf>
+Package luatex.def Info: figs/fakerate_v_pt_m.pdf used on input line 500.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+
+<figs/fakerate_v_eta_m.pdf, id=1120, 569.12625pt x 408.52625pt>
+File: figs/fakerate_v_eta_m.pdf Graphic file (type pdf)
+
+<use figs/fakerate_v_eta_m.pdf>
+Package luatex.def Info: figs/fakerate_v_eta_m.pdf used on input line 501.
+(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+ [79] [80<./figs/fakerate_v_pt_e.pdf><./figs/fakerate_v_eta_e.pdf><./figs/fakera
+te_v_pt_m.pdf><./figs/fakerate_v_eta_m.pdf>]
+<figs/met_close_ee.pdf, id=1312, 569.12625pt x 552.0625pt>
+File: figs/met_close_ee.pdf Graphic file (type pdf)
+
+<use figs/met_close_ee.pdf>
+Package luatex.def Info: figs/met_close_ee.pdf used on input line 519.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+
+<figs/met_close_em.pdf, id=1313, 569.12625pt x 552.0625pt>
+File: figs/met_close_em.pdf Graphic file (type pdf)
+
+<use figs/met_close_em.pdf>
+Package luatex.def Info: figs/met_close_em.pdf used on input line 520.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+
+<figs/met_close_mm.pdf, id=1314, 569.12625pt x 552.0625pt>
+File: figs/met_close_mm.pdf Graphic file (type pdf)
+
+<use figs/met_close_mm.pdf>
+Package luatex.def Info: figs/met_close_mm.pdf used on input line 521.
+(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+) (./chap6-analysis.tex [81] [82<./figs/met_close_ee.pdf><./figs/met_close_em.pd
+f><./figs/met_close_mm.pdf>]
+chapter 6.
+[83
+
+] <figs/pileup.pdf, id=1463, 569.12625pt x 552.0625pt>
+File: figs/pileup.pdf Graphic file (type pdf)
+
+<use figs/pileup.pdf>
+Package luatex.def Info: figs/pileup.pdf used on input line 20.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+ <figs/pileup-unc.pdf, id=1464, 569.12625pt x 552.0625pt>
+File: figs/pileup-unc.pdf Graphic file (type pdf)
+
+<use figs/pileup-unc.pdf>
+Package luatex.def Info: figs/pileup-unc.pdf used on input line 21.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/npv_post.pdf, id=1465, 569.12625pt x 552.0625pt>
+File: figs/npv_post.pdf Graphic file (type pdf)
+ <use figs/npv_post.pdf>
+Package luatex.def Info: figs/npv_post.pdf used on input line 28.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+[85<./figs/pileup.pdf><./figs/pileup-unc.pdf><./figs/npv_post.pdf>]
+<figs/dilep-lo-ttwgt.pdf, id=1610, 569.12625pt x 552.0625pt>
+File: figs/dilep-lo-ttwgt.pdf Graphic file (type pdf)
+
+<use figs/dilep-lo-ttwgt.pdf>
+Package luatex.def Info: figs/dilep-lo-ttwgt.pdf used on input line 51.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/dilep-hi-ttwgt.pdf, id=1611, 569.12625pt x 552.0625pt>
+File: figs/dilep-hi-ttwgt.pdf Graphic file (type pdf)
+
+<use figs/dilep-hi-ttwgt.pdf>
+Package luatex.def Info: figs/dilep-hi-ttwgt.pdf used on input line 52.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+<figs/b_effpt.pdf, id=1615, 569.12625pt x 552.0625pt>
+File: figs/b_effpt.pdf Graphic file (type pdf)
+ <use figs/b_effpt.pdf>
+Package luatex.def Info: figs/b_effpt.pdf used on input line 68.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/c_effpt.pdf, id=1616, 569.12625pt x 552.0625pt>
+File: figs/c_effpt.pdf Graphic file (type pdf)
+ <use figs/c_effpt.pdf>
+Package luatex.def Info: figs/c_effpt.pdf used on input line 69.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/l_effpt.pdf, id=1617, 569.12625pt x 552.0625pt>
+File: figs/l_effpt.pdf Graphic file (type pdf)
+ <use figs/l_effpt.pdf>
+Package luatex.def Info: figs/l_effpt.pdf used on input line 70.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87<./figs/dilep-lo-ttwgt.pdf><./figs/dilep-hi-ttwgt.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88<./figs/b_effpt.pdf><./figs/c_effpt.pdf><./figs/l_effpt.pdf>]
+<figs/inclusiveSR/njets_sf.pdf, id=1856, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/njets_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/njets_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/njets_sf.pdf used on input line 87.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/nbjetsm_sf.pdf, id=1857, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/nbjetsm_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/nbjetsm_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/nbjetsm_sf.pdf used on input line 88.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/lep1pt_sf.pdf, id=1858, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1pt_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1pt_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1pt_sf.pdf used on input line 89.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/lep1eta_sf.pdf, id=1859, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1eta_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1eta_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1eta_sf.pdf used on input line 90.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/jet1pt_sf.pdf, id=1860, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1pt_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1pt_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1pt_sf.pdf used on input line 91.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/jet1eta_sf.pdf, id=1861, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1eta_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1eta_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1eta_sf.pdf used on input line 92.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
 
 
-LaTeX Warning: Reference `sub@fig:gg_tt2' on page 57 undefined on input line 45.
+LaTeX Warning: Float too large for page by 17.9796pt on input line 95.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Reference `sub@fig:qq_tt' on page 57 undefined on input line 45.
+<figs/inclusiveSR/dileppt_sf.pdf, id=1862, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dileppt_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dileppt_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/dileppt_sf.pdf used on input line 100.
+
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/dilepmass_sf.pdf, id=1863, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepmass_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepmass_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepmass_sf.pdf used on input line 10
+1.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/dphidilepmetlog_sf.pdf, id=1864, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dphidilepmetlog_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dphidilepmetlog_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/dphidilepmetlog_sf.pdf used on input l
+ine 102.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/metlog_sf.pdf, id=1865, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/metlog_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/metlog_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/metlog_sf.pdf used on input line 103.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
 
 
-LaTeX Warning: Reference `sub@fig:gg_tt' on page 57 undefined on input line 45.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inclusiveSR/njets_em.pdf, id=1866, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/njets_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/njets_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/njets_em.pdf used on input line 110.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/nbjetsm_em.pdf, id=1867, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/nbjetsm_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/nbjetsm_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/nbjetsm_em.pdf used on input line 111.
+
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/lep1pt_em.pdf, id=1868, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1pt_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1pt_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1pt_em.pdf used on input line 112.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/lep1eta_em.pdf, id=1869, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1eta_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1eta_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1eta_em.pdf used on input line 113.
+
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/jet1pt_em.pdf, id=1870, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1pt_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1pt_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1pt_em.pdf used on input line 114.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/jet1eta_em.pdf, id=1871, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1eta_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1eta_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1eta_em.pdf used on input line 115.
+
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
 
 
-LaTeX Warning: Reference `sub@fig:gg_tt2' on page 57 undefined on input line 45.
+LaTeX Warning: Float too large for page by 17.9796pt on input line 118.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Reference `sub@fig:qq_tt' on page 57 undefined on input line 45.
+<figs/inclusiveSR/dileppt_em.pdf, id=1872, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dileppt_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dileppt_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/dileppt_em.pdf used on input line 123.
+
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/dilepmass_em.pdf, id=1873, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepmass_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepmass_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepmass_em.pdf used on input line 12
+4.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/dphidilepmetlog_em.pdf, id=1874, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dphidilepmetlog_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dphidilepmetlog_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/dphidilepmetlog_em.pdf used on input l
+ine 125.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
+
+<figs/inclusiveSR/metlog_em.pdf, id=1875, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/metlog_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/metlog_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/metlog_em.pdf used on input line 126.
+(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
 
 
-LaTeX Warning: Reference `fig:gg_tt' on page 57 undefined on input line 51.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inclusiveSR/mt2log_sf.pdf, id=1876, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/mt2log_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/mt2log_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/mt2log_sf.pdf used on input line 132.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/inclusiveSR/mt2log_em.pdf, id=1877, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/mt2log_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/mt2log_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/mt2log_em.pdf used on input line 133.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
 
-LaTeX Warning: Reference `fig:gg_tt2' on page 57 undefined on input line 51.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/cat-lo_metlog_ll.pdf, id=1878, 569.12625pt x 552.0625pt>
+File: figs/cat-lo_metlog_ll.pdf Graphic file (type pdf)
+
+<use figs/cat-lo_metlog_ll.pdf>
+Package luatex.def Info: figs/cat-lo_metlog_ll.pdf used on input line 139.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-lo_metlog_em.pdf, id=1879, 569.12625pt x 552.0625pt>
+File: figs/cat-lo_metlog_em.pdf Graphic file (type pdf)
+
+<use figs/cat-lo_metlog_em.pdf>
+Package luatex.def Info: figs/cat-lo_metlog_em.pdf used on input line 140.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
 
-LaTeX Warning: Reference `fig:qq_tt' on page 57 undefined on input line 51.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/cat-hi_metlog_ll.pdf, id=1880, 569.12625pt x 552.0625pt>
+File: figs/cat-hi_metlog_ll.pdf Graphic file (type pdf)
+
+<use figs/cat-hi_metlog_ll.pdf>
+Package luatex.def Info: figs/cat-hi_metlog_ll.pdf used on input line 146.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-hi_metlog_em.pdf, id=1881, 569.12625pt x 552.0625pt>
+File: figs/cat-hi_metlog_em.pdf Graphic file (type pdf)
+
+<use figs/cat-hi_metlog_em.pdf>
+Package luatex.def Info: figs/cat-hi_metlog_em.pdf used on input line 147.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
 
-Underfull \vbox (badness 10000) has occurr
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+[93] <figs/RecoilUpFit.png, id=1897, 798.985pt x 574.145pt>
+File: figs/RecoilUpFit.png Graphic file (type png)
+
+<use figs/RecoilUpFit.png>
+Package luatex.def Info: figs/RecoilUpFit.png used on input line 207.
+(luatex.def)             Requested size: 268.847pt x 193.19174pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 5578) has occurred while \output is active []
+
+ [95]
+[96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+<figs/pvalue.png, id=1911, 378.41376pt x 292.09125pt>
+File: figs/pvalue.png Graphic file (type png)
+ <use figs/pvalue.png>
+Package luatex.def Info: figs/pvalue.png used on input line 280.
+(luatex.def)             Requested size: 179.22676pt x 138.34364pt.
+
+<figs/significance.png, id=1912, 389.455pt x 279.0425pt>
+File: figs/significance.png Graphic file (type png)
+
+<use figs/significance.png>
+Package luatex.def Info: figs/significance.png used on input line 281.
+(luatex.def)             Requested size: 179.22676pt x 128.41219pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf, id=1916, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf used 
+on input line 351.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf, id=1917, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf used 
+on input line 352.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf, id=1918, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf used 
+on input line 358.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf, id=1919, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf used 
+on input line 359.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 382.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+LaTeX Font Info:    Try loading font information for U+dingbat on input line 418
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd
+File: udingbat.fd 2001/04/27 v1.00 Font definitions for the dingbat font
+)
+<figs/pulls_35p9_ttdm8061001.pdf, id=1930, 569.12625pt x 270.00874pt>
+File: figs/pulls_35p9_ttdm8061001.pdf Graphic file (type pdf)
+
+<use figs/pulls_35p9_ttdm8061001.pdf>
+Package luatex.def Info: figs/pulls_35p9_ttdm8061001.pdf used on input line 425.
+
+(luatex.def)             Requested size: 448.07378pt x 212.58768pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chap7-results.tex [102] [103] [104<./figs/inclusiveSR/njets_sf.pdf><./figs/
+inclusiveSR/nbjetsm_sf.pdf><./figs/inclusiveSR/lep1pt_sf.pdf><./figs/inclusiveSR
+/lep1eta_sf.pdf><./figs/inclusiveSR/jet1pt_sf.pdf><./figs/inclusiveSR/jet1eta_sf
+.pdf>] [105<./figs/inclusiveSR/dileppt_sf.pdf><./figs/inclusiveSR/dilepmass_sf.p
+df><./figs/inclusiveSR/dphidilepmetlog_sf.pdf><./figs/inclusiveSR/metlog_sf.pdf>
+] [106<./figs/inclusiveSR/njets_em.pdf><./figs/inclusiveSR/nbjetsm_em.pdf><./fig
+s/inclusiveSR/lep1pt_em.pdf><./figs/inclusiveSR/lep1eta_em.pdf><./figs/inclusive
+SR/jet1pt_em.pdf><./figs/inclusiveSR/jet1eta_em.pdf>] [107<./figs/inclusiveSR/di
+leppt_em.pdf><./figs/inclusiveSR/dilepmass_em.pdf><./figs/inclusiveSR/dphidilepm
+etlog_em.pdf><./figs/inclusiveSR/metlog_em.pdf>] [108<./figs/inclusiveSR/mt2log_
+sf.pdf><./figs/inclusiveSR/mt2log_em.pdf><./figs/cat-lo_metlog_ll.pdf><./figs/ca
+t-lo_metlog_em.pdf>] [109<./figs/cat-hi_metlog_ll.pdf><./figs/cat-hi_metlog_em.p
+df><./figs/RecoilUpFit.png>] [110<./figs/pvalue.png><./figs/significance.png><./
+figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf><./figs/postfit/metlog_shapes_
+fit_b_dl_lo_mt2_em.pdf>] [111<./figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pd
+f><./figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf><./figs/pulls_35p9_ttdm80
+61001.pdf>] [112
+
+]
+chapter 7.
+[113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+[116] <figs/dilepton_S_NLO_limits.pdf, id=3413, 569.12625pt x 552.0625pt>
+File: figs/dilepton_S_NLO_limits.pdf Graphic file (type pdf)
+
+<use figs/dilepton_S_NLO_limits.pdf>
+Package luatex.def Info: figs/dilepton_S_NLO_limits.pdf used on input line 113.
+(luatex.def)             Requested size: 268.847pt x 260.80035pt.
+
+<figs/dilepton_PS_NLO_limits.pdf, id=3414, 569.12625pt x 552.0625pt>
+File: figs/dilepton_PS_NLO_limits.pdf Graphic file (type pdf)
+
+<use figs/dilepton_PS_NLO_limits.pdf>
+Package luatex.def Info: figs/dilepton_PS_NLO_limits.pdf used on input line 118.
+
+(luatex.def)             Requested size: 268.847pt x 260.80035pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+[118<./figs/dilepton_S_NLO_limits.pdf><./figs/dilepton_PS_NLO_limits.pdf>]
+<figs/dilept_inc_S_limits2D_NLO.pdf, id=3515, 569.12625pt x 552.0625pt>
+File: figs/dilept_inc_S_limits2D_NLO.pdf Graphic file (type pdf)
+
+<use figs/dilept_inc_S_limits2D_NLO.pdf>
+Package luatex.def Info: figs/dilept_inc_S_limits2D_NLO.pdf used on input line 1
+26.
+(luatex.def)             Requested size: 291.24521pt x 282.5253pt.
+ [119<./figs/dilept_inc_S_limits2D_NLO.pdf>]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+ [120
+
+]
+<figs/SIS_CMSDD_Summary.pdf, id=3568, 569.12625pt x 327.2225pt>
+File: figs/SIS_CMSDD_Summary.pdf Graphic file (type pdf)
+
+<use figs/SIS_CMSDD_Summary.pdf>
+Package luatex.def Info: figs/SIS_CMSDD_Summary.pdf used on input line 164.
+(luatex.def)             Requested size: 448.07378pt x 257.63416pt.
+)) Processing 'appendices' comment.
+\openout3 = comment.cut
+
+Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut (./appendices.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121<./figs/SIS_CMSDD_Summary.pdf>] [122]
+chapter A.
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123
+
+]
+Processing 'backmatter' comment.
+\openout3 = comment.cut
+ Comment 'backmatter' writing to comment.cut.
+Straight input of comment.cut. (./comment.cut (./backmatter.tex [124]
+(./ssevova_thesis.bbl [125
+
+] [126
+
+] [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130])
+[131
+Missing character: There is no ć (U+0107) in font pplr8t!
+] [132
+
+] (./ssevova_thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+[135
+Missing character: There is no “ (U+201C) in font pplr8t!
+Missing character: There is no ” (U+201D) in font pplr8t!
+Missing character: There is no “ (U+201C) in font pplr8t!
+Missing character: There is no ” (U+201D) in font pplr8t!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140])
+\tf@lof=\write6
+
+\openout6 = ssevova_thesis.lof
+
+[141] [142
+
+] (./ssevova_thesis.lot
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+ [143])
+\tf@lot=\write7
+
+\openout7 = ssevova_thesis.lot
+))
+[144] (./ssevova_thesis.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.35835pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 30540 strings out of 495119
+ 381849,953878 words of node,token memory allocated
+ 19436 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2209 glue, 1 kern, 20 sub_mlist, 852 attribute, 69 
+glue_spec, 852 attribute_list, 1 write nodes
+   avail lists: 1:128,2:14686,3:3658,4:173,5:425,6:8008,7:5758,8:867,9:1674,10:3
+3,11:630
+ 31336 multiletter control sequences out of 65536+600000
+ 669 fonts using 41491983 bytes
+ 75i,24n,103p,8489b,1981s stack positions out of 5000i,500n,10000p,200000b,100000s
+<</Users/ssevova/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat/d
+ingbat.720pk>>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-su
+per-t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr
+i8a.pfb>
+Output written on ssevova_thesis.pdf (158 pages, 5858069 bytes).
+
+PDF statistics: 3753 PDF objects out of 4296 (max. 8388607)
+ 1806 compressed objects within 19 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

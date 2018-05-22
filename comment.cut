@@ -1,10 +1,1 @@
-  %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
-  \input{chap1-dmtheory}
-  \input{chap2-cms}
-  \input{chap3-eventreco}
-  \input{chap4-signal}
-  \input{chap5-backgrounds}
-  \input{chap6-analysis}
-  \input{chap7-results}
-  %% To ignore a specific chapter while working on another, making the build faster, comment it out:
-  %\input{chap4}
+  \input{backmatter}

@@ -12,6 +12,62 @@ J.~L. Feng,
 T.~A. Porter, R.~P. Johnson, and P.~W. Graham,
 \newblock Ann. Rev. Astron. Astrophys. {\bfseries 49}, 155 (2011), 1104.2836.
 
+\bibitem{2009GReGr}
+F.~Zwicky,
+\newblock General Relativity and Gravitation {\bfseries 41}, 207 (2009).
+
+\bibitem{Ade:2015xua}
+Planck, P.~A.~R. Ade {\em et~al.},
+\newblock Astron. Astrophys. {\bfseries 594}, A13 (2016), 1502.01589.
+
+\bibitem{Bertone:2016nfn}
+G.~Bertone and D.~Hooper,
+\newblock Submitted to: Rev. Mod. Phys.  (2016), 1605.04909.
+
+\bibitem{MEEKINS1971}
+J.~F. Meekins, G.~Fritz, T.~A. Chubb, H.~Friedman, and R.~C. Henry,
+\newblock Nature {\bfseries 231}, 107 EP  (1971).
+
+\bibitem{Rubin:1970zza}
+V.~C. Rubin and W.~K. Ford, Jr.,
+\newblock Astrophys. J. {\bfseries 159}, 379 (1970).
+
+\bibitem{Allen:2002eu}
+S.~W. Allen, A.~C. Fabian, R.~W. Schmidt, and H.~Ebeling,
+\newblock Mon. Not. Roy. Astron. Soc. {\bfseries 342}, 287 (2003),
+  astro-ph/0208394.
+
+\bibitem{Refregier:2003ct}
+A.~Refregier,
+\newblock Ann. Rev. Astron. Astrophys. {\bfseries 41}, 645 (2003),
+  astro-ph/0307212.
+
+\bibitem{Tyson:1998vp}
+J.~A. Tyson, G.~P. Kochanski, and I.~P. Dell'Antonio,
+\newblock Astrophys. J. {\bfseries 498}, L107 (1998), astro-ph/9801193.
+
+\bibitem{Markevitch:2005vi}
+M.~Markevitch,
+\newblock (2005), astro-ph/0511345,
+\newblock [ESA Spec. Publ.604,723(2006)].
+
+\bibitem{Dicke1965}
+R.~H. Dicke, P.~J.~E. Peebles, P.~G. Roll, and D.~T. Wilkinson,
+\newblock Astrophysical Journal, vol. 142, p.414-419 {\bfseries 142}, 414
+  (1965).
+
+\bibitem{Seager:1999km}
+S.~Seager, D.~D. Sasselov, and D.~Scott,
+\newblock Astrophys. J. Suppl. {\bfseries 128}, 407 (2000), astro-ph/9912182.
+
+\bibitem{Spergel:2006hy}
+WMAP, D.~N. Spergel {\em et~al.},
+\newblock Astrophys. J. Suppl. {\bfseries 170}, 377 (2007), astro-ph/0603449.
+
+\bibitem{Agashe:2014kda}
+Particle Data Group, K.~A. Olive {\em et~al.},
+\newblock Chin. Phys. {\bfseries C38}, 090001 (2014).
+
 \bibitem{Bruning:2004ej}
 O.~S. Bruning {\em et~al.},
 \newblock (2004).
@@ -39,10 +95,6 @@ ALICE, K.~Aamodt {\em et~al.},
 \bibitem{martin2008particle}
 B.~Martin and G.~Shaw,
 \newblock {\itshape Particle Physics}Manchester Physics Series (Wiley, 2008).
-
-\bibitem{CMS}
-CMS,
-\newblock JINST {\bfseries 3}, S08004 (2008).
 
 \bibitem{tdrmagnet}
 CMS Collaboration,
@@ -89,6 +141,25 @@ J.-M. Andre {\em et~al.},
 \bibitem{Fruhwirth:1987fm}
 R.~Fruhwirth,
 \newblock Nucl. Instrum. Meth. {\bfseries A262}, 444 (1987).
+
+\bibitem{Cittolin:578006}
+CMS Collaboration, S.~Cittolin, A.~Rácz, and P.~Sphicas,
+\newblock {\itshape {CMS The TriDAS Project: Technical Design Report, Volume 2:
+  Data Acquisition and High-Level Trigger. CMS trigger and data-acquisition
+  project}}Technical Design Report CMS (CERN, Geneva, 2002).
+
+\bibitem{FM1866}
+P.~Avery,
+\newblock First Monday {\bfseries 12} (2007).
+
+\bibitem{Eck:840543}
+C.~Eck {\em et~al.},
+\newblock {\itshape {LHC computing Grid: Technical Design Report. Version 1.06
+  (20 Jun 2005)}}Technical Design Report LCG (CERN, Geneva, 2005).
+
+\bibitem{1742-6596-664-7-072052}
+G.~Petrucciani, A.~Rizzi, and C.~Vuosalo,
+\newblock Journal of Physics: Conference Series {\bfseries 664}, 072052 (2015).
 
 \bibitem{Alwall:2014hca}
 J.~Alwall {\em et~al.},
