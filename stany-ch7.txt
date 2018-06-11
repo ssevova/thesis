@@ -1,0 +1,48 @@
+General:
+- maybe you want to re-name the title to "Dark matter interpretation"? The fit results were already covered in the previous chapter...
+Done.
+- there is quite a bit of discussion on EFT and the formalisms for the simplified models...are these going to be moved to chapter 1? Seems more suitable that this discussion happens there...
+moved to chp1
+
+- there is little discussion on the limit plots themselves; this is your final result! every feature should be commented on, e.g.
+   * how to understand that scalar limits are better than pseudoscalar limits at low mass? and similar at high mass? 
+done.
+   * why is the 1D scalar curve more sharply rising than the 1D pseudoscalar curve
+done.
+   * all the observed limit points lie roughly the same relative to the expected, why is there not more "jitter" about the expected line?
+done.
+   * what is implied, about the variation in the kinematics in (mMED,mDM) space, by the triangular shape of the 2D limit contours?i
+done.
+   * comment on the complementarity of the collider result with (some of) the DD experiments
+
+   * given you have a DD expert on your committee, I would really suggest you acknowledge the caveats of the SI nucleon xsec contour (i.e. we're taking the most optimistic mMED for each mDM point)
+- suggest to put your result into some context of other MET+X searches? how does it compare to other searches in tt+MET final state, and the impact it would make in a combination? how does it compare to monojet, which is conventionally the most sensitive search channel?
+
+p111:
+- "upper limits on signal yields"? you mean "upper limits on signal cross sections"?
+Changed.
+
+p112:
+- "lack of model dependence" ...I'm not sure you should say there is no model dependence, as once still needs to assume the form of the operator at the SM-DM effective vertex; maybe "less model dependence"?
+yeah ok, lesser degree of model-dependence
+
+- "required that M_* must be"... having "required" and "must" seems redundant, so maybe just "required that M_* be"
+changed. 
+
+- there should be a math symbol for >>, and not just two greater-than signs in a row...
+done.
+- "have no sensitivity to off-shell mediator production"...I'm not sure "sensitivity" is the correct word here, as the model isn't an analysis or a measurement; maybe "have no description for off-shell mediator production"?
+done.
+p113:
+- moving from 8TeV to 13TeV *further* limits the region of validity for EFT...in 8TeV analyses, there were already regions in the parameter space being probe that were invalid for the EFT
+Done.
+
+p114:
+- the discussion about samples generated at LO accuracy with one additional parton and the cross section calculation is probably better placed in Chapter 4
+moved. 
+
+Fig 7.3:
+- the observed contour and (to a lesser extent) the median expected contour has that upper-right "bump"...I forget the details our discussion about this in the past, but is there no way to minimize this bump further?
+
+Fig 7.2 vs. Fig 7.3:
+- you may want to be careful which values you quote for the excluded mass ranges; I'm guessing the numbers 74 (99) GeV come from Fig 7.2, but from Fig 7.3 it's quite visible that the limit would be 65 (95). The smoothing might be skewing something there...

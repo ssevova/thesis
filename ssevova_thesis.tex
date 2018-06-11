@@ -6,7 +6,7 @@
 %\documentclass[hyperpdf,nobind,draft,hidefrontback]{hepthesis}
 
 %% For Cambridge soft-bound version
-\documentclass[hyperpdf,bindnopdf]{hepthesis}
+\documentclass[hyperref,bindnopdf]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
 %\documentclass[hyperpdf,oneside]{hepthesis}
 
@@ -30,7 +30,7 @@
   \uppercase{Northwestern University} 
   \\
   \vspace{0.7 cm} 
-  A Search for Dark Matter Produced in Association with \ttbar at \sqrtS=\unit{13}{\TeV} in the Dilepton Final State with the \CMS Experiment
+  A Search for Dark Matter Produced in Association with a Top Quark Pair at\\ \sqrtS=\unit{13}{\TeV} in the Dilepton Final State with the \CMS Detector
   \\ 
   \vspace{0.7 cm}
   \uppercase{A Dissertation} \\
@@ -71,7 +71,6 @@
 
 %% Start the content body of the thesis
 \begin{mainmatter}
-  %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
   \input{chap1-dmtheory}
   \input{chap2-cms}
   \input{chap3-eventreco}
@@ -79,8 +78,7 @@
   \input{chap5-backgrounds}
   \input{chap6-analysis}
   \input{chap7-results}
-  %% To ignore a specific chapter while working on another, making the build faster, comment it out:
-  %\input{chap4}
+  \input{chap8-final}
 \end{mainmatter}
 
 %% Produce the appendices

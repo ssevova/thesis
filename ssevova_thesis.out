@@ -1,0 +1,67 @@
+\BOOKMARK [0][-]{chapter.1}{Dark matter: beyond the Standard Model}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Introduction to dark matter}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{The Standard Model}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Electroweak theory and the Higgs mechanism}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Yukawa interactions}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{Dark matter candidates}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Dark matter detection}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.4.1}{Indirect detection}{section.1.4}% 8
+\BOOKMARK [2][-]{subsection.1.4.2}{Direct detection}{section.1.4}% 9
+\BOOKMARK [2][-]{subsection.1.4.3}{Collider searches}{section.1.4}% 10
+\BOOKMARK [1][-]{section.1.5}{Simplified models of DM: beyond the Standard Model}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{The experimental apparatus}{}% 12
+\BOOKMARK [1][-]{section.2.1}{The LHC}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{The CMS experiment}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{The magnet}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{The inner tracker}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{The calorimeters}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{The muon detectors}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{The readout system}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.6}{Computing and data storage}{section.2.2}% 20
+\BOOKMARK [0][-]{chapter.3}{Object and event reconstruction}{}% 21
+\BOOKMARK [1][-]{section.3.1}{The Particle Flow algorithm}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Leptons}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Muons}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Electrons}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Jets}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{b-jet tagging}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Missing transverse energy}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Signal simulation and event selection}{}% 29
+\BOOKMARK [1][-]{section.4.1}{t+ \040simplified models}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Signal region event selection}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{The MT2 variable}{section.4.2}% 32
+\BOOKMARK [0][-]{chapter.5}{Background processes}{}% 33
+\BOOKMARK [1][-]{section.5.1}{t\(2\)}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.1.1}{Top pT re-weighting}{section.5.1}% 35
+\BOOKMARK [1][-]{section.5.2}{ \040 +V, diboson, and single top processes}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Drell-Yan}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.3.1}{The Rin/out method}{section.5.3}% 38
+\BOOKMARK [1][-]{section.5.4}{Fake lepton background}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.4.1}{Fake rate measurement}{section.5.4}% 40
+\BOOKMARK [2][-]{subsection.5.4.2}{Fake rate application}{section.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.4.3}{Fake rate method validation}{section.5.4}% 42
+\BOOKMARK [0][-]{chapter.6}{Analysis}{}% 43
+\BOOKMARK [1][-]{section.6.1}{Search strategy}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.2}{Data to simulation corrections}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.2.1}{Trigger efficiency}{section.6.2}% 46
+\BOOKMARK [2][-]{subsection.6.2.2}{PU reweighting}{section.6.2}% 47
+\BOOKMARK [2][-]{subsection.6.2.3}{b-tagging efficiency}{section.6.2}% 48
+\BOOKMARK [1][-]{section.6.3}{Discriminating observables}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.4}{Systematic uncertainties}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.4.1}{Sources of systematic uncertainty}{section.6.4}% 51
+\BOOKMARK [1][-]{section.6.5}{Statistical analysis}{chapter.6}% 52
+\BOOKMARK [2][-]{subsection.6.5.1}{Maximum likelihood}{section.6.5}% 53
+\BOOKMARK [2][-]{subsection.6.5.2}{Hypothesis testing}{section.6.5}% 54
+\BOOKMARK [2][-]{subsection.6.5.3}{Signal extraction}{section.6.5}% 55
+\BOOKMARK [2][-]{subsection.6.5.4}{Post-fit diagnostics}{section.6.5}% 56
+\BOOKMARK [0][-]{chapter.7}{Dark matter interpretation}{}% 57
+\BOOKMARK [1][-]{section.7.1}{Upper limits on t\(2\)+ \040production at the LHC}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Comparison with direct detection}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.2.1}{Spin-indepedent comparison}{section.7.2}% 60
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 61
+\BOOKMARK [0][-]{appendix.A}{Shape systematics}{}% 62
+\BOOKMARK [1][-]{section.A.1}{t\(2\) shape systematics}{appendix.A}% 63
+\BOOKMARK [1][-]{section.A.2}{Signal shape systematics: scalar mediated, m =10GeV, m =1GeV}{appendix.A}% 64
+\BOOKMARK [0][-]{chapter*.93}{Bibliography}{}% 65
+\BOOKMARK [0][-]{chapter*.94}{List of figures}{}% 66
+\BOOKMARK [0][-]{chapter*.95}{List of tables}{}% 67

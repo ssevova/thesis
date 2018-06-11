@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  22 MAY 2018 14:43
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  10 JUN 2018 13:28
  restricted system commands enabled.
 **ssevova_thesis
 (./ssevova_thesis.tex
@@ -180,7 +180,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.184 seconds)
+luaotfload | main : initialization completed in 0.146 seconds)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
@@ -414,7 +414,15 @@ Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS)
 )
 (./preamble.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/morefloats/morefloats.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks23
+\float@box=\box34
+\@float@everytoks=\toks24
+\@floatcapt=\box35
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/morefloats/morefloats.sty
 Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
@@ -437,17 +445,17 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count115
+\c@KVtest=\count116
 \sf@farskip=\skip91
 \sf@captopadj=\dimen137
 \sf@capskip=\skip92
 \sf@nearskip=\skip93
-\c@subfigure=\count116
-\c@subfigure@save=\count117
-\c@lofdepth=\count118
-\c@subtable=\count119
-\c@subtable@save=\count120
-\c@lotdepth=\count121
+\c@subfigure=\count117
+\c@subfigure@save=\count118
+\c@lofdepth=\count119
+\c@subtable=\count120
+\c@subtable@save=\count121
+\c@lotdepth=\count122
 \sf@top=\skip94
 \sf@bottom=\skip95
 )
@@ -457,8 +465,8 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks23
-\verbatim@line=\toks24
+\every@verbatim=\toks25
+\verbatim@line=\toks26
 \verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.sty
@@ -556,7 +564,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count122
+\babel@savecnt=\count123
 \U@D=\dimen138
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/luababel.def))
@@ -572,14 +580,14 @@ Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks27
 \pgfutil@tempdima=\dimen139
 \pgfutil@tempdimb=\dimen140
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box34
+\pgfutil@abb=\box36
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -592,12 +600,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen141
 \pgf@y=\dimen142
@@ -609,13 +617,13 @@ ode.tex
 \pgf@yc=\dimen148
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count123
-\c@pgf@countb=\count124
-\c@pgf@countc=\count125
-\c@pgf@countd=\count126
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\c@pgf@counta=\count124
+\c@pgf@countb=\count125
+\c@pgf@countc=\count126
+\c@pgf@countd=\count127
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -633,8 +641,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count127
-\pgfsyssoftpath@bigbuffer@items=\count128
+\pgfsyssoftpath@smallbuffer@items=\count128
+\pgfsyssoftpath@bigbuffer@items=\count129
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -663,11 +671,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen149
-\pgfmath@count=\count129
-\pgfmath@box=\box35
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@count=\count130
+\pgfmath@box=\box37
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -688,7 +696,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count130
+\c@pgfmathroundto@lastzeros=\count131
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -723,10 +731,10 @@ File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box36
-\pgf@hbox=\box37
-\pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count131
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count132
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -761,7 +769,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
-\pgf@sys@shading@range@num=\count132
+\pgf@sys@shading@range@num=\count133
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -770,7 +778,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box39
+\pgfexternal@startupbox=\box41
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -787,7 +795,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box40
+\pgfnodeparttextbox=\box42
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -814,8 +822,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen176
 \pgffor@skip=\dimen177
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -824,7 +832,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count133
+\pgf@plot@mark@count=\count134
 \pgfplotmarksize=\dimen178
 )
 \tikz@lastx=\dimen179
@@ -833,23 +841,23 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen182
 \tikzleveldistance=\dimen183
 \tikzsiblingdistance=\dimen184
-\tikz@figbox=\box41
-\tikz@figbox@bg=\box42
-\tikz@tempbox=\box43
-\tikz@tempbox@bg=\box44
-\tikztreelevel=\count134
-\tikznumberofchildren=\count135
-\tikznumberofcurrentchild=\count136
-\tikz@fig@count=\count137
+\tikz@figbox=\box43
+\tikz@figbox@bg=\box44
+\tikz@tempbox=\box45
+\tikz@tempbox@bg=\box46
+\tikztreelevel=\count135
+\tikznumberofchildren=\count136
+\tikznumberofcurrentchild=\count137
+\tikz@fig@count=\count138
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count138
-\pgfmatrixcurrentcolumn=\count139
-\pgf@matrix@numberofcolumns=\count140
+\pgfmatrixcurrentrow=\count139
+\pgfmatrixcurrentcolumn=\count140
+\pgf@matrix@numberofcolumns=\count141
 )
-\tikz@expandcount=\count141
+\tikz@expandcount=\count142
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -857,8 +865,8 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks37
-\pgfopts@list@add@b@toks=\toks38
+\pgfopts@list@add@a@toks=\toks39
+\pgfopts@list@add@b@toks=\toks40
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.c
 ode.tex
@@ -883,11 +891,11 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen191
 \pgfdecoratedinputsegmentremainingdistance=\dimen192
 \pgf@decorate@distancetomove=\dimen193
-\pgf@decorate@repeatstate=\count142
+\pgf@decorate@repeatstate=\count143
 \pgfdecorationsegmentamplitude=\dimen194
 \pgfdecorationsegmentlength=\dimen195
 )
-\tikz@lib@dec@box=\box45
+\tikz@lib@dec@box=\box47
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.markings.code.tex
@@ -904,8 +912,8 @@ brarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/graphs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
-\tikz@lib@auto@number=\count143
-\tikz@qnode@count=\count144
+\tikz@lib@auto@number=\count144
+\tikz@qnode@count=\count145
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.code.tex
@@ -935,11 +943,11 @@ File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
 graphdrawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
-\pgf@gd@parameter@stack@height=\count145
-\pgf@gd@node@box=\box46
-\pgf@gd@edge@box=\box47
-\pgf@gd@prekind@box=\box48
-\pgf@gd@postkind@box=\box49
+\pgf@gd@parameter@stack@height=\count146
+\pgf@gd@node@box=\box48
+\pgf@gd@edge@box=\box49
+\pgf@gd@prekind@box=\box50
+\pgf@gd@postkind@box=\box51
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
 e.tex))) (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
@@ -948,22 +956,141 @@ e.tex))) (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
 Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/local/texlive/2016/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks41
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count147
+\Hy@pagecounter=\count148
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count149
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count150
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen198
+\Fld@menulength=\count151
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count152
+\c@Item=\count153
+\c@Hfootnote=\count154
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count155
+\c@bookmark@seq@number=\count156
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip96
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (./abmath.sty
-Package: abmath 2006/04/12
+) (./ssmath.sty
+Package: ssmath 2018/06/07
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/maybemath/maybemath.sty
 Package: maybemath 2005/2/22
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup6
-\symboldletters=\mathgroup7
-\symboldsymbols=\mathgroup8
-\symboldupright=\mathgroup9
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+\symboldsymbols=\mathgroup10
+\symboldupright=\mathgroup11
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
 LaTeX Info: Redefining \bm on input line 208.
 ))
@@ -984,14 +1111,14 @@ LaTeX Info: Redefining \d on input line 240.
 LaTeX Info: Redefining \exclude on input line 247.
 )
 LaTeX Info: Redefining \mymath on input line 24.
- (./abhep.sty
-Package: abhep 2005/01/17
+ (./sshep.sty
+Package: sshep 2018/06/07
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(./abhepexpt.sty
-Package: abhepexpt 2005/08/22
+(./sshepexpt.sty
+Package: sshepexpt 2018/06/07
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1024,8 +1151,8 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
 (MH)
 
 
-\@qskwidth=\skip96
-\symgreek=\mathgroup10
+\@qskwidth=\skip97
+\symgreek=\mathgroup12
 (/usr/local/texlive/2016/texmf-dist/tex/latex/SIunits/SIunits.cfg)
 LaTeX Info: Redefining \usk on input line 576.
 
@@ -1043,15 +1170,20 @@ LaTeX Info: Redefining \LEP on input line 56.
 LaTeX Info: Redefining \CERN on input line 57.
 LaTeX Info: Redefining \ttbar on input line 75.
 )
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count146
-\csq@gtype=\count147
-\csq@glevel=\count148
-\csq@qlevel=\count149
-\csq@maxlvl=\count150
-\csq@tshold=\count151
-\csq@ltx@everypar=\toks39
+\csq@reset=\count157
+\csq@gtype=\count158
+\csq@glevel=\count159
+\csq@qlevel=\count160
+\csq@maxlvl=\count161
+\csq@tshold=\count162
+\csq@ltx@everypar=\toks42
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -1074,6 +1206,21 @@ LaTeX Warning: Label `fig:dilep_sr_sf' multiply defined.
 
 LaTeX Warning: Label `fig:dilep_sr_em' multiply defined.
 
+
+LaTeX Warning: Label `fig:JESshape' multiply defined.
+
+
+LaTeX Warning: Label `fig:fakeMETshape' multiply defined.
+
+
+LaTeX Warning: Label `fig:JESshape' multiply defined.
+
+
+LaTeX Warning: Label `fig:fakeMETshape' multiply defined.
+
+
+LaTeX Warning: Label `fig:PDFshape' multiply defined.
+
 )
 \openout1 = ssevova_thesis.aux
 
@@ -1088,6 +1235,8 @@ LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
@@ -1116,42 +1265,22 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen197
-\scratchbox=\box50
-\nofMPsegments=\count153
-\nofMParguments=\count154
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen198
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count163
+\scratchdimen=\dimen257
+\scratchbox=\box52
+\nofMPsegments=\count164
+\nofMParguments=\count165
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen258
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
-Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
-
-(/usr/local/texlive/2016/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks42
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
@@ -1166,15 +1295,37 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box53
+Package hyperref Info: Link coloring ON on input line 65.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count169
+)
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
+
+(./ssevova_thesis.out) (./ssevova_thesis.out)
+\@outlinefile=\write5
+
+\openout5 = ssevova_thesis.out
+
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
 LaTeX Info: Redefining \micro on input line 65.
 Processing 'frontmatter' comment.
-\c@iterlist=\count158
+\c@iterlist=\count170
 
 \openout3 = comment.cut
 
@@ -1218,6 +1369,27 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 3.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
@@ -1227,38 +1399,69 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Info: Redefining \HepProcess on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
  [1
 
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Info: Redefining \HepProcess on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
+ [2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 15.
+LaTeX Info: Redefining \HepProcess on input line 15.
  [3
 
 ]
+LaTeX Info: Redefining \HepProcess on input line 15.
+LaTeX Info: Redefining \HepProcess on input line 15.
+
 [4
 
-] [5] [6
+]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 23.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+LaTeX Info: Redefining \HepProcess on input line 31.
+LaTeX Info: Redefining \HepProcess on input line 31.
+ [5]
+LaTeX Info: Redefining \HepProcess on input line 31.
+LaTeX Info: Redefining \HepProcess on input line 31.
 
-] [7] [8
+[6
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `chap:SomeStuff' on page ix undefined on input line 41.
+LaTeX Info: Redefining \HepProcess on input line 36.
+LaTeX Info: Redefining \HepProcess on input line 36.
+ [7]
+LaTeX Info: Redefining \HepProcess on input line 57.
+LaTeX Info: Redefining \HepProcess on input line 57.
 
-
-
-LaTeX Warning: Reference `chap:MoreStuff' on page ix undefined on input line 42.
-
-
-[9] [10
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 46.
+[8]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 57.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1266,75 +1469,343 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 46.
+Package tocbasic Info: character protrusion at toc deactivated on input line 57.
 
 
 (./ssevova_thesis.toc
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 25.
+LaTeX Info: Redefining \HepProcess on input line 25.
+ [9
 
+]
+LaTeX Info: Redefining \HepProcess on input line 51.
+LaTeX Info: Redefining \HepProcess on input line 51.
+ [10])
+\tf@toc=\write6
+
+\openout6 = ssevova_thesis.toc
+)) Processing 'mainmatter' comment.
+LaTeX Info: Redefining \HepProcess on input line 73.
+LaTeX Info: Redefining \HepProcess on input line 73.
  [11]
-[12])
-\tf@toc=\write5
-
-\openout5 = ssevova_thesis.toc
-)) Processing 'mainmatter' comment. [13]
 \openout3 = comment.cut
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./chap1-dmtheory.tex [14
+(./comment.cut (./chap1-dmtheory.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [12
 
 ]
 chapter 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Info: Redefining \HepProcess on input line 12.
+LaTeX Info: Redefining \HepProcess on input line 12.
  [1
 
 ]
-<figs/RubinFordVel.png, id=60, 751.80875pt x 553.06625pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 12.
+LaTeX Info: Redefining \HepProcess on input line 12.
+ [2]
+<figs/RubinFordVel.png, id=435, 751.80875pt x 553.06625pt>
 File: figs/RubinFordVel.png Graphic file (type png)
 
 <use figs/RubinFordVel.png>
 Package luatex.def Info: figs/RubinFordVel.png used on input line 15.
 (luatex.def)             Requested size: 448.07378pt x 329.63126pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 16.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+LaTeX Info: Redefining \HepProcess on input line 21.
+LaTeX Info: Redefining \HepProcess on input line 21.
  [3<./figs/RubinFordVel.png>]
-<figs/bulletcluster_comp_960.jpg, id=69, 963.6pt x 696.6025pt>
+<figs/bulletcluster_comp_960.jpg, id=450, 963.6pt x 696.6025pt>
 File: figs/bulletcluster_comp_960.jpg Graphic file (type jpg)
 
 <use figs/bulletcluster_comp_960.jpg>
 Package luatex.def Info: figs/bulletcluster_comp_960.jpg used on input line 24.
 (luatex.def)             Requested size: 358.46039pt x 259.13132pt.
- [4<./figs/bulletcluster_comp_960.jpg>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-<figs/CMB_multipole.png, id=76, 682.55pt x 514.92375pt>
+LaTeX Info: Redefining \HepProcess on input line 30.
+LaTeX Info: Redefining \HepProcess on input line 30.
+ [4]
+LaTeX Info: Redefining \HepProcess on input line 30.
+LaTeX Info: Redefining \HepProcess on input line 30.
+
+[5<./figs/bulletcluster_comp_960.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 42.
+LaTeX Info: Redefining \HepProcess on input line 42.
+ [6]
+<figs/CMB_multipole.png, id=482, 682.55pt x 514.92375pt>
 File: figs/CMB_multipole.png Graphic file (type png)
 
 <use figs/CMB_multipole.png>
 Package luatex.def Info: figs/CMB_multipole.png used on input line 51.
 (luatex.def)             Requested size: 358.46039pt x 270.4333pt.
+LaTeX Info: Redefining \HepProcess on input line 58.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
+LaTeX Info: Redefining \HepProcess on input line 64.
+LaTeX Info: Redefining \HepProcess on input line 64.
+ [7]
+LaTeX Info: Redefining \HepProcess on input line 64.
+LaTeX Info: Redefining \HepProcess on input line 64.
+
+[8<./figs/CMB_multipole.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 68.
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 108.
+LaTeX Info: Redefining \HepProcess on input line 108.
+ [10]
+LaTeX Info: Redefining \HepProcess on input line 108.
+LaTeX Info: Redefining \HepProcess on input line 108.
+
+[11]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
-)
-(./chap2-cms.tex
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 109.
+LaTeX Info: Redefining \HepProcess on input line 109.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7<./figs/CMB_multipole.png>] [8]
+LaTeX Info: Redefining \HepProcess on input line 121.
+LaTeX Info: Redefining \HepProcess on input line 121.
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 145.
+LaTeX Info: Redefining \HepProcess on input line 145.
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 166.
+LaTeX Info: Redefining \HepProcess on input line 166.
+ [14]
+<figs/mexhat.jpg, id=563, 929.4725pt x 574.145pt>
+File: figs/mexhat.jpg Graphic file (type jpg)
+ <use figs/mexhat.jpg>
+Package luatex.def Info: figs/mexhat.jpg used on input line 172.
+(luatex.def)             Requested size: 313.65027pt x 193.74367pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 179.
+LaTeX Info: Redefining \HepProcess on input line 179.
+ [15<./figs/mexhat.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 203.
+LaTeX Info: Redefining \HepProcess on input line 203.
+ [16]
+LaTeX Info: Redefining \HepProcess on input line 224.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 228.
+LaTeX Info: Redefining \HepProcess on input line 228.
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 271.
+LaTeX Info: Redefining \HepProcess on input line 271.
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 312.
+LaTeX Info: Redefining \HepProcess on input line 312.
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 328.
+LaTeX Info: Redefining \HepProcess on input line 328.
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 344.
+LaTeX Info: Redefining \HepProcess on input line 344.
+ [21]
+LaTeX Info: Redefining \HepProcess on input line 348.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 352.
+LaTeX Info: Redefining \HepProcess on input line 352.
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 354.
+LaTeX Info: Redefining \HepProcess on input line 354.
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 360.
+LaTeX Info: Redefining \HepProcess on input line 360.
+ [24]
+<figs/WIMP_thermal_relic.png, id=656, 686.565pt x 619.31375pt>
+File: figs/WIMP_thermal_relic.png Graphic file (type png)
+
+<use figs/WIMP_thermal_relic.png>
+Package luatex.def Info: figs/WIMP_thermal_relic.png used on input line 371.
+(luatex.def)             Requested size: 268.847pt x 242.50473pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 378.
+LaTeX Info: Redefining \HepProcess on input line 378.
+ [25]
+LaTeX Info: Redefining \HepProcess on input line 378.
+LaTeX Info: Redefining \HepProcess on input line 382.
+LaTeX Info: Redefining \HepProcess on input line 382.
+
+[26<./figs/WIMP_thermal_relic.png>]
+LaTeX Info: Redefining \HepProcess on input line 383.
+LaTeX Info: Redefining \HepProcess on input line 387.
+LaTeX Info: Redefining \HepProcess on input line 387.
+ [27]
+<figs/pamela.png, id=679, 373.395pt x 369.38pt>
+File: figs/pamela.png Graphic file (type png)
+ <use figs/pamela.png>
+Package luatex.def Info: figs/pamela.png used on input line 389.
+(luatex.def)             Requested size: 313.65027pt x 310.28835pt.
+LaTeX Info: Redefining \HepProcess on input line 395.
+LaTeX Info: Redefining \HepProcess on input line 395.
+ [28<./figs/pamela.png>]
+LaTeX Info: Redefining \HepProcess on input line 396.
+LaTeX Info: Redefining \HepProcess on input line 400.
+LaTeX Info: Redefining \HepProcess on input line 400.
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 421.
+LaTeX Info: Redefining \HepProcess on input line 421.
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 438.
+LaTeX Info: Redefining \HepProcess on input line 438.
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 443.
+LaTeX Info: Redefining \HepProcess on input line 443.
+ [32]
+<figs/Xenon1T.png, id=736, 694.595pt x 528.97626pt>
+File: figs/Xenon1T.png Graphic file (type png)
+ <use figs/Xenon1T.png>
+Package luatex.def Info: figs/Xenon1T.png used on input line 446.
+(luatex.def)             Requested size: 313.65027pt x 238.86847pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 452.
+LaTeX Info: Redefining \HepProcess on input line 452.
+ [33<./figs/Xenon1T.png>]
+LaTeX Info: Redefining \HepProcess on input line 453.
+LaTeX Info: Redefining \HepProcess on input line 457.
+LaTeX Info: Redefining \HepProcess on input line 457.
+ [34]
+LaTeX Info: Redefining \HepProcess on input line 458.
+LaTeX Info: Redefining \HepProcess on input line 463.
+LaTeX Info: Redefining \HepProcess on input line 463.
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 466.
+LaTeX Info: Redefining \HepProcess on input line 466.
+ [36]
+<figs/MJ_EFT.png, id=776, 237.88875pt x 173.64874pt>
+File: figs/MJ_EFT.png Graphic file (type png)
+ <use figs/MJ_EFT.png>
+Package luatex.def Info: figs/MJ_EFT.png used on input line 468.
+(luatex.def)             Requested size: 134.4235pt x 98.12761pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 468.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 468.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 468.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 468.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 468.
+
+<figs/MJ_DMSimp.png, id=777, 303.1325pt x 160.6pt>
+File: figs/MJ_DMSimp.png Graphic file (type png)
+ <use figs/MJ_DMSimp.png>
+Package luatex.def Info: figs/MJ_DMSimp.png used on input line 469.
+(luatex.def)             Requested size: 134.4235pt x 71.21803pt.
+
+<figs/SUSY.png, id=778, 249.93375pt x 206.7725pt>
+File: figs/SUSY.png Graphic file (type png)
+ <use figs/SUSY.png>
+Package luatex.def Info: figs/SUSY.png used on input line 470.
+(luatex.def)             Requested size: 134.4235pt x 111.21376pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 481.
+LaTeX Info: Redefining \HepProcess on input line 481.
+ [37<./figs/MJ_EFT.png><./figs/MJ_DMSimp.png><./figs/SUSY.png>]
+LaTeX Info: Redefining \HepProcess on input line 495.
+LaTeX Info: Redefining \HepProcess on input line 495.
+ [38]) (./chap2-cms.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+
+[39]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [40
+
+]
 chapter 2.
-<figs/lhc.jpg, id=89, 1508.63625pt x 1023.825pt>
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 4.
+<figs/lhc.jpg, id=834, 1508.63625pt x 1023.825pt>
 File: figs/lhc.jpg Graphic file (type jpg)
  <use figs/lhc.jpg>
 Package luatex.def Info: figs/lhc.jpg used on input line 11.
@@ -1342,254 +1813,379 @@ Package luatex.def Info: figs/lhc.jpg used on input line 11.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
-
-]
+LaTeX Info: Redefining \HepProcess on input line 14.
+LaTeX Info: Redefining \HepProcess on input line 14.
+ [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10<./figs/lhc.jpg>]
+LaTeX Info: Redefining \HepProcess on input line 21.
+LaTeX Info: Redefining \HepProcess on input line 21.
+ [42<./figs/lhc.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-<figs/accelerator.png, id=99, 1027.84pt x 669.50125pt>
+LaTeX Info: Redefining \HepProcess on input line 26.
+LaTeX Info: Redefining \HepProcess on input line 26.
+ [43]
+<figs/accelerator.png, id=860, 1027.84pt x 669.50125pt>
 File: figs/accelerator.png Graphic file (type png)
 
 <use figs/accelerator.png>
 Package luatex.def Info: figs/accelerator.png used on input line 29.
 (luatex.def)             Requested size: 448.07378pt x 291.86407pt.
- [12<./figs/accelerator.png>]
-<figs/lumi-proj-2016-final-v2.png, id=104, 1445.4pt x 912.40875pt>
+LaTeX Info: Redefining \HepProcess on input line 35.
+LaTeX Info: Redefining \HepProcess on input line 35.
+ [44<./figs/accelerator.png>]
+<figs/lumi-proj-2016-final-v2.png, id=869, 1445.4pt x 912.40875pt>
 File: figs/lumi-proj-2016-final-v2.png Graphic file (type png)
 
 <use figs/lumi-proj-2016-final-v2.png>
 Package luatex.def Info: figs/lumi-proj-2016-final-v2.png used on input line 38.
 
 (luatex.def)             Requested size: 448.07378pt x 282.84378pt.
- [13<./figs/lumi-proj-2016-final-v2.png>] <figs/Figures_T_Coordinate.png, id=10
-9, 504.88625pt x 241.90375pt>
+LaTeX Info: Redefining \HepProcess on input line 43.
+LaTeX Info: Redefining \HepProcess on input line 47.
+LaTeX Info: Redefining \HepProcess on input line 47.
+ [45<./figs/lumi-proj-2016-final-v2.png>] <figs/Figures_T_Coordinate.png, id=87
+8, 504.88625pt x 241.90375pt>
 File: figs/Figures_T_Coordinate.png Graphic file (type png)
 
 <use figs/Figures_T_Coordinate.png>
 Package luatex.def Info: figs/Figures_T_Coordinate.png used on input line 56.
 (luatex.def)             Requested size: 313.65027pt x 150.27776pt.
 
-
-LaTeX Warning: Citation `CMS' on page 14 undefined on input line 61.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14<./figs/Figures_T_Coordinate.png>]
-<figs/CMSLUMI.png, id=114, 853.1875pt x 640.3925pt>
+LaTeX Info: Redefining \HepProcess on input line 62.
+LaTeX Info: Redefining \HepProcess on input line 62.
+ [46<./figs/Figures_T_Coordinate.png>]
+<figs/CMSLUMI.png, id=889, 853.1875pt x 640.3925pt>
 File: figs/CMSLUMI.png Graphic file (type png)
  <use figs/CMSLUMI.png>
 Package luatex.def Info: figs/CMSLUMI.png used on input line 65.
 (luatex.def)             Requested size: 448.07378pt x 336.32835pt.
 
-<figs/CMScrosssection.pdf, id=115, 794.97pt x 614.295pt>
+<figs/CMScrosssection.pdf, id=892, 794.97pt x 614.295pt>
 File: figs/CMScrosssection.pdf Graphic file (type pdf)
 
 <use figs/CMScrosssection.pdf>
 Package luatex.def Info: figs/CMScrosssection.pdf used on input line 72.
 (luatex.def)             Requested size: 520.34598pt x 402.09903pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-[16<./figs/CMSLUMI.png>] [17<./figs/CMScrosssection.pdf>]
-<figs/tracker_schematic.pdf, id=142, 794.97pt x 614.295pt>
+LaTeX Info: Redefining \HepProcess on input line 77.
+LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 82.
+ [47]
+LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 82.
+ [48<./figs/CMSLUMI.png>]
+LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 82.
+ [49<./figs/CMScrosssection.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 94.
+ <figs/tracker_schematic.pdf, id=934, 794.97pt x 614.295pt>
 File: figs/tracker_schematic.pdf Graphic file (type pdf)
 
 <use figs/tracker_schematic.pdf>
-Package luatex.def Info: figs/tracker_schematic.pdf used on input line 101.
+Package luatex.def Info: figs/tracker_schematic.pdf used on input line 99.
 (luatex.def)             Requested size: 448.07378pt x 346.24309pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19<./figs/tracker_schematic.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 105.
+LaTeX Info: Redefining \HepProcess on input line 105.
+ [50]
+LaTeX Info: Redefining \HepProcess on input line 105.
+LaTeX Info: Redefining \HepProcess on input line 105.
+
+[51<./figs/tracker_schematic.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-<figs/StripHitRes.pdf, id=167, 569.12625pt x 408.52625pt>
+LaTeX Info: Redefining \HepProcess on input line 107.
+LaTeX Info: Redefining \HepProcess on input line 107.
+ [52]
+<figs/StripHitRes.pdf, id=975, 569.12625pt x 408.52625pt>
 File: figs/StripHitRes.pdf Graphic file (type pdf)
 
 <use figs/StripHitRes.pdf>
-Package luatex.def Info: figs/StripHitRes.pdf used on input line 115.
+Package luatex.def Info: figs/StripHitRes.pdf used on input line 112.
 (luatex.def)             Requested size: 313.65027pt x 225.15141pt.
+LaTeX Info: Redefining \HepProcess on input line 117.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+LaTeX Info: Redefining \HepProcess on input line 121.
+LaTeX Info: Redefining \HepProcess on input line 121.
+ [53]
 Underfull \vbox (badness 5431) has occurred while \output is active []
 
- [22<./figs/StripHitRes.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
+ [54<./figs/StripHitRes.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-<figs/quarterHCAL.png, id=224, 785.93625pt x 440.64626pt>
+LaTeX Info: Redefining \HepProcess on input line 134.
+LaTeX Info: Redefining \HepProcess on input line 134.
+ [55]
+<figs/quarterHCAL.png, id=1047, 785.93625pt x 440.64626pt>
 File: figs/quarterHCAL.png Graphic file (type png)
 
 <use figs/quarterHCAL.png>
-Package luatex.def Info: figs/quarterHCAL.png used on input line 153.
+Package luatex.def Info: figs/quarterHCAL.png used on input line 148.
 (luatex.def)             Requested size: 358.46039pt x 200.97845pt.
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25<./figs/quarterHCAL.png>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 164.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-Underfull \vbox (badness 2521) has occurred while \output is active []
-
- [27]
+LaTeX Info: Redefining \HepProcess on input line 154.
+LaTeX Info: Redefining \HepProcess on input line 154.
+ [56<./figs/quarterHCAL.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-<figs/muonsys.png, id=241, 1122.1925pt x 736.7525pt>
+LaTeX Info: Redefining \HepProcess on input line 159.
+LaTeX Info: Redefining \HepProcess on input line 159.
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 166.
+LaTeX Info: Redefining \HepProcess on input line 166.
+ [58]
+LaTeX Info: Redefining \HepProcess on input line 167.
+LaTeX Info: Redefining \HepProcess on input line 174.
+LaTeX Info: Redefining \HepProcess on input line 174.
+
+[59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 177.
+LaTeX Info: Redefining \HepProcess on input line 177.
+ [60]
+<figs/muonsys.png, id=1085, 1122.1925pt x 736.7525pt>
 File: figs/muonsys.png Graphic file (type png)
  <use figs/muonsys.png>
-Package luatex.def Info: figs/muonsys.png used on input line 188.
+Package luatex.def Info: figs/muonsys.png used on input line 182.
 (luatex.def)             Requested size: 358.46039pt x 235.33842pt.
+LaTeX Info: Redefining \HepProcess on input line 187.
+LaTeX Info: Redefining \HepProcess on input line 191.
+LaTeX Info: Redefining \HepProcess on input line 191.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-[30
+[61]
+LaTeX Info: Redefining \HepProcess on input line 191.
+LaTeX Info: Redefining \HepProcess on input line 191.
+ [62
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 <./figs/muonsys.png>]
-<figs/TriggerRate.png, id=249, 356.33125pt x 551.05875pt>
+<figs/TriggerRate.png, id=1100, 356.33125pt x 551.05875pt>
 File: figs/TriggerRate.png Graphic file (type png)
 
 <use figs/TriggerRate.png>
-Package luatex.def Info: figs/TriggerRate.png used on input line 200.
+Package luatex.def Info: figs/TriggerRate.png used on input line 194.
 (luatex.def)             Requested size: 134.4235pt x 207.88255pt.
 
-Overfull \hbox (3.28705pt too wide) in paragraph at lines 205--206
+Overfull \hbox (3.28705pt too wide) in paragraph at lines 199--200
 []\T1/ppl/m/n/12 The L1 CMS trig-ger sys-tem uses in-for-ma-tion from the pre-v
 i-ously de-scribed calorime-
  []
 
-[31<./figs/TriggerRate.png>]
-<figs/trigger2.png, id=254, 487.8225pt x 344.28625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 203.
+LaTeX Info: Redefining \HepProcess on input line 203.
+ [63<./figs/TriggerRate.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 205.
+LaTeX Info: Redefining \HepProcess on input line 205.
+ [64]
+<figs/trigger2.png, id=1118, 487.8225pt x 344.28625pt>
 File: figs/trigger2.png Graphic file (type png)
  <use figs/trigger2.png>
-Package luatex.def Info: figs/trigger2.png used on input line 209.
+Package luatex.def Info: figs/trigger2.png used on input line 208.
 (luatex.def)             Requested size: 448.07378pt x 316.23761pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33<./figs/trigger2.png>]
+LaTeX Info: Redefining \HepProcess on input line 214.
+LaTeX Info: Redefining \HepProcess on input line 214.
+ [65<./figs/trigger2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+LaTeX Info: Redefining \HepProcess on input line 218.
+LaTeX Info: Redefining \HepProcess on input line 218.
+ [66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-<figs/computing.png, id=268, 716.6775pt x 329.23pt>
+LaTeX Info: Redefining \HepProcess on input line 222.
+LaTeX Info: Redefining \HepProcess on input line 222.
+ [67]
+LaTeX Info: Redefining \HepProcess on input line 225.
+
+<figs/computing.png, id=1142, 716.6775pt x 329.23pt>
 File: figs/computing.png Graphic file (type png)
  <use figs/computing.png>
-Package luatex.def Info: figs/computing.png used on input line 231.
+Package luatex.def Info: figs/computing.png used on input line 230.
 (luatex.def)             Requested size: 448.07378pt x 205.83856pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36])
+)
 (./chap3-eventreco.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37<./figs/computing.png>] [38]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [69<./figs/computing.png>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [70]
 chapter 3.
-[39
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 8.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 12.
+LaTeX Info: Redefining \HepProcess on input line 12.
+ [71
 
 ]
-Underfull \vbox (badness 2376) has occurred while \output is active []
-
- [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+LaTeX Info: Redefining \HepProcess on input line 19.
+LaTeX Info: Redefining \HepProcess on input line 19.
+ [72]
+LaTeX Info: Redefining \HepProcess on input line 24.
+LaTeX Info: Redefining \HepProcess on input line 27.
+LaTeX Info: Redefining \HepProcess on input line 27.
+
+[73]
+LaTeX Info: Redefining \HepProcess on input line 42.
+
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 48.
+LaTeX Info: Redefining \HepProcess on input line 48.
+ [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+LaTeX Info: Redefining \HepProcess on input line 54.
+LaTeX Info: Redefining \HepProcess on input line 54.
+ [75]
+LaTeX Info: Redefining \HepProcess on input line 91.
+LaTeX Info: Redefining \HepProcess on input line 94.
+LaTeX Info: Redefining \HepProcess on input line 94.
+
+[76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+LaTeX Info: Redefining \HepProcess on input line 102.
+LaTeX Info: Redefining \HepProcess on input line 102.
+ [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 109.
+LaTeX Info: Redefining \HepProcess on input line 109.
+ [78]
+LaTeX Info: Redefining \HepProcess on input line 118.
+LaTeX Info: Redefining \HepProcess on input line 118.
 
- [45]
-Overfull \hbox (31.17499pt too wide) in paragraph at lines 126--146
+[79]
+Overfull \hbox (31.17499pt too wide) in paragraph at lines 142--162
  [] 
  []
 
-[46]
+LaTeX Info: Redefining \HepProcess on input line 166.
+LaTeX Info: Redefining \HepProcess on input line 171.
+LaTeX Info: Redefining \HepProcess on input line 171.
+[80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+LaTeX Info: Redefining \HepProcess on input line 177.
+LaTeX Info: Redefining \HepProcess on input line 177.
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-Underfull \vbox (badness 1769) has occurred while \output is active []
-
- [49]
+LaTeX Info: Redefining \HepProcess on input line 188.
+LaTeX Info: Redefining \HepProcess on input line 188.
+ [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-<figs/csvv2_multijet_13TeV.pdf, id=317, 569.12625pt x 383.4325pt>
+LaTeX Info: Redefining \HepProcess on input line 214.
+LaTeX Info: Redefining \HepProcess on input line 214.
+ [83]
+LaTeX Info: Redefining \HepProcess on input line 221.
+LaTeX Info: Redefining \HepProcess on input line 221.
+
+[84]
+LaTeX Info: Redefining \HepProcess on input line 223.
+
+Underfull \vbox (badness 7379) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 230.
+LaTeX Info: Redefining \HepProcess on input line 230.
+ [85]
+<figs/csvv2_multijet_13TeV.pdf, id=1271, 569.12625pt x 383.4325pt>
 File: figs/csvv2_multijet_13TeV.pdf Graphic file (type pdf)
 
 <use figs/csvv2_multijet_13TeV.pdf>
-Package luatex.def Info: figs/csvv2_multijet_13TeV.pdf used on input line 217.
+Package luatex.def Info: figs/csvv2_multijet_13TeV.pdf used on input line 241.
 (luatex.def)             Requested size: 224.03688pt x 150.94223pt.
-
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
- [51]
+LaTeX Info: Redefining \HepProcess on input line 247.
+LaTeX Info: Redefining \HepProcess on input line 250.
+LaTeX Info: Redefining \HepProcess on input line 250.
+ [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52<./figs/csvv2_multijet_13TeV.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53])
-(./chap4-signal.tex [54]
+LaTeX Info: Redefining \HepProcess on input line 254.
+LaTeX Info: Redefining \HepProcess on input line 254.
+ [87<./figs/csvv2_multijet_13TeV.pdf>]) (./chap4-signal.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [88]
 chapter 4.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 4.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 4.
+LaTeX Info: Redefining \HepProcess on input line 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -2.00043pt
+(hyperref)                removed on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -2.00043pt
+(hyperref)                removed on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@Oldchi' on input line 4.
+
 
 Underfull \vbox (badness 4391) has occurred while \output is active []
 
- [55
+LaTeX Info: Redefining \HepProcess on input line 10.
+LaTeX Info: Redefining \HepProcess on input line 10.
+ [89
 
 ]
-<figs/medptlog.pdf, id=382, 569.12625pt x 552.0625pt>
+<figs/medptlog.pdf, id=1353, 569.12625pt x 552.0625pt>
 File: figs/medptlog.pdf Graphic file (type pdf)
  <use figs/medptlog.pdf>
 Package luatex.def Info: figs/medptlog.pdf used on input line 31.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/offshell_medpt.pdf, id=383, 569.12625pt x 552.0625pt>
+<figs/offshell_medpt.pdf, id=1354, 569.12625pt x 552.0625pt>
 File: figs/offshell_medpt.pdf Graphic file (type pdf)
 
 <use figs/offshell_medpt.pdf>
 Package luatex.def Info: figs/offshell_medpt.pdf used on input line 39.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/onshell_vs_offshell_medpt.pdf, id=384, 569.12625pt x 552.0625pt>
+<figs/onshell_vs_offshell_medpt.pdf, id=1355, 569.12625pt x 552.0625pt>
 File: figs/onshell_vs_offshell_medpt.pdf Graphic file (type pdf)
 
 <use figs/onshell_vs_offshell_medpt.pdf>
@@ -1599,575 +2195,473 @@ Package luatex.def Info: figs/onshell_vs_offshell_medpt.pdf used on input line 4
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57<./figs/medptlog.pdf><./figs/offshell_medpt.pdf><./figs/onshell_vs_offshell_m
+LaTeX Info: Redefining \HepProcess on input line 47.
+LaTeX Info: Redefining \HepProcess on input line 47.
+ [90]
+LaTeX Info: Redefining \HepProcess on input line 47.
+LaTeX Info: Redefining \HepProcess on input line 47.
+
+[91<./figs/medptlog.pdf><./figs/offshell_medpt.pdf><./figs/onshell_vs_offshell_m
 edpt.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 70.
+LaTeX Info: Redefining \HepProcess on input line 70.
+ [92]
+LaTeX Info: Redefining \HepProcess on input line 70.
+LaTeX Info: Redefining \HepProcess on input line 86.
+LaTeX Info: Redefining \HepProcess on input line 86.
+
+[93]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 67.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 87.
+LaTeX Info: Redefining \HepProcess on input line 87.
 
-Underfull \vbox (badness 2302) has occurred while \output is active []
 
- [58]
-[59] <figs/mt2log_em.pdf, id=537, 569.12625pt x 552.0625pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 87.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 87.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 108.
+LaTeX Info: Redefining \HepProcess on input line 108.
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
+ [95]
+<figs/mt2log_em.pdf, id=1558, 569.12625pt x 552.0625pt>
 File: figs/mt2log_em.pdf Graphic file (type pdf)
 
 <use figs/mt2log_em.pdf>
-Package luatex.def Info: figs/mt2log_em.pdf used on input line 108.
+Package luatex.def Info: figs/mt2log_em.pdf used on input line 140.
 (luatex.def)             Requested size: 268.847pt x 260.80035pt.
-) (./chap5-backgrounds.tex [60] [61<./figs/mt2log_em.pdf>] [62
+) (./chap5-backgrounds.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [96]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [97<./figs/mt2log_em.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [98
 
 ]
 chapter 5.
-<figs/SigmaNew_v0.pdf, id=594, 569.12625pt x 352.31625pt>
+LaTeX Info: Redefining \HepProcess on input line 1.
+<figs/SigmaNew_v0.pdf, id=1625, 569.12625pt x 352.31625pt>
 File: figs/SigmaNew_v0.pdf Graphic file (type pdf)
 
 <use figs/SigmaNew_v0.pdf>
 Package luatex.def Info: figs/SigmaNew_v0.pdf used on input line 10.
 (luatex.def)             Requested size: 448.07378pt x 277.39137pt.
- [63] [64<./figs/SigmaNew_v0.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 14.
+LaTeX Info: Redefining \HepProcess on input line 14.
+ [99]
+LaTeX Info: Redefining \HepProcess on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 49.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
+LaTeX Info: Redefining \HepProcess on input line 52.
+LaTeX Info: Redefining \HepProcess on input line 52.
+ [100<./figs/SigmaNew_v0.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 57.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+ [101]
+<figs/dilep-lo-ttwgt.pdf, id=1723, 569.12625pt x 552.0625pt>
+File: figs/dilep-lo-ttwgt.pdf Graphic file (type pdf)
+
+<use figs/dilep-lo-ttwgt.pdf>
+Package luatex.def Info: figs/dilep-lo-ttwgt.pdf used on input line 75.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/dilep-hi-ttwgt.pdf, id=1724, 569.12625pt x 552.0625pt>
+File: figs/dilep-hi-ttwgt.pdf Graphic file (type pdf)
+
+<use figs/dilep-hi-ttwgt.pdf>
+Package luatex.def Info: figs/dilep-hi-ttwgt.pdf used on input line 76.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+LaTeX Info: Redefining \HepProcess on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@itcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@slcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@sfcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@upcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@itcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@slcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@sfcode' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@upcode' on input line 82.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+LaTeX Info: Redefining \HepProcess on input line 86.
+LaTeX Info: Redefining \HepProcess on input line 86.
+ [102]
+Underfull \vbox (badness 5245) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 88.
+LaTeX Info: Redefining \HepProcess on input line 88.
+ [103<./figs/dilep-lo-ttwgt.pdf><./figs/dilep-hi-ttwgt.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 152.
+LaTeX Info: Redefining \HepProcess on input line 206.
+LaTeX Info: Redefining \HepProcess on input line 206.
+ [104]
+LaTeX Info: Redefining \HepProcess on input line 206.
+LaTeX Info: Redefining \HepProcess on input line 206.
+ [105]
+LaTeX Info: Redefining \HepProcess on input line 206.
+LaTeX Info: Redefining \HepProcess on input line 206.
+ [106]
+<figs/DY_metlog_sf.pdf, id=1898, 569.12625pt x 552.0625pt>
+File: figs/DY_metlog_sf.pdf Graphic file (type pdf)
+
+<use figs/DY_metlog_sf.pdf>
+Package luatex.def Info: figs/DY_metlog_sf.pdf used on input line 211.
+(luatex.def)             Requested size: 313.65027pt x 304.25867pt.
+LaTeX Info: Redefining \HepProcess on input line 216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 216.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-Underfull \vbox (badness 2426) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 219.
+LaTeX Info: Redefining \HepProcess on input line 219.
+ [107]
+LaTeX Info: Redefining \HepProcess on input line 219.
+LaTeX Info: Redefining \HepProcess on input line 219.
 
- [69]
+[108<./figs/DY_metlog_sf.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
+LaTeX Info: Redefining \HepProcess on input line 238.
+LaTeX Info: Redefining \HepProcess on input line 238.
+ [109]
+
+LaTeX Warning: Reference `Rassump' on page 110 undefined on input line 240.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-Overfull \hbox (3.6672pt too wide) in paragraph at lines 268--270
+LaTeX Info: Redefining \HepProcess on input line 256.
+LaTeX Info: Redefining \HepProcess on input line 256.
+ [110]
+
+Package caption Warning: \label without proper reference on input line 378.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:Rinout_SF_mm' on page 111 undefined on input line 
+263.
+
+
+Package caption Warning: \label without proper reference on input line 378.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:Rinout_SF_mm' on page 111 undefined on input line 
+263.
+
+
+Overfull \hbox (3.6672pt too wide) in paragraph at lines 300--302
  [] 
  []
 
-<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=670, 569.12625pt x 552.0625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 340.
+LaTeX Info: Redefining \HepProcess on input line 340.
+ [111]
+LaTeX Info: Redefining \HepProcess on input line 340.
+LaTeX Info: Redefining \HepProcess on input line 340.
+
+[112]
+<figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf, id=2006, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf used on input
- line 339.
+ line 371.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=671, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf, id=2007, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf used on input
- line 340.
+ line 372.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=672, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf, id=2008, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf used on input
- line 341.
+ line 373.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=673, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf, id=2009, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf used on input
- line 342.
+ line 374.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=674, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf, id=2010, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf used on input
- line 351.
+ line 383.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=675, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf, id=2011, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf used on input
- line 352.
+ line 384.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=676, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf, id=2012, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf used on input
- line 353.
+ line 385.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=677, 569.12625pt x 552.0625pt>
+<figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf, id=2013, 569.12625pt x 552.0625pt>
 File: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf Graphic file (type pdf)
 
 <use figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf>
 Package luatex.def Info: figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf used on input
- line 354.
+ line 386.
 (luatex.def)             Requested size: 179.22676pt x 173.85005pt.
 
-<figs/metbinned_Rinout_SFs.pdf, id=678, 569.12625pt x 552.0625pt>
+<figs/metbinned_Rinout_SFs.pdf, id=2014, 569.12625pt x 552.0625pt>
 File: figs/metbinned_Rinout_SFs.pdf Graphic file (type pdf)
 
 <use figs/metbinned_Rinout_SFs.pdf>
-Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 362.
+Package luatex.def Info: figs/metbinned_Rinout_SFs.pdf used on input line 394.
 (luatex.def)             Requested size: 215.07349pt x 208.62344pt.
- [72] [73] [74<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em
-_bkg_sub_metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dil
-ep_mass_em_bkg_sub_metbin4_ee.pdf>]
-[75<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><./figs/dilep_mass_em_bkg_sub_me
-tbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf><./figs/dilep_mass_em_
-bkg_sub_metbin4_mm.pdf>] [76<./figs/metbinned_Rinout_SFs.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 399.
+LaTeX Info: Redefining \HepProcess on input line 399.
+ [113]
+LaTeX Info: Redefining \HepProcess on input line 399.
+LaTeX Info: Redefining \HepProcess on input line 399.
+ [114<./figs/dilep_mass_em_bkg_sub_metbin1_ee.pdf><./figs/dilep_mass_em_bkg_sub_
+metbin2_ee.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf><./figs/dilep_mass_e
+m_bkg_sub_metbin4_ee.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 399.
+LaTeX Info: Redefining \HepProcess on input line 399.
+ [115<./figs/dilep_mass_em_bkg_sub_metbin1_mm.pdf><./figs/dilep_mass_em_bkg_sub_
+metbin2_mm.pdf><./figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf><./figs/dilep_mass_e
+m_bkg_sub_metbin4_mm.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 399.
+LaTeX Info: Redefining \HepProcess on input line 399.
+ [116<./figs/metbinned_Rinout_SFs.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 402.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77
+LaTeX Info: Redefining \HepProcess on input line 443.
+LaTeX Info: Redefining \HepProcess on input line 443.
+ [117
 
 ]
-[78]
-Overfull \hbox (33.82416pt too wide) in paragraph at lines 460--461
+LaTeX Info: Redefining \HepProcess on input line 447.
+
+Underfull \vbox (badness 4217) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 462.
+LaTeX Info: Redefining \HepProcess on input line 462.
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 468.
+LaTeX Info: Redefining \HepProcess on input line 468.
+ [119]
+Overfull \hbox (33.11137pt too wide) in paragraph at lines 491--492
  [] 
  []
 
 
-Overfull \hbox (33.82416pt too wide) in paragraph at lines 484--485
+Overfull \hbox (33.11137pt too wide) in paragraph at lines 515--516
  [] 
  []
 
-<figs/fakerate_v_pt_e.pdf, id=1117, 569.12625pt x 408.52625pt>
+<figs/fakerate_v_pt_e.pdf, id=2497, 569.12625pt x 408.52625pt>
 File: figs/fakerate_v_pt_e.pdf Graphic file (type pdf)
 
 <use figs/fakerate_v_pt_e.pdf>
-Package luatex.def Info: figs/fakerate_v_pt_e.pdf used on input line 491.
-(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+Package luatex.def Info: figs/fakerate_v_pt_e.pdf used on input line 522.
+(luatex.def)             Requested size: 215.07349pt x 154.38135pt.
 
-<figs/fakerate_v_eta_e.pdf, id=1118, 569.12625pt x 408.52625pt>
+<figs/fakerate_v_eta_e.pdf, id=2498, 569.12625pt x 408.52625pt>
 File: figs/fakerate_v_eta_e.pdf Graphic file (type pdf)
 
 <use figs/fakerate_v_eta_e.pdf>
-Package luatex.def Info: figs/fakerate_v_eta_e.pdf used on input line 492.
-(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+Package luatex.def Info: figs/fakerate_v_eta_e.pdf used on input line 523.
+(luatex.def)             Requested size: 215.07349pt x 154.38135pt.
 
-<figs/fakerate_v_pt_m.pdf, id=1119, 569.12625pt x 408.52625pt>
+<figs/fakerate_v_pt_m.pdf, id=2503, 569.12625pt x 408.52625pt>
 File: figs/fakerate_v_pt_m.pdf Graphic file (type pdf)
 
 <use figs/fakerate_v_pt_m.pdf>
-Package luatex.def Info: figs/fakerate_v_pt_m.pdf used on input line 500.
-(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
+Package luatex.def Info: figs/fakerate_v_pt_m.pdf used on input line 531.
+(luatex.def)             Requested size: 215.07349pt x 154.38135pt.
 
-<figs/fakerate_v_eta_m.pdf, id=1120, 569.12625pt x 408.52625pt>
+<figs/fakerate_v_eta_m.pdf, id=2504, 569.12625pt x 408.52625pt>
 File: figs/fakerate_v_eta_m.pdf Graphic file (type pdf)
 
 <use figs/fakerate_v_eta_m.pdf>
-Package luatex.def Info: figs/fakerate_v_eta_m.pdf used on input line 501.
-(luatex.def)             Requested size: 201.63182pt x 144.73174pt.
- [79] [80<./figs/fakerate_v_pt_e.pdf><./figs/fakerate_v_eta_e.pdf><./figs/fakera
-te_v_pt_m.pdf><./figs/fakerate_v_eta_m.pdf>]
-<figs/met_close_ee.pdf, id=1312, 569.12625pt x 552.0625pt>
+Package luatex.def Info: figs/fakerate_v_eta_m.pdf used on input line 532.
+(luatex.def)             Requested size: 215.07349pt x 154.38135pt.
+LaTeX Info: Redefining \HepProcess on input line 538.
+LaTeX Info: Redefining \HepProcess on input line 543.
+LaTeX Info: Redefining \HepProcess on input line 543.
+ [120]
+LaTeX Info: Redefining \HepProcess on input line 543.
+LaTeX Info: Redefining \HepProcess on input line 543.
+ [121<./figs/fakerate_v_pt_e.pdf><./figs/fakerate_v_eta_e.pdf><./figs/fakerate_v
+_pt_m.pdf><./figs/fakerate_v_eta_m.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 549.
+
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 556.
+LaTeX Info: Redefining \HepProcess on input line 556.
+ [122]
+<figs/met_close_ee.pdf, id=2716, 569.12625pt x 552.0625pt>
 File: figs/met_close_ee.pdf Graphic file (type pdf)
 
 <use figs/met_close_ee.pdf>
-Package luatex.def Info: figs/met_close_ee.pdf used on input line 519.
-(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+Package luatex.def Info: figs/met_close_ee.pdf used on input line 568.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/met_close_em.pdf, id=1313, 569.12625pt x 552.0625pt>
+<figs/met_close_em.pdf, id=2717, 569.12625pt x 552.0625pt>
 File: figs/met_close_em.pdf Graphic file (type pdf)
 
 <use figs/met_close_em.pdf>
-Package luatex.def Info: figs/met_close_em.pdf used on input line 520.
-(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
+Package luatex.def Info: figs/met_close_em.pdf used on input line 569.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
 
-<figs/met_close_mm.pdf, id=1314, 569.12625pt x 552.0625pt>
+<figs/met_close_mm.pdf, id=2718, 569.12625pt x 552.0625pt>
 File: figs/met_close_mm.pdf Graphic file (type pdf)
 
 <use figs/met_close_mm.pdf>
-Package luatex.def Info: figs/met_close_mm.pdf used on input line 521.
-(luatex.def)             Requested size: 143.38689pt x 139.0851pt.
-) (./chap6-analysis.tex [81] [82<./figs/met_close_ee.pdf><./figs/met_close_em.pd
-f><./figs/met_close_mm.pdf>]
+Package luatex.def Info: figs/met_close_mm.pdf used on input line 570.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+) (./chap6-analysis.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [123]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [124<./figs/met_close_ee.pdf><./figs/met_close_em.pdf><./figs/met_close_mm.pdf>
+]
 chapter 6.
-[83
-
-] <figs/pileup.pdf, id=1463, 569.12625pt x 552.0625pt>
-File: figs/pileup.pdf Graphic file (type pdf)
-
-<use figs/pileup.pdf>
-Package luatex.def Info: figs/pileup.pdf used on input line 20.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
- <figs/pileup-unc.pdf, id=1464, 569.12625pt x 552.0625pt>
-File: figs/pileup-unc.pdf Graphic file (type pdf)
-
-<use figs/pileup-unc.pdf>
-Package luatex.def Info: figs/pileup-unc.pdf used on input line 21.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/npv_post.pdf, id=1465, 569.12625pt x 552.0625pt>
-File: figs/npv_post.pdf Graphic file (type pdf)
- <use figs/npv_post.pdf>
-Package luatex.def Info: figs/npv_post.pdf used on input line 28.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
-[85<./figs/pileup.pdf><./figs/pileup-unc.pdf><./figs/npv_post.pdf>]
-<figs/dilep-lo-ttwgt.pdf, id=1610, 569.12625pt x 552.0625pt>
-File: figs/dilep-lo-ttwgt.pdf Graphic file (type pdf)
-
-<use figs/dilep-lo-ttwgt.pdf>
-Package luatex.def Info: figs/dilep-lo-ttwgt.pdf used on input line 51.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/dilep-hi-ttwgt.pdf, id=1611, 569.12625pt x 552.0625pt>
-File: figs/dilep-hi-ttwgt.pdf Graphic file (type pdf)
-
-<use figs/dilep-hi-ttwgt.pdf>
-Package luatex.def Info: figs/dilep-hi-ttwgt.pdf used on input line 52.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86]
-<figs/b_effpt.pdf, id=1615, 569.12625pt x 552.0625pt>
-File: figs/b_effpt.pdf Graphic file (type pdf)
- <use figs/b_effpt.pdf>
-Package luatex.def Info: figs/b_effpt.pdf used on input line 68.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/c_effpt.pdf, id=1616, 569.12625pt x 552.0625pt>
-File: figs/c_effpt.pdf Graphic file (type pdf)
- <use figs/c_effpt.pdf>
-Package luatex.def Info: figs/c_effpt.pdf used on input line 69.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/l_effpt.pdf, id=1617, 569.12625pt x 552.0625pt>
-File: figs/l_effpt.pdf Graphic file (type pdf)
- <use figs/l_effpt.pdf>
-Package luatex.def Info: figs/l_effpt.pdf used on input line 70.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87<./figs/dilep-lo-ttwgt.pdf><./figs/dilep-hi-ttwgt.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [88<./figs/b_effpt.pdf><./figs/c_effpt.pdf><./figs/l_effpt.pdf>]
-<figs/inclusiveSR/njets_sf.pdf, id=1856, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/njets_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/njets_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/njets_sf.pdf used on input line 87.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/nbjetsm_sf.pdf, id=1857, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/nbjetsm_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/nbjetsm_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/nbjetsm_sf.pdf used on input line 88.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/lep1pt_sf.pdf, id=1858, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/lep1pt_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/lep1pt_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/lep1pt_sf.pdf used on input line 89.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/lep1eta_sf.pdf, id=1859, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/lep1eta_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/lep1eta_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/lep1eta_sf.pdf used on input line 90.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/jet1pt_sf.pdf, id=1860, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/jet1pt_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/jet1pt_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/jet1pt_sf.pdf used on input line 91.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/jet1eta_sf.pdf, id=1861, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/jet1eta_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/jet1eta_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/jet1eta_sf.pdf used on input line 92.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-
-LaTeX Warning: Float too large for page by 17.9796pt on input line 95.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/inclusiveSR/dileppt_sf.pdf, id=1862, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dileppt_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dileppt_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/dileppt_sf.pdf used on input line 100.
-
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/dilepmass_sf.pdf, id=1863, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dilepmass_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dilepmass_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/dilepmass_sf.pdf used on input line 10
-1.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/dphidilepmetlog_sf.pdf, id=1864, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dphidilepmetlog_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dphidilepmetlog_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/dphidilepmetlog_sf.pdf used on input l
-ine 102.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/metlog_sf.pdf, id=1865, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/metlog_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/metlog_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/metlog_sf.pdf used on input line 103.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/inclusiveSR/njets_em.pdf, id=1866, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/njets_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/njets_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/njets_em.pdf used on input line 110.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/nbjetsm_em.pdf, id=1867, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/nbjetsm_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/nbjetsm_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/nbjetsm_em.pdf used on input line 111.
-
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/lep1pt_em.pdf, id=1868, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/lep1pt_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/lep1pt_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/lep1pt_em.pdf used on input line 112.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/lep1eta_em.pdf, id=1869, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/lep1eta_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/lep1eta_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/lep1eta_em.pdf used on input line 113.
-
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/jet1pt_em.pdf, id=1870, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/jet1pt_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/jet1pt_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/jet1pt_em.pdf used on input line 114.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/jet1eta_em.pdf, id=1871, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/jet1eta_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/jet1eta_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/jet1eta_em.pdf used on input line 115.
-
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-
-LaTeX Warning: Float too large for page by 17.9796pt on input line 118.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/inclusiveSR/dileppt_em.pdf, id=1872, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dileppt_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dileppt_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/dileppt_em.pdf used on input line 123.
-
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/dilepmass_em.pdf, id=1873, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dilepmass_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dilepmass_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/dilepmass_em.pdf used on input line 12
-4.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/dphidilepmetlog_em.pdf, id=1874, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/dphidilepmetlog_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/dphidilepmetlog_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/dphidilepmetlog_em.pdf used on input l
-ine 125.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-<figs/inclusiveSR/metlog_em.pdf, id=1875, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/metlog_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/metlog_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/metlog_em.pdf used on input line 126.
-(luatex.def)             Requested size: 192.66844pt x 186.89008pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/inclusiveSR/mt2log_sf.pdf, id=1876, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/mt2log_sf.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/mt2log_sf.pdf>
-Package luatex.def Info: figs/inclusiveSR/mt2log_sf.pdf used on input line 132.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/inclusiveSR/mt2log_em.pdf, id=1877, 569.12625pt x 552.0625pt>
-File: figs/inclusiveSR/mt2log_em.pdf Graphic file (type pdf)
-
-<use figs/inclusiveSR/mt2log_em.pdf>
-Package luatex.def Info: figs/inclusiveSR/mt2log_em.pdf used on input line 133.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/cat-lo_metlog_ll.pdf, id=1878, 569.12625pt x 552.0625pt>
-File: figs/cat-lo_metlog_ll.pdf Graphic file (type pdf)
-
-<use figs/cat-lo_metlog_ll.pdf>
-Package luatex.def Info: figs/cat-lo_metlog_ll.pdf used on input line 139.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/cat-lo_metlog_em.pdf, id=1879, 569.12625pt x 552.0625pt>
-File: figs/cat-lo_metlog_em.pdf Graphic file (type pdf)
-
-<use figs/cat-lo_metlog_em.pdf>
-Package luatex.def Info: figs/cat-lo_metlog_em.pdf used on input line 140.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/cat-hi_metlog_ll.pdf, id=1880, 569.12625pt x 552.0625pt>
-File: figs/cat-hi_metlog_ll.pdf Graphic file (type pdf)
-
-<use figs/cat-hi_metlog_ll.pdf>
-Package luatex.def Info: figs/cat-hi_metlog_ll.pdf used on input line 146.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/cat-hi_metlog_em.pdf, id=1881, 569.12625pt x 552.0625pt>
-File: figs/cat-hi_metlog_em.pdf Graphic file (type pdf)
-
-<use figs/cat-hi_metlog_em.pdf>
-Package luatex.def Info: figs/cat-hi_metlog_em.pdf used on input line 147.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-[93] <figs/RecoilUpFit.png, id=1897, 798.985pt x 574.145pt>
-File: figs/RecoilUpFit.png Graphic file (type png)
-
-<use figs/RecoilUpFit.png>
-Package luatex.def Info: figs/RecoilUpFit.png used on input line 207.
-(luatex.def)             Requested size: 268.847pt x 193.19174pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94]
-Underfull \vbox (badness 5578) has occurred while \output is active []
-
- [95]
-[96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97]
-<figs/pvalue.png, id=1911, 378.41376pt x 292.09125pt>
-File: figs/pvalue.png Graphic file (type png)
- <use figs/pvalue.png>
-Package luatex.def Info: figs/pvalue.png used on input line 280.
-(luatex.def)             Requested size: 179.22676pt x 138.34364pt.
-
-<figs/significance.png, id=1912, 389.455pt x 279.0425pt>
-File: figs/significance.png Graphic file (type png)
-
-<use figs/significance.png>
-Package luatex.def Info: figs/significance.png used on input line 281.
-(luatex.def)             Requested size: 179.22676pt x 128.41219pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [98]
-<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf, id=1916, 569.12625pt x 552.
-0625pt>
-File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf Graphic file (type pdf)
- <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf>
-Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf used 
-on input line 351.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf, id=1917, 569.12625pt x 552.
-0625pt>
-File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf Graphic file (type pdf)
- <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf>
-Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf used 
-on input line 352.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf, id=1918, 569.12625pt x 552.
-0625pt>
-File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf Graphic file (type pdf)
- <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf>
-Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf used 
-on input line 358.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf, id=1919, 569.12625pt x 552.
-0625pt>
-File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf Graphic file (type pdf)
- <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf>
-Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf used 
-on input line 359.
-(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [100]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 382.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 4.
+LaTeX Info: Redefining \HepProcess on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
+[125
+
+]
+LaTeX Info: Redefining \HepProcess on input line 9.
+LaTeX Info: Redefining \HepProcess on input line 13.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
@@ -2177,134 +2671,1091 @@ Package microtype Info: Loading generic settings for font family
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
-LaTeX Font Info:    Try loading font information for U+dingbat on input line 418
+LaTeX Info: Redefining \HepProcess on input line 16.
+LaTeX Info: Redefining \HepProcess on input line 16.
+ [126]
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 28.
+LaTeX Info: Redefining \HepProcess on input line 28.
+ [127]
+<figs/ele_mueg_sfetapt.png, id=2901, 798.985pt x 574.145pt>
+File: figs/ele_mueg_sfetapt.png Graphic file (type png)
+
+<use figs/ele_mueg_sfetapt.png>
+Package luatex.def Info: figs/ele_mueg_sfetapt.png used on input line 37.
+(luatex.def)             Requested size: 215.07349pt x 154.54814pt.
+
+<figs/mu_mueg_sfetapt.png, id=2902, 798.985pt x 574.145pt>
+File: figs/mu_mueg_sfetapt.png Graphic file (type png)
+
+<use figs/mu_mueg_sfetapt.png>
+Package luatex.def Info: figs/mu_mueg_sfetapt.png used on input line 38.
+(luatex.def)             Requested size: 215.07349pt x 154.54814pt.
+
+Underfull \hbox (badness 1038) in paragraph at lines 39--39
+[][]|\T1/ppl/m/n/10.95 Scale fac-tors for the elec-tron and muon leg of the muo
+n-electron trig-ger
+ []
+
+LaTeX Info: Redefining \HepProcess on input line 44.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 47.
+LaTeX Info: Redefining \HepProcess on input line 47.
+ [128]
+Underfull \vbox (badness 5578) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 54.
+LaTeX Info: Redefining \HepProcess on input line 54.
+ [129<./figs/ele_mueg_sfetapt.png><./figs/mu_mueg_sfetapt.png>]
+<figs/pileup.pdf, id=2923, 569.12625pt x 552.0625pt>
+File: figs/pileup.pdf Graphic file (type pdf)
+ <use figs/pileup.pdf>
+Package luatex.def Info: figs/pileup.pdf used on input line 56.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/pileup-unc.pdf, id=2924, 569.12625pt x 552.0625pt>
+File: figs/pileup-unc.pdf Graphic file (type pdf)
+
+<use figs/pileup-unc.pdf>
+Package luatex.def Info: figs/pileup-unc.pdf used on input line 57.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/npv_pre.pdf, id=2929, 569.12625pt x 552.0625pt>
+File: figs/npv_pre.pdf Graphic file (type pdf)
+ <use figs/npv_pre.pdf>
+Package luatex.def Info: figs/npv_pre.pdf used on input line 63.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/npv_post.pdf, id=2930, 569.12625pt x 552.0625pt>
+File: figs/npv_post.pdf Graphic file (type pdf)
+ <use figs/npv_post.pdf>
+Package luatex.def Info: figs/npv_post.pdf used on input line 64.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+LaTeX Info: Redefining \HepProcess on input line 69.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 72.
+LaTeX Info: Redefining \HepProcess on input line 72.
+ [130<./figs/pileup.pdf><./figs/pileup-unc.pdf>]
+<figs/b_effpt.pdf, id=3034, 569.12625pt x 552.0625pt>
+File: figs/b_effpt.pdf Graphic file (type pdf)
+ <use figs/b_effpt.pdf>
+Package luatex.def Info: figs/b_effpt.pdf used on input line 80.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/c_effpt.pdf, id=3035, 569.12625pt x 552.0625pt>
+File: figs/c_effpt.pdf Graphic file (type pdf)
+ <use figs/c_effpt.pdf>
+Package luatex.def Info: figs/c_effpt.pdf used on input line 81.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/l_effpt.pdf, id=3036, 569.12625pt x 552.0625pt>
+File: figs/l_effpt.pdf Graphic file (type pdf)
+ <use figs/l_effpt.pdf>
+Package luatex.def Info: figs/l_effpt.pdf used on input line 82.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 88.
+LaTeX Info: Redefining \HepProcess on input line 88.
+ [131<./figs/npv_pre.pdf><./figs/npv_post.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 88.
+LaTeX Info: Redefining \HepProcess on input line 88.
+ [132<./figs/b_effpt.pdf><./figs/c_effpt.pdf><./figs/l_effpt.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 101.
+LaTeX Info: Redefining \HepProcess on input line 101.
+ [133]
+LaTeX Info: Redefining \HepProcess on input line 105.
+
+<figs/inclusiveSR/njets_sf.pdf, id=3305, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/njets_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/njets_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/njets_sf.pdf used on input line 114.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/nbjetsm_sf.pdf, id=3306, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/nbjetsm_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/nbjetsm_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/nbjetsm_sf.pdf used on input line 115.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/lep1pt_sf.pdf, id=3307, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1pt_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1pt_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1pt_sf.pdf used on input line 116.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/lep1eta_sf.pdf, id=3308, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1eta_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1eta_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1eta_sf.pdf used on input line 117.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/jet1ptlog_sf.pdf, id=3309, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1ptlog_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1ptlog_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1ptlog_sf.pdf used on input line 11
+8.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/jet1eta_sf.pdf, id=3310, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1eta_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1eta_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1eta_sf.pdf used on input line 119.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+
+LaTeX Warning: Float too large for page by 46.85956pt on input line 122.
+
+<figs/inclusiveSR/dilepptlog_sf.pdf, id=3311, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepptlog_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepptlog_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepptlog_sf.pdf used on input line 1
+26.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/dilepmass_sf.pdf, id=3312, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepmass_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepmass_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepmass_sf.pdf used on input line 12
+7.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/metlog_sf.pdf, id=3313, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/metlog_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/metlog_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/metlog_sf.pdf used on input line 129.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/njets_em.pdf, id=3314, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/njets_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/njets_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/njets_em.pdf used on input line 136.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/nbjetsm_em.pdf, id=3315, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/nbjetsm_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/nbjetsm_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/nbjetsm_em.pdf used on input line 137.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/lep1pt_em.pdf, id=3316, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1pt_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1pt_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1pt_em.pdf used on input line 138.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/lep1eta_em.pdf, id=3317, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/lep1eta_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/lep1eta_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/lep1eta_em.pdf used on input line 139.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/jet1ptlog_em.pdf, id=3318, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1ptlog_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1ptlog_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1ptlog_em.pdf used on input line 14
+0.
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+<figs/inclusiveSR/jet1eta_em.pdf, id=3319, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/jet1eta_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/jet1eta_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/jet1eta_em.pdf used on input line 141.
+
+(luatex.def)             Requested size: 179.22676pt x 173.85005pt.
+
+
+LaTeX Warning: Float too large for page by 46.85956pt on input line 144.
+
+<figs/inclusiveSR/dilepptlog_em.pdf, id=3320, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepptlog_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepptlog_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepptlog_em.pdf used on input line 1
+48.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/dilepmass_em.pdf, id=3321, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/dilepmass_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/dilepmass_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/dilepmass_em.pdf used on input line 14
+9.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/metlog_em.pdf, id=3322, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/metlog_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/metlog_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/metlog_em.pdf used on input line 151.
+(luatex.def)             Requested size: 201.63182pt x 195.58342pt.
+
+<figs/inclusiveSR/mt2log_sf.pdf, id=3323, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/mt2log_sf.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/mt2log_sf.pdf>
+Package luatex.def Info: figs/inclusiveSR/mt2log_sf.pdf used on input line 157.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/inclusiveSR/mt2log_em.pdf, id=3324, 569.12625pt x 552.0625pt>
+File: figs/inclusiveSR/mt2log_em.pdf Graphic file (type pdf)
+
+<use figs/inclusiveSR/mt2log_em.pdf>
+Package luatex.def Info: figs/inclusiveSR/mt2log_em.pdf used on input line 158.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-lo_metlog_ll.pdf, id=3329, 569.12625pt x 552.0625pt>
+File: figs/cat-lo_metlog_ll.pdf Graphic file (type pdf)
+
+<use figs/cat-lo_metlog_ll.pdf>
+Package luatex.def Info: figs/cat-lo_metlog_ll.pdf used on input line 164.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-lo_metlog_em.pdf, id=3330, 569.12625pt x 552.0625pt>
+File: figs/cat-lo_metlog_em.pdf Graphic file (type pdf)
+
+<use figs/cat-lo_metlog_em.pdf>
+Package luatex.def Info: figs/cat-lo_metlog_em.pdf used on input line 165.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-hi_metlog_ll.pdf, id=3335, 569.12625pt x 552.0625pt>
+File: figs/cat-hi_metlog_ll.pdf Graphic file (type pdf)
+
+<use figs/cat-hi_metlog_ll.pdf>
+Package luatex.def Info: figs/cat-hi_metlog_ll.pdf used on input line 171.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/cat-hi_metlog_em.pdf, id=3336, 569.12625pt x 552.0625pt>
+File: figs/cat-hi_metlog_em.pdf Graphic file (type pdf)
+
+<use figs/cat-hi_metlog_em.pdf>
+Package luatex.def Info: figs/cat-hi_metlog_em.pdf used on input line 172.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+LaTeX Info: Redefining \HepProcess on input line 178.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+ [134]
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+
+[135<./figs/inclusiveSR/njets_sf.pdf><./figs/inclusiveSR/nbjetsm_sf.pdf><./figs/
+inclusiveSR/lep1pt_sf.pdf><./figs/inclusiveSR/lep1eta_sf.pdf><./figs/inclusiveSR
+/jet1ptlog_sf.pdf><./figs/inclusiveSR/jet1eta_sf.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+ [136<./figs/inclusiveSR/dilepptlog_sf.pdf><./figs/inclusiveSR/dilepmass_sf.pdf>
+<./figs/inclusiveSR/metlog_sf.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+ [137<./figs/inclusiveSR/njets_em.pdf><./figs/inclusiveSR/nbjetsm_em.pdf><./figs
+/inclusiveSR/lep1pt_em.pdf><./figs/inclusiveSR/lep1eta_em.pdf><./figs/inclusiveS
+R/jet1ptlog_em.pdf><./figs/inclusiveSR/jet1eta_em.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+ [138<./figs/inclusiveSR/dilepptlog_em.pdf><./figs/inclusiveSR/dilepmass_em.pdf>
+<./figs/inclusiveSR/metlog_em.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 182.
+LaTeX Info: Redefining \HepProcess on input line 182.
+ [139<./figs/inclusiveSR/mt2log_sf.pdf><./figs/inclusiveSR/mt2log_em.pdf><./figs
+/cat-lo_metlog_ll.pdf><./figs/cat-lo_metlog_em.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 187.
+LaTeX Info: Redefining \HepProcess on input line 187.
+ [140<./figs/cat-hi_metlog_ll.pdf><./figs/cat-hi_metlog_em.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 196.
+LaTeX Info: Redefining \HepProcess on input line 196.
+ [141]
+LaTeX Info: Redefining \HepProcess on input line 200.
+LaTeX Info: Redefining \HepProcess on input line 209.
+LaTeX Info: Redefining \HepProcess on input line 209.
+
+[142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 212.
+LaTeX Info: Redefining \HepProcess on input line 212.
+ [143]
+
+LaTeX Warning: Reference `' on page 144 undefined on input line 216.
+
+
+<systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf, id=4547, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf used
+ on input line 223.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf, id=4548, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf used
+ on input line 224.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \HepProcess on input line 230.
+LaTeX Info: Redefining \HepProcess on input line 230.
+[144]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 230.
+LaTeX Info: Redefining \HepProcess on input line 230.
+ [145<./systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf><./systs/shapes_ttdm8
+05101_em_hi/tt2l_CMS_scale_j.pdf>]
+<figs/RecoilUpFit.png, id=4659, 798.985pt x 574.145pt>
+File: figs/RecoilUpFit.png Graphic file (type png)
+
+<use figs/RecoilUpFit.png>
+Package luatex.def Info: figs/RecoilUpFit.png used on input line 233.
+(luatex.def)             Requested size: 268.847pt x 193.19174pt.
+
+<systs/shapes_ttdm805101_sf_hi/Zll_RecoilCorr.pdf, id=4660, 569.12625pt x 552.0
+625pt>
+File: systs/shapes_ttdm805101_sf_hi/Zll_RecoilCorr.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_hi/Zll_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/Zll_RecoilCorr.pdf used o
+n input line 240.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf, id=4661, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf used 
+on input line 241.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \HepProcess on input line 251.
+LaTeX Info: Redefining \HepProcess on input line 251.
+[146<./figs/RecoilUpFit.png>]
+LaTeX Info: Redefining \HepProcess on input line 255.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 258.
+LaTeX Info: Redefining \HepProcess on input line 258.
+ [147<./systs/shapes_ttdm805101_sf_hi/Zll_RecoilCorr.pdf><./systs/shapes_ttdm805
+101_sf_hi/tt2l_RecoilCorr.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 259.
+
+Underfull \vbox (badness 5578) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 272.
+LaTeX Info: Redefining \HepProcess on input line 272.
+ [148]
+LaTeX Info: Redefining \HepProcess on input line 288.
+LaTeX Info: Redefining \HepProcess on input line 292.
+LaTeX Info: Redefining \HepProcess on input line 292.
+
+[149]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 308.
+LaTeX Info: Redefining \HepProcess on input line 308.
+ [150]
+<figs/pvalue.png, id=4816, 378.41376pt x 292.09125pt>
+File: figs/pvalue.png Graphic file (type png)
+ <use figs/pvalue.png>
+Package luatex.def Info: figs/pvalue.png used on input line 323.
+(luatex.def)             Requested size: 179.22676pt x 138.34364pt.
+
+<figs/significance.png, id=4817, 389.455pt x 279.0425pt>
+File: figs/significance.png Graphic file (type png)
+
+<use figs/significance.png>
+Package luatex.def Info: figs/significance.png used on input line 324.
+(luatex.def)             Requested size: 179.22676pt x 128.41219pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 334.
+LaTeX Info: Redefining \HepProcess on input line 334.
+ [151]
+LaTeX Info: Redefining \HepProcess on input line 338.
+LaTeX Info: Redefining \HepProcess on input line 344.
+LaTeX Info: Redefining \HepProcess on input line 344.
+
+[152<./figs/pvalue.png><./figs/significance.png>]
+<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf, id=4850, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf used 
+on input line 394.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf, id=4851, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_em.pdf used 
+on input line 395.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf, id=4852, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf used 
+on input line 401.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf, id=4853, 569.12625pt x 552.
+0625pt>
+File: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf Graphic file (type pdf)
+ <use figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf>
+Package luatex.def Info: figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf used 
+on input line 402.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+LaTeX Info: Redefining \HepProcess on input line 407.
+LaTeX Info: Redefining \HepProcess on input line 414.
+LaTeX Info: Redefining \HepProcess on input line 414.
+ [153]
+LaTeX Info: Redefining \HepProcess on input line 414.
+LaTeX Info: Redefining \HepProcess on input line 414.
+ [154<./figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf><./figs/postfit/metlog
+_shapes_fit_b_dl_lo_mt2_em.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 414.
+LaTeX Info: Redefining \HepProcess on input line 414.
+ [155<./figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pdf><./figs/postfit/metlog
+_shapes_fit_b_dl_hi_mt2_em.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 426.
+LaTeX Info: Redefining \HepProcess on input line 426.
+ [156]
+LaTeX Font Info:    Try loading font information for U+dingbat on input line 461
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd
 File: udingbat.fd 2001/04/27 v1.00 Font definitions for the dingbat font
 )
-<figs/pulls_35p9_ttdm8061001.pdf, id=1930, 569.12625pt x 270.00874pt>
+<figs/pulls_35p9_ttdm8061001.pdf, id=5079, 569.12625pt x 270.00874pt>
 File: figs/pulls_35p9_ttdm8061001.pdf Graphic file (type pdf)
 
 <use figs/pulls_35p9_ttdm8061001.pdf>
-Package luatex.def Info: figs/pulls_35p9_ttdm8061001.pdf used on input line 425.
+Package luatex.def Info: figs/pulls_35p9_ttdm8061001.pdf used on input line 468.
 
 (luatex.def)             Requested size: 448.07378pt x 212.58768pt.
+) (./chap7-results.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [157]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [158]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chap7-results.tex [102] [103] [104<./figs/inclusiveSR/njets_sf.pdf><./figs/
-inclusiveSR/nbjetsm_sf.pdf><./figs/inclusiveSR/lep1pt_sf.pdf><./figs/inclusiveSR
-/lep1eta_sf.pdf><./figs/inclusiveSR/jet1pt_sf.pdf><./figs/inclusiveSR/jet1eta_sf
-.pdf>] [105<./figs/inclusiveSR/dileppt_sf.pdf><./figs/inclusiveSR/dilepmass_sf.p
-df><./figs/inclusiveSR/dphidilepmetlog_sf.pdf><./figs/inclusiveSR/metlog_sf.pdf>
-] [106<./figs/inclusiveSR/njets_em.pdf><./figs/inclusiveSR/nbjetsm_em.pdf><./fig
-s/inclusiveSR/lep1pt_em.pdf><./figs/inclusiveSR/lep1eta_em.pdf><./figs/inclusive
-SR/jet1pt_em.pdf><./figs/inclusiveSR/jet1eta_em.pdf>] [107<./figs/inclusiveSR/di
-leppt_em.pdf><./figs/inclusiveSR/dilepmass_em.pdf><./figs/inclusiveSR/dphidilepm
-etlog_em.pdf><./figs/inclusiveSR/metlog_em.pdf>] [108<./figs/inclusiveSR/mt2log_
-sf.pdf><./figs/inclusiveSR/mt2log_em.pdf><./figs/cat-lo_metlog_ll.pdf><./figs/ca
-t-lo_metlog_em.pdf>] [109<./figs/cat-hi_metlog_ll.pdf><./figs/cat-hi_metlog_em.p
-df><./figs/RecoilUpFit.png>] [110<./figs/pvalue.png><./figs/significance.png><./
-figs/postfit/metlog_shapes_fit_b_dl_lo_mt2_ll.pdf><./figs/postfit/metlog_shapes_
-fit_b_dl_lo_mt2_em.pdf>] [111<./figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_ll.pd
-f><./figs/postfit/metlog_shapes_fit_b_dl_hi_mt2_em.pdf><./figs/pulls_35p9_ttdm80
-61001.pdf>] [112
+[159<./figs/pulls_35p9_ttdm8061001.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [160
 
 ]
 chapter 7.
-[113]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -2.00043pt
+(hyperref)                removed on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -2.00043pt
+(hyperref)                removed on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@Oldchi' on input line 6.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
+LaTeX Info: Redefining \HepProcess on input line 10.
+LaTeX Info: Redefining \HepProcess on input line 10.
+ [161]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
-[116] <figs/dilepton_S_NLO_limits.pdf, id=3413, 569.12625pt x 552.0625pt>
+LaTeX Info: Redefining \HepProcess on input line 10.
+LaTeX Info: Redefining \HepProcess on input line 10.
+ [162]
+<figs/dilepton_S_NLO_limits.pdf, id=5179, 569.12625pt x 552.0625pt>
 File: figs/dilepton_S_NLO_limits.pdf Graphic file (type pdf)
 
 <use figs/dilepton_S_NLO_limits.pdf>
-Package luatex.def Info: figs/dilepton_S_NLO_limits.pdf used on input line 113.
+Package luatex.def Info: figs/dilepton_S_NLO_limits.pdf used on input line 40.
 (luatex.def)             Requested size: 268.847pt x 260.80035pt.
 
-<figs/dilepton_PS_NLO_limits.pdf, id=3414, 569.12625pt x 552.0625pt>
+<figs/dilepton_PS_NLO_limits.pdf, id=5180, 569.12625pt x 552.0625pt>
 File: figs/dilepton_PS_NLO_limits.pdf Graphic file (type pdf)
 
 <use figs/dilepton_PS_NLO_limits.pdf>
-Package luatex.def Info: figs/dilepton_PS_NLO_limits.pdf used on input line 118.
-
+Package luatex.def Info: figs/dilepton_PS_NLO_limits.pdf used on input line 45.
 (luatex.def)             Requested size: 268.847pt x 260.80035pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
-[118<./figs/dilepton_S_NLO_limits.pdf><./figs/dilepton_PS_NLO_limits.pdf>]
-<figs/dilept_inc_S_limits2D_NLO.pdf, id=3515, 569.12625pt x 552.0625pt>
+LaTeX Warning: Float too large for page by 10.17326pt on input line 47.
+
+LaTeX Info: Redefining \HepProcess on input line 49.
+LaTeX Info: Redefining \HepProcess on input line 49.
+[163]
+LaTeX Info: Redefining \HepProcess on input line 49.
+LaTeX Info: Redefining \HepProcess on input line 49.
+ [164<./figs/dilepton_S_NLO_limits.pdf><./figs/dilepton_PS_NLO_limits.pdf>] <fi
+gs/dilept_inc_S_limits2D_NLO.pdf, id=5291, 569.12625pt x 552.0625pt>
 File: figs/dilept_inc_S_limits2D_NLO.pdf Graphic file (type pdf)
 
 <use figs/dilept_inc_S_limits2D_NLO.pdf>
-Package luatex.def Info: figs/dilept_inc_S_limits2D_NLO.pdf used on input line 1
-26.
+Package luatex.def Info: figs/dilept_inc_S_limits2D_NLO.pdf used on input line 5
+5.
 (luatex.def)             Requested size: 291.24521pt x 282.5253pt.
- [119<./figs/dilept_inc_S_limits2D_NLO.pdf>]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
- [120
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+ [165
 
 ]
-<figs/SIS_CMSDD_Summary.pdf, id=3568, 569.12625pt x 327.2225pt>
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+ [166<./figs/dilept_inc_S_limits2D_NLO.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 62.
+LaTeX Info: Redefining \HepProcess on input line 69.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 74.
+LaTeX Info: Redefining \HepProcess on input line 74.
+ [167
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 93.
+LaTeX Info: Redefining \HepProcess on input line 93.
+ [168]
+<figs/SIS_CMSDD_Summary.pdf, id=5377, 569.12625pt x 327.2225pt>
 File: figs/SIS_CMSDD_Summary.pdf Graphic file (type pdf)
 
 <use figs/SIS_CMSDD_Summary.pdf>
-Package luatex.def Info: figs/SIS_CMSDD_Summary.pdf used on input line 164.
+Package luatex.def Info: figs/SIS_CMSDD_Summary.pdf used on input line 96.
 (luatex.def)             Requested size: 448.07378pt x 257.63416pt.
+) (./chap8-final.tex
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [169<./figs/SIS_CMSDD_Summary.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [170
+
+]
+chapter 8.
+LaTeX Info: Redefining \HepProcess on input line 1.
 )) Processing 'appendices' comment.
 \openout3 = comment.cut
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
 (./comment.cut (./appendices.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 3.
+LaTeX Info: Redefining \HepProcess on input line 3.
+ [171]
+LaTeX Info: Redefining \HepProcess on input line 3.
+LaTeX Info: Redefining \HepProcess on input line 3.
+ [172
 
- [121<./figs/SIS_CMSDD_Summary.pdf>] [122]
+]
 chapter A.
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 3.
+LaTeX Info: Redefining \HepProcess on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
+[173]
+LaTeX Info: Redefining \HepProcess on input line 10.
 
- [123
 
-]
-Processing 'backmatter' comment.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 10.
+
+
+<systs/shapes_ttdm805101_sf_lo/tt2l_CMS_scale_j.pdf, id=5454, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_sf_lo/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_sf_lo/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/tt2l_CMS_scale_j.pdf used
+ on input line 15.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+File: systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+
+<use systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/tt2l_CMS_scale_j.pdf used
+ on input line 16.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/tt2l_CMS_scale_j.pdf, id=5455, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_sf_hi/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_sf_hi/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_CMS_scale_j.pdf used
+ on input line 17.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+File: systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf Graphic file (type pdf)
+
+
+<use systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_CMS_scale_j.pdf used
+ on input line 18.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+File: systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf Graphic file (type pdf)
+
+<use systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_RecoilCorr.pdf used 
+on input line 27.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/tt2l_RecoilCorr.pdf, id=5456, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_em_hi/tt2l_RecoilCorr.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_em_hi/tt2l_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_RecoilCorr.pdf used 
+on input line 28.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<systs/shapes_ttdm805101_sf_lo/tt2l_tt_qcdScale.pdf, id=5457, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_sf_lo/tt2l_tt_qcdScale.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_sf_lo/tt2l_tt_qcdScale.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/tt2l_tt_qcdScale.pdf used
+ on input line 35.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_lo/tt2l_tt_qcdScale.pdf, id=5458, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_em_lo/tt2l_tt_qcdScale.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_em_lo/tt2l_tt_qcdScale.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/tt2l_tt_qcdScale.pdf used
+ on input line 36.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/tt2l_tt_qcdScale.pdf, id=5459, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_sf_hi/tt2l_tt_qcdScale.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_sf_hi/tt2l_tt_qcdScale.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_tt_qcdScale.pdf used
+ on input line 37.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/tt2l_tt_qcdScale.pdf, id=5460, 569.12625pt x 552
+.0625pt>
+File: systs/shapes_ttdm805101_em_hi/tt2l_tt_qcdScale.pdf Graphic file (type pdf)
+
+ <use systs/shapes_ttdm805101_em_hi/tt2l_tt_qcdScale.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_tt_qcdScale.pdf used
+ on input line 38.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<systs/shapes_ttdm805101_sf_lo/tt2l_topPt.pdf, id=5461, 569.12625pt x 552.0625p
+t>
+File: systs/shapes_ttdm805101_sf_lo/tt2l_topPt.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_lo/tt2l_topPt.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/tt2l_topPt.pdf used on in
+put line 45.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_lo/tt2l_topPt.pdf, id=5462, 569.12625pt x 552.0625p
+t>
+File: systs/shapes_ttdm805101_em_lo/tt2l_topPt.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_em_lo/tt2l_topPt.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/tt2l_topPt.pdf used on in
+put line 46.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/tt2l_topPt.pdf, id=5463, 569.12625pt x 552.0625p
+t>
+File: systs/shapes_ttdm805101_sf_hi/tt2l_topPt.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_hi/tt2l_topPt.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_topPt.pdf used on in
+put line 47.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/tt2l_topPt.pdf, id=5464, 569.12625pt x 552.0625p
+t>
+File: systs/shapes_ttdm805101_em_hi/tt2l_topPt.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_em_hi/tt2l_topPt.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_topPt.pdf used on in
+put line 48.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<systs/shapes_ttdm805101_sf_lo/tt2l_pdf.pdf, id=5465, 569.12625pt x 552.0625pt>
+File: systs/shapes_ttdm805101_sf_lo/tt2l_pdf.pdf Graphic file (type pdf)
+<use systs/shapes_ttdm805101_sf_lo/tt2l_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/tt2l_pdf.pdf used on inpu
+t line 55.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_lo/tt2l_pdf.pdf, id=5466, 569.12625pt x 552.0625pt>
+File: systs/shapes_ttdm805101_em_lo/tt2l_pdf.pdf Graphic file (type pdf)
+<use systs/shapes_ttdm805101_em_lo/tt2l_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/tt2l_pdf.pdf used on inpu
+t line 56.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/tt2l_pdf.pdf, id=5467, 569.12625pt x 552.0625pt>
+File: systs/shapes_ttdm805101_sf_hi/tt2l_pdf.pdf Graphic file (type pdf)
+<use systs/shapes_ttdm805101_sf_hi/tt2l_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/tt2l_pdf.pdf used on inpu
+t line 57.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/tt2l_pdf.pdf, id=5468, 569.12625pt x 552.0625pt>
+File: systs/shapes_ttdm805101_em_hi/tt2l_pdf.pdf Graphic file (type pdf)
+<use systs/shapes_ttdm805101_em_hi/tt2l_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/tt2l_pdf.pdf used on inpu
+t line 58.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
+[174
+
+<./systs/shapes_ttdm805101_sf_lo/tt2l_CMS_scale_j.pdf><./systs/shapes_ttdm805101
+_sf_hi/tt2l_CMS_scale_j.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
+ [175<./systs/shapes_ttdm805101_em_hi/tt2l_RecoilCorr.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
+ [176<./systs/shapes_ttdm805101_sf_lo/tt2l_tt_qcdScale.pdf><./systs/shapes_ttdm8
+05101_em_lo/tt2l_tt_qcdScale.pdf><./systs/shapes_ttdm805101_sf_hi/tt2l_tt_qcdSca
+le.pdf><./systs/shapes_ttdm805101_em_hi/tt2l_tt_qcdScale.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
+
+[177<./systs/shapes_ttdm805101_sf_lo/tt2l_topPt.pdf><./systs/shapes_ttdm805101_e
+m_lo/tt2l_topPt.pdf><./systs/shapes_ttdm805101_sf_hi/tt2l_topPt.pdf><./systs/sha
+pes_ttdm805101_em_hi/tt2l_topPt.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
+ [178<./systs/shapes_ttdm805101_sf_lo/tt2l_pdf.pdf><./systs/shapes_ttdm805101_em
+_lo/tt2l_pdf.pdf><./systs/shapes_ttdm805101_sf_hi/tt2l_pdf.pdf><./systs/shapes_t
+tdm805101_em_hi/tt2l_pdf.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@Oldphi' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.66638pt
+(hyperref)                removed on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -0.2814pt
+(hyperref)                removed on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@Oldchi' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.66638pt
+(hyperref)                removed on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -0.2814pt
+(hyperref)                removed on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 65.
+
+
+<systs/shapes_ttdm805101_sf_lo/ttDM_805101_CMS_scale_j.pdf, id=6206, 569.12625p
+t x 552.0625pt>
+File: systs/shapes_ttdm805101_sf_lo/ttDM_805101_CMS_scale_j.pdf Graphic file (ty
+pe pdf)
+
+<use systs/shapes_ttdm805101_sf_lo/ttDM_805101_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/ttDM_805101_CMS_scale_j.p
+df used on input line 70.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_lo/ttDM_805101_CMS_scale_j.pdf, id=6207, 569.12625p
+t x 552.0625pt>
+File: systs/shapes_ttdm805101_em_lo/ttDM_805101_CMS_scale_j.pdf Graphic file (ty
+pe pdf)
+
+<use systs/shapes_ttdm805101_em_lo/ttDM_805101_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/ttDM_805101_CMS_scale_j.p
+df used on input line 71.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/ttDM_805101_CMS_scale_j.pdf, id=6208, 569.12625p
+t x 552.0625pt>
+File: systs/shapes_ttdm805101_sf_hi/ttDM_805101_CMS_scale_j.pdf Graphic file (ty
+pe pdf)
+
+<use systs/shapes_ttdm805101_sf_hi/ttDM_805101_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/ttDM_805101_CMS_scale_j.p
+df used on input line 72.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/ttDM_805101_CMS_scale_j.pdf, id=6209, 569.12625p
+t x 552.0625pt>
+File: systs/shapes_ttdm805101_em_hi/ttDM_805101_CMS_scale_j.pdf Graphic file (ty
+pe pdf)
+
+<use systs/shapes_ttdm805101_em_hi/ttDM_805101_CMS_scale_j.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/ttDM_805101_CMS_scale_j.p
+df used on input line 73.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/ttDM_805101_RecoilCorr.pdf, id=6210, 569.12625pt
+ x 552.0625pt>
+File: systs/shapes_ttdm805101_sf_hi/ttDM_805101_RecoilCorr.pdf Graphic file (typ
+e pdf)
+ <use systs/shapes_ttdm805101_sf_hi/ttDM_805101_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/ttDM_805101_RecoilCorr.pd
+f used on input line 82.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/ttDM_805101_RecoilCorr.pdf, id=6211, 569.12625pt
+ x 552.0625pt>
+File: systs/shapes_ttdm805101_em_hi/ttDM_805101_RecoilCorr.pdf Graphic file (typ
+e pdf)
+ <use systs/shapes_ttdm805101_em_hi/ttDM_805101_RecoilCorr.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/ttDM_805101_RecoilCorr.pd
+f used on input line 83.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<systs/shapes_ttdm805101_sf_lo/ttDM_805101_pdf.pdf, id=6212, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_sf_lo/ttDM_805101_pdf.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_lo/ttDM_805101_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_lo/ttDM_805101_pdf.pdf used 
+on input line 90.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_lo/ttDM_805101_pdf.pdf, id=6213, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_em_lo/ttDM_805101_pdf.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_em_lo/ttDM_805101_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_lo/ttDM_805101_pdf.pdf used 
+on input line 91.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_sf_hi/ttDM_805101_pdf.pdf, id=6214, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_sf_hi/ttDM_805101_pdf.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_sf_hi/ttDM_805101_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_sf_hi/ttDM_805101_pdf.pdf used 
+on input line 92.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+<systs/shapes_ttdm805101_em_hi/ttDM_805101_pdf.pdf, id=6215, 569.12625pt x 552.
+0625pt>
+File: systs/shapes_ttdm805101_em_hi/ttDM_805101_pdf.pdf Graphic file (type pdf)
+ <use systs/shapes_ttdm805101_em_hi/ttDM_805101_pdf.pdf>
+Package luatex.def Info: systs/shapes_ttdm805101_em_hi/ttDM_805101_pdf.pdf used 
+on input line 93.
+(luatex.def)             Requested size: 215.07349pt x 208.62344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) Processing 'backmatter' comment.
 \openout3 = comment.cut
- Comment 'backmatter' writing to comment.cut.
-Straight input of comment.cut. (./comment.cut (./backmatter.tex [124]
-(./ssevova_thesis.bbl [125
 
-] [126
+Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut (./backmatter.tex (./ssevova_thesis.bbl
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [179
 
-] [127]
+<./systs/shapes_ttdm805101_sf_lo/ttDM_805101_CMS_scale_j.pdf><./systs/shapes_ttd
+m805101_em_lo/ttDM_805101_CMS_scale_j.pdf><./systs/shapes_ttdm805101_sf_hi/ttDM_
+805101_CMS_scale_j.pdf><./systs/shapes_ttdm805101_em_hi/ttDM_805101_CMS_scale_j.
+pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [180<./systs/shapes_ttdm805101_sf_hi/ttDM_805101_RecoilCorr.pdf><./systs/shapes
+_ttdm805101_em_hi/ttDM_805101_RecoilCorr.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [181<./systs/shapes_ttdm805101_sf_lo/ttDM_805101_pdf.pdf><./systs/shapes_ttdm80
+5101_em_lo/ttDM_805101_pdf.pdf><./systs/shapes_ttdm805101_sf_hi/ttDM_805101_pdf.
+pdf><./systs/shapes_ttdm805101_em_hi/ttDM_805101_pdf.pdf>]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 1.
+ [182
+
+]
+LaTeX Info: Redefining \HepProcess on input line 1.
+LaTeX Info: Redefining \HepProcess on input line 58.
+LaTeX Info: Redefining \HepProcess on input line 58.
+ [183]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
+LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 126.
+ [184]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+LaTeX Info: Redefining \HepProcess on input line 192.
+LaTeX Info: Redefining \HepProcess on input line 192.
+ [185]
+Underfull \hbox (badness 2005) in paragraph at lines 254--259
+[]\T1/ppl/m/n/12 The CMS Col-lab-o-ra-tion,  CMS Tracker De-tec-tor Per-for-man
+ce Re-sults,
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130])
-[131
+LaTeX Info: Redefining \HepProcess on input line 266.
+LaTeX Info: Redefining \HepProcess on input line 266.
+ [186]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 324.
+LaTeX Info: Redefining \HepProcess on input line 324.
+ [187]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 386.
+LaTeX Info: Redefining \HepProcess on input line 386.
+ [188
 Missing character: There is no ć (U+0107) in font pplr8t!
-] [132
-
-] (./ssevova_thesis.lof
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+LaTeX Info: Redefining \HepProcess on input line 446.
+LaTeX Info: Redefining \HepProcess on input line 446.
+ [189])
+LaTeX Info: Redefining \HepProcess on input line 9.
+LaTeX Info: Redefining \HepProcess on input line 9.
+
+[190]
+LaTeX Info: Redefining \HepProcess on input line 9.
+ (./ssevova_thesis.lof
+Overfull \hbox (26.11415pt too wide) in paragraph at lines 8--8
+ [][] [][][]\T1/ppl/m/n/12 The WIMP co-mov-ing num-ber den-sity as a func-tion 
+of time, also parametrized 
+ []
+
+LaTeX Info: Redefining \HepProcess on input line 9.
+LaTeX Info: Redefining \HepProcess on input line 9.
+[191
+
+]
+Overfull \hbox (14.53584pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/ppl/m/n/12 The positron en-ergy spec-tra mea-sured by a com-pi-
+la-tion of re-cent (PAMELA 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-[135
+LaTeX Info: Redefining \HepProcess on input line 17.
+LaTeX Info: Redefining \HepProcess on input line 17.
+ [192]
+LaTeX Info: Redefining \HepProcess on input line 25.
+LaTeX Info: Redefining \HepProcess on input line 25.
+
+[193
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
@@ -2312,34 +3763,81 @@ Missing character: There is no ” (U+201D) in font pplr8t!
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+LaTeX Info: Redefining \HepProcess on input line 34.
+LaTeX Info: Redefining \HepProcess on input line 34.
+ [194]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137]
+LaTeX Info: Redefining \HepProcess on input line 42.
+LaTeX Info: Redefining \HepProcess on input line 42.
+ [195]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138]
+LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 60.
+ [196]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139]
+LaTeX Info: Redefining \HepProcess on input line 81.
+LaTeX Info: Redefining \HepProcess on input line 81.
+ [197]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140])
-\tf@lof=\write6
+LaTeX Info: Redefining \HepProcess on input line 88.
+LaTeX Info: Redefining \HepProcess on input line 88.
+ [198]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-\openout6 = ssevova_thesis.lof
+LaTeX Info: Redefining \HepProcess on input line 93.
+LaTeX Info: Redefining \HepProcess on input line 93.
+ [199]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[141] [142
+LaTeX Info: Redefining \HepProcess on input line 98.
+LaTeX Info: Redefining \HepProcess on input line 98.
+ [200]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./ssevova_thesis.lot
-Underfull \vbox (badness 5696) has occurred while \output is active []
+LaTeX Info: Redefining \HepProcess on input line 106.
+LaTeX Info: Redefining \HepProcess on input line 106.
+ [201])
+\tf@lof=\write7
 
- [143])
-\tf@lot=\write7
+\openout7 = ssevova_thesis.lof
+LaTeX Info: Redefining \HepProcess on input line 10.
+LaTeX Info: Redefining \HepProcess on input line 10.
 
-\openout7 = ssevova_thesis.lot
+[202]
+LaTeX Info: Redefining \HepProcess on input line 10.
+ (./ssevova_thesis.lot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 14.
+LaTeX Info: Redefining \HepProcess on input line 14.
+ [203
+
+]
+Underfull \vbox (badness 1681) has occurred while \output is active []
+
+LaTeX Info: Redefining \HepProcess on input line 27.
+LaTeX Info: Redefining \HepProcess on input line 27.
+ [204])
+\tf@lot=\write8
+
+\openout8 = ssevova_thesis.lot
 ))
-[144] (./ssevova_thesis.aux)
+LaTeX Info: Redefining \HepProcess on input line 96.
+LaTeX Info: Redefining \HepProcess on input line 96.
+
+[205]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+ (./ssevova_thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package rerunfilecheck Info: File `ssevova_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D4BF51D2E69A489D89FB8B528AFFE4EC;4664.
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -2353,16 +3851,17 @@ LaTeX Warning: There were multiply-defined labels.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30540 strings out of 495119
- 381849,953878 words of node,token memory allocated
- 19436 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2209 glue, 1 kern, 20 sub_mlist, 852 attribute, 69 
-glue_spec, 852 attribute_list, 1 write nodes
-   avail lists: 1:128,2:14686,3:3658,4:173,5:425,6:8008,7:5758,8:867,9:1674,10:3
-3,11:630
- 31336 multiletter control sequences out of 65536+600000
- 669 fonts using 41491983 bytes
- 75i,24n,103p,8489b,1981s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 36120 strings out of 495119
+ 596970,1144653 words of node,token memory allocated
+ 37500 words of node memory still in use:
+   169 hlist, 32 vlist, 22 rule, 64 math, 3858 glue, 8 kern, 10 sub_mlist, 108 g
+lyph, 1616 attribute, 70 glue_spec, 1616 attribute_list, 1 write, 77 pdf_action 
+nodes
+   avail lists: 1:88,2:14265,3:3736,4:142,5:305,6:4988,7:5343,8:709,9:1591,10:27
+,11:447,12:1
+ 35687 multiletter control sequences out of 65536+600000
+ 721 fonts using 44874455 bytes
+ 75i,24n,103p,8489b,2026s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</Users/ssevova/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat/d
 ingbat.720pk>>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-su
 per-t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
@@ -2376,17 +3875,17 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
-w/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palat
-ino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr
-i8a.pfb>
-Output written on ssevova_thesis.pdf (158 pages, 5858069 bytes).
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palati
+no/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
+8a.pfb>
+Output written on ssevova_thesis.pdf (217 pages, 7066088 bytes).
 
-PDF statistics: 3753 PDF objects out of 4296 (max. 8388607)
- 1806 compressed objects within 19 object streams
- 0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 7292 PDF objects out of 7423 (max. 8388607)
+ 4432 compressed objects within 45 object streams
+ 692 named destinations out of 1000 (max. 131072)
+ 552 words of extra memory for PDF output out of 10000 (max. 10000000)
 

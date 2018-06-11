@@ -1,13 +1,29 @@
 \chapter{Object and event reconstruction}
 \label{chap:eventreco}
 
-In order to target \ttDM production in the dilepton final state, where both top quarks have leptonically decaying W bosons, the selection criteria is compatible with that of SM \ttbar decays in the dilepton final state, but with an additional requirement that the event contain a moderate amount of \MET.
+In order to target \ttDM production in the dilepton final state, where both top quarks have leptonically decaying W bosons, the selection criteria is compatible with that of SM \ttll decays, but with a requirement targetting the harder \MET spectra as expected from signals compared to the SM background.
 
-Sections~\ref{sec:leps}-\ref{sec:MET} are dedicated to detailing the criteria each object in an event must adhere to in order to be considered a potential signal event. Section~\ref{sec:selection} explains how the reconstructed event objects are used together to target a region where a \ttllDM signal is expected.
+Owing to the design elements of the CMS detector as described in \ChapterRef{chap:CMS}, it has been found that it is well-suited to particle-flow (PF) reconstruction of physics objects, expanded upon in \SectionRef{sec:PF}, from the signals collected by each subdetector. \SectionRef{sec:leps}-\ref{sec:MET} detail the means by which the PF quantities are employed in the reconstruction of particular objects, and the criteria each object in an event must adhere to in order to be considered a potential signal event. \SectionRef{sec:selection} explains how the reconstructed event objects are used collectively, to target a region where a \ttllDM signal is expected.
+
+\section{The Particle Flow algorithm}
+\label{sec:PF}
+
+A key feature of the CMS detector which allows for the correlation of signals from different sources is the fine spatial granularity and segmentation of the individual constituent subdetectors. As a result of the fine-grain tracker and strong magnetic field, very efficient charged-particle track reconstruction is possible, which accounts for $\sim 65\%$ of jet energy measurement. Additionally, the high ECAL segmentation provides the ability to separate energy deposits from particles in jets from one another, allowing for the efficient identification of photons and the measurement of $\sim 25\%$ of the jet energy. The remaining $\sim 10\%$ of the jet energy measurement comes from the HCAL, which has a sufficient segmentation to allow for the separation of charged and neutral hadron energy deposits from particles in jets. Lastly, as per its namesake, the CMS detector has an excellent muon system enabling pure and efficient muon identification regardless of the surrounding particles.
+
+The goal of the PF algorithm is thus to optimally combine the information from the aforementioned subdetectors, which is done via the following simplified description, where more details can be found in~\cite{Sirunyan:2017ulk}:
+\begin{itemize}
+  \item Tracks from the pixel and strip tracker are extrapolated through the calorimeters (``inside-out'').
+  \item If the tracks land within certain spatial boundary requirements of one or several clusters, they are linked to the track in question resulting in a charged hadron candidate. This PF candidate is subsequently not considered in the remainder of the algorithm.
+  \item By this point, muons have been independently identified by a correlation of hits between the tracker and the muon system detectors, thus removing any potential ambiguity of track association to muons or charged hadrons.
+  \item The treatment of electrons is complicated by the fact that frequent Bremsstrahlung gives rise to multiple possible energy clusters that can be associated to a track, thus dedicated track reconstruction is required to properly match ECAL clusters from the emitted photons to the electron track. 
+  \item Finally, the remaining ECAL and HCAL clusters are designated as photon and neutral hadron candidates, respectively.
+\end{itemize}
+
+The preceeding steps yield a list of particles, consisting of neutral and charged hadrons, photons, electrons, and muons, all of which are then employed in the reconstruction of jets, \MET, and $\tau$ leptons from their decay products. In addition, the list of PF candidates is used to measure the isolation of the particles.
 
 \section{Leptons}
 \label{sec:leps}
-A top and anti-top quark are expected in the signal event, and each emits a $\mathrm{W^+}$ and $\mathrm{W^-}$ respectively. The $\mathrm{W^\pm}$ boson in turn decays to a lepton and its corresponding lepton neutrino, as shown in \FigureRef{fig:Wdecay}. Although the $\mathrm{W^\pm}$ boson decays democratically to each lepton generation, only the first and second generation are considered in this analysis. Namely, since the top and anti-top produce a positively and negatively charged W boson, the final state topology is expected to contain two oppositely charged leptons of either the same lepton flavor or opposite lepton flavor. The term flavor is used to distinguish between the first and second lepton generations. Thus, events with two electrons ($ee$), two muons ($\mu\mu$), or an electron and muon pair ($e\mu$) are selected. $\tau$ leptons are not considered because of challenges in detector reconstruction. 
+A top and anti-top quark are expected in the signal event, and each decays via a $\mathrm{W^+}$ and $\mathrm{W^-}$ respectively. The $\mathrm{W^\pm}$ boson in turn decays to a lepton and its corresponding lepton neutrino, as shown in \FigureRef{fig:Wdecay}. Although the $\mathrm{W^\pm}$ boson decays democratically to each lepton generation, only the first and second generation are considered in this work. Namely, since the top and anti-top produce a positively and negatively charged W boson, the final state topology is expected to contain two oppositely charged leptons which are the same lepton flavor or different lepton flavors. In the context of this work, the term flavor is used to distinguish between the first and second lepton generations. Thus, dielectron ($ee$) and dimuon ($\mu\mu$) events are referred to as same flavor (SF) and events containing an electron and muon pair ($e\mu$) are referred to as opposite flavor (OF). The $\tau$ lepton final state is not considered in this work, as very little sensitivity is expected to be gained as a result of the challenges in detector reconstruction. The $\tau$ lepton is the only lepton that can decay into hadrons, doing so approximately $65\%$ of the time, and its remaining branching ratio consists of purely leptonic decays to the first and second generation. As such, the hadronic decay mode in this channel is overwhelmed by background from multijet QCD processes, and would also necessitate higher lepton trigger \pt thresholds along with more stringent lepton identification and isolation criteria. The higher thresholds and identification criteria would subsequently result in lower trigger and selection efficiencies, amounting to minimal gains in sensitivity from the addition of the $\tau$ lepton decay mode.
 
 \begin{figure}
   \feynmandiagram [baseline=(d.base), horizontal=d to b] {
@@ -25,16 +41,16 @@ A top and anti-top quark are expected in the signal event, and each emits a $\ma
 %%------------------------ Muon identification and isolation definitions------------------------ %%
 \subsection{Muons} 
 \label{subsec:muon}
-In order to be selected, muons must pass a stringent set of criteria which guarantee a high muon identification efficiency. The following list of criteria describe the ``Tight'' working point employed to select a well-identified muon:
+In order to be selected, muons must pass a stringent set of criteria which guarantee a high muon identification efficiency. In general, the muon object reconstruction process consists of associating independently reconstructed tracks in the muon system (i.e. standalone muon) to tracks in the inner tracker (i.e. tracker muon), where a final fit is performed over the combined set of hits. The matching procedure can be performed from an ``outside-in'' or ``inside-out'' detector approach. The quantities derived from the track fit quality and number of hits or track segments enables the selection of well-measured muons and those less likely to be fakes. The following list of criteria describe the ``Tight'' working point employed to select a well-identified muon:
 
 \begin{itemize}
-  \item \textit{Global Muon} (outside-in) reconstruction: A standalone muon in the outer muon detectors is matched to a tracker track and a \textit{global-muon track} is fitted, which combines hits from the tracker track and standalone-muon track.
-  \item \textit{Tracker Muon} (inside-out) reconstruction: Tracker tracks with \pt > 0.5 GeV/c and $p$ > 2.5 GeV/c are taken to be muon candidates and are extrapolated to the muon system, factoring in energy loss expected and the uncertainty from multiple scattering. An extrapolated track qualifies as a tracker-muon track if it is matched with at least one short stub from DT or CSC hits.
-  \item \textit{Particle Flow Muon} identification: As a general definition, the Particle Flow (PF) algorithm combines information from all CMS subdetectors in order to reconstruct and identify inidividual particles. For muons, the PF algorithm applies selection criteria on the reconstructed \textit{Global Muon} and \textit{Tracker Muon} dependent on the environment of the muon. The criteria are modified accordingly to the environment, in order to make use of the pertinent sub-detectors. For example, energy deposits in the calorimeter may be used to assign the momentum of a muon that is not well isolated.
-  \item $\chi^2$/ndof < 10 for \textit{Global Muon} track fit: intended to suppress particles originating from hadronic punchthrough 
-  \item At least one muon-chamber hit included in \textit{Global Muon} track fit: This requirement is intended to suppress particles originating from hadronic punchthrough and muons coming from in-flight decays
+  \item \textit{Global Muon} (outside-in) reconstruction: A standalone muon constructed from track segments in the outer muon detectors is matched to a tracker track constructed from hits in the pixel and strip tracker and a \textit{global muon track} is fitted.
+  \item \textit{Tracker Muon} (inside-out) reconstruction: Tracker tracks with $\pt > 0.5\:\GeV$ and $p > 2.5\:\GeV$ are taken to be muon candidates and are extrapolated to the muon system, factoring in energy loss expected and the uncertainty from multiple Coulomb scattering. An extrapolated track qualifies as a tracker-muon track if it is matched with at least one short stub from DT or CSC hits.
+  \item \textit{Particle Flow Muon}: A muon is required to pass \textit{Global Muon} and \textit{Tracker Muon} criteria. In the case that a muon is not well-isolated as a result of final state radiation or Bremsstrahlung, energy deposits in the calorimeter may be used to assign the momentum of a the muon.
+  \item $\chi^2$/ndof < 10 for \textit{Global Muon} track fit: This requirement is intended to suppress particles that come from hadronic punchthroughs wherein the muon originates from $\pi$ and K meson decays in a hadronic cascade. In such cases, the standalone muon will have a lower \pt as a result of the energy loss of the $\pi$ in the calorimetry, while the tracker muon will exhibit a higher \pt.
+  \item At least one muon-chamber hit included in \textit{Global Muon} track fit: This requirement is intended to suppress particles originating from hadronic punchthrough and muons coming from in-flight decays of $\pi^\pm$
   \item Muon segments in at least two muon stations: A tracker track must be matched to these segments, using more than 10 inner-tracker hits, with at least 5 tracker layers containing hits, and at least one pixel hit. This suppresses the punchthrough rate, any accidental track-to-segment matching, and guarantees a good \pt measurement.
-  \item $|{d_{xy}}|<2$ mm: The tracker track must have a transverse impact parameter, ${d_{xy}}$, less than 2 mm with respect to the location of the primary vertex interation point. This requirement is intended to suppress backgrounds from cosmic muons and further suppress muons originating from in-flight decays.
+  \item $|{d_{xy}}|<2$ mm: The tracker track must have a transverse impact parameter, ${d_{xy}}$, less than 2 mm with respect to the location of the primary vertex interaction point. This requirement is intended to suppress backgrounds from cosmic muons and further suppress muons originating from in-flight decays.
   \item $|{d_{z}}|<5$ mm: The tracker track must have a longitudinal distance, ${d_{z}}$, less than 5 mm with respect to the location of the primary interaction vertex in order to further suppress cosmic muons, muons originating from in-flight decays, and tracks from pile-up. 
 \end{itemize}
 
@@ -43,9 +59,9 @@ In addition to the aforementioned selection criteria, to further reduce contamin
 I = I_{h^+} + \max\left(I_{h^0} + I_{\gamma} - 0.5\cdot I_{\mbox{\scriptsize{pu}}}, 0\right).
 \label{eq:muonIso}
 \end{equation}
-where $h^+$,$\gamma$, and $h^0$ correspond to charged hadrons, photons, and neutral hadrons, respectively, and each $I$ quantity is the sum \pt (sum \Et for $\gamma$, and $h^0$) of these particle types in the $R=0.4$ cone. $I_{\mbox{\scriptsize{pu}}}$ is the contribution from charged hadrons from pileup and is refered to as the $\Delta\beta$ correction meant to account for effects of additional charged particles not associated with the primary vertex. The value computed in Eq.~\ref{eq:muonIso} is divided by the muon \pt which is not included in the calculation, hence the value is turned into a relative isolation, $I_{rel}$. Muons in the event are required to have a relative isolation of less than 0.15.  
+where $h^+$,$\gamma$, and $h^0$ correspond to charged hadrons, photons, and neutral hadrons, respectively, and each $I$ quantity is the sum \pt (sum \Et for $\gamma$, and $h^0$) of these particle types in the $R=0.4$ cone. $I_{\mbox{\scriptsize{pu}}}$ is the contribution from neutral hadrons from pileup meant to account for effects of additional neutral particles not associated with the primary vertex. The value computed in \EquationRef{eq:muonIso} is divided by the muon \pt which is not included in the calculation, hence the value is turned into a relative isolation, $I_{rel}$. Muons in the event are required to have a relative isolation of less than 0.15.  
 
-A looser set of muon identification and isolation requirements are also used in this analysis. In one case the ``Fake-able Object'' (FO) working point is employed in a background estimation method described later. In addition, a ``Loose'' muon identification and isolation working point is also used to veto any additional muons in an event. The three muon working points are summarized in Tab.~\ref{tab:muon_wp}.
+A looser set of muon identification and isolation requirements are also used in this work. In one case the ``Fake-able Object'' (FO) working point is employed in a background estimation method described in \ChapterRef{chap:backgrounds}. In addition, a ``Loose'' muon identification and isolation working point is also used to veto any additional muons in an event. The three muon working points are summarized in Tab.~\ref{tab:muon_wp}.
 
 \begin{table}[!ht]
 \centering
@@ -74,7 +90,7 @@ A looser set of muon identification and isolation requirements are also used in 
 %%---------------------- Electron identification and isolation definitions ---------------------- %%
 \subsection{Electrons}
 \label{subsec:electrons}
-Electrons must also pass a stringent set of selection requirements in order to be considered a candidate component of the signal event. The citeria are outlined in the following list:
+Similarly to muons, electron reconstruction involves the association of tracker tracks to superclusters (i.e. $5\times 5$ arrays of crystals in $\eta\times\phi$ surrounding a seed crystal of minimum $\Et>E^{\text{min}}_{\text{T,seed}}$) of energy in the ECAL. Electron-track building involves the Gaussian-sum filter (GSF) algorithm that accounts for the non-Gaussian distributied Bremsstrahlung electron energy loss. Electron candidates must also pass a stringent set of selection requirements in order to be considered a candidate component of the signal event. The criteria are outlined in the following list:
 
 \begin{itemize}
 \item $\sigma_{i\eta i\eta}$: This variable describes the lateral extension of the hadronic shower along the $\eta$ direction. It is defined as,
@@ -85,20 +101,20 @@ Electrons must also pass a stringent set of selection requirements in order to b
   and the sum runs over the 5x5 matrix of crystals around the highest \Et crystal of the supercluster (SC), and $w_i$ denotes a weight that is logarithmically dependent on the contained energy.
 \item $|\Delta\phi_{in}| = |\phi_{SC} - \phi^{\mathrm{extrap}}_{\mathrm{in}}|$: This denotes the azimuthal separation between the SC energy-weighted $\phi$ position and the track $\phi$ extrapolated from the innermost track position and direction to the point of closest approach (PCA) to the SC.
 \item $|\Delta\eta_{in}| = |\eta_{SC} - \eta^{\mathrm{extrap}}_{\mathrm{in}}|$: This denotes the lateral separation between the SC energy-weighted $\eta$ position and the track $\eta$ position extrapolated from the innermost track position and direction to the PCA to the SC.
-\item $H/E$: The ratio between the energy deposits in the HCAL and ECAL supercluster.
-\item $|1/E - 1/p|$: This quantity expresses an energy-momentum matching requirement using the SC energy, $E$, and the track momentum, $p$, at the PCA to the track vertex. The requirement helps to reject backgrounds from hadronic activity where the spread of the $E$ is not localized resulting in a low $E/p$, but also backgrounds where a $\pi^0$ decays to $e^{+}e^{-}$ in the close vicinity of a charged hadron, resulting in a very high $E/p$ ratio.  
+\item $H/E$: The ratio between the energy deposits in the HCAL and ECAL supercluster. A well-identified electron would be expected to have a low $H/E$ owing to the high $X_0$ of the CMS detector, thereby containing the EM showering before it reaches the HCAL.
+\item $|1/E - 1/p|$: This quantity expresses an energy-momentum matching requirement using the SC energy, $E$, and the track momentum, $p$, at the PCA to the track vertex. The requirement helps to reject backgrounds from hadronic activity where the spread of the $E$ is not localized resulting in a low $E/p$, but also backgrounds where a $\pi^0\rightarrow \gamma \gamma$ decay occurs in the close vicinity of a charged hadron, resulting in a very high $E/p$ ratio.  
 \item $|{d_{xy}}|$: The transverse impact parameter of the tracker track with respect to the primary interaction vertex.
 \item $|{d_{z}}|$: The longitudinal impact parameter of the tracker track with respect to the primary interaction vertex.
-\item Missing hits: After track-fitting is performed to electron-tracks seeded by an ECAL crystal with maximum energy in a considered region, if several tracker hits are found to be compatible with those expected in a layer from the track trajectory, at most one missing hit is allowed for an accepted candidate. Furthermore, in order to avoid the inclusion of hits originating from bremsstrahlung photons converted to $e^{+}e^{-}$ pairs, in the reconstructuon of primary electron tracks, an increased $\chi^2$ penalty is applied to trajectory candidates which have one missing hit.
+\item Missing hits: After track-fitting is performed to electron-tracks seeded by an ECAL crystal with maximum energy in a considered region, if several tracker hits are found to be compatible with those expected in a layer from the track trajectory, at most one missing hit is allowed for an accepted candidate. The idea is that trajectories of prompt electrons commence at the beamline, and thus they are not expected to have missing hits in the inner layers of the tracker, while photon conversions taking place within the tracker volume often do not commence at the innermost layers indicating missing hits in this area. Furthermore, in order to avoid the inclusion of hits originating from Bremsstrahlung photons converted to $e^{+}e^{-}$ pairs, in the reconstructuon of primary electron tracks, an increased $\chi^2$ penalty is applied to trajectory candidates which have one missing hit.
 \item Pass conversion veto: In order to reject secondary electrons produced in the conversion of photons in the tracker material, a vertexing algorithm is used. The hits in the tracker from the converted photon are fit to a common vertex using the well-defined topological constraint that tracks from conversions have virtually the same tangent at the conversion vertex in both the ($r,\phi$) and ($r,z$) planes. The convereted photon candidates are rejected according to the $\chi^2$ probability of the fit. 
 \end{itemize}
 
-In addition to the aforementioned selection criteria, electrons are required to be isolated from nearby activity, namely significant energy flow that may be a result of misidentified jets or that may be due to genuine electrons within a jet resulting from a semileptonic b or c quark decay. Similarly to the isolation definition for muons in Eq.~\ref{eq:muonIso}, the electron isolation definition is a sum of PF-candidates within $R=0.3$ of the electron. Explicitly, the isolation is computed as,
+In addition to the aforementioned selection criteria, electrons are required to be isolated from nearby activity, namely significant energy flow that may be a result of misidentified jets or that may be due to genuine electrons within a jet resulting from a semileptonic b or c quark decay. Similarly to the isolation definition for muons in \EquationRef{eq:muonIso}, the electron isolation definition is a sum of PF-candidates within $R=0.3$ of the electron. Explicitly, the isolation is computed as,
 \begin{equation}
   I = I_{h^+} + \max\left(I_{h^0} + I_{\gamma} - A_{eff}\cdot\rho, 0\right),
   \label{eq:eleIso}
 \end{equation}
-where $I_{h^+}$, $I_{h^0}$, and $I_{\gamma}$ are the contributions from charged hadrons, neutral hadrons, photons, respectively. $\rho$ denotes the event energy density. Effects due to pileup are mitigated using corrections based on the ``effective area'', denoted as $A_{eff}$ in Eq.~\ref{eq:eleIso}. In order to obtain the $A_{eff}$, the isolation is plotted as a function of $\rho$ in bins of $\eta$, and the value at which the isolation is $90\%$ efficient is determined in slices of $\rho$, known as the cutoff. A first order polynomial is fit to the cutoff and the slope is taken as the value of the correction, as listed in Tab.~\ref{tab:ea} for the various $|\eta|$ ranges.
+where $I_{h^+}$, $I_{h^0}$, and $I_{\gamma}$ are the contributions from charged hadrons, neutral hadrons, photons, respectively. $\rho$ denotes the event energy density. Effects due to pileup are mitigated using corrections based on the ``effective area'', denoted as $A_{eff}$ in \EquationRef{eq:eleIso}. In order to obtain the $A_{eff}$, the isolation is plotted as a function of $\rho$ in bins of $\eta$, and the value at which the isolation is $90\%$ efficient is determined in slices of $\rho$, known as the cutoff. A first order polynomial is fit to the cutoff and the slope is taken as the value of the correction, as listed in Tab.~\ref{tab:ea} for the various $|\eta|$ ranges.
 
 \begin{table}[!ht]
 \centering
@@ -119,7 +135,7 @@ $2.4 - 2.5$        & 0.2393 \\
 \label{tab:ea}
 \end{table}
 
-A looser set of electron identification and isolation requirements are also used in this analysis. In one case the ``Fake-able Object'' (FO) working point is employed in a background estimation method described later. In addition, a ``Veto'' electron identification and isolation working point is also used to veto events with any additional electrons. The three electron working points are summarized in Tab.~\ref{tab:ele_wp}, for both the barrel and endcap regions, where an electron is defined as being in the barrel if it has a supercluster $|\eta|<1.479$.
+A looser set of electron identification and isolation requirements are also used in this work. In one case the ``Fake-able Object'' (FO) working point is employed in a background estimation method described later. In addition, a ``Veto'' electron identification and isolation working point is also used to veto events with any additional electrons. The three electron working points are summarized in Tab.~\ref{tab:ele_wp}, for both the barrel and endcap regions, where an electron is defined as being in the barrel if it has a supercluster $|\eta|<1.479$.
 
 \begin{table}[!ht]
 \centering
@@ -149,28 +165,28 @@ A looser set of electron identification and isolation requirements are also used
 %%---------------------- Jet identification and definitions ---------------------- %%
 \section{Jets}
 \label{sec:jets}
-Jets are reconstructed from particle candidates obtained by the PF algorithm, using the anti-$k_{T}$ clustering algorithm with size parameter, $R=0.4$.
+Jets are reconstructed from particle candidates obtained by the PF algorithm, using the anti-$k_{T}$ clustering algorithm~\cite{Cacciari:2008gp} with size parameter, $R=0.4$.
 
 The anti-$k_{T}$ algorithm is part of a group of sequential jet clustering algorithms that make use of the distance between candidate particles and their respective energies when forming a jet. Such algorithms make the assumption that the particles contained in a jet have minimal differences in \pt, hence the grouping is performed based on momentum-space. These algorithms share a similar underlying method where a distance is computed between two candidate particles according to:
 \begin{equation}
-  d_{ij} = \min\bigg(\pt_{i}^{a},\pt_{j}^{a}\bigg)\times\frac{R_{ij}^{2}}{R}
+  d_{ij} = \min\bigg(p_{\text{T}i}^{a},p_{\text{T}j}^{a}\bigg)\times\frac{R_{ij}^{2}}{R}
   \label{eq:seqclus}
 \end{equation}
 
-where $R_{ij} = (\eta_{i}-\eta_{j})^{2} + (\phi_{i}-\phi_{j})^{2}$ is the $(\eta-\phi)$ distance between the two particles and $R$ is the radius parameter of the jet cone. These methods also require the computation of a second distance variable, $d_{iB}=\pt_{i}^{a}$, the momentum-space distance between the beam axis and the candidate particle. Subsequently, the minimum of the entire set ${d_{ij},d_{iB}}$ is determined and if $d_{ij}$ is the minimum, then particles $i$ and $j$ are combined by the summation of their respective four-vectors, and removed from the list of particles. If $d_{iB}$ is determined as the minimum, the candidate $i$ is taken as the final jet and removed from the list of particles. The process is repeated until either a desired number of jets have been found (exclusive), or the separation between particles in a jet, $R_{ij}$, is greater than the jet size parameter $R$ (inclusive).
+where $R_{ij} = (\eta_{i}-\eta_{j})^{2} + (\phi_{i}-\phi_{j})^{2}$ is the $(\eta-\phi)$ distance between the two particles and $R$ is the radius parameter of the jet cone. These methods also require the computation of a second distance variable, $d_{iB}=p_{\text{T}i}^{a}$, the momentum-space distance between the beam axis and the candidate particle. Subsequently, the minimum of the entire set $\{d_{ij},d_{iB}\}$ is determined and if $d_{ij}$ is the minimum, then particles $i$ and $j$ are combined by the summation of their respective four-vectors, and removed from the list of particles. If $d_{iB}$ is determined as the minimum, the candidate $i$ is taken as the final jet and removed from the list of particles. The process is repeated until either a desired number of jets have been found (exclusive), or the separation between particles in a jet, $R_{ij}$, is greater than the jet size parameter $R$ (inclusive).
 
-In the anti-$k_{T}$ algorithm, the value of $a$ corresponds to -2, such that Eq.~\ref{eq:seqclus} results in,
+In the anti-$k_{T}$ algorithm, the value of $a$ corresponds to -2, such that \EquationRef{eq:seqclus} results in,
 
 \begin{equation}
-  d_{ij} = \min\bigg(\frac{1}{\pt_{i}^{2}},\frac{1}{\pt_{j}^{2}}\bigg)\times\frac{R_{ij}^{2}}{R}
+  d_{ij} = \min\bigg(\frac{1}{p_{\text{T}i}^{2}},\frac{1}{p_{\text{T}j}^{2}}\bigg)\times\frac{R_{ij}^{2}}{R}
   \label{eq:antikt}
 \end{equation}
 
-and $d_{iB}=\frac{1}{\pt_{i}^{2}}$. The anti-$k_{T}$ algorithm is minimally affected by activity from the underlying event and pile-up, since Eq.~\ref{eq:antikt} is dominated by high \pt particles, so the algorithm preferentially begins clustering hard particles, causing the jet area to fluctuate a small amount.
+and $d_{iB}=\frac{1}{p_{\text{T}i}^{2}}$. The anti-$k_{T}$ algorithm is minimally affected by activity from the underlying event and pile-up, since \EquationRef{eq:antikt} is dominated by high \pt particles, so the algorithm preferentially begins clustering hard particles, causing the jet area to fluctuate a small amount.
 
 In order to reduce the effects of ``in-time'' pile-up, that is additional pp collisions occuring in the same bunch-crossing as the collision of interests, a charge hadron subtraction (CHS) treatment is performed during the anti-$k_{T}$ clustering of PF jets. The CHS technique removes any charged hadrons well-matched to PU vertices, allowing for the clustering of remaining PF candidates to form jets. In the PF algorithm, a charged hadron is defined as a track possibly associated with hits in the ECAL and HCAL. In order to determine a primary vertex, the proto-vertex with the largest magnitude of the sum of squares of the track transverse momenta \Big($\sum{|\pt^{TRK}|^2}$\Big) is chosen. Subleading vertices are deemed as originating from PU and their minimum degrees of freedom, $N_{\mathrm{dof}}$, in the vertex fit is required to be larger than four. Based on the chi-square per degree of freedom ($\chi^2$/d.o.f), a charged hadron can be assigned to the chosen PV if this value is less than 20, otherwise it is associated to a PU vertex. The final step of the CHS procedure entails the removal of PU tracks which are determined by the association of the charged hadron track to a good PU PV. The tracks associated to the PV, and any other tracks not associated to the PU vertices, are kept. The primary effect of the application of CHS is the removal of jets from pileup, although the procedure also improves the angular and \pt resolution of jets, along with reducing the rate of low \pt jets created solely from PU in the tracker acceptance region ($|\eta|<2.5$).
 
-Furthermore, a set of loose identification criteria on the relative fractions of reconstructed PF jet constituents are imposed in order to suppress noise contributions from the HCAL and ECAL. The PF candidates are denoted as ``charged EM'' (electron or muon), ``neutral EM'' (photon), ``charged hadron'', and ``neutral hadron'', and the requirements are made on the relative jet energy fraction that are carried by each type. Tracker acceptance limits the validity region of the ``charged'' variables to $|\eta|<2.4$, however the ``neutral'' variables extend up to $|\eta|<5$. The ``loose'' PF jet identification working point defined in Tab.~\ref{tab:jetid} targets the removal of jets emerging from calorimetric noise.
+Furthermore, a set of loose identification criteria on the relative fractions of reconstructed PF jet constituents are imposed in order to suppress noise contributions from the HCAL and ECAL. Requirements on the relative energy fractions carried by the various types of PF candidates with respect to the total PF jet energy are made. Tracker acceptance limits the validity region of the charged PF candidate to $|\eta|<2.4$, however the neutral PF candidates extend up to $|\eta|<5$. The ``loose'' PF jet identification working point defined in Tab.~\ref{tab:jetid} targets the removal of jets emerging from calorimetric noise.
 
 \begin{table}[!ht]
   \centering
@@ -194,9 +210,17 @@ Furthermore, a set of loose identification criteria on the relative fractions of
   \label{tab:jetid}
 \end{table}
 
-The jet is not considered if it is within $\Delta R<0.4$ of a ``Tight'' electron or muon.
+Clustering algorithms have no means by which to distinguish which PF constituents correspond to well-identified leptons, thus jets can include such leptons. In this work, the ambiguity is treated after the ``good'' leptons are selected a jet is not considered if it is within $\Delta R<0.4$ of a such an electron or muon. In this sense, the precedent is given to the well-identified muons and electrons.
 
-\subsection{b jet tagging}
+All jets with $\pt > 15\:\GeV$ and less than 0.9 of their energy deposited in the ECAL are corrected. In addition, the muon four-momentum is subtracted from the jet four-momentum when the correction is performed, if a muon is found within a jet. Jet energy corrections consist of several stages and are derived and applied in a factorized manner, although the underlying procedure of scaling the jet four-momentum with a scale factor (SF) which depends on jet quantities such as \pt, \eta, and flavor is universal. The corrections are listed and described briefly below in the order they are applied.
+
+\begin{itemize}
+  \item L1 Pile up: Aimed at removing energy contributions from pile-up events, this correction is determined from a simulation sample of QCD dijet events which are processed with and without pileup overlay. The corrections are parametrized as a function of the jet area (A), jet \eta and \pt, and \rho (i.e. the same quantity used in electron isolation calculations). The correction applied to data is parametrized in \eta and determined using zero bias events.
+  \item L2L3 MC-truth corrections: The reconstructed jet \pt is compared to the particle level jet \pt in order to derive jet response corrections from a QCD dijet simulation sample. The jet response is made uniform over \pt and \eta, the jet variables in which it is derived.
+  \item L2L3 Residuals: These corrections are applied to jets in data only and include both an \eta and \pt component. For the \eta dependence (relative corrections), dijet events are compared to a jet of similar \pt in the barrel region ($|\eta|<1.3$). For the \pt dependence (absolute corrections), the JES relative to the reference JES of the barrel jet is taken into account. The jet absolute scale corrections are derived using Z($\mu\mu$/$ee$)+jets, photon+jet, and multijet events.
+\end{itemize}
+
+\subsection{b-jet tagging}
 \label{subsec:btag}
 In addition to the preceding jet requirements, an algorithm developed to distinguish jets originating from the hadronization of b quarks is employed in the analysis. This identification relies heavily on the precise reconstruction of secondary vertices associated to weakly decaying b hadrons present in jets origination from the hadronization of b quarks.
 
@@ -210,7 +234,7 @@ The CSV algorithm subsequently makes use of the tracks and vertices passing the 
 \item Jets are not associated with any reconstructed SV or ``pseudo-vertex'': This category compliments the above two, meaning only variables related to the displaced track vertex are exploited.
 \end{itemize}
 
-The variables defined in each category are combined in each respective category via a multilayer perceptron (MLP) with one hidden layer. An MLP is a type of artificial neural netrwork where the information in each layer is fed uni-directionally to the next. It has the advantage of distinguishing non-linearly seperable data. A likelihood ratio taking into account the expected fraction of jet flavors in \ttbar events is combined with the information from the three categories, to yield the final CSV discriminant, as shown in~\FigureRef{fig:CSVv2_multijet}, for multi-jet events where at least one jet satisfies an online \pt requirement of greater than 40 \GeV.
+The variables defined in each category are combined in each respective category via a multilayer perceptron (MLP) with one hidden layer. An MLP is a type of artificial neural netrwork where the information in each layer is fed uni-directionally to the next. It has the advantage of distinguishing non-linearly separable data. A likelihood ratio taking into account the expected fraction of jet flavors in \ttbar events is combined with the information from the three categories, to yield the final CSV discriminant, as shown in~\FigureRef{fig:CSVv2_multijet}, for multi-jet events where at least one jet satisfies an online \pt requirement of greater than 40 \GeV.
 
 \begin{figure}
 \centering
@@ -222,33 +246,28 @@ The variables defined in each category are combined in each respective category 
 %%---------------------- MET definitions ---------------------- %%
 \section{Missing transverse energy}
 \label{sec:MET}
-A crucial aspect of this search requires the precise modeling of the missing transverse momentum, denoted \ptvecmiss, and its magnitude, referred to as the missing transverse energy, and denoted by \ptmiss. Owing to momentum conservation, \ptvecmiss corresponds to the transverse momentum that is carried by weakly interacting particles, such as neutrinos. This observable is of particular importance in the search for \ttDM, since the neutral DM particles are also predicted to interact weakly, hence they will escape the detector volume without being detected. Consequently, the measurement of \ptmiss relies heavily on the detectable and reconstructed physics objects mentioned in the preceding sections. Thus, \ptmiss is defined as the imbalance in the transverse momentum of all particles that interact with the detectors. As mentioned in Sec.~{}, the CMS PF algorithm reconstruction uses all the available detector information to create a list of identified and reconstructed PF particles. It then follows that the \ptvecmiss is defined as the negative vectorial sum of the transverse momenta of all PF particles reconstructed in the event, such that,
+A crucial aspect of this search requires the precise modeling of the missing transverse energy, and denoted by \ptmiss. Owing to momentum and energy conservation, \ptmiss corresponds to the magnitude of the transverse momentum that is carried by weakly interacting particles, such as neutrinos. This observable is of particular importance in the search for \ttDM, since the neutral DM particles are also predicted to interact weakly, hence they will escape the detector volume without being detected. The measurement of \ptmiss relies heavily on the detectable and reconstructed physics objects mentioned in the preceding sections. Thus, \ptmiss is defined as the imbalance in the transverse momentum of all particles that interact with the detectors. As described in \SectionRef{sec:PF}, the CMS PF algorithm provides a list of PF candidates reconstructed from correlation of subdetector signals. It then follows that the \ptvecmiss is defined as the negative vectorial sum of the transverse momenta of all PF candidates in the event, such that,
 
 \begin{equation}
-  \ptvecmiss = -\sum_{i=\mathrm{PF\:particles}}{\vec{\pt}_{i}}
+  \ptvecmiss = -\sum_{i=\mathrm{PF\:particles}}{\vec{p}_{\text{T},i}}
   \label{eq:met}
 \end{equation}
 
-The measurement of the \ptmiss can be mismeasured as a cause of a variety of reasons. The nonlinear response of the calorimeter for neutral and charged hadrons due to its noncompensating nature, minimum energy thresholds in the calorimeters, inefficiencies in the tracker, or neutrinos from semileptonic particle decays are a sources from which bias can be introduced in the \ptmiss measurement. In order to mitigate these biases, the \ptmiss derived from PF particles, denoted by PF-\ptmiss, is corrected for using jet energy scale corrections, so Eq.~\ref{eq:met} then becomes,
+The measurement of the \ptmiss can be mismeasured as a cause of a variety of reasons. The nonlinear response of the calorimeter for neutral and charged hadrons due to its noncompensating nature, minimum energy thresholds in the calorimeters, inefficiencies in the tracker, or neutrinos from semileptonic particle decays are a sources from which bias can be introduced in the \ptmiss measurement. In order to mitigate these biases, the \ptmiss derived is corrected for using jet energy scale corrections, so \EquationRef{eq:met} then becomes,
 
 \begin{equation}
-  \mathrm{PF}\ptvecmiss = \mathrm{PF}\ptvecmiss - \sum_{\mathrm{jets}}{\Big(\vec{\pt}^{\mathrm{corr}}_{\mathrm{,jet}} - \vec{\pt}_{\mathrm{,jet}}\Big)}
+  \ptvecmiss = -\sum_{i=\mathrm{PF\:particles}}{\vec{p}_{\text{T},i}} - \sum_{\mathrm{jets}}{\Big(\vec{\pt}^{\mathrm{corr}}_{\mathrm{,jet}} - \vec{\pt}_{\mathrm{,jet}}\Big)}.
+  \label{eq:Type1met}
 \end{equation} 
 
-All jets with $\pt > 15\:\GeV$ and less than 0.9 of their energy deposited in the ECAL are corrected. In addition, the muon four-momentum is subtracted from the jet four-momentum when the correction is performed, if a muon is found within a jet. Jet energy corrections consist of several stages and are derived and applied in a factorized manner, although the underlying procedure of scaling the jet four-momentum with a scale factor (SF) which depends on jet quantities such as \pt, \eta, and flavor is universal. The corrections are listed and described briefly below in the order they are applied.
-
-\begin{itemize}
-  \item L1 Pile up: Aimed at removing any energy contributions from pile-up events, this correction is determined from a simulation sample of QCD dijet events which are processed with and without pileup overlay. The corrections are parametrized as a function of the jet area (A), jet \eta and \pt, and the offset energy density (\rho). The correction applied to data is parametrized in \eta and determined using zero bias events.
-  \item L2L3 MC-truth corrections: The reconstructed jet \pt is compared to the particle level jet \pt in order to derive jet response corrections from a QCD dijet simulation sample. The jet response is made uniform over \pt and \eta, the jet variables in which it is derived.
-  \item L2L3 Residuals: These corrections are applied to jets in data and include both an \eta and \pt component. For the \eta dependence (relative corrections), dijet events are compared to a jet of similar \pt in the barrel region ($|\eta|<1.3$). For the \pt dependence (absolute corrections), the JES relative to the reference JES of the barrel jet is taken into account. The jet absolute scale corrections are derived using Z(\mu\mu/$ee$)+jets, photon+jet, and multijet events.
-\end{itemize}
+The quantity in~\EquationRef{eq:Type1met} is the \MET quantity used throughtout this work and shown in all experimental plots in the following chapters.
 
 \begin{comment}
 %%---------------------- Event selection ---------------------- %%
 \section{Event Selection}
 \label{sec:selection}
 
-The objects defined in Sec.~\ref{sec:leps}-\ref{sec:MET} are all employed to target the selection of events consistent with \ttMET where both tops have leptonically decaying W bosons. The selection for the signal region is the following,
+The objects defined in \SectionRef{sec:leps}-\ref{sec:MET} are all employed to target the selection of events consistent with \ttMET where both tops have leptonically decaying W bosons. The selection for the signal region is the following,
 
 \begin{itemize}
 \item Two ``Tight'' leptons with opposite charge ($ee$ or $e\mu$ or $\mu\mu$) with $\pt>25\:\GeV$ for the leading lepton and $\pt>15\:\GeV$ for the trailing lepton,
@@ -271,7 +290,7 @@ M_{\text{T2}}^{\ell\ell} = \min_{\vec{p}^{\text{miss}}_{\text{T1}}+\vec{p}^{\tex
 \label{eq:mt2ll}
 \end{equation}
 
-\mttll is partially motivated from the transverse mass, denoted $M_{\text{T}}\left(\vec{p}^{\ell}_{\text{T}},\vec{p}^{\text{miss}}_{\text{T}}\right)$ in Eq.~\ref{eq:mt2ll}, where the most notable use of \mt is in the measurement of the $W$ boson mass in the $W\rightarrow\ell\nu$ decay mode. The transverse mass, defined in the context of a leptonic $W$ boson decay, is as follows,
+\mttll is partially motivated from the transverse mass, denoted $M_{\text{T}}\left(\vec{p}^{\ell}_{\text{T}},\vec{p}^{\text{miss}}_{\text{T}}\right)$ in \EquationRef{eq:mt2ll}, where the most notable use of \mt is in the measurement of the $W$ boson mass in the $W\rightarrow\ell\nu$ decay mode. The transverse mass, defined in the context of a leptonic $W$ boson decay, is as follows,
 
 \begin{equation}
   M_{\text{T}} = \sqrt{M_{\ell}^{2} + M_{\nu}^{2} + 2(E_{\text{T}}^{\ell}E_{\text{T}}^{\nu} - \vec{p}_{\text{T}}^{\ell}\cdot\vec{p}_{\text{T}}^{\nu})}
@@ -299,7 +318,7 @@ The partitioning of the \ptvecmiss is however unknown, since neither the energy 
 \label{eq:mt2ll_2}
 \end{equation}
 
-The minimization in Eq.~\ref{eq:mt2ll_2} occurs over all the possible two-way partitions of \ptvecmiss in the event. For the case of the SM \ttll background, a kinematic endpoint in the \mttll distribution, shown in~\FigureRef{fig:mt2ll}, occurs at the $W$ boson pole mass. With this in mind, two signal regions are formed using the \mttll variable, where events with \mttll$>110\:\GeV$ comprise the high signal purity region, since the signal is not expected to be contained in the region below the $M_W$ as is the case for the SM \ttll background. The low signal purity category is formed by the remaining events, for which \mttll$<110\:\GeV$.
+The minimization in \EquationRef{eq:mt2ll_2} occurs over all the possible two-way partitions of \ptvecmiss in the event. For the case of the SM \ttll background, a kinematic endpoint in the \mttll distribution, shown in~\FigureRef{fig:mt2ll}, occurs at the $W$ boson pole mass. With this in mind, two signal regions are formed using the \mttll variable, where events with \mttll$>110\:\GeV$ comprise the high signal purity region, since the signal is not expected to be contained in the region below the $M_W$ as is the case for the SM \ttll background. The low signal purity category is formed by the remaining events, for which \mttll$<110\:\GeV$.
 
 \begin{figure}
   \includegraphics[width=0.6\textwidth]{figs/mt2log_em.pdf}

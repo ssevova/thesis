@@ -1,9 +1,9 @@
 \chapter{Background processes}
 \label{chap:backgrounds}
 
-Two classes of background processes are present in this search: reducible and irreducible. For the former category, a particle in the background process may ``fake'' the signature of a particle that is expected in the signal process. On the contrary, in the case of the latter category, the final state topology of the background process yields the same expected particles as a potential signal process. A key feature of reducible backgrounds is the ability to suppress such processes by employing the selection cuts as described in Sec.~\ref{sec:selection}. Furthermore, some of the reducible background contributions are estimated using data-driven techniques. In large part, however, the dominant backgrounds in the search are estimated from simulations.
+Two classes of background processes are present in this search: reducible and irreducible. For the former category, a particle in the background process may ``fake'' the signature of a particle that is expected in the signal process. On the contrary, in the case of the latter category, the final state topology of the background process yields the same visible particles as a potential signal process. A key feature of reducible backgrounds is the ability to suppress such processes by employing the selection cuts as described in \SectionRef{sec:selection}. Furthermore, some of the reducible background contributions are estimated using data-driven techniques. In large part, however, the dominant backgrounds in the search are estimated from simulations.
 
-Sec.~\ref{sec:tt2l}-\ref{sec:fakes} describe the relevant SM backgrounds in the search for \ttllDM. The production cross sections at $\sqrt{s}=13\:\TeV$ for these backgrounds are shown in~\FigureRef{fig:SMxsec}, giving a sense of the relative importance of the processes. The phase space targeted by the selection requirements as described in Sec.~\ref{sec:selection} also affects the relative hierarchy of the backgrounds, though it remains true that processes with larger cross sections, such as \ttbar and Drell-Yan, are dominant in the regions of highest sensitivity.
+\SectionRef{sec:tt2l}-\SectionRef{sec:fakes} describe the relevant SM backgrounds in the search for \ttllDM. The production cross sections at $\sqrt{s}=13\:\TeV$ for these backgrounds are shown in~\FigureRef{fig:SMxsec}, giving a sense of the relative importance of the processes. The phase space targeted by the selection requirements as described in \SectionRef{sec:selection} also affects the relative hierarchy of the backgrounds. However, it remains true that processes with larger cross sections, such as \ttbar with a cross section of 831.76 pb and Drell-Yan with cross sections of 18610 pb and 5765.4 pb for $10<M_{DY}<50\:\GeV$ and $M_{DY}>50\:\GeV$ respectively, are dominant in the highest sensitivity regions of this search.
 
 \begin{figure}
   \begin{center}
@@ -50,24 +50,49 @@ Sec.~\ref{sec:tt2l}-\ref{sec:fakes} describe the relevant SM backgrounds in the 
 \label{sec:tt2l}
 SM \ttll is the dominant background contribution and is irreducible, owing to the similarity of the final state topology with the signal processes topology. At the LHC, approximately 90\% of \ttbar events are produced via gluon fusion as shown in~\FigureRef{fig:gg_tt} and ~\FigureRef{fig:gg_tt2}, in contrast to the Tevatron at Fermilab, where quark-antiquark annihilation shown in~\FigureRef{fig:qq_tt} constituted roughly 85-90\% of the relative \ttbar production. 
 
-The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG \textsc{v2}~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia \textsc{v8.2}~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross-section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross-section value used is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
+The theoretical uncertainties incurred at leading order (LO) in perturbative QCD are quite large for \ttbar production. In addition to the LO simulation, the \ttbar process decaying to the dilepton final state is simulated at next-to-leading order (NLO) using the \POWHEG \textsc{v2}~\cite{powheg,powheg2} generator, with the top quark mass assumed to be \mtop=172.5\:\GeV. These events are then interfaced to \Pythia \textsc{v8.2}~\cite{Sjostrand:2014zea} for parton fragmentation, hadronization, and to simulate the underlying event. As pertains to all simulated samples subsequently described, once the \ttll events are showered, the detector response is simulated using the \Geant 4 program~\cite{AGOSTINELLI2003250}. Finally, the \ttll events are normalized to the theoretical cross section calculated at next-to-next-to-leading order (NNLO) in perturbative QCD, which also includes soft-gluon resummation calculations at next-to-next-to-leading-log-order (NNLL)~\cite{ttxsec1,ttxsec2,ttxsec3,ttxsec4,ttxsec5}. The cross section folds in the branching fraction of \ttbar to the dilepton final state, which is 10.5\%. The cross section value employed in this work is $\sigma_{\ttll}=87.31\:\mathrm{pb}$.
 
-As mentioned in Sec.~\ref{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
+As mentioned in \SectionRef{subsec:mt2ll}, the \ttll background should be suppressed below the kinematic endpoint, $M_W$, in the \mttll distribution. This would only be possible in ideal measurement conditions, however as a cause of detector and energy resolution effects, the mismeasurement of the objects in \ttll background events can contribute to values of \mttll$>\:M_W$. 
+
+\subsection{Top \pt re-weighting}
+\label{subsec:toppt}
+The generated top quark \pt in \ttbar simulation appears to disagree with the distribution observed in data. The discrepancy arises due to the harder \pt in the simulation as compared to data, thus a correction based on a comparison of the top \pt spectrum between data and the predicted distribution at NLO accuracy from \POWHEG \textsc{v2} interfaced with \Pythia \textsc{v8.2} is used as, developed in ~\cite{Khachatryan:2016mnb}. For each top in a \ttbar MC simulation event, a scale factor is computed according to, 
+
+\begin{equation}
+  \text{SF}(\pt) = e^{0.0615 - 0.0005\cdot\pt},
+  \label{eq:toppt}
+\end{equation}
+
+where the exponential function describes the fit to the ratio of data to \POWHEG+\Pythia simulation for dileptonic and semileptonic \ttbar decays. The \pt in \EquationRef{eq:toppt} is taken at the matrix element level. Subsequently, a weight is applied on an event-by-event basis where the weight is given by the geometric mean of the scale factors,
+
+\begin{equation}
+  w = \sqrt{\text{SF}(p_{\text{T}t})\cdot \text{SF}(p_{\text{T}\bar{t}})}.
+\end{equation}
+
+The effect of the re-weighting is seen in~\FigureRef{fig:topPtRwgt} for SM \ttll simulation events passing the selection requirements in \SectionRef{sec:selection} with~\protect\subref{subfig:topPt-lo} $\mttll< 110\:\GeV$ and~\protect\subref{subfig:topPt-hi} $\mttll> 110\:\GeV$. It can be seen that the correction tends to grow with increasing \MET, which is expected since this observable is correlated with the top \pt, and the higher the \pt value, the farther from unitary (in the decreasing direction) the SF in \EquationRef{eq:toppt} becomes.
+
+\begin{figure}
+  \subfloat[][low \mttll]{\label{subfig:topPt-lo}\includegraphics[width=0.48\textwidth]{figs/dilep-lo-ttwgt.pdf}}
+  \subfloat[][high \mttll]{\label{subfig:topPt-hi}\includegraphics[width=0.48\textwidth]{figs/dilep-hi-ttwgt.pdf}}
+  \caption{Effect of the top \pt re-weighting on the expected \ttll background \ptmiss shape for events passing selection defined in \SectionRef{sec:selection} and having~\protect\subref{subfig:topPt-lo} \mttll < 110\:\GeV\:and~\protect\subref{subfig:topPt-hi} \mttll > 110\:\GeV.}
+  \label{fig:topPtRwgt}
+\end{figure}
 
 %%------------------------- ttV,VV,ST -------------------------%%  
 \section{\ttV, diboson, and single top processes}
 \label{sec:ttVetc}
-Among the more rare processes considered as backgrounds to this search are processes wherein a top quark pair is produced in association with a boson, denoted as \ttV (where V=\gamma, Z, W). In particular for the $\mathrm{t\bar{t}}$+Z process, as shown in~\FigureRef{fig:ttV}, the same final state is expected as the signal so this process falls under the class of irreducible backgrounds. Although the production cross-sections for \ttV processes are orders of magnitude smaller than the \ttbar production cross-section, this background is significant in the high \mttll categories. The moderate \ptmiss requirement is inefficient in \ttV background reduction, since large values of \ptmiss are expected. In addition, the $\mathrm{t\bar{t}}$+Z process will leak into the high \mttll category as a cause of the additional expected \ptmiss from the neutrinos, which bias the minimization over all the two-way partitions of the \ptmiss, resulting in high values of \mttll.
 
-The diboson background processes encompass WW, ZZ, and WZ production where all possible final states (i.e. decays to $q\bar{q}$, $\ell\nu$, $\ell\ell$, and $\nu_\ell\bar{\nu}_\ell$) are considered for the relevant boson. Owing in part to the largest relative production cross-section, the WW process is the dominant diboson process. In particular, the dilepton signal region requirement targets the final state where both W bosons decay to lepton-neutrino pairs. 
+Among the more rare processes considered as backgrounds to this search are processes wherein a top quark pair is produced in association with a boson, denoted as \ttV (where V=\gamma, Z, W). In particular, the $\mathrm{t\bar{t}}$+Z process, as shown in~\FigureRef{fig:ttV}, exhibits the same final state as the signal, so this process falls under the class of irreducible backgrounds. Although the production cross sections for \ttV processes are orders of magnitude smaller than the \ttbar production cross section, this background is significant in the high \mttll category. The moderate \ptmiss requirement is inefficient in \ttV background reduction, since large values of \MET are expected from the additional energetic neutrinos from the Z boson. In addition, the \mttll calculation can be biased to high values for the \ttbar+Z process, since the minimization over all the two-way partitions of the \MET accounts for the additional neutrinos from the Z boson decay, as well as from the top quarks.
+
+The diboson background processes encompass WW, ZZ, and WZ production where all possible final states (i.e. decays to $q\bar{q}$, $\ell\nu$, $\ell\ell$, and $\nu_\ell\bar{\nu}_\ell$) are considered for the relevant boson. Owing in part to the largest relative production cross section, the WW process is the dominant diboson process. In particular, the signal region requirements target the final state where both W bosons decay to lepton-neutrino pairs. 
  
-The single top background is also expected to contribute sub-dominantly in the signal region. The lepton multiplicity requirement serves to suppress the contributions from s- and t-channel production (i.e. processes whose amplitudes go as $\mathscr{M}\sim 1/s$ and $\mathscr{M}\sim 1/t$, where $s$ and $t$ correspond to the Mandelstam variables), as seen in~\FigureRef{fig:s-channel} and~\FigureRef{fig:t-channel}, since only one prompt lepton is expected. Thus, the dilepton final state tW associated production diagram, shown in~\FigureRef{fig:tW}, contributes the most significantly to the single top background.  
+The single top background is also expected to contribute sub-dominantly in the signal region. The lepton multiplicity requirement serves to suppress the contributions from s- and t-channel production (i.e. processes whose amplitudes go as $\mathscr{M}\sim 1/s$ and $\mathscr{M}\sim 1/t$, where $s$ and $t$ correspond to the Mandelstam variables), as seen in~\FigureRef{fig:s-channel} and~\FigureRef{fig:t-channel}, since only one prompt lepton is expected. Thus, the dilepton final state tW associated production diagram, shown in~\FigureRef{fig:tW}, contributes the most significantly to the single top background, where more than one lepton may be expected depending on the W boson decay mode.  
 
-Similarly to the \ttll process, the \ttV, diboson, and single top processes are simulated at NLO. The \ttV processes are generated using \AMCATNLO \textsc{v2.2.2}. For single top, the s- and t-channel processes are simulated using \POWHEG \textsc{v2} and interfaced with \MadSpin which decays the top and preserves the spin correlation and any finite width effects in narrow resonance decays. The tW channel, on the other hand, is generated using \POWHEG \textsc{v1} at NLO accuracy and normalized to the approximate NNLO cross-section. The diboson samples are generated at NLO using either \AMCATNLO \textsc{v2.2.2} or \POWHEG \textsc{v2}.
+Similarly to the \ttll process, the \ttV, diboson, and single top processes are simulated at NLO. The \ttV processes are generated using \AMCATNLO \textsc{v2.2.2}. For single top, the s- and t-channel processes are simulated using \POWHEG \textsc{v2} and interfaced with \MadSpin which decays the top and preserves the spin correlation and any finite width effects in narrow resonance decays. The tW channel, on the other hand, is generated using \POWHEG \textsc{v1} at NLO accuracy and normalized to the approximate NNLO cross section. The diboson samples are generated at NLO using either \AMCATNLO \textsc{v2.2.2} or \POWHEG \textsc{v2}.
  
 \begin{figure}
   \begin{center}
-    \subfloat[][\ttV]{\label{fig:ttV}
+    \subfloat[][$\text{t}\bar{\text{t}}+\text{Z}(\nu\bar{\nu})$]{\label{fig:ttV}
       \feynmandiagram[vertical=c to b] {
         a [particle=\(q\)] -- [fermion] b -- [fermion] c -- [fermion] d [particle=\(\bar{q}\)],
         b -- [boson, edge label=\(Z\)] e,
@@ -88,7 +113,7 @@ Similarly to the \ttll process, the \ttV, diboson, and single top processes are 
 %        f -- [opacity=0.0001] e,
       };
     }
-    \caption{Examples of the~\protect\subref{fig:ttV} \ttV process, and ~\protect\subref{fig:VV} diboson production at LO.}
+    \caption{Examples of the~\protect\subref{fig:ttV} $\text{t}\bar{\text{t}}+\text{Z}(\nu\bar{\nu})$ process, and ~\protect\subref{fig:VV} diboson production at LO.}
     \label{fig:diboson_feyn}
   \end{center}
 \end{figure}
@@ -173,39 +198,46 @@ Similarly to the \ttll process, the \ttV, diboson, and single top processes are 
       };
     }
   \end{center}
-  \caption{The Drell-Yan lepton pair-production process mediated by a virtual photon ($\gamma^{*}$) or Z boson at~\protect\subref{fig:dy1} $\mathcal{O}$($\alpha$) and~\protect\subref{fig:dy2},\protect\subref{fig:dy3},\protect\subref{fig:dy4},\protect\subref{fig:dy5} $\mathcal{O}$($\alpha\alpha_{s}$).}
+  \caption{The DY lepton pair-production process mediated by a virtual photon ($\gamma^{*}$) or Z boson at~\protect\subref{fig:dy1} $\mathcal{O}$($\alpha$) and~\protect\subref{fig:dy2},\protect\subref{fig:dy3},\protect\subref{fig:dy4},\protect\subref{fig:dy5} $\mathcal{O}$($\alpha\alpha_{s}$).}
   \label{fig:dy_feyn}
 \end{figure}
 
-From the diagrams in~\FigureRef{fig:dy_feyn}, the Drell-Yan pair-production process falls under the class of reducible backgrounds, since many of the selection criteria act to suppress processes where the selected same flavor opposite sign (SFOS) leptons are produced at the same vertex, such as from the exchange of a real Z boson or a virtual photon ($\gamma^{*}$). Namely, the requirement for the mass of the selected SFOS lepton pair to be outside of the Z mass window, 75\:\GeV$< M_{Z} <$105\:\GeV, removes a large contribution of dilepton decays stemming from real Z bosons/off-shell virtual photons. Furthermore, the low dilepton mass requirement, $M_{\ell\ell}>20\:\GeV$ suppresses the contribution from low mass decays of $J/$\psi mesons to SFOS pairs. In addition, the requirement for the event to contain at least two jets, with at least one b-tagged jet acts to eliminate contributions from~\FigureRef{fig:dy1}, where the quark-antiquark annihilation to a SFOS pair proceeds at LO in $\alpha$. The DY process is simulated at NLO using \AMCATNLO \textsc{v2.3.3}, and thus includes contributions from higher order processes as shown in~\FigureRef{fig:dy2}-\FigureRef{fig:dy5}, where at least one jet is expected from the fragmentation and hadronization of particles emmitted in initial state radiation.
+From the diagrams in~\FigureRef{fig:dy_feyn}, it can be noted that the DY pair-production process falls under the class of reducible backgrounds, since many of the selection criteria act to suppress processes where the selected SF leptons are produced at the same vertex, such as from the exchange of a real Z boson or a virtual photon ($\gamma^{*}$). For instance, near the Z boson pole mass, the resonant dilepton production is greatly enhanced relative to $\gamma^{*}$ exchange and consequently, the requirement for the mass of the selected SF lepton pair to be outside a $\pm15\:\GeV$ window relative to the Z boson mass, removes a large contribution of dilepton decays stemming from real Z bosons. In addition, the requirement for the event to contain at least two jets, with at least one b-tagged jet acts to eliminate contributions from~\FigureRef{fig:dy1}, where the q$\bar{\text{q}}$ annihilation to a SF lepton pair proceeds at LO in $\alpha$. The DY process is simulated at NLO using \AMCATNLO \textsc{v2.3.3}, and thus includes contributions from higher order processes as shown in~\FigureRef{fig:dy2}-\FigureRef{fig:dy5}, where at least one jet is expected from the fragmentation and hadronization of particles emmitted in initial state radiation.
 
-Although the relative shape of the DY contribution is taken from simulation, a data-driven process is used to estimate the normalization of this background. The signal region still contains a size-able DY contribution, meaning that exceptional DY events evading the above-mentioned Z boson mass veto tend to be accompanied by a significant amount of \ptmiss. Since the instrumental detector effects which influence this final state topology are non-trivial to simulate, it is more appropriate to use calibrated samples from data to arrive at these estimates.  
+After the contribution from SM \ttll, the DY process is the next most dominant background to the signal search presented in this work, therefore the precise estimation of its relative normalization and expected \MET spectra is imperative. In view of this requirement, a data-driven process is used to estimate the normalization of this background, while the simulation is used to derive the DY \MET templates. Furthermore, DY is not a process from which genuine sources of \MET such as neutrinos are expected, thus it is referred to as having ``fake'' \MET which arises from the mismeasurement of jet/lepton energies. The instrumental detector effects that influence this final state topology are non-trivial to simulate, as is apparent from the discrepancy between data and simulation at high \MET values in~\FigureRef{fig:DYMET}, where $\text{Z}\rightarrow\ell\ell$ events are selected. Therefore, it is more appropriate to use calibrated samples from data to arrive at these estimates.  
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{figs/DY_metlog_sf}
+  \caption{The \MET distribution in data and simulation for SF events, where the dilepton mass is required to be \textit{inside} the $\pm15\:\GeV$ window relative to the Z boson mass. In addition the events must contain at least two jets, and no b-tagged jets.}
+  \label{fig:DYMET}
+\end{figure}
 
 \subsection{The \Rinout method}
 
-The method is used to predict the DY normalization, $N_{DY}$, by extrapolating from the observed DY yield inside the Z mass window (within $\pm15\:\GeV$ of $M_{Z}$), $N_{in}$, according to:
+The data-driven method used to predict the DY normalization, $N_{DY}$, is referred to throughout as the \Rinout method. Essentially, the method aims to estimate the contribution of DY in the signal region, by extrapolating from the observed data yield inside the Z mass window, $N_{in}$, according to:
 
 \begin{equation}
   N_{DY} = N_{in}\frac{R^{0b}_{\mathrm{MC}}}{R^{1b}_{\mathrm{MC}}\cdot R^{0b}_{\mathrm{data}}},
   \label{eq:NDY}
 \end{equation}
 
-where each quantity $R$ in Eq.~\ref{eq:NDY} is defined as the ratio of DY yields \textbf{in}side to \textbf{out}side the Z mass window, 
+where each quantity $R$ in \EquationRef{eq:NDY} is defined as the ratio of DY yields \textbf{in}side to \textbf{out}side the Z mass window, 
 
 \begin{equation}
   \Rinout = \frac{N(|M_{\ell\ell} - M_Z|<15\:\GeV)}{N(|M_{\ell\ell} - M_Z|>15\:\GeV\mbox{ and }M_{\ell\ell}>20\:\GeV)}.
   \label{eq:Rinout}
 \end{equation}
 
-Hence, the events originally rejected by the Z veto are used to estimate the residual contributions from DY $\rightarrow e^+e^-$ and $\mu^+\mu^-$ in the remaining selected sample. The yields are computed with all other selection cuts applied. Ideally, the \Rinout in a region where the number of b-tagged jets is required to be zero would be equal to the \Rinout in a region where at least one b-tagged jet is required, such that $\Rinout^{0b} = \Rinout^{1b}$. This assumption, however, is invalid since the numerator and denominator in Eq.~\ref{eq:Rinout} differ significantly when measured in DY simulation with a looser set of selection cuts, such as the removal of the \ptmiss requirement or a looser jet multiplicity requirement. A weaker assumption is then made, which is as follows:
+Hence, the events rejected by the Z boson mass veto are used to estimate the residual contributions from DY $\rightarrow e^+e^-$ and $\mu^+\mu^-$ in the remaining selected sample. The yields are computed with all other selection requirements applied. Ideally, the \Rinout in a region where the number of b-tagged jets is required to be zero would be equal to the \Rinout in a region where at least one b-tagged jet is required, such that $\Rinout^{0b} = \Rinout^{1b}$. This assumption, however, is invalid since the numerator and denominator in \EquationRef{eq:Rinout} differ significantly when measured in DY simulation with a looser set of selection cuts, such as the removal of the \ptmiss requirement or a looser jet multiplicity requirement. A weaker assumption is made instead, which is as follows:
 
 \begin{equation}
   \frac{\left(\Rinout^{1b}\right)_{\mbox{data}}}{\left(\Rinout^{1b}\right)_{\mbox{MC}}} = 
-  \frac{\left(\Rinout^{0b}\right)_{\mbox{data}}}{\left(\Rinout^{0b}\right)_{\mbox{MC}}},
+  \frac{\left(\Rinout^{0b}\right)_{\mbox{data}}}{\left(\Rinout^{0b}\right)_{\mbox{MC}}}.
   \label{eq:Rassump}
 \end{equation}
 
-so the ratio of the measured $\Rinout^{0b}$ between data and MC should be equivalent to the ratio of the measured $\Rinout^{1b}$ between data and MC. Then the estimate for the DY normalization in the signal region as defined in Eq.~\ref{eq:NDY} is expanded into,
+\EquationRef{Rassump} posits that the ratio of the measured $\Rinout^{0b}$ between data and MC should be equivalent to the ratio of the measured $\Rinout^{1b}$ between data and MC. Then the estimate for the DY normalization in the signal region as defined in \EquationRef{eq:NDY} is expanded into,
 
 \begin{equation}
   \left(N^{1b}_{\mbox{out}}\right)_{\mbox{data}} =
@@ -215,7 +247,7 @@ so the ratio of the measured $\Rinout^{0b}$ between data and MC should be equiva
   \label{eq:NDY_full}
 \end{equation}
 
-Thus, every quantity on the right-hand side of Eq.~\ref{eq:NDY_full} is measured. However, it should be noted that non-DY contributions are present in the measurements made in the data, and hence must be subtracted off from events that fall both inside and outside the Z mass window in the zero b-tag and the one-or-more b-tag regions (i.e. all the quantities $N^{0b}_\text{in}$, $N^{0b}_\text{out}$, $N^{1b}_\text{in}$, and $N^{1b}_\text{out}$). The non-DY contributions in the $\{0b,1b\} \otimes \{\text{in},\text{out}\}$ regions, such as \ttll, are estimated from data using opposite flavor ($e^{\pm},\mu^{\mp}$) events, that are denoted by $N^{e\mu}_\text{in}$ and $N^{e\mu}_\text{out}$. Thus, the number of events in data in each of the aforementioned regions, after the subtraction of non-DY backgrounds is,
+Consequently, every quantity on the right-hand side of \EquationRef{eq:NDY_full} can be determined in the data or simulation as applicable. It should be noted however, that non-DY contributions are present in the measurements made in the data, and hence must be subtracted off from the yields both inside and outside the Z mass window in the zero b-tag and the one-or-more b-tag regions (i.e. all the quantities $N^{0b}_\text{in}$, $N^{0b}_\text{out}$, $N^{1b}_\text{in}$, and $N^{1b}_\text{out}$). The non-DY contributions in the $\{0b,1b\} \otimes \{\text{in},\text{out}\}$ regions, such as \ttll, are estimated from data using opposite flavor ($e^{\pm},\mu^{\mp}$) events, that are denoted by $N^{e\mu}_\text{in}$ and $N^{e\mu}_\text{out}$. Thus, the number of events in data in each of the aforementioned regions, after the subtraction of non-DY backgrounds is,
 
 \begin{equation}
   N = N^{\ell\ell} - 0.5\cdot k_{\ell\ell} \cdot N^{e\mu},
@@ -228,7 +260,7 @@ where the 0.5 factor accounts for combinatorics, and $k_{\ell\ell}$ is a correct
 
 The value for $k_{ee} (k_{\mu\mu})$ measured in data is 0.64 (1.55). 
 
-In order to capture any \ptmiss dependence of the DY normalization, the various \Rinout quantities are computed in four bins of \ptmiss, shown in the fifth column of~\TableRef{tab:Rinout_0b_ee}-\TableRef{tab:Rinout_1b_mm}, since the relative contribution of DY is expected to drop off at higher \ptmiss values and incur larger statistical uncertainties in the simulation. The ``on'' Z peak (i.e. $|M_{\ell\ell} - M_Z| < 15\:\GeV$) yields for a 0 b-tag selection listed in the second column of~\TableRef{tab:Rinout_0b_ee} and~\TableRef{tab:Rinout_0b_mm} can be seen in~\FigureRef{fig:Zpeak_ee} and~\FigureRef{fig:Zpeak_mm} for the $ee$ and $\mu\mu$ channels, respectively. The predicted DY normalization in the signal region in each \ptmiss bin is listed in~\TableRef{tab:Rinout_SF_ee} and ~\TableRef{tab:Rinout_SF_mm} under the column heading $(N^{1b}_{\text{out}})_\text{data}$. The simulation yields, under the column heading $(N^{1b}_{\text{out}})_\text{MC}$, are scaled by the factors in the last column of ~\TableRef{tab:Rinout_SF_ee} and ~\TableRef{tab:Rinout_SF_mm}, and shown in~\FigureRef{fig:RinoutSFs} in red and blue markers, respectively for the $ee$ and $\mu\mu$ channel. The dashed line in~\FigureRef{fig:RinoutSFs} represents the inclusively calculated scale factors, which are not used in the analysis but simply as a cross-check. The larger scale factors for the $ee$ channel are attributed to a broader Drell-Yan line shape in data compared to simulation, while in the $\mu\mu$ channel the line shapes in data and simulation are more similar.
+In order to capture any \ptmiss dependence of the DY normalization, the various \Rinout quantities are computed in four bins of \ptmiss, shown in the fifth column of~\TableRef{tab:Rinout_0b_ee}-\TableRef{tab:Rinout_1b_mm}, since the relative contribution of DY is expected to drop off at higher \ptmiss values and incur larger statistical uncertainties in the simulation. The ``on'' Z peak (i.e. $|M_{\ell\ell} - M_Z| < 15\:\GeV$) yields for a 0 b-tag selection listed in the second column of~\TableRef{tab:Rinout_0b_ee} and~\TableRef{tab:Rinout_0b_mm} can be seen in~\FigureRef{fig:Zpeak_ee} and~\FigureRef{fig:Zpeak_mm} for the $ee$ and $\mu\mu$ channels, respectively. The predicted DY normalization in the signal region in each \ptmiss bin is listed in~\TableRef{tab:Rinout_SF_ee} and~\TableRef{tab:Rinout_SF_mm} under the column heading $(N^{1b}_{\text{out}})_\text{data}$. The simulation yields, under the column heading $(N^{1b}_{\text{out}})_\text{MC}$, are scaled by the factors in the last column of~\TableRef{tab:Rinout_SF_ee} and~\TableRef{tab:Rinout_SF_mm}, and shown in~\FigureRef{fig:RinoutSFs} in red and blue markers, respectively for the $ee$ and $\mu\mu$ channel. The dashed line in~\FigureRef{fig:RinoutSFs} represents the inclusively calculated scale factors, which are not used in the analysis but are simply used as a cross-check to ensure the \MET binned scale factors do not drastically differ from the inclusive. The larger scale factors for the $ee$ channel are attributed to a broader DY line shape in data compared to simulation, while in the $\mu\mu$ channel the line shapes in data and simulation are more similar.
 
 \begin{table}[!htbp]
   \caption{DY yields and \Rinout values in the $ee$ channel, for 0 b-tag selection}
@@ -340,7 +372,7 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
     \subfloat[$75\:\GeV<\ptmiss<100\:\GeV$]     {\label{subfig:Zpeak_metbin2_ee}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin2_ee.pdf}} \\
     \subfloat[$100\:\GeV<\ptmiss<150\:\GeV$]    {\label{subfig:Zpeak_metbin3_ee}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin3_ee.pdf}}
     \subfloat[$150\:\GeV<\ptmiss<1000\:\GeV$]   {\label{subfig:Zpeak_metbin4_ee}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin4_ee.pdf}}
-    \caption{Z peak in data and MC after subtraction of non-Drell-Yan contribution estimate from opposite-flavor data events in the $ee$ channel for various $\ptmiss$ bins.}
+    \caption{Z peak in data and MC after subtraction of non-DY contribution estimate from opposite-flavor data events in the $ee$ channel for various $\ptmiss$ bins.}
     \label{fig:Zpeak_ee}
   \end{center}
   \label{tab:Rinout_SF_mm}
@@ -352,7 +384,7 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
     \subfloat[$75\:\GeV<\ptmiss<100\:\GeV$] {\label{subfig:Zpeak_metbin2_mm}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin2_mm.pdf}}\\
     \subfloat[$100\:\GeV<\ptmiss<150\:\GeV$]{\label{subfig:Zpeak_metbin3_mm}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin3_mm.pdf}}
     \subfloat[$150\:\GeV<\ptmiss<1000\:\GeV$]{\label{subfig:Zpeak_metbin4_mm}\includegraphics[width=0.4\textwidth]{figs/dilep_mass_em_bkg_sub_metbin4_mm.pdf}}
-    \caption{Z peak in data and MC after subtraction of non-Drell-Yan contribution estimate from opposite-flavor data events in the $\mu\mu$ channel for various $\ptmiss$ bins.}
+    \caption{Z peak in data and MC after subtraction of non-DY contribution estimate from opposite-flavor data events in the $\mu\mu$ channel for various $\ptmiss$ bins.}
     \label{fig:Zpeak_mm}
   \end{center}
 \end{figure}
@@ -360,7 +392,7 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
 \begin{figure}
   \centering
   \includegraphics[width=0.48\textwidth]{figs/metbinned_Rinout_SFs.pdf}       
-  \caption{Data/MC scale factors binned in $\ptmiss$ applied to MC events used for the estimate of the Drell-Yan normalization in the dilepton channel signal regions.}
+  \caption{Data/MC scale factors binned in $\ptmiss$ applied to MC events used for the estimate of the DY normalization in the dilepton channel signal regions.}
   \label{fig:RinoutSFs}
 \end{figure}
 
@@ -402,38 +434,37 @@ In order to capture any \ptmiss dependence of the DY normalization, the various 
   \label{fig:fakes_feyn}
 \end{figure}
 
+Another type of reducible background, the fake (or non-prompt) lepton background, is also estimated using observed events, rather than simulation. Processes which are expected to contain only one prompt electron or muon in the final state may pass the signal region selection as described in \SectionRef{sec:selection} by a jet-induced faking of a second lepton. Namely, processes such as \Wjets, semileptonic decays of \ttbar and tW associated production, and leptonic single top decays, a few of which are shown in~\FigureRef{fig:fakes_feyn}, comprise the fake lepton background processes. 
 
-Another type of reducible background, the fake (or non-prompt) lepton background, is also estimated using observed events. Processes which are expected to contain only one prompt electron or muon in the final state may pass the signal region selection as described in Sec.~\ref{sec:selection} by a jet-induced faking of a second lepton. Namely, processes such as \Wjets, semileptonic decays of \ttbar and tW associated production, and leptonic single top decays, a few of which are shown in~\FigureRef{fig:fakes_feyn}, comprise the fake lepton background processes. 
+The data-driven technique used to estimate the relative contribution of fake lepton backgrounds in the signal regions is based on the measurement of the fake rate. This rate is obtained from a sample in data which is enriched in QCD multijet events. Very loose working points for an electron object and muon object are defined; these are called ``fake-able objects'' (``FO'') and their definitions are found under the heading ``FO WP'' in \TableRef{tab:muon_wp} and~\ref{tab:ele_wp} for muons and electrons, respectively.
 
-The data-driven technique used to estimate the relative contribution of fake lepton backgrounds in the signal regions is based on the measurement of the fake rate. This rate is obtained from a sample in data which is enriched in QCD multijet events. Very loose working points for an electron object and muon object are define; these are called ``fake-able objects'' (``FO'') and their definitions are found under the heading ``FO WP'' in Tables~\ref{tab:ele_wp} and~\ref{tab:muon_wp} for electrons and muons respectively.
-
-The method has two main steps,
+The method consists of two main steps,
 \begin{enumerate}
-\item \textbf{Measurement:} in a QCD enriched sample in data, measure the probability of a ``FO'' to pass ``Tight'' lepton selection: the ``fake rate''
-\item \textbf{Application:} in a sample consisting of one ``Tight'' lepton and one ``FO'' that fails ``Tight'' selection, use the fake rate to estimate the background in the signal region
+\item \textbf{Measurement:} The probability of a ``FO'' to pass ``Tight'' lepton selection is measured in a data sample enriched in QCD and is referred to as the fake rate (FR).
+\item \textbf{Application:} The FR determined in step 1 is applied to a sample consisting of one ``Tight'' lepton and one ``FO'' that fails ``Tight'' selection, so as to estimate the fake lepton background in the signal region.
 \end{enumerate}
 
 \subsection{Fake rate measurement}
 \label{subsec:fr_measure}
-To obtain a sample enriched in jet-induced fakes in order to perform the fake rate measurement, the following selection is applied,
+The FR does not give a direct measure for an absolute lepton fake rate; rather it is the probability for a potential fake lepton which passes loose identification criteria, to additionally pass tight identification and isolation criteria. Thus to determine the denominator of the FR, a sample enriched in jet-induced fake leptons is required and the following selection criteria must be met,
 \begin{itemize}
-\item Event passes one of the following triggers:
+\item The event must pass one of the following triggers:
   \begin{itemize}
   \item HLT\_Ele$[12, 23]$\_CaloIdM\_TrackIdM\_PFJet30
   \item HLT\_Ele$[12, 23]$\_CaloIdL\_TrackIdL\_IsoVL\_PFJet30
   \item HLT\_Mu$[8, 17]$\_TrkIsoVVL
   \end{itemize}
-\item there is exactly one ``FO'' in the event, matched to the trigger that fired
-\item \ptmiss<40\:\GeV
+\item There is exactly one ``FO'' in the event, which matches to the trigger that was fired
+\item $\MET<40\:\GeV$
 \item $M_{T}<35\:\GeV$
-\item at least one jet with $\pt>30\:\GeV$ and $|\eta|<4$
-\item $\Delta\phi>2$ between the leading jet in the event and the ``FO''
+\item The event must contain at least one jet with $\pt>30\:\GeV$ and $|\eta|<4$
+\item The opening angle  between the leading jet in the event and the ``FO'' must be greater than 2 ($\Delta\phi(\text{jet},\text{FO})>2$)
 \end{itemize}
-The cuts are chosen to suppress the \Wjets contribution (i.e. the low $M_{T}$ requirement), and to enhance the multi-jet QCD contribution. Even then, the level of contamination from electroweak processes (\Wjets, \Zjets, \ttbar) in this sample ranges from $10\%$ at low \pt to $70\%$ at high \pt. The contamination is thus significant, particularly in the measurement sample for muon ``FO'', that a subtraction of prompt, real leptons must be done (based on expectations from simulation). The fake rate (FR) is defined as the efficiency of a ``FO'' to pass ``Tight'' requirements,
+The criteria above are chosen such that the \Wjets contribution is suppressed by the low $M_{T}$ requirement, and the QCD multi-jet contribution is enhanced in the low \MET region. Even then, however, the level of contamination from electroweak processes (\Wjets, \Zjets, \ttbar) in this phase space ranges from $10\%$ at low FO \pt to $70\%$ at high FO \pt. The contamination is significant, particularly in the muon FO sample, thus a subtraction of prompt, real leptons is performed based on expectations from simulation. The fake rate (FR) is then defined as the efficiency of a FO to pass ``Tight'' requirements,
 \begin{equation}
-  \text{FR}_{ij} = \Big[\frac{\left(N^{\text{data}}_{Tight} - N^{\text{EWK}}_{Tight}\right)}{\left(N^{\text{data}}_{FO} - N^{\text{EWK}}_{FO}\right)}\Big]_{i=\eta\,j=\pt}
+  \text{FR}_{ij} = \Bigg[\frac{\left(N^{\text{data}}_{Tight} - N^{\text{EWK}}_{Tight}\right)}{\left(N^{\text{data}}_{FO} - N^{\text{EWK}}_{FO}\right)}\Bigg]_{i=\eta\,j=\pt}
 \end{equation}
-The measured fake rates are listed in Tables~\ref{tab:ele_fr} and~\ref{tab:muon_fr}. The fake rates depend more strongly on \eta than on \pt as shown in Fig.~\ref{fig:ele_fr_plots} and Fig.~\ref{fig:muon_fr_plots}.
+The measured fake rates for electrons and muons are listed in \TableRef{tab:ele_fr} and~\TableRef{tab:muon_fr}, respectively. From their visualization in \FigureRef{fig:ele_fr_plots} and \FigureRef{fig:muon_fr_plots}, it can be noted that the electron FR is in general lower than what is observed for muons. The difference can be understood as arising from the definition of the FO between electrons and muons, on which the FR depends strongly. A comparison of the WPs that define a FO muon compared to a ``Tight'' muon as listed in \TableRef{tab:muon_wp}, demonstrates that the only major change in the extrapolation from FO to ``Tight'' are the isolation requirements, where the FO isolation cut is slightly relaxed with respect to the ``Tight''. Although requirements such as pixel and outer tracker hits are not made explicit in the FO WP, as they are for the ``Tight'' WP, these criteria are often met regardless as a result of the PF-muon definition. On the other hand, the extrapolation from the FO WP to the ``Tight'' WP for electrons, shown in \TableRef{tab:ele_wp} is significant, as many of the spatial and supercluster energy-related requirements are far more stringent in going from a FO to a ``Tight'' electron. In general, the efficiency of the ``Tight'' WP for electrons compared to muons is measured to be $40\%$ lower, while the ``FO'' WPs are much closer in efficiency between electrons and muons. Hence, owing to the larger extrapolation distance between definitions of FO and ``Tight'' for electrons compared to muons, the muon FR is observed to be higher than that for electrons. In addition,~\FigureRef{subfig:fr_vs_eta_e} and~\FigureRef{subfig:fr_vs_eta_m} demonstrate that the fake rates depend more strongly on \eta than on \pt.
 
 \begin{table}[!ht]
 \centering
@@ -488,8 +519,8 @@ $\pt > 30$      &  $0.172 \pm  0.002$  &  $0.200 \pm  0.002$  &  $0.233 \pm  0.0
 
 \begin{figure}[htbp!]
 \begin{center}
-  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_e}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_pt_e.pdf}}
-  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_e}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_eta_e.pdf}}
+  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_e}\includegraphics[width=0.48\textwidth]{figs/fakerate_v_pt_e.pdf}}
+  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_e}\includegraphics[width=0.48\textwidth]{figs/fakerate_v_eta_e.pdf}}
   \caption{Measured electron fake rates as a function of lepton ~\protect\subref{subfig:fr_vs_pt_e} $\pt$ and ~\protect\subref{subfig:fr_vs_eta_e} $|\eta|$.}
   \label{fig:ele_fr_plots}
 \end{center}
@@ -497,8 +528,8 @@ $\pt > 30$      &  $0.172 \pm  0.002$  &  $0.200 \pm  0.002$  &  $0.233 \pm  0.0
 
 \begin{figure}[htbp!]
 \begin{center}
-  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_m}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_pt_m.pdf}}
-  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_m}\includegraphics[width=0.45\textwidth]{figs/fakerate_v_eta_m.pdf}}
+  \subfloat[][fake rates vs. \pt]    {\label{subfig:fr_vs_pt_m}\includegraphics[width=0.48\textwidth]{figs/fakerate_v_pt_m.pdf}}
+  \subfloat[][fake rates vs. $|\eta|$]  {\label{subfig:fr_vs_eta_m}\includegraphics[width=0.48\textwidth]{figs/fakerate_v_eta_m.pdf}}
   \caption{Measured muon fake rates as a function of lepton ~\protect\subref{subfig:fr_vs_pt_e} $\pt$ and ~\protect\subref{subfig:fr_vs_eta_e} $|\eta|$.}
   \label{fig:muon_fr_plots}
 \end{center}
@@ -506,19 +537,37 @@ $\pt > 30$      &  $0.172 \pm  0.002$  &  $0.200 \pm  0.002$  &  $0.233 \pm  0.0
 
 \subsection{Fake rate application}
 \label{subsec:fr_app}
-The FR does not give a direct measure for an absolute lepton fake rate; it is the probability for a fake lepton which passes loose identification criteria, to additionally pass tight identification and isolation criteria. Thus, to perform the estimate of the fake lepton background, an application sample of ``Tight''$+$``FO'' pairs are obtained by requiring the signal selection with the only modification being that instead of two ``Tight'' leptons, one ``Tight'' lepton and one ``FO'' that fails ``Tight'' selection is required. Each pair is then assigned a weight, FR/$(1-\mbox{FR})$, corresponding to a likelihood that the ``FO'' in the pair will be promoted to a ``Tight'' lepton, and the sum of these weighted pairs give a prediction for the background yield and distributions. In principle, a single event can contribute multiple ``Tight''$+$``FO'' pairs to the application sample, but in practice there is rarely more than one pair from an event.
+ To estimate the fake lepton background yield in the signal region requires an application sample which is closely related to the SR. Thus, the sample selection is entirely compatible with the SR selection as detailed in \SectionRef{sec:selection}, however instead of requiring two ``Tight'' oppositely charged leptons, one ``Tight'' lepton and one ``FO'' that explicitly fails ``Tight'' selection is required. Each ``Tight''$+$``FO'' pair is then assigned a weight based on the FR, 
+\begin{equation}
+  w_i = \frac{\text{FR}_i}{1-\text{FR}_i},
+\end{equation}
 
-Dileptonic processes can contaminate the application sample and needs to be subtracted off. MC expectations are used to perform the subtraction; about $95\%$ of this contamination comes from dileptonic $\ttbar$ events.
+corresponding to a likelihood that the ``FO'' in the pair will be promoted to a ``Tight'' lepton. The sum of these weighted pairs give a prediction for the fake lepton background yield and distributions. In principle, a single event can contribute multiple ``Tight''$+$``FO'' pairs to the application sample, but in practice rarely more than one pair is contained in a given event.
 
-\subsection{Fake rate closure test}
+Genuine dileptonic processes can contaminate the application sample and need to be subtracted off, thus expectations from simulation are used to perform the subtraction; approximately $95\%$ of this contamination comes from \ttll events.
+
+\subsection{Fake rate method validation}
 \label{subsec:fr_close}
-As a way to validate the estimation procedure, a closure test is performed in a fakes enriched region. The events in this region are required to pass the same selection as for the signal region, with the modified requirement that the selected leptons must have the same sign. Along with guaranteeing a region enriched in fake leptons, this validation region is also orthogonal to the signal region. A categorization based on \mttll > 110\:\GeV\:is not performed because too few events pass the high \mttll requirement, to make a meaningful test. Good agreement between the data and the combination of simulation and data-driven fake lepton prediction is observed in the \ptmiss distribution, as shown in~\FigureRef{fig:fr_close}. The degree in which the observed and predicted yields disagree is included in the normalization uncertainty on the fakes background prediction in the signal regions.
+As a means of validating the estimation procedure, a closure test is performed in a region which is orthogonal to the signal region, and is also enriched in fake leptons. The events in this region are required to pass the same selection as for the signal region thus ensuring a similar phase space, with the only modification being that the selected leptons must be equally charged (same-sign or SS). The SS validation region, although dominated by the fake lepton contribution can contain processes with prompt opposite-sign (OS) dielectrons where the charge of one electron in the pair is misidentified due to severe bremsstrahlung in the tracker material. The charge misidentification rate, $f$, can be determined using the SS and OS yields, $N_{SS}$ and $N_{OS}$, from a Z$\rightarrow ee$ selection, such that 
+
+\begin{equation}
+  N_{OS} = N\Big[(1-f)^2 + f^2\Big] \\
+  N_{SS} = 2N\Big[(1-f)f\Big],
+\end{equation}
+
+where $N = N_{OS} + N_{SS}$, is the total number of OS and SS events. $f$ can be quadratically solved for in terms of the known quantities yielding,
+
+\begin{equation}
+  f = \frac{1}{2} - \frac{1}{2}\sqrt{1 - \frac{2N_{SS}}{N}}.
+\end{equation}
+
+The charge misdentification rate is measured to be approximately $0.56\%$ in the data, which differs from the $0.76\%$ measured in the simulation, thus a ratio of the rates is applied as a scale factor to correct the dielectron events from simulation in the SS validation region. A categorization based on $\mttll > 110\:\GeV$ is not performed because too few events pass the high \mttll requirement, to make a statistically meaningful test. Good agreement between the data and the combination of simulation and data-driven fake lepton estimation is observed in the \ptmiss distribution, as shown in~\FigureRef{fig:fr_close} for the three dilepton channels. The degree to which the observed and predicted yields in ~\FigureRef{fig:fr_close} disagree is included in the normalization uncertainty on the fake lepton background prediction in the signal regions, which amounts to $30\%$ in the $ee$ channel, $5\%$ in the $e\mu$ channel, and $5\%$ in the $\mu\mu$ channel.
 
 \begin{figure}
   \begin{center}
-    \subfloat[][$ee$ channel]  {\label{subfig:fr_close_ee}\includegraphics[width=0.32\textwidth]{figs/met_close_ee.pdf}}
-  \subfloat[][$e\mu$ channel]  {\label{subfig:fr_close_em}\includegraphics[width=0.32\textwidth]{figs/met_close_em.pdf}}
-  \subfloat[][$\mu\mu$ channel]{\label{subfig:fr_close_mm}\includegraphics[width=0.32\textwidth]{figs/met_close_mm.pdf}}
+    \subfloat[][$ee$ channel]  {\label{subfig:fr_close_ee}\includegraphics[width=.48\textwidth]{figs/met_close_ee.pdf}}
+  \subfloat[][$e\mu$ channel]  {\label{subfig:fr_close_em}\includegraphics[width=.48\textwidth]{figs/met_close_em.pdf}}\\
+  \subfloat[][$\mu\mu$ channel]{\label{subfig:fr_close_mm}\includegraphics[width=.48\textwidth]{figs/met_close_mm.pdf}}
   \caption{The \ptmiss distributions in the fake rate method validation region. All expected backgrounds are estimated using simulation, except for the fake lepton contribution, denoted ``FR Pred'' which is estimated via the fake rate method.}
   \label{fig:fr_close}
   \end{center}

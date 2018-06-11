@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Bertone:2004pz}
 G.~Bertone, D.~Hooper, and J.~Silk,
@@ -68,6 +68,139 @@ WMAP, D.~N. Spergel {\em et~al.},
 Particle Data Group, K.~A. Olive {\em et~al.},
 \newblock Chin. Phys. {\bfseries C38}, 090001 (2014).
 
+\bibitem{PhysRevD.86.010001}
+Particle Data Group, J.~Beringer {\em et~al.},
+\newblock Phys. Rev. D {\bfseries 86}, 010001 (2012).
+
+\bibitem{Glashow:1959wxa}
+S.~L. Glashow,
+\newblock Nucl. Phys. {\bfseries 10}, 107 (1959).
+
+\bibitem{Salam:1968rm}
+A.~Salam,
+\newblock Conf. Proc. {\bfseries C680519}, 367 (1968).
+
+\bibitem{PhysRevLett.19.1264}
+S.~Weinberg,
+\newblock Phys. Rev. Lett. {\bfseries 19}, 1264 (1967).
+
+\bibitem{Griffiths:111880}
+D.~J. Griffiths,
+\newblock {\itshape {Introduction to elementary particles; 2nd rev.
+  version}}Physics textbook (Wiley, New York, NY, 2008).
+
+\bibitem{PhysRevLett.30.1346}
+H.~D. Politzer,
+\newblock Phys. Rev. Lett. {\bfseries 30}, 1346 (1973).
+
+\bibitem{PhysRevLett.30.1343}
+D.~J. Gross and F.~Wilczek,
+\newblock Phys. Rev. Lett. {\bfseries 30}, 1343 (1973).
+
+\bibitem{Alvarez-Gaume:2010aa}
+L.~Álvarez Gaumé and J.~Ellis,
+\newblock Nature Physics {\bfseries 7}, 2 EP  (2010).
+
+\bibitem{Aad:2012tfa}
+ATLAS, G.~Aad {\em et~al.},
+\newblock Phys. Lett. {\bfseries B716}, 1 (2012), 1207.7214.
+
+\bibitem{Chatrchyan:2012xdj}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock Phys. Lett. {\bfseries B716}, 30 (2012), 1207.7235.
+
+\bibitem{Feldman:2013vca}
+G.~J. Feldman, J.~Hartnell, and T.~Kobayashi,
+\newblock Adv. High Energy Phys. {\bfseries 2013}, 475749 (2013), 1210.1778.
+
+\bibitem{White:1984yj}
+S.~D.~M. White, C.~S. Frenk, and M.~Davis,
+\newblock Astrophys. J. {\bfseries 274}, L1 (1983),
+\newblock [,80(1984)].
+
+\bibitem{10.1093}
+C.~Park,
+\newblock Monthly Notices of the Royal Astronomical Society {\bfseries 242},
+  59P (1990).
+
+\bibitem{PhysRevD.33.1585}
+R.~J. Scherrer and M.~S. Turner,
+\newblock Phys. Rev. D {\bfseries 33}, 1585 (1986).
+
+\bibitem{Kolb:1990vq}
+E.~W. Kolb and M.~S. Turner,
+\newblock Front. Phys. {\bfseries 69}, 1 (1990).
+
+\bibitem{Cirelli:2012tf}
+M.~Cirelli,
+\newblock Pramana {\bfseries 79}, 1021 (2012), 1202.1454.
+
+\bibitem{Adriani:2008zr}
+PAMELA, O.~Adriani {\em et~al.},
+\newblock Nature {\bfseries 458}, 607 (2009), 0810.4995.
+
+\bibitem{PhysRevLett.108.011103}
+Fermi LAT Collaboration, M.~Ackermann {\em et~al.},
+\newblock Phys. Rev. Lett. {\bfseries 108}, 011103 (2012).
+
+\bibitem{Aguilar:2007yf}
+AMS 01, M.~Aguilar {\em et~al.},
+\newblock Phys. Lett. {\bfseries B646}, 145 (2007), astro-ph/0703154.
+
+\bibitem{Jungman:1995df}
+G.~Jungman, M.~Kamionkowski, and K.~Griest,
+\newblock Phys. Rept. {\bfseries 267}, 195 (1996), hep-ph/9506380.
+
+\bibitem{Majorana2006}
+E.~Majorana and L.~Maiani,
+\newblock {\itshape A symmetric theory of electrons and positrons} (Springer
+  Berlin Heidelberg, Berlin, Heidelberg, 2006), pp. 201--233.
+
+\bibitem{refId0}
+{Aprile, E.} {\em et~al.},
+\newblock Eur. Phys. J. C {\bfseries 77}, 881 (2017).
+
+\bibitem{PhysRevLett.119.181302}
+PandaX-II Collaboration, X.~Cui {\em et~al.},
+\newblock Phys. Rev. Lett. {\bfseries 119}, 181302 (2017).
+
+\bibitem{PhysRevLett.118.021303}
+LUX Collaboration, D.~S. Akerib {\em et~al.},
+\newblock Phys. Rev. Lett. {\bfseries 118}, 021303 (2017).
+
+\bibitem{2017APS..APR.J9003A}
+E.~{Aprile} and {Xenon Collaboration},
+\newblock {The XENONnT Dark Matter Experiment},
+\newblock in {\itshape APS April Meeting Abstracts}, p. J9.003, 2017.
+
+\bibitem{Amole:2017dex}
+PICO, C.~Amole {\em et~al.},
+\newblock Phys. Rev. Lett. {\bfseries 118}, 251301 (2017), 1702.07666.
+
+\bibitem{Khachatryan:2016reg}
+CMS, V.~Khachatryan {\em et~al.},
+\newblock JHEP {\bfseries 12}, 088 (2016), 1603.08914.
+
+\bibitem{Goodman:2010ku}
+J.~Goodman {\em et~al.},
+\newblock Phys. Rev. {\bfseries D82}, 116010 (2010), 1008.1783.
+
+\bibitem{BUSONI2014412}
+G.~Busoni, A.~D. Simone, E.~Morgante, and A.~Riotto,
+\newblock Physics Letters B {\bfseries 728}, 412  (2014).
+
+\bibitem{Abdallah:2015ter}
+J.~Abdallah {\em et~al.},
+\newblock Phys. Dark Univ. {\bfseries 9-10}, 8 (2015), 1506.03116.
+
+\bibitem{PhysRevLett.65.2939}
+L.~J. Hall and L.~Randall,
+\newblock Phys. Rev. Lett. {\bfseries 65}, 2939 (1990).
+
+\bibitem{Abercrombie:2015wmb}
+D.~Abercrombie {\em et~al.},
+\newblock (2015), 1507.00966.
+
 \bibitem{Bruning:2004ej}
 O.~S. Bruning {\em et~al.},
 \newblock (2004).
@@ -96,14 +229,33 @@ ALICE, K.~Aamodt {\em et~al.},
 B.~Martin and G.~Shaw,
 \newblock {\itshape Particle Physics}Manchester Physics Series (Wiley, 2008).
 
+\bibitem{CMSLumi}
+{The CMS Collaboration},
+\newblock {CMS Luminosity-Public Results, 2016 proton-proton 13 TeV
+  collisions}, 2016,
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults#2016_proton_proton_13_TeV_collis},
+  Last accessed on 2018-06-08.
+
 \bibitem{tdrmagnet}
 CMS Collaboration,
 \newblock {\itshape {The CMS magnet project: Technical Design Report}}Technical
   Design Report CMS (CERN, Geneva, 1997).
 
+\bibitem{CMS:1998aa}
+T.~C. Collaboration,
+\newblock {\itshape {Tracker technical design report}} (, 1998).
+
 \bibitem{Borrello:2003uza}
 L.~Borrello, A.~Messineo, E.~Focardi, and A.~Macchiolo,
 \newblock (2003).
+
+\bibitem{TRKDPG}
+{The CMS Collaboration},
+\newblock {CMS Tracker Detector Performance Results, 13 TeV Data}, 2017,
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/DPGResultsTRK#13_TeV_Data},
+  Last accessed on 2018-06-08.
 
 \bibitem{Cockerill:2008td}
 CMS ECAL, D.~J.~A. Cockerill,
@@ -125,6 +277,10 @@ CMS, S.~Chatrchyan {\em et~al.},
 C.~Leroy and P.-G. Rancoita,
 \newblock {\itshape {Principles of radiation interaction in matter and
   detection}} (World Scientific, Singapore, 2009).
+
+\bibitem{Chatrchyan:2013sba}
+CMS, S.~Chatrchyan {\em et~al.},
+\newblock JINST {\bfseries 8}, P11002 (2013), 1306.6905.
 
 \bibitem{Halyo:2013iba}
 V.~Halyo, A.~Hunt, P.~Jindal, P.~LeGresley, and P.~Lujan,
@@ -161,9 +317,21 @@ C.~Eck {\em et~al.},
 G.~Petrucciani, A.~Rizzi, and C.~Vuosalo,
 \newblock Journal of Physics: Conference Series {\bfseries 664}, 072052 (2015).
 
+\bibitem{Sirunyan:2017ulk}
+CMS, A.~M. Sirunyan {\em et~al.},
+\newblock JINST {\bfseries 12}, P10003 (2017), 1706.04965.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez,
+\newblock JHEP {\bfseries 04}, 063 (2008), 0802.1189.
+
 \bibitem{Alwall:2014hca}
 J.~Alwall {\em et~al.},
 \newblock JHEP {\bfseries 07}, 079 (2014), 1405.0301.
+
+\bibitem{Backovic:2015soa}
+M.~Backović {\em et~al.},
+\newblock Eur. Phys. J. {\bfseries C75}, 482 (2015), 1508.05327.
 
 \bibitem{Mangano:2006rw}
 M.~L. Mangano, M.~Moretti, F.~Piccinini, and M.~Treccani,
@@ -172,6 +340,10 @@ M.~L. Mangano, M.~Moretti, F.~Piccinini, and M.~Treccani,
 \bibitem{PhysRevD.91.055009}
 P.~Harris, V.~V. Khoze, M.~Spannowsky, and C.~Williams,
 \newblock Phys. Rev. D {\bfseries 91}, 055009 (2015).
+
+\bibitem{Han:2014nja}
+T.~Han, J.~Sayre, and S.~Westhoff,
+\newblock JHEP {\bfseries 04}, 145 (2015), 1411.2588.
 
 \bibitem{Lester:1999tx}
 C.~G. Lester and D.~J. Summers,
@@ -259,6 +431,13 @@ J.~Butterworth {\em et~al.},
 NNPDF, R.~D. Ball {\em et~al.},
 \newblock JHEP {\bfseries 04}, 040 (2015), 1410.8849.
 
+\bibitem{Lista:2016chp}
+L.~Lista,
+\newblock {Practical Statistics for Particle Physicists},
+\newblock in {\itshape {Proceedings, 2016 European School of High-Energy
+  Physics (ESHEP2016): Skeikampen, Norway, June 15-28 2016}}, pp. 213--258,
+  2017, 1609.04150.
+
 \bibitem{BAKER1984437}
 S.~Baker and R.~D. Cousins,
 \newblock Nuclear Instruments and Methods in Physics Research {\bfseries 221},
@@ -272,21 +451,13 @@ T.~M. Karbach and M.~Schlupp,
 E.~Gross,
 \newblock CERN Yellow Reports: School Proceedings {\bfseries 4}, 165 (2017).
 
-\bibitem{Khachatryan:2016reg}
-CMS, V.~Khachatryan {\em et~al.},
-\newblock JHEP {\bfseries 12}, 088 (2016), 1603.08914.
+\bibitem{CMS-PAS-EXO-16-049}
+CMS Collaboration,
+\newblock CERN Report No. CMS-PAS-EXO-16-049, 2018 (unpublished).
 
-\bibitem{Goodman:2010ku}
-J.~Goodman {\em et~al.},
-\newblock Phys. Rev. {\bfseries D82}, 116010 (2010), 1008.1783.
-
-\bibitem{Abercrombie:2015wmb}
-D.~Abercrombie {\em et~al.},
-\newblock (2015), 1507.00966.
-
-\bibitem{Backovic:2015soa}
-M.~Backović {\em et~al.},
-\newblock Eur. Phys. J. {\bfseries C75}, 482 (2015), 1508.05327.
+\bibitem{Sirunyan:2017jix}
+CMS, A.~M. Sirunyan {\em et~al.},
+\newblock Phys. Rev. {\bfseries D97}, 092005 (2018), 1712.02345.
 
 \bibitem{Boveia:2016mrp}
 G.~Busoni {\em et~al.},
@@ -300,8 +471,8 @@ M.~Hoferichter, J.~Ruiz~de Elvira, B.~Kubis, and U.-G. Meißner,
 P.~Junnarkar and A.~Walker-Loud,
 \newblock Phys. Rev. {\bfseries D87}, 114510 (2013), 1301.1114.
 
-\bibitem{hepthesis}
-A.~Buckley,
-\newblock The hepthesis {\LaTeX} class.
+\bibitem{Sirunyan:2017xgm}
+CMS, A.~M. Sirunyan {\em et~al.},
+\newblock Eur. Phys. J. {\bfseries C77}, 845 (2017), 1706.02581.
 
 \end{thebibliography}

@@ -1,0 +1,106 @@
+General:
+- I'm assuming notations like tt(2l) and \chi will be defined at some point in Ch 1...done.
+
+- This chapter is susceptible to lots of jargon, since it's dull to write about and filled with technical details. You certainly want to show your technical understanding (to Kristian and Michael), but as much as possible, throw in a few sentences here and there to give an overview just before things get very technical (for Ian and Eric's sake). Maybe you'll see my point in some of my comments below.
+- The "p" in the ptmiss symbol differs from that in the pT symbol. Should probably make these the same...
+done.
+- I think some re-organization of the material is needed; see comments for some suggestions
+
+
+p37
+- "a moderate amount of ptmiss"...well, even tt(2l) bkg has a moderate amount of ptmiss. I think you should re-phrase this, something about additional ptmiss or harder ptmiss spectrum
+done.
+done.
+- "emits a W+ and W-", I don't think "emit" is the correct word here, as the top quark isn't radiating a W boson (i.e. not t -> tW)
+done.
+- "first and second generation" -> I'm assuming you'll introduce what the lepton generations correspond to in the intro chapter?
+done.
+
+p38
+- "opposite flavor" really is jargon in our field, since we deal with electrons and muons exclusively in most analyses, but this terminology might be a bit confusing for others. Use "different flavor" or someting else. Your following sentence points out that "flavor" will be used to distinguish between 1st and 2nd generation, but is it really necessary to introduce this narrower meaning of "flavor" for leptons?
+done.
+- about the taus, I think you should give a more in-depth answer than just "challenges in detector reconstruction". What are the consequences of these reco challenges? e.g. large backgrounds, higher pT thresholds, tighter ID/Iso requirements => low trigger efficiencies, low selection efficiencies => you don't expect to gain much sensitivity by adding tau final states; you don't use taus because we expect there's little to gain, not because it's hard
+done.
+p38-39
+- might be good to give an overview of muon reco and ID, perhaps in a few sentences before diving into the variables; e.g. 
+   * state that muon object reco is matching tracks in the muon system (standalone muon) with tracks in the inner tracker (tracker track), and a final fit is performed over the combined set of hits
+done.
+   * there's an outside-in approach, but also an inside-out approach (question: what's the motivation for the inside-out approach?)
+done.
+   * mention that quantities based on track fit quality and number of hits/segments allows to pick out muons that are well measured and less likely to be fakes (i.e. hadrons)
+done.
+- it would be nice to tie in some of the terminology from the detector section into the reco description, for example, explain that a standalone muon is a track contructed from *track segments* in the muon system
+done.
+- you use "standalone muon" and "standalone-muon"...decide to hyphen or not...
+done.
+- you give a description of the PF algo inside the listing of muon variables; this is a bit oddly placed. Maybe it would be better to give a broad overview of PF reconstruction somewhere in the introduction of this chapter before diving into specific objects?
+done.
+- what do you mean by "environment of the muon"?
+removed.
+- "For example, energy deposits in the calorimeter may be used to assign the momentum of a muon that is not well isolated." -> is this referring to FSR or brem photons from muons? otherwise, what is the reasoning to use calo deposits for muon energy assignment? if it is indeed FSR/brem photons, would be better to state this explicitly
+done.
+- a reader may wonder why we have THREE muon reconstruction algos. At this point, I think the whole global/tracker muon thing is there for historical reasons (maybe?), but certainly we want our muons to also be PFMuons in an analysis that also uses PFJets and PFMET in order to have a consistent event description. Not pushing for an explanation about this in the text, but something I think might come up from Ian/Eric...
+- you should explain in a sentence what is hadronic punchthrough the first time this term is introduced
+done.
+- "in-flight decays", should state decays from what? 
+charged pions, done.
+- on the variables: chi^2/ndof and N chamber hits => I'm confused how this addresses hadron punchthrough; I can see how these 2 variables addresses decays in-flight, as the trajectory will have some "kink" so the track-fit quality should be poor, but a typical punchthrough pion would just be a charged track through the detector, right? or is it that the standalone muon track will have much lower pT than the tracker track since the pion loses significant energy in the calorimeters?
+done.
+
+p40
+- unless you plan to refer to it later, there's no need to mention the name of "\Delta\beta correction" (I also don't remember why it's called \Delta\beta); also, the \Delta\beta correction is an estimate of the NEUTRAL contribution from PU...the 0.5 factor is a heuristic value based on the assumed ratio of the neutral:charged contributions from pileup; if I'm not mistaken (memory now fuzzy), but the charged hadron contribution must come from the PV
+done.
+p41
+- "citeria" -> "criteria"
+done.
+- the electron reconstruction should be discussed (at least briefly), in particular GSF tracking, supercluster reco, and the energy/momentum assignment (whether it comes from the track or from the SC); again, I would suggest a sentence or two to give a broad overview of the reco approach, then follow up with some more specific details.
+done.
+p42
+- don't you mean pi0 decays to gamma gamma? 
+yes. done.
+- the missing hits variable description is a bit confusing, in particular this part: "if several tracker hits are found to be compatible with those expected in a layer from the track trajectory, at most one missing hit is allowed"...how is there a missing hit when several hits compatible with a layer is found? I think you just need to expand the example a bit more...
+done.
+- what kind of H/E value should be expected for a good electron (i.e. high or low), an opportunity to refer to the high number of radiation lengths of our ECAL
+done.
+
+p43
+- question: how is rho (event energy density) computed? 
+median ( jet pT_i / A_I )
+
+p45
+- cite anti-kT reference
+done.
+
+p46
+- it's odd that you describe how PF algo reconstructs a charged hadron at this point of the chapter, after referring to these objects when discussing lepton isolation. If you decide to follow my earlier suggestion to do an overview of PF reco at the beginning of the chapter, then you can introduce these objects there
+done.
+
+p47
+- You write a single sentence about jet-lepton overlap removal, but there's no context. I think you should explain this a bit more: jet clustering doesn't "know" which particles the "good" leptons are, so a jet can include a good lepton. This object ambiguity/overlap is removed at the analysis level, after defining the lepton selection, and precedent is given to objects that are considered good muons/electrons.
+done.
+
+p49
+- why is the K-short of particular interest for the jets with a "pseudo-vertex"?
+- "seperable" -> "separable"
+done.
+- is it really necessary to distinguish missing transverse momentum vs energy, where the symbol differs only by a vector arrow?
+done.
+
+p50
+- Eq. 3.6, the pTvec_i looks a bit weird: the vector arrow seems to be above "p_T" rather than just above the "p"
+done.
+p51
+- is it necessary to introduce PF-ptmiss? other flavors of MET aren't considered in your analysis. If this is meant to distinguish type-1 PFMET from raw PFMET, I would suggest you use a different symbol for raw PF MET and use this in Eq (3.6), and keep the usual ptmiss notation for the actual MET observable in the analysis (unless you've already propagated PF-ptmiss to the plots and text of later chapters, but a quick glance ahead seems like you have not).
+   * Eq 3.7: I'm guessing you mean to write just ptvecmiss on the RHS of the equation, and not PF-ptvecmiss on both sides.
+   * Personally, I don't see a need for two notations. Suggestion: Keep Eq. 3.6 as is; In Eq. 3.7, just expand on Eq. 3.6 by adding the Type-1 correction terms (so keep the sum over PF candidates terms on the RHS), and don't introduce the PF-ptmiss symbol. Just add a sentence that in all experimental plots, ptmiss will refer to the defintion of Eq. 3.7.
+done
+- the JEC discussion should really go in the Jets section
+done
+- I believe the offset energy density (rho) is the same as the rho used for electron isolation; check, and if they are the same quantity, point this out
+done.
+- "removing any energy contributions from pile-up" seems like a bold statement...it's more like an "average pedestal" subtraction...
+why it is aimed at..
+- while you mention for the L2L3 residual correction this is applied to data, it's not quite clear from the JES discussion that the other corrections are applied to both data and MC...
+changed to "data ONLY" in text
+p52
+- the "\mu\mu" in "Z(\mu\mu/ee)+jets" has an odd space in between

@@ -1,5 +1,6 @@
 \usepackage{graphicx}
 \usepackage{xspace}
+\usepackage{float}
 \usepackage{morefloats,subfig,afterpage}
 \usepackage{mathrsfs} % script font
 \usepackage{verbatim}
@@ -10,9 +11,8 @@
 \usepackage{multirow}
 \usepackage{dingbat}
 \usepackage{rotating}
-%% Using Babel allows other languages to be used and mixed-in easily
-%\usepackage[ngerman,english]{babel}
-
+\usepackage{amssymb}
+\usepackage[colorlinks=true,pdfpagemode=FullScreen,bookmarks=true]{hyperref}
 %% Citation system tweaks
 \usepackage{cite}
 % \let\@OldCite\cite
@@ -20,7 +20,7 @@
 
 %% Maths
 % TODO: rework or eliminate maybemath
-\usepackage{abmath}
+\usepackage{ssmath}
 \DeclareRobustCommand{\mymath}[1]{\ensuremath{\maybebmsf{#1}}}
 % \DeclareRobustCommand{\parenths}[1]{\mymath{\left({#1}\right)}\xspace}
 % \DeclareRobustCommand{\braces}[1]{\mymath{\left\{{#1}\right\}}\xspace}
@@ -44,7 +44,7 @@
 \DeclareRobustCommand{\RateOf}[1]{\mymath{\Gamma}\parenths{#1}\xspace}
 
 %% High-energy physics stuff
-\usepackage{abhep}
+\usepackage{sshep}
 \usepackage{hepnames}
 \usepackage{hepunits}
 \DeclareRobustCommand{\arXivCode}[1]{arXiv:#1}

@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red251\green2\blue255;\red33\green255\blue6;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c25279\c100000;\cssrgb\c0\c97680\c0;}
+\margl1440\margr1440\vieww33100\viewh19280\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 General:\
+- Maybe this will be discussed in the next chapter, but I feel like the top pT reweighting should be mentioned in the tt(2l) section.\
+- Even though I know what's going on in the Rin/out method, reading through the description still feels a bit challenging to follow all the details. Maybe a qualitative overview of the procedure at the start of the Rin/out subsection might help give the reader a heads-up what to expect? Also, somewhat lost in the whole DY section is how much this bkg matters. One question I think might be asked is that we have a ptmiss-dependent correction, but the method only corrects the normalization. It's a bit odd given we're doing a ptmiss shape analysis, but looking at Fig 5.8, one could argue that the stats uncertainties on the scale factor correction isn't significantly different from a flat correction. Maybe there's also another point I've forgotten as to why we only just correct normalization...\
+- you have table captions sometimes above and sometimes below the tables. Should do this consistently.\
+\
+p61:\
+- suggest: "same expected particles" --> "same visible particles", because we're not considering neutrinos and DM particles when comparing signal to an irreducible bkg?\
+\cf2 changed\cf0 \
+- suggestion: quote in parentheses the xsec values for ttbar and DY; while you do refer to Fig 5.1, it's quite detailed and not easy to spot DY and ttbar right away...\
+\cf2 done\cf0 . \
+p63:\
+- "cross-section" --> "cross section"\
+\cf2 changed everywhere.\cf0 \
+Fig 5.3 caption\
+- subfigure (a) is really specifically tt+Z(nunu), so I think the caption should say this rather than generic ttV\
+\cf2 changed. \cf0 \
+p66:\
+- "75 < M_Z < 105" --> "75 < M_\{\\ell\\ell\} < 105", as you're talking about dilepton mass falling outside this window, right?\
+\cf2 changed.\cf0 \
+- the Z mass window cut is to remove the resonant real Z production and not so much the gamma* process; certainly, for DY process whether a Z or a gamma has been exchanged is indistinguishable, but near the pole mass resonant Z production is super enhanced relative to virtual photon exchange\
+\
+p66-67:\
+- I'm not sure the low mass cut requirement needs to be re-discussed here, it was already mentioned in the SR selection description -- if anything, you can expand the discussion there and remove from the discussion on DY bkg\
+\cf2 removed\cf0 .\
+\cf3 - not quite clear from how you've written it, but the M>20 does remove low mass DY -- indeed the underlying DY mass spectrum rises when approaching 0, but after selection cuts it's not clear (at least to me) if the dilepton mass spectra would still be rising when approaching 0\
+- you mentioned J/phi but there are several low mass resonances, such as upsilon and other mesons (you've probably seen this: http://www.science20.com/quantum_diaries_survivor/plot_week_lovely_dimuon_mass_spectrum); a strong reason we cut this region out is the modeling of the production rates of these low mass resonances are not so great, especially for quarkonia\cf0 \
+\cf3 - generally, modeling of this low mass region with MC is shaky; if you recall BPH results, the bkg usually is estimated via some heuristic fit function rather than MC templates\
+\cf0 \
+p67:\
+- "events evading the above-mentioned Z boson mass veto tend to be accompanied by a significant amount of ptmiss"... I didn't think that DY events outside the Z mass window also tended to have higher MET, but if this is true, could you provide some explanation or discussion as to why this is the case?\
+\cf2 changed entirely.. this doesnt make sense \cf0 \
+- either here or as I suggested for the previous chapter, show the MET plot for a Zll selection; the data vs MC comparison in the tails of the Z distribution may help make your point that instrumental effects that may not be trivial to simulate (I don't recall how well or poorly the comparison looks...)\
+adding plot.\
+- another point for the Rin/out method, even if the MET is modeled perfectly by the MC, if the DY mass shape is not, then the method also corrects for the differences (in other words the efficiency of the Z mass window cut)\
+- "The method is used"...? Do you mean to write "The Rin/out method is used..." or "The method used to predict ..., is by extrapoloating..."\
+\cf2 fixed. \cf0 \
+- there's a slight inconsistency on how you present the Z mass window...in the previous page you have 75 < M < 105, which is approximately what is done, and here you write +/- 15 of M_Z, which is exactly what is done. Would be good to express the Z window consistently throughout\
+\cf2 fixed to be the exact definition\cf0 \
+\
+p68:\
+- I've forgotten these studies in MC about R^0b != R^1b, but why did we loosen the MET cut or Njets cut? because the MC stats were limited otherwise and we wanted to check if the assumption would at least hold in a more inclusive phase space?\
+\
+Fig 5.8: maybe move the legend so it doesn't overlap with a data point?\
+\
+Eq. 5.7:\
+- maybe fix the square brackets to fully enclose the fractional expression?\
+\cf2 done.\cf0 \
+\
+p77:\
+- you should point out why the FR for muons is higher than for electrons; also, you might need to explain that trigger restrictions limits our choice for the "FO WP"...\
+\cf2 done\cf0 \
+- The start of the "Fake rate application" section, you state: "The FR does not give a direct measure for an absolute fake rate; it is the probability for a fake lepton which passes loose identification criteria..."; I think this is may be better placed in the previous subsection, to motivate why you have the "FO WP" selection, i.e. you are specifying the denominator of your FR definition\
+\cf2 done\cf0 \
+\
+p79:\
+- I think the charge mis-ID issue is worth mentioning in the closure test discussion...\
+\cf2 done\cf0 .\
+- You say the level of disagreement is accounted for in the uncertainty, I suggest to quote what this contribution to the uncertainty is\
+\cf2 done\cf0 .\
+}

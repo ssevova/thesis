@@ -1,0 +1,86 @@
+Ch 2 general comments:
+- For figures with plots/images/graphics you have taken from a publication, you should add the citation for the source in the caption. I see some figures have it, but many don't.
+
+
+p7:
+- "octancts" -> "octants" (typo?)
+done
+p8:
+- nitpicky: "total center-of-mass energy ... twice the energy of the incoming beam...", this is specific to the scenario where Ebeam1 = Ebeam2, so maybe re-phrase the sentence so that it doesn't read like this is the relationship in general (e.g. when Ebeam1 != Ebeam2)
+done.
+
+p11:
+- you mention Ebeam the LHC has achieved in its runs so far since 2011, but suggest to say 2010-2011 it operated at 7 TeV, because the first wave of LHC results came in 2010 (with 36 pb-1, including the W,Z xsec measurement that Michael and Kristian were deeply involved in)
+done.
+- might be nice to state the insta lumi that it reached in 2016 (I think it was or not far from 10e34...but I don't remember now)
+done. 
+
+p12:
+- regarding "barrel", "endcap", "forward" designations, is this how regions are referred to in the references? certainly for reco objects, a barrel muon (<1.2) does not have the same eta definition as a barrel electron (<1.479 or <1.4442 depending on which eta is considered)...at least in Ch 2, these designations aren't really utilized...
+changed.
+
+- CMS detector reference is [?] (I guess this should be [11]...)
+fixed.
+- nitpicky: you write CMS collected 38fb-1, certified is 35.9fb-1, and Fig 2.5 shows 37.82fb-1, so writing "38fb-1" seems a bit of an odd choice of rounding (either write 37.8 to be consistent with 35.9 or write 37.82 to be consistent with the figure)
+changed.
+
+p16:
+- the discussion about pT and rho is framed a bit strangely to me. the measurement of interest is for the pT, yet as written it seems like we derive rho from pT, which sort of contradicts that pT is the quantity we're looking for. similarly, Eq. 2.3 might be better to express pT in terms of B, rho, z
+changed
+- question: do you know how the 0.3 in Eq. 2.3 comes about?
+not sure and cant find reference so said it was prop to.
+- nitpicky: you denote magnet length with the same "L" symbol as for luminosity, and also in Eq. 2.4 you have "L'"; may be clearer to just denote magnet length by "L'" at the start
+changed
+- "b-jets being the only flavor jets expected"...you can still have ISR jets (typically gluons or light flavor), and you can have c-jets that pass b-tagging from backgrounds like DY+jets; maybe say that b-jets are very effective handles to identify dilepton ttbar or something like that...
+done. 
+
+p18:
+- "first through third" seems unnecessary to state given there's only three BPix layers...
+removed. 
+
+p19:
+- nitpicky: "9 $\phi$" -> "nine $\phi$", so it doesn't look like a math expression 9$\phi$
+done.
+- the sentence: "In addition, the innermost two..." is rather long; also, maybe an addtional "and" after "disks" in the part, "innermost two layers and disks and of the TIB, TOB,"; I would suggest a semi-colon or break into two sentences.
+fixed.
+- "...the resolutions for the$\pt$..." seems to be missing a space
+fixed.
+- "1--2\%" -> "1\% and 2\%" to be consistent in style with the "0.65\% and 1.5\%"
+done.
+
+p20:
+- the intro to the calorimeters section makes it seem like calo info is mainly good for neutrals, but it's a vital part of electron energy/pT measurement
+fixed. 
+
+p21:
+- "employed in the EE as a cause of" -> "employed in the EE because of"? the phrase "as a cause of" seems awkward here...
+yes, changed.
+- question: do you know why the preshower can help separate pi0->gammagamma from H->gammagamma?
+yes, photon conversions.. added some details. 
+
+p22:
+- L1 trigger discussion comes out of the blue here, especially since triggers haven't really been discussed yet. Maybe move this material to Sec 2.2.5 on DAQ...
+moved.
+
+- "neutrino energies and directions"? how does the HCAL help measure neutrinos?
+removed.
+- the statement "determine quark, gluon...energies and directions" is maybe not the best one to make, as quark and gluon aren't the observable particles (i.e. even with PF reco, we can only identify the hadrons but not the partons themselves); perhaps you mean from measurements of jet energies and after PF reco, one could INFER the energies and directions of the partons and neutrinos from the hard scatter process? although I don't think it's fitting to make those statements in the detector section...
+changed.
+- in the last sentence about HO, I'm confused why hadronic showers in 3 < |eta| < 5 is relevant here, as the HO covers for the HB, not the HF...
+mistake, fixed to 0 to 1.4
+p27-28:
+- similarly to the calo section, perhaps the muon trigger discussion is better severed in the DAQ section when the trigger system has been formally introduced...
+fixed.
+p30:
+- HT is a scalar sum, but MHT is the magnitude of a vector sum (i.e. jet-based analogies to ET and MET)
+changed.
+p33:
+- "...the previous step []" (missing reference)
+removed.
+- you describe that electron/photon candidates in HLT have to pass E/p and delta-eta requirements, but it's vague why or what these requirements are; I would suggest you re-phrase this to something like "consistency of the energy and momentum measurements", or consistency of the track position with the ECAL hit position, so it's easy to infer that E/p should be near 1 and delta-eta should be sufficiently small, etc.
+fixed.
+
+p35:
+- O(50) primary datasets? that seems too large...
+O(10) online streams
+

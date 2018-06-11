@@ -1,0 +1,44 @@
+p53:
+- "spin-0 mediator which" --> "spin-0 mediator, which" or "spin-0 mediator that"
+done
+- "couples to SM fermions (in this case top quarks)" --> the model technically has non-zero couplings to all SM quarks, right?
+yeah, just removed the stuff in () since it can be a bit confusing.
+- regarding the coupling strength, you may want to re-phrase this statement, depending on what is written in Ch. 1, but the main issue is that g_q is a multiplier to the Yukawa coupling while g_\chi is the direct coupling between mediator and DM particles; a suggestion would be to remind the reader of the Yukawa coupling structure here in the intro paragraph
+rephrased.
+- "peak at higher" --> suggest to re-phrase, as there isn't a peak structure
+changed to talk about the tails.
+
+Fig 4.1 caption:
+- "DM particles which decay via" --> the DM particles don't decay, so perhaps "produced via"?
+changed.
+- what do you mean by "explicit" in the phrase "explicit scalar and pseudoscalar"?
+removed.
+
+p54:
+- do you plan to explain the S vs P differences at low mediator masses in Ch. 1? otherwise add the explanation here...
+explained.
+
+Fig 4.2 and 4.3: let me know if you want me to change the legends in these plots (or anything else) because the labeling might be a bit obscure to any committee member not named Kristian
+explained label in the caption.
+
+Fig 4.2: perhaps a good complement subfigure would be curves for xsecs vs mMED for S and P with M_\chi=1, unless you have discussed production xsecs already in Ch. 1
+
+p56:
+- "criter ia" --> "criteria" (typo on the extra space) 
+fixed.
+- "reject Z(\ell\ell)" --> "reject resonant Z(\ell\ell)" 
+changed.
+- "further suppress contamination from DY events" --> may be worth adding a sentence to explain how DY (which has no real MET) would need a moderate MET cut to reduce it...(a MET plot for Zll events would be even nicer to illustrate this point, but I wouldn't say is necessary)
+
+P57-58:
+- "The utility of MT is best wherein one missing particle is expected..." This discussion leading up to Eq. 4.3 seems awkward to me and I feel is unnecessary. The whole point about one missing particle is specific to Eq. 4.2, but the definition could easily be extended to account for this (and I suspect Kristian and Michael will think the same upon first reading this statement)...
+- I actually feel like you have the organization somewhat out of order. My suggestion would be:
+   * start with tt(2l) (perhaps a version of Eq. 4.3 without the DM particles)
+   * then you can introduce MT, i.e. Eq. 4.2, and state the property that given pt of neutrino and lepton "the maximum MT value is bounded from above by the W boson mass"
+   * now, for tt(2l), you would get Eq. 4.4., assuming you have the right assignments for the neutrinos
+   * since you don't know the right assignments initially, we proceed with the scan over partitions of the MET into two sources, leading to Eq. 4.5
+   * define stransverse mass, Eq. 4.1
+   * bring up Eq. 4.3, or at least point out the signal will have extra MET sources, and therefore for signal, this upper bound can be broken
+done.
+
+Fig 4.4: a question you might anticipate is why the peak at MT2ll ~ 0 (I also forget why that is there...)

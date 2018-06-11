@@ -1,85 +1,12 @@
-\chapter{Results}
+\chapter{Dark matter interpretation}
 \label{chap:results}
 
-This chapter covers the results and interpretation of the fitting procedure described in the previous chapter, including the upper limits on signal yields for the \ttDM process in the dilepton channel presented in Section~\ref{sec:UL}. Section~\ref{sec:comparetoDD} presents the results in the same planes as results from direct and indirect dark matter detection experiments. 
+This chapter covers the results and interpretation of the fitting procedure described in the previous chapter, including the upper limits on signal cross sections for the \ttDM process in the dilepton channel presented in \SectionRef{sec:UL}. The results presented in this work have been combined with the \ttDM searches performed using the all-hadronic and lepton+jets \ttbar decay modes as presented in~\cite{CMS-PAS-EXO-16-049}. The sensitivity in the combined search is driven by the all-hadronic channel, however this work contributes significantly to the sensitivity for scalar mediated signal models with $\mMed<50\:\GeV$, where the softer signal \MET spectra are exploited. The CMS \ttDM search performed in 2016 provides the best sensitivity for low mediator mass models when compared with other spin-0 $\text{Mono}$-$X$ LHC searches, including monojet~\cite{Sirunyan:2017jix}. \SectionRef{sec:comparetoDD} presents the results in the same planes as results from dedicated direct DM detection experiments. 
 
-\section{Simplified model interpretation}
-\label{sec:interpretation}
-Dark matter production at colliders can be characterized, in large part, by the interaction between the SM and DM particles. The main characteristics of the simplified models under consideration are briefly highlighted in Sec.~\ref{sec:simpmodels}, and will be expanded upon in the following section.
-
-Prior to Run II of the LHC, DM searches such as the one detailed in~\cite{Khachatryan:2016reg}, had been traditionally interpreted using Effective Field Theory (EFT) models~\cite{Goodman:2010ku}, wherein the interaction between the SM particles and the Dirac fermion WIMPs is mediated through higher dimensional operators. The models are solely characterized by the DM mass, \mDM, and $M_{*}$ which represents the strength of the interaction and is a function of the masses and coupling strengths of the mediating particles between the DM and SM fields. The benefits of the EFT formulation is the lack of model dependence, and the relative ease encountered in translating experimental collider constraints to the direct detection DM-nucleon cross section-\mDM plane. The shortcoming of such field theories, however, are that they are non-renormalizable, thus they become invalid at arbitrarily high energy scales, and this is represented by the masses of the mediating particles that have been integrated out. In general, for an EFT to make sense, it is required that $M_{*}$ must be much larger than the energy transfer through quarks at the LHC, i.e. $M_{*}^{2} >> Q_{\textrm{tr}}^{2}$. Thus, since this class of models does not truly account for the mediator, effects from resonant enhancement are not included and EFTs have no sensitivity to off-shell mediator production.
-
-\begin{figure}
-  \subfloat[][]{\label{fig:EFT}
-    \feynmandiagram[vertical=b to d]{
-      a [particle=\(\bar{t}\)] -- [fermion] b -- [fermion] c -- [fermion] d -- [fermion] e [particle=\(t\)],
-      f [particle=\(g\)] -- [gluon] b,
-      g [particle=\(g\)] -- [gluon] d,
-      h [particle=\(\bar{\chi}\)] -- [fermion] c -- [fermion] i [particle=\(\chi\)],
-      h -- [opacity=0.001] i,
-      %%f -- [opacity=0.001] g,
-      a -- [opacity=0.001] h,
-      e -- [opacity=0.001] i,
-    };
-  }
-  \hspace{0.5cm}
-  \subfloat[][]{\label{fig:DMF}
-    \feynmandiagram[horizontal=c to h]{
-      a [particle=\(\bar{t}\)] -- [fermion] b -- [fermion] c -- [fermion] d -- [fermion] e [particle=\(t\)],
-      f [particle=\(g\)] -- [gluon] b,
-      g [particle=\(g\)] -- [gluon] d,
-      c -- [scalar, edge label=\(\phi \slash a\)] h,
-      i [particle=\(\bar{\chi}\)] -- [fermion] h -- [fermion] j [particle=\(\chi\)],
-      e -- [opacity=0.0001] i,
-      a -- [opacity=0.0001] j,
-      i -- [opacity=0.0001] j,
-      %%      f -- [opacity=0.0001] g,
-    };
-  }
-  \caption{The representative diagram of a top quark pair produced in association with a pair of DM particles ($\chi\bar{\chi}$) using~\protect\subref{fig:EFT} the EFT formalism and~\protect\subref{fig:DMF} the simplified model formalism.}
-\end{figure}
-
-In order to circumvent the deficiencies of the EFT formalism, a class of simplified models have been employed for the interpretation of DM searches during Run II of the LHC. In part, the increase in the center-of-mass collision energy from $\sqrt{s}=8\:\TeV$ to $\sqrt{s}=13\:\TeV$ limits the region of validity for the EFT models. Hence, the contact interaction of the EFT models, as depicted in~\FigureRef{fig:EFT} is subsequently resolved into a mediator interaction which couples to the SM and DM particles, as shown in~\FigureRef{fig:DMF}. 
-
-The interaction Lagrangians of the scalar ($\phi$) and pseudoscalar ($a$) mediators are as follows~\cite{Abercrombie:2015wmb},
-
-\begin{equation}
-  \mathcal{L}_{\phi} = g_{\chi}\phi\chi\bar{\chi} + \frac{\phi}{\sqrt{2}}\sum_{i}{(g_{u}y_{i}^{u}\bar{u}_{i}u_{i} + g_{d}y_{i}^{d}\bar{d}_{i}d_{i} + g_{\ell}y_{i}^{\ell}\bar{\ell}_{i}\ell_{i})},\\
-  \mathcal{L}_{a} = ig_{\chi}a\chi\gamma_{5}\bar{\chi} + \frac{ia}{\sqrt{2}}\sum_{i}{(g_{u}y_{i}^{u}\bar{u}_{i}\gamma_{5}u_{i} + g_{d}y_{i}^{d}\bar{d}_{i}\gamma_{5}d_{i} + g_{\ell}y_{i}^{\ell}\bar{\ell}_{i}\gamma_{5}\ell_{i})}
-\end{equation}
-
-where the Yukawa couplings are $y_{i}^{f} = \sqrt{2}m_{i}^{f}/v$, where $m^{f}_{i}$ is the fermion mass, and $v=246\:\GeV$ is the Higgs boson field vacuum expectation value. $g_{\chi}, g_{u}, g_{d}$ and $g_{\ell}$ represent the coupling strength between the mediator and the dark sector, up-type quarks, down-type quarks, and leptons respectively. In the report issued by the Dark Matter Forum (DMF)~\cite{Abercrombie:2015wmb}, a collaboration between members of CMS, ATLAS and the theory community, a benchmark set of parameters for the relevant simplified models of DM were chosen after scans of the parameter space were performed. In the following analysis, the DMF recommendation of $g_{\chi} = g_{u} = g_{d} = g_{\ell} = 1$ is followed. This reduces the free parameters to \{\mDM, \mMed\} which contribute to the minimal mediator width at LO via, 
-
-\begin{equation}
-  \Gamma_{\phi} = \frac{\mDM}{8\pi}\Big(1-\frac{4\mDM^{2}}{m_{\phi}^2}\Big)^{x/2} + \sum_{f=fermions}\frac{y_{f}^{2}m_\phi}{16\pi}\Big(1 - \frac{4m_{f}^2}{m_{\phi}^2}\Big)^{x/2},
-\end{equation}
-
-with $x=3$ for scalar mediators, and $x=1$ for pseudoscalar mediators. Owing to the choice of SM Higgs-like Yukawa couplings for the SM fermions, the top quark contribution to the mediator width is enhanced at mediator masses above twice the top quark mass, but conversely for lighter mediator masses, the DM contribution dominates since couplings to the lighter quarks are Yukawa-suppressed. Thus the sensitivity of this search is concentrated in the low mediator mass regime, below twice the top quark mass. The signal samples used in the analysis were generated at LO accuracy in QCD with up to one additional parton in the final state, however as described in Ref.~\cite{Backovic:2015soa}, the cross section is computed at NLO with no additional partons in the Born process, and the samples are normalized to the NLO values listed in Table~\ref{tab:NLOxsec}
-
-\begin{table}
-  \centering
-  \begin{tabular}{|r|r|c|c|}
-    \hline
-    \mMed [GeV] & \mDM [GeV] & Scalar (pb) & Pseudoscalar (pb) \\
-    \hline
-    %% NLO %%
-    10  & 1 & $26.09   $ & $0.6218$  \\
-    20  & 1 & $13.96   $ & $0.5653$  \\
-    50  & 1 & $3.923   $ & $0.4314$  \\
-    100 & 1 & $0.8891  $ & $0.2716$  \\
-    200 & 1 & $0.1229  $ & $0.1189$ \\
-    300 & 1 & $0.04079 $ & $0.05946$ \\
-    500 & 1 & $0.007796$ & $0.008171$\\
-    \hline
-  \end{tabular}
-  \caption{Summary of the signal samples and the correpsonding NLO cross sections used in this analysis for scalar and pseudoscalar mediator masses with $\mDM=1\:\GeV$.}
-  \label{tab:NLOxsec}
-\end{table}
-
-\section{Upper limits on \ttDM production in the dilepton channel}
+\section{Upper limits on \ttllDM production at the LHC}
 \label{sec:UL}
 
-From the background-only post-fit yields presented in Table~\ref{tab:cat-hi_postfit_yields} and~\ref{tab:cat-lo_postfit_yields}, it is apparent that there is no significant excess of events expected over the SM backgrounds, hence $95\%$ $\textrm{CL}_{s}$ upper limits on the signal strength parameter $\mu$ defined in Section~\ref{subsec:signal} are set. The expected and observed upper limits on $\mu$ for signal models with varying scalar and pseudoscalar mediator masses and $\mDM=1\:\GeV$ are listed in Table~\ref{tab:results} along with the $\pm\:1\sigma$ and $\pm\:2\sigma$ uncertainties on the expected limit. The results shown in the tables are visualized in~\FigureRef{fig:scalar_results} and~\FigureRef{fig:pseudo_results} as a function of \mMed, where the couplings are assumed to be \gq = \gDM = 1 and the DM mass is \mDM = 1 \GeV. The range of \mMed are deemed as excluded by the search, when the upper limit on $\mu$ is less than 1. As can be seen in~\FigureRef{fig:scalar_results} and~\FigureRef{fig:pseudo_results}, the observed (expected) $95\%$ $\textrm{CL}_{s}$ exclusions for a scalar mediator are $\mMed<74(99)\:\GeV$, while for a pseudoscalar mediator, the expected exclusion is $m_{a}<50\:\GeV$, and no exclusion is observed. 
+The background-only post-fit yields presented in \TableRef{tab:cat-hi_postfit_yields} and \TableRef{tab:cat-lo_postfit_yields} reveal an observed yield compatible with the events expected from SM backgrounds, within statistical and systematic uncertainties. Thus, without a significant excess of events expected over the SM processes, $95\%$ $\textrm{CL}_{s}$ upper limits on the signal strength parameter $\mu$, defined in \SectionRef{subsec:signal} as the ratio of the observed cross section to the theoretical model cross section, are set. The expected and observed upper limits on $\mu$ for signal models with varying S and PS mediator masses and $\mDM=1\:\GeV$ are listed in \TableRef{tab:results}, along with the $\pm\:1\sigma$ and $\pm\:2\sigma$ uncertainties on the expected limit. Recalling the discussion in \SectionRef{sec:simpmodels}, the more stringent limit at low mediator mass for S compared to PS models can be understood as a manifestation of the order of magnitude difference in cross section between the S and PS mediated DM production at low mass. A similar reasoning is followed at high mediator mass, when the cross section for PS models becomes equivalent or marginally larger than the S mediated production rate, where it is observed that the upper limit is more comparable between S and PS models than at low mass. The results shown in the tables are visualized in~\FigureRef{fig:scalar_results} and~\FigureRef{fig:pseudo_results} as a function of \mMed, where the couplings are assumed to be $\gq = \gDM = 1$ and $\mDM=1\:\GeV$. The logarithmic scaling of the x and y axes in \FigureRef{fig:scalar_results} and \FigureRef{fig:pseudo_results} somewhat conceal the sharp rise in the expected and observed upper limits beginning at $\mMed\approx 300\:\GeV$. However, following the discussion in \SectionRef{sec:BSM} regarding the enhancement of \ttbar production to the minimal mediator width in the region $\mMed > 2\mtop$, this rising trend is unsurprising, as the \XX production mode is no longer dominant and therefore the cross section for DM production drops off drastically. The rise in upper limit is also noticeably sharper for the S compared to the PS mediated signal models owing to the kinematic suppression of S compared to PS production as discussed in \SectionRef{sec:simpmodels}. In the high \mttll category post-fit \MET distributions shown in~\FigureRef{fig:postfit_hi}, a modest excess of observed events over the expected SM backgrounds can be seen at high \MET for both flavor categories. As a result, this causes the observed upper limits for both S and PS mediators to be consistently $15-25\%$ weaker than the corresponding expected limits across the \mMed range in the absence of a signal. Contrary to mass peak searches where the postulated signal may be localized in a window of the mass distribution being fit, this search would anticipate an excess over a non-localized range of the \MET distribution, thus also explaining the uniformity of the weaker observed compared to expected limits. The range of \mMed are referred to as excluded by the search, when the upper limit on $\mu$ is less than 1. As can be seen in~\FigureRef{fig:scalar_results} and~\FigureRef{fig:pseudo_results}, the observed (expected) $95\%$ $\textrm{CL}_{s}$ exclusions for a S mediator are $\mMed<74(99)\:\GeV$, while for a PS mediator, the expected exclusion is $m_{a}<50\:\GeV$, and no exclusion is observed. 
 
 \begin{table}
   \begin{tabular}{|l|c|c|c|c|}
@@ -116,10 +43,12 @@ From the background-only post-fit yields presented in Table~\ref{tab:cat-hi_post
     \label{fig:pseudo_results}
     \includegraphics[width=0.6\textwidth]{figs/dilepton_PS_NLO_limits.pdf}
   }
-  \caption{The expected (red dashed) and observed (solid black) $95\%$ $\textrm{CL}_{s}$ upper limits on the \ttDM signal strength in the dilepton channel for various~\protect\subref{fig:scalar_results} scalar and~\protect\subref{fig:pseudo_results} pseudoscalar mediator masses where $\mDM=1\:\GeV$ and $\gq = \gDM = 1$ is assumed. The results are obtained using $35.9\:\textrm{fb}^{-1}$ collected by the CMS detector in 2016.}
+  \caption{The expected (red dashed) and observed (solid black) $95\%$ $\textrm{CL}_{s}$ upper limits on the \ttDM signal strength in the dilepton channel for various~\protect\subref{fig:scalar_results} scalar and~\protect\subref{fig:pseudo_results} pseudoscalar mediator masses where $\mDM=1\:\GeV$ and $\gq = \gDM = 1$ is assumed. The green (yellow) band represents the $68\%$ ($95\%$) interval of probability around the expected limit. The results are obtained using $35.9\:\textrm{fb}^{-1}$ collected by the CMS detector in 2016.}
 \end{figure}
 
-The upper limits for on the scalar mediated \ttDM signal are also shown as a function of \mMed and \mDM in~\FigureRef{fig:2Dexclusion}. The solid (finely dashed) contour encloses the region where the observed (expected) upper limit on $\mu$ is less than 1. It should be noted that the narrow width of the mediator causes the cross section to drop off very rapidly across the on-/off-shell (\mMed = 2\mDM) line, therefore the exclusion contour runs close to the diagonal but does not cross it.
+\clearpage
+
+The 1D mediator exclusion range observed and expected for the scalar mediated \ttDM signal in \FigureRef{fig:scalar_results} is expanded into a 2D contour as a function of \mMed and \mDM as shown in~\FigureRef{fig:2Dexclusion}. The 1D upper limit curves can be thought of as slices across the x axis (\mMed) for a given y value (\mDM) in the 2D plane. The solid (finely dashed) contour encloses the region where the observed (expected) upper limit on $\mu$ is less than 1. The triangular nature of the exclusion contour is based on the grounding assumption that the kinematics for a given \mMed do not change dramatically as a function of \mDM, provided the DM particles are produced sufficiently on-shell. In addition, as the on/off-shell threshold (dashed diagonal) line is approached, both the width as given by~\EquationRef{eq:width} and the cross section fall monotonically and plateau at very small, but non-zero values, thus the exclusion contour runs close to the diagonal but does not cross. The narrow mediator width would nominally enhance the cross section in such a limiting case as the threshold regime, however the allowable phase space for the decay products is greatly reduced at $\mMed \approx 2\mDM$, ultimately suppressing the total cross section.
 
 \begin{figure}
   \centering
@@ -133,35 +62,38 @@ The upper limits for on the scalar mediated \ttDM signal are also shown as a fun
 \section{Comparison with direct detection}
 \label{sec:comparetoDD}
 
-To facilitate the comparison with constraints from direct detection experiments, the exclusion contours obtained from the scalar \ttDM model as shown in~\FigureRef{fig:2Dexclusion} are calculated at $90\%$ $\textrm{CL}_{s}$. Subsequently, the upper limits on $\mu$ are translated to upper limits on the spin-independent (SI) DM-nucleon scattering cross section via the approach taken from Ref.~\cite{Boveia:2016mrp} as briefly described in the proceeding section.
+The problem of DM is one of many dimensions, thus many independent and complementary approaches are required in attempts to solve it. Although this work does not provide evidence for a potential WIMP discovery, the role that collider detection plays in the search for DM is important in relation to ID and DD methods. The latter are necessary for determining the existence of DM particles whether through nuclear scattering, or annihilation to ordinary particles. From one perspective, these approaches can establish DM particle existence and provide information on the SM particles it may interact with. Particle accelerator production of DM then allows for the detailed study of DM particle properties under a controled environment. Characterization of DM particle properties would subsequently allow particle physicists to make an appropriate decision on the theoretical framework that contains the new particle. Conversely, supposing a WIMP discovery is made via a collider search, such as a weakly interacting neutralino, and its properties such as decay modes, spin-parity, and mass can be characterized at the LHC; it then remains for the ID and DD experiments to ascertain that the new particle is indeed a DM particle. As a result of the complementarity of the approaches, the interpretation of results from different detection methods is instrumental in mapping out the search phase space.
+
+To facilitate the comparison with constraints from DD experiments of the type mentioned in \SectionRef{subsec:DD}, the exclusion contours obtained from the scalar \ttDM model as shown in~\FigureRef{fig:2Dexclusion} are calculated at $90\%$ $\textrm{CL}_{s}$. Subsequently, the upper limits on $\mu$ are translated to upper limits on the SI DM-nucleon scattering cross section via the approach taken from~\cite{Boveia:2016mrp} as briefly described in the proceeding section.
 
 \subsection{Spin-indepedent comparison}
 \label{subsec:SIcase}
 
-The general form of the spin-independent DM-nucleon scattering cross section is,
+The general form of the SI DM-nucleon scattering cross section is,
 
 \begin{equation}
-  \sigma_{\textrm{SI}} = \frac{f^{2}(\gq)\gDM^{2}\mu_{n\chi}^2}{\pi\mMed^{4}}
+  \sigma_{\textrm{SI}} = \frac{f^{2}(\gq)\gDM^{2}m_r^2}{\pi\mMed^{4}}
   \label{eq:DDtranslation}
 \end{equation}
 
-where $\mu_{n\chi} = m_{n}\mDM/(m_{n}+\mDM)$ is the DM-nucleon reduced mass with $m_{n} \simeq 0.939\:\GeV$ being the approximate nucleon mass. The mediator-nucleon coupling, denoted by $f(\gq)$, has a non-trivial dependence on the mediator-quark couplings and the Higgs boson vacuum expectation value, so the full definition is ommitted. However, using the most state-of-the-art values for these dependencies from Refs.~\cite{Hoferichter:2015dsa} and~\cite{Junnarkar:2013ac}, the numerical value of $f(\gq)$ is,
+where $m_r = m_{N}\mDM/(m_{N}+\mDM)$ is the DM-nucleon reduced mass, as in \EquationRef{eq:diffxsec}, with $m_{N} \simeq 0.939\:\GeV$ being the approximate nucleon mass. The mediator-nucleon coupling, denoted by $f(\gq)$, has a non-trivial dependence on the mediator-quark couplings and the Higgs boson vacuum expectation value, so the full definition is ommitted. However, using the most state-of-the-art values for these dependencies from~\cite{Hoferichter:2015dsa} and~\cite{Junnarkar:2013ac}, the numerical value of $f(\gq)$ is,
 
 \begin{equation}
   f(\gq) = 1.16 \times 10^{-3} \gq.
 \end{equation} 
 
-Thus, Eq.~\ref{eq:DDtranslation} takes the form,
+Thus,\EquationRef{eq:DDtranslation} takes the form,
 
 \begin{equation}
-  \sigma_{\textrm{SI}} \simeq 6.9 \times 10^{-43} \Big(\frac{\gq\gDM}{1}\Big)^{2}\Big(\frac{125\:\GeV}{\mMed}\Big)^{4}\Big(\frac{\mu_{n\chi}}{1\:\GeV}\Big)^{2}.
+  \sigma_{\textrm{SI}} \simeq 6.9 \times 10^{-43} \Big(\frac{\gq\gDM}{1}\Big)^{2}\Big(\frac{125\:\GeV}{\mMed}\Big)^{4}\Big(\frac{m_{r}}{1\:\GeV}\Big)^{2}.
+  \label{eq:xsecDDtrans}
 \end{equation}
 
-As a result, the upper limit on $\mu$ for the scalar-mediated \ttDM process in the dilepton channel is presented as a bound in the \mDM-$\sigma_{\textrm{SI}}$ plane in~\FigureRef{fig:DDplot}. The assumptions made in the translation include that the DM particle is a Dirac fermion, the coupling values are $\gq = \gDM = 1$, and the CMS expected and observed exclusions are calculated at $90\%$ $\textrm{CL}_{s}$, as is standard in the direct detection community. The collider limits are the most constraining at low DM mass, which is well-supported by the strong constraints at low \mMed as seen in the limit curve in~\FigureRef{fig:scalar_results} where \mDM=1 \GeV.
+As a result, the upper limit on $\mu$ for the scalar-mediated \ttllDM process is presented as an exclusion bound in the \mDM-$\sigma_{\textrm{SI}}$ plane in~\FigureRef{fig:DDplot}. The assumptions made in the translation include that the DM particle is a Dirac fermion, the coupling values are $\gq = \gDM = 1$, and the CMS expected and observed exclusions are calculated at $90\%$ $\textrm{CL}_{s}$, as is standard in the DD community. In the translation performed using \EquationRef{eq:xsecDDtrans}, for a given \mDM, the \mMed value used is the one for which the upper limit on $\mu$ is equal to one. At $\mDM \gtrsim 5\:\GeV$, the larger dual-phase noble gas detectors discussed in~\SectionRef{subsec:DD} greatly constrain the search phase space. In contrast, the collider limits presented in this work are the most constraining at low DM mass, a fact well-supported by the strong constraints at low \mMed as seen in the upper limit curve in~\FigureRef{fig:scalar_results} where $\mDM=1\:\GeV$. 
 
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{figs/SIS_CMSDD_Summary.pdf}
-  \caption{A comparison of the \ttDM scalar-mediated results in the dilepton channel (CMS expected and observed lines) to the exclusion contours of the LUX, PandaX-II, XENON1T, CDEX-10, CDMSLite, and CRESST-II limits in the \mDM-$\sigma_{\textrm{SI}}$ plane. The DM particle is assumed to be a Dirac fermion and $\gq = \gDM =1$.}
+  \caption{A comparison of the \ttllDM scalar-mediated results (CMS expected and observed lines) to the exclusion contours of the LUX, PandaX-II, XENON1T, CDEX-10, CDMSLite, and CRESST-II limits in the \mDM-$\sigma_{\textrm{SI}}$ plane. The DM particle is assumed to be a Dirac fermion and $\gq = \gDM =1$.}
   \label{fig:DDplot}
 \end{figure}

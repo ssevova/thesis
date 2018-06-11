@@ -1,0 +1,139 @@
+General:
+- you are THE expert on the material in this chapter (and also the preceding chapter), while your committee members will not be experts, but the text is written at a level for experts in the sense that "what" is done is documented, but the "why" isn't always spelled out. Sometimes even pointing out the obvious may not be a bad thing (just don't need to be too repetitive about it). Figures are referred to but not much is explained, e.g.
+   * does the residual data/MC discrepancies in the PV distribution after PU reweighting matter? Do the uncertainties cover?
+   * the change in the MET distribution after top-pT reweighting is larger at high MET, is this expected? how does this related to Eq 6.1 and/or 6.2? answered in chp5
+- some plots showing the up/down shape uncertainties would be useful (and maybe a comprehensive dump in an appendix?)
+- when the text is closer to being finalized, you should do some manual positioning of figures relative to the text; currently, almost all the figure are at the end of the chapter...
+- is a 200x scaling factor for the signal really necessary? some of the plots (like MET in the high MT2ll categories) look a bit ridiculous with bins where the signal expection is 2 orders of magnitude higher than the background... maybe a smaller scaling factor would be better?
+
+
+p81:
+- signal purity was also important to consider when defining SRs; the categorization was a way to achieve both good acceptance and purity for the wide range of MET spectra covered in the search (ok, we find that the low purity region adds little, but at least the initial thought was these categories would help more with soft MET signals)
+- all categories are dominated by SM tt(2l) bkg right? As written, it seems like only the low purity categories suffer from this; I think you want to tie the low purity categories to the point you made in the intro about targeting high signal acceptance...
+- "A potential signal...excess over the expected ptmiss..., thus the signal extraction strategy is to fit the ptmiss distribution in the four SRs simultaneously" ...the point of the sentence is that we do a MET shape fit, but the part about "in the four SRs simultaneously" seems to suggest the line of reasoning that we fit also simultaneously because the signal can show an excess in MET; perhaps this can be clarified with a short break, such as:
+"A potential signal..., thus the signal extraction strategy is to fit the ptmiss distributions; this is performed in the four SRs simultaneously."
+- you should also motivate why categorization in OF vs SF; mainly this is due to the bkg composition having (or not having) DY, so the OF regions are "safe" from the associated systematics
+Completely changed w/ more description.
+
+p82:
+- "does not predict" --> "does not reproduce" ...it does predict a PU distribution, just not one that describes well the data
+done.
+- you might need to explain what "minimum bias events" are...
+done.
+
+Sec 6.2.1:
+- Trigger efficiency sub-section still to do?
+
+Fig 6.2:
+- the data/MC agreement after re-weighting is not good...I think you'll need to comment on this. Also, without showing the distribution before reweighting, it's not clear the re-weighting helps...
+show the pre and explained that analysis is not strongly dependent on NPV/NPU modelling + uncertainties taken into account.
+
+Sec 6.2.3.: as I stated in my comments on the background processes chapter, the top pT modeling discussion might be better placed there...
+moved.
+
+p85:
+- Eq. 6.3: I think it would be clearer to write (p_T, \eta) instead of (i,j)...the binning is just a due to limited MC stats; in fact, the BTV b-tagging scale factors are parametrized by functional forms, but the point is there's a jet kinematic dependence and this would be more clearly expressed with (p_T, \eta)
+done.
+
+Fig 6.4 caption: it should be mentioned these are efficiencies in MC
+done. 
+
+p86:
+- Shouldn't you explain how the EVENT efficiency from b-tagging is estimated and corrected for with scale factors? (especially since you wrote the code to do this...)
+done.
+
+p87:
+- "check the background modeling...in the signal region" => it's probably not the best to phrase this way. You are looking at the other distributions in the signal region. This cannot be interpretated as a chcek on background modeling because you're IN the signal region...
+ok yes point taken.. that would be what a CR is for, not an SR..how about "as a means to ascertain that significant discrepancies between the data and the simulation are not present in the signal region"
+- it's a bit odd to "explain" that a dilepton is the sum of two 4-vectors at this point in the thesis when dilepton mass distributions have been discussed at length previously
+changed.
+- the p_T^ll symbol is a bit off, looks like the \ell\ell superscript is applied to p_T instead of to p
+done.
+- in the dphi notation, might be better to write \vec{p}_{T}^{\ell\ell} instead of just \ell\ell, to be consistent with the ptvecmiss 
+done.
+
+p88:
+- "uncertaint" --> "uncertainty" (typo)
+done.
+- should it be "$\rho \rightarrow 0$ for $\theta \rightarrow 0$"? (instead of $\theta=0$)
+yes, sys should approach 0, not be 0.
+
+p89:
+- does your reference mention what is done for |f| > 1? If I recall, a linear extrapolation is done. This should probably be mentioned, since the fit does allow nuisances to be pulled by more than 1-sigma...
+yes, true, it's linear.
+- the PU systematic, what does the range 0.3-11% correspond to? range of uncertainties among the different physics processes?
+yes, across physics processes, mentioned.
+p90:
+- I think should be exact in the value of the lepton uncertainty, just state what the values are for muons and electrons rather than ~2%
+done.
+- again, are the b-tagging ranges over the different physics processes (and over the different categories)
+done.
+- actually, the PDF and QCD scale uncertainties are on the ACCEPTANCE, not on the cross section (uncertainties on the cross section is much smaller, since it's integrated over a much more inclusive phase space); re-phrase this in the single top & diboson normalization item
+done.
+
+p91:
+- just to be more clear, "applies to the DY background in the SF regions" 
+done.
+- maybe "single-lepton application sample" instead of "single-lepton control sample", might be clearer and the term "application sample" was used in the previous chapter
+done. 
+- I'm not sure "simultaneously varied" would be clear enough to those not familiar with JetMET recipes; also, it's just the jet pT that gets varied, the jet direction is fixed; "according to the uncertainty on the JES" --> "according to the JES uncertainty on each jet"
+changed wording.
+- I don't recall a discussion on fake MET in the context of MT2ll, and a quick skim through the MT2ll section I don't find one there either; I forget now, but has it been stated that under ideal conditions no tt(2l) events should pass MT2ll >= M_W? (I feel like it has been can't find it right now...) In any case, this point is worth emphasizing and discussing, probably in the MT2ll subsection, and the connection between fake MET in DY and fake MET in tt(2l) should be made -- this is the basis of the method for evaluating the fake MET uncertainty. A reader may ask why, if fake MET is the issue in DY and in tt(2l), that a correction is made for DY but only an uncertainty is applied for tt(2l) -- I think you can make some argument on the basis of a lack of high stats tt(2l) control sample to evaluate such a correction...
+added.
+
+p92:
+- a slight pet-peeve of mine: the uncertainty due to renorm./factor. scale is to me slightly off target, and that the point of the scale variation is to estimate the effect of missing corrections from higher order perturbative QCD; of course, the (finite order) QCD calculation have renorm./factor. scale dependence so it's fair to say there is an uncertainty on the choice of scales, but I've always felt it's easier to convey what we're assessing when framed in terms of missing higher order corrections (end rant); but anyone who understands some QFT will know this (i.e. all your readers), so up to you if you want to re-phrase this uncertainty source.
+changed.
+
+- "choice of PDFs" --> "choice of PDF"...we're only using one PDF for the nominal "value" for any particular sample...
+yes.
+
+p93:
+- "can be found in " -> missing citation
+
+Eq. 6.11: where does \mu' appear in the expression? Is it implicit in one of the terms? Otherwise something seems to be missing regarding \mu' ...
+should be mu^
+p96:
+- is there are reason 'extreme' is written in single quotes rather than double?
+changed.
+
+p96:
+- "signle" -> "single" (typo) 
+done.
+- "common requirement" --> maybe re-phrase this to "standard requirement in experimental particle physics"
+done. 
+
+p97:
+- "An excess of events"... this phrase, or something similar, has been repeated several times now...probably don't need to repeat this after six chapters into your thesis...
+removed altogether.
+
+Table 6.2:
+- a noticeable "feature" is that the uncertainty on the "SM Expected" is smaller than the uncertainty on individual processes (question: is it really different by almost a factor of 2 w.r.t. tt(2l)???)...you should explain this in the text...
+
+p99:
+- it might be worth mentioning the impact is computed w.r.t. +/- 1-sigma according to the post-fit uncertainties; i.e. the constraints from data is already folded in
+done. 
+
+p100:
+- I think the strong constraints on CMS_scale_j and tt_qcdScale warrants some comments; a naive interpretation is that the analysis is somehow performing "JES calibration", which is not what you're claiming to do! So explain why the strong constraint on JES is fine. For the QCD scale, well, I think this is seen by other analyses but there's not a clear explanation that I'm aware of... (do you have any friends that work on ttbar measurements?)
+discussed. 
+Fig 6.5
+- fix the plots where the legend overlaps with the histograms
+fixed.
+- maybe do log-y scale for leading jet pT? For pT beyond 200 GeV the distribution is not visible, but there's still sufficient stat out to ~400 GeV; similar comment perhaps for pTll
+changed.
+- conversely, would the dphi(ll,MET) distribution look better on linear scale? In log scale it looks almost flat...
+cant see signal on linear
+- it will look cleaner if you would adjust the x-axis range in the dilepton mass plot such that the binning cuts out exactly |m_ll - m_Z| < 15; right now you have some residual events in the mass window that is suppose to be vetoed...
+fixes\d
+   => now that I think about it, why do you bother to mention and plot dphi(ll,MET)? this is not cut on in the analysis... the variable does have some spin correlation information, so maybe you want to touch on that (and just cite a relevant reference), otherwise this variable serves no purpose, right?
+
+Fig 6.6
+- similar comments as in Fig 6.5 about adjusting legends and log/linear y-scale
+
+Fig 6.10
+- the axes need labels
+done.
+
+Fig 6.14
+- the CMS_norm_ST and CMS_scale_j nuisances are pulled about 1-sigma down, and you have CMS_eff_e and lumi_13TeV pulled about 1-sigma up; do you have an explanation for these? they aren't strong pulls, but if you can relate this to addressing some pre-fit data/MC discrepancy, it will show you have an understand of what your nuisances are doing...

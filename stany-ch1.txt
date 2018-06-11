@@ -1,0 +1,89 @@
+
+p1:
+- "does not fit together" ... well, we don't know if DM does or not fit right (depends on what you mean by "fit" I suppose)? maybe "does not yet fit"? or "if it fits"? or where/how it might fit with SM? of "is not covered by the SM"?  to me, the phrase "does not fit" sounds a bit too definitive that DM and SM cannot be reconciled...
+done
+
+p2:
+- "...at all scales, ... to large cosmological scales...", reads a bit awkward to me, because to convey a sense of "all scales", you start with an example (smaller dwarf galaxies) but compare this to a generic term "cosmological scales"... maybe give another example: galaxy clusters? or some other grouping of astronomical objects?
+done, galactic superclusters.
+- Ford & Rubin found flat dependence of v vs. distance away from center, but you don't state this is counter to the expectation that v should drop vs. radial distance; I think this is worth pointing out...
+done.
+p3:
+- "clues as to the nature" -> "clues on the nature"
+done
+- I'm a bit confused by this part of the sentence: "groups of matter peaks containing stars were bound together by the gravitational force provided sufficiently massive in order to form stellar clusters."
+   * what are "matter peaks"? (maybe I'm just not familiar enough to standard astro terms...?)
+   * "provided sufficiently massive"...is this referring to the collective mass of the group of stars? also the sentence/thought seems incomplete...
+changed.
+
+p5:
+- "began with discovery" -> "began with the discovery"
+done.
+- "spherical harmonics (Y_{\ell m})" ...since you introduce every symbol of Eq. 1.1 except that one
+done.
+
+p8:
+- "acurately" -> "accurately" (typo)
+done.
+- I wasn't aware that special relativity is considered a theory of "large scale" (if general relativity, then yes...); the sentence also seems to invoke the issue of a theoretical framework that encompasses QFT with GR, but SM does not do this. You may want to re-phrase this sentence?
+
+- "postulated by the SM" -> "described by the SM", I don't like the word postulate because it sounds like something the model predicts but we haven't found it yet...
+done.
+- just a suggestion: for the EM example, why not give an example of particle physics phenomenon? pair-production of electron-positron or Bremsstrahlung radiation or ...? What you have written is just a generic description of what physics EM describes
+done. 
+
+p9:
+- "adheres to certain symmetries []" (missing or incorrect citation reference?)
+removed reference. not necessary here.
+
+p.11:
+- something went a little bit wrong in the first sentence of 1.2.1: "In order to descrThe point of departure for the description..."
+done.
+Eq. 1.17:
+- minor suggestions: do "\frac{1}{8}v^2\cdot 0\cdot A^2_{\mu}", i.e. put a product dot before and after the zero...see if the expression looks better/clearer that way
+done.
+
+p.22
+- "kinematic types"? is this an actual technical term? if not, suggest to leave off the term...
+changed.
+p23
+- similar comment about "kinematic class"
+changed.
+p.27:
+- "Myriad ID experiments" -> "A myriad of ID experiments"
+changed.
+
+p.28:
+- "FERMI satellite [?]" -> missing/broken citation 
+fixed.
+- "(AMS-01) experiment [?]" -> missing/broken citation
+fixed.
+- "potentially degrade" -> "reduce"... is the word "potentially" needed? the cosmics flux IS reduced right? I suggest "reduce" over "degrade" because of the connotation that you "degrade" something that is "good", but here the cosmics flux is a background and is "bad"
+changed.
+
+p.33:
+- "DM production at colliders also take into account the particle physics model"...? this seems odd to state, as colliders are a tool of particle physics. What do you mean here by "the particle physics model"? Maybe you mean the possible particle nature of DM?
+yeah better said as possible particle nature.
+
+- "known as missing energy" -> "known as missing transverse energy" (and change any subsequent instances of "missing energy" accordingly); you do officially introduce the term and notation for MET later on, so I suggest you remove/rephrase some sentences...
+done.
+
+- "normal particles" -> "SM particles"... not really clear is meant by "normal"
+done.
+
+p.35:
+- I would re-arrange the sentence that introduce the notion of simpler models to first point out that it is "characterized by fewer tuneable parameters", then "albeit less theoretically complete"
+done.
+
+p.36:
+- is it necessary to italicized "simplified model"? At least, it's a bit strange to italicize the instance where you have currently, since the term "simplified models" was used at the beginning of the paragraph... maybe the first instance of "simplified model" is where you want to italicize?
+done.
+
+p.37:
+- "(MFV) [?]" -> missing/broken citation* check
+- "met by the concept" -> "met by the assumption"...
+done.
+- "the motivation to search for heavy flavor, such as top quarks, produced in association with DM is very strong." ... I find several ideas in this part of the sentence to be organized in an odd way, you mention "motivation" first, but qualify it as being "very strong" at the very end, while you say "search for heavy flavor ... in association with DM" sounds like the goal of the search is the heavy flavor quarks, rather than DM; so suggest something like "...this strongly motivates searching for DM produced in association with heavy flavor quarks, such as top quarks."
+done.
+
+
